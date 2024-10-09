@@ -1,0 +1,190 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 9,
+   "location_matrix": 1,
+   "user": 5,
+   "description": "In aqua sanitas!",
+   "status": "under_review",
+   "attachments": [
+    3
+   ],
+   "created_at": "2020-09-30T12:21:16.129000Z",
+   "updated_at": "2020-09-30T12:21:16.129000Z",
+   "due_date": null,
+   "last_confirmed_update": null,
+   "old_quality_issue": null,
+   "local_id": null,
+   "response_category": null,
+   "expanded_last_confirmed_update": null
+  },
+  {
+   "id": 8,
+   "location_matrix": 1,
+   "user": 4,
+   "description": "In aqua sanitas!",
+   "status": "under_review",
+   "attachments": [
+    3
+   ],
+   "created_at": "2020-09-29T12:21:16.129000Z",
+   "updated_at": "2020-09-30T12:21:16.129000Z",
+   "due_date": null,
+   "last_confirmed_update": null,
+   "old_quality_issue": null,
+   "local_id": null,
+   "response_category": null,
+   "expanded_last_confirmed_update": null
+  },
+  {
+   "id": 7,
+   "location_matrix": 1,
+   "user": 5,
+   "description": "In aqua sanitas!",
+   "status": "under_review",
+   "attachments": [
+    3
+   ],
+   "created_at": "2020-09-28T12:21:16.129000Z",
+   "updated_at": "2020-09-30T12:21:16.129000Z",
+   "due_date": null,
+   "last_confirmed_update": null,
+   "old_quality_issue": null,
+   "local_id": null,
+   "response_category": null,
+   "expanded_last_confirmed_update": null
+  },
+  {
+   "id": 6,
+   "location_matrix": 1,
+   "user": 4,
+   "description": "In aqua sanitas!",
+   "status": "under_review",
+   "attachments": [
+    3
+   ],
+   "created_at": "2020-09-27T12:21:16.129000Z",
+   "updated_at": "2020-09-30T12:21:16.129000Z",
+   "due_date": null,
+   "last_confirmed_update": null,
+   "old_quality_issue": null,
+   "local_id": null,
+   "response_category": null,
+   "expanded_last_confirmed_update": null
+  },
+  {
+   "id": 5,
+   "location_matrix": 1,
+   "user": 2,
+   "description": "In aqua sanitas!",
+   "status": "under_review",
+   "attachments": [
+    3
+   ],
+   "created_at": "2020-09-26T12:21:16.129000Z",
+   "updated_at": "2020-09-30T12:21:16.129000Z",
+   "due_date": null,
+   "last_confirmed_update": null,
+   "old_quality_issue": null,
+   "local_id": null,
+   "response_category": null,
+   "expanded_last_confirmed_update": null
+  },
+  {
+   "id": 4,
+   "location_matrix": 3,
+   "user": 1,
+   "description": "In vino veritas!",
+   "status": "under_review",
+   "attachments": [
+    2,
+    3
+   ],
+   "created_at": "2020-09-25T12:21:16.129000Z",
+   "updated_at": "2020-09-30T12:21:16.129000Z",
+   "due_date": null,
+   "last_confirmed_update": null,
+   "old_quality_issue": null,
+   "local_id": null,
+   "response_category": null,
+   "expanded_last_confirmed_update": null
+  },
+  {
+   "id": 3,
+   "location_matrix": 2,
+   "user": 2,
+   "description": "Stanly Parable is alive!",
+   "status": "closed",
+   "attachments": [
+    1
+   ],
+   "created_at": "2020-09-24T12:21:16.129000Z",
+   "updated_at": "2020-09-30T12:21:16.129000Z",
+   "due_date": null,
+   "last_confirmed_update": null,
+   "old_quality_issue": null,
+   "local_id": null,
+   "response_category": null,
+   "expanded_last_confirmed_update": null
+  },
+  {
+   "id": 2,
+   "location_matrix": 1,
+   "user": 2,
+   "description": "Somebody, stop me!",
+   "status": "in_progress",
+   "attachments": [],
+   "created_at": "2020-09-23T12:21:16.129000Z",
+   "updated_at": "2020-09-24T12:21:16.129000Z",
+   "due_date": null,
+   "last_confirmed_update": 3,
+   "old_quality_issue": null,
+   "local_id": null,
+   "response_category": null,
+   "expanded_last_confirmed_update": {
+    "id": 3,
+    "quality_issue": 2,
+    "user": 4,
+    "comment": null,
+    "files": [],
+    "old_data": {
+     "status": "in_progress",
+     "description": "Viva la vida loca!"
+    },
+    "local_id": null,
+    "new_data": {
+     "status": "in_progress",
+     "description": "In aqua sanitas!"
+    },
+    "created_at": "2020-09-30T12:21:16.129000Z",
+    "updated_at": "2020-09-30T12:21:16.129000Z",
+    "recipients": [],
+    "is_conflict": false,
+    "is_comment": false,
+    "expanded_previous_status": "contested"
+   }
+  },
+  {
+   "id": 1,
+   "location_matrix": 1,
+   "user": 1,
+   "description": "Oh! My! God!",
+   "status": "under_review",
+   "attachments": [
+    1,
+    2,
+    3
+   ],
+   "created_at": "2020-09-22T12:21:16.129000Z",
+   "updated_at": "2020-09-30T12:21:16.129000Z",
+   "due_date": null,
+   "last_confirmed_update": null,
+   "old_quality_issue": null,
+   "local_id": null,
+   "response_category": 1,
+   "expanded_last_confirmed_update": null
+  }
+ ],
+ "next_page": null
+}

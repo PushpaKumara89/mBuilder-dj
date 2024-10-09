@@ -1,0 +1,9 @@
+{
+  "name": "Boom tram",
+  "number": "#AS-45sd",
+  "status": "under_construction",
+  "show_estimated_man_hours": false,
+  "start_date": "2020-02-20",
+  "completion_date": "2020-09-30",
+  "value": 457656
+}

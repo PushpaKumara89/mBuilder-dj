@@ -1,0 +1,14 @@
+{
+  "asset_handover_document_media": 4,
+  "comment": "test comment",
+  "old_data": {
+    "status": "in_progress",
+    "uid": "123",
+    "media": 1
+  },
+  "new_data": {
+    "status": "removed",
+    "uid": "updated 123",
+    "media": 3
+  }
+}

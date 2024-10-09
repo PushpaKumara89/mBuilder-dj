@@ -1,0 +1,39 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 2,
+   "inspection_period": 1,
+   "maintenance_period": 3,
+   "package_matrix": 2,
+   "expanded_package_activity": {
+    "id": 2,
+    "name": "Second package activity",
+    "activity_id": null
+   },
+   "package_handover_document_groups": [
+    {
+     "id": 1,
+     "name": "Subcontractor Documents",
+     "package_handover_documents": []
+    },
+    {
+     "id": 2,
+     "name": "Consultant Documents",
+     "package_handover_documents": []
+    },
+    {
+     "id": 3,
+     "name": "H&S Consultant Documents",
+     "package_handover_documents": []
+    },
+    {
+     "id": 4,
+     "name": "Multiplex Documents",
+     "package_handover_documents": []
+    }
+   ]
+  }
+ ],
+ "next_page": null
+}

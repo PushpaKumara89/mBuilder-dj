@@ -1,0 +1,72 @@
+{% load frontend_url %}
+{% load color_quality_issue_and_rework_status %}
+{% load static %}
+<html lang="en">
+<body>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; background-color: #f9fafb;">
+    <tr>
+        <td>
+            <table border="0" cellpadding="0" cellspacing="0"
+                   style="font-family: Helvetica Neue, Arial, Roboto, sans-serif; font-size: 14px; line-height: 21px; box-sizing: border-box; margin: 0 auto 70px; padding: 0; width: 446px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 446px;">
+                <tr>
+                    <td style="padding-bottom: 30px;">
+                        <p style="margin: 20px 0; font-weight: bold;">
+                            On {{ today_date|date:"j M, Y" }} between 6pm-6pm the following activity took place on {{ project_name }}:
+                        </p>
+                        <p style="margin: 20px 0; font-weight: bold;">Potential Quality Issues:</p>
+                        <p style="margin: 16px 0;">
+                            • <span style="color: {{ 'under_review'|color_quality_issue_and_rework_status }}; font-weight: bold;">{{ under_review_qi_count }}</span> new quality issues (rework or defects) raised by client/consultant and require review, response or allocation
+                        </p>
+
+                        <p style="margin: 16px 0;">
+                            • <span style="color: {{ 'under_review'|color_quality_issue_and_rework_status }}; font-weight: bold;">{{ raised_required_attention_qi_count }}</span> of these new quality issues raised were requiring Urgent Attention
+                        </p>
+
+                        <p style="margin: 16px 0;">
+                            • <span style="color: {{ 'contested'|color_quality_issue_and_rework_status }}; font-weight: bold;">{{ contested_qi_count }}</span> quality issues (rework or defects) raised by client/consultant were <span style="color: {{ 'contested'|color_quality_issue_and_rework_status }}; font-weight: bold;">contested</span>
+                        </p>
+
+                        <p style="margin: 20px 0; font-weight: bold;">Rework and Defects:</p>
+
+                        <p style="margin: 16px 0;">
+                            • <span style="color: {{ 'in_progress'|color_quality_issue_and_rework_status }}; font-weight: bold;">{{ new_subtasks_count }}</span> new rework or defects in progress with the subcontractor
+                        </p>
+
+                        <p style="margin: 16px 0;">
+                            • <span style="color: {{ 'closed'|color_quality_issue_and_rework_status }}; font-weight: bold;">{{ closed_subtasks_count }}</span> rework or defects have been closed
+                        </p>
+
+                        <p style="margin: 16px 0;">
+                            • <span style="color: {{ 'requesting_approval'|color_quality_issue_and_rework_status }}; font-weight: bold;">{{ requested_approval_subtasks_count }}</span> rework or defects which were raised by the client or a consultant have been submitted to the originator for <span style="color: {{ 'requesting_approval'|color_quality_issue_and_rework_status }}; font-weight: bold;">approval</span>
+                        </p>
+
+                        <p style="margin: 16px 0;">
+                            • <span style="color: {{ 'under_inspection'|color_quality_issue_and_rework_status }}; font-weight: bold;">{{ under_inspection_subtasks_count }}</span> rework or defects have been completed by the subcontractor and are <span style="color: {{ 'under_inspection'|color_quality_issue_and_rework_status }}; font-weight: bold;">under inspection</span>, ready for review
+                        </p>
+
+                        <p style="margin: 20px 0; font-weight: bold;">Attention:</p>
+
+                        <p style="margin: 16px 0;">
+                            • <span style="color: #FF3B30; font-weight: bold;">{{ overdue_subtasks_count }}</span> of the rework or defects are now <span style="color: #FF3B30; font-weight: bold;">overdue</span> and require attention
+                        </p>
+
+                        <p style="margin: 20px 0;">For further details review <a href="{% frontend_url %}/account/projects/{{ project_pk }}/details/rework-report" style="color: #0c0c0d;">the projects rework and defects report</a> and/or <a href="{% frontend_url %}/account/projects/{{ project_pk }}/details/quality-issues" style="color: #0c0c0d;">the quality issue report</a>.</p>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-size: 12px; line-height: 18px; color: #0c0c0d; padding-top: 20px; border-top: 1px solid #d8d8d8;">
+                        <p style="color: #0b0d0e; margin: 12px 0 8px; line-height: 21px;">
+                            <img src="{% static "/logo.png" %}"
+                                 style="width: 115px; display: block; background-repeat: no-repeat; background-size: contain;"
+                                 alt="logo">
+                        </p>
+                        <p style="margin: 0;">© {% now "Y" %} MBuild. All rights reserved.</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

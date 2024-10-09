@@ -1,0 +1,23 @@
+{
+  "building": "Building A",
+  "level": "A",
+  "area": [
+    "Hall",
+    "Kitchen"
+  ],
+  "description": "Baby shark dodo-dodo-dodo!",
+  "due_date": "2020-04-05 02:03:04",
+  "response_category": 1,
+  "attachments": [
+    1,
+    2
+  ],
+  "recipients": [
+    {
+      "email": "stan.smith@long.com"
+    },
+    {
+      "email": "mimo.stule@bokom.com"
+    }
+  ]
+}

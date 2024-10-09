@@ -1,0 +1,4992 @@
+[
+  {
+    "data": {
+      "id": 3,
+      "name": "Mitron 3",
+      "number": "7th46ds",
+      "image": {
+        "id": 3,
+        "name": "kroom.png",
+        "link": "http://localhost/media/kroom.png",
+        "size": 0,
+        "hash": "hbgo8475hygegfhsldifguhsd",
+        "is_public": true,
+        "created_at": "2020-07-30T12:21:16.129000Z",
+        "updated_at": "2020-07-30T12:21:16.129000Z",
+        "local_id": null
+      },
+      "image_id": 3,
+      "status": "partially_completed",
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "created_at": "2020-07-30T12:21:16.129000Z",
+      "updated_at": "2020-07-30T12:21:16.129000Z",
+      "show_estimated_man_hours": true,
+      "value": "765.34",
+      "value_currency": "USD",
+      "news": [],
+      "key_contacts": [],
+      "location_matrix": [],
+      "package_matrix": [],
+      "users": [],
+      "company_admins": [
+        {
+          "id": 1,
+          "status": "pending",
+          "first_name": "Bradwood",
+          "last_name": "Feat",
+          "email": "cool.brad@gmail.com",
+          "phone": "+41524204242",
+          "position": "Cool Brad",
+          "company": 1,
+          "group": 1,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 7,
+      "name": "Projcto 7",
+      "number": "rt4efweewe",
+      "image": {
+        "id": 7,
+        "name": "wroom.png",
+        "link": "http://localhost/media/wroom.png",
+        "size": 0,
+        "hash": "wrhtg4o87yhdhgdfj",
+        "is_public": true,
+        "created_at": "2020-07-30T12:21:16.129000Z",
+        "updated_at": "2020-07-30T12:21:16.129000Z",
+        "local_id": null
+      },
+      "image_id": 7,
+      "status": "tendering",
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "created_at": "2020-07-30T12:21:16.129000Z",
+      "updated_at": "2020-07-30T12:21:16.129000Z",
+      "show_estimated_man_hours": false,
+      "value": "2346345.54",
+      "value_currency": "USD",
+      "news": [],
+      "key_contacts": [],
+      "location_matrix": [],
+      "package_matrix": [],
+      "users": [],
+      "company_admins": [
+        {
+          "id": 1,
+          "status": "pending",
+          "first_name": "Bradwood",
+          "last_name": "Feat",
+          "email": "cool.brad@gmail.com",
+          "phone": "+41524204242",
+          "position": "Cool Brad",
+          "company": 1,
+          "group": 1,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 1,
+      "name": "Project 1",
+      "number": "dfg134",
+      "image": {
+        "id": 1,
+        "name": "troom.png",
+        "link": "http://localhost/media/troom.png",
+        "size": 0,
+        "hash": "fdghioj4098yhgsdfgf",
+        "is_public": true,
+        "created_at": "2020-07-30T12:21:16.129000Z",
+        "updated_at": "2020-07-30T12:21:16.129000Z",
+        "local_id": null
+      },
+      "image_id": 1,
+      "status": "tendering",
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "created_at": "2020-07-30T12:21:16.129000Z",
+      "updated_at": "2020-07-30T12:21:16.129000Z",
+      "show_estimated_man_hours": true,
+      "value": "2343456.23",
+      "value_currency": "USD",
+      "news": [],
+      "key_contacts": [],
+      "location_matrix": [],
+      "package_matrix": [],
+      "users": [
+        {
+          "id": 2,
+          "status": "pending",
+          "first_name": "Brad",
+          "last_name": "Seatwood",
+          "email": "cool.brad+1@gmail.com",
+          "phone": "+41524204242",
+          "position": "Cool Brad",
+          "company": 2,
+          "group": 3,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        }
+      ],
+      "company_admins": [
+        {
+          "id": 1,
+          "status": "pending",
+          "first_name": "Bradwood",
+          "last_name": "Feat",
+          "email": "cool.brad@gmail.com",
+          "phone": "+41524204242",
+          "position": "Cool Brad",
+          "company": 1,
+          "group": 1,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 2,
+      "name": "Project 2",
+      "number": "h5636uytsf",
+      "image": {
+        "id": 2,
+        "name": "broom.png",
+        "link": "http://localhost/media/broom.png",
+        "size": 0,
+        "hash": "ghj49hgghsdlfghdffdg",
+        "is_public": true,
+        "created_at": "2020-07-30T12:21:16.129000Z",
+        "updated_at": "2020-07-30T12:21:16.129000Z",
+        "local_id": null
+      },
+      "image_id": 2,
+      "status": "under_construction",
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "created_at": "2020-07-30T12:21:16.129000Z",
+      "updated_at": "2020-07-30T12:21:16.129000Z",
+      "show_estimated_man_hours": false,
+      "value": "6534.65",
+      "value_currency": "USD",
+      "news": [],
+      "key_contacts": [
+        {
+          "id": 2,
+          "status": "pending",
+          "first_name": "Brad",
+          "last_name": "Seatwood",
+          "email": "cool.brad+1@gmail.com",
+          "phone": "+41524204242",
+          "position": "Cool Brad",
+          "company": 2,
+          "group": 3,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        }
+      ],
+      "location_matrix": [],
+      "package_matrix": [],
+      "users": [
+        {
+          "id": 2,
+          "status": "pending",
+          "first_name": "Brad",
+          "last_name": "Seatwood",
+          "email": "cool.brad+1@gmail.com",
+          "phone": "+41524204242",
+          "position": "Cool Brad",
+          "company": 2,
+          "group": 3,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        }
+      ],
+      "company_admins": [
+        {
+          "id": 1,
+          "status": "pending",
+          "first_name": "Bradwood",
+          "last_name": "Feat",
+          "email": "cool.brad@gmail.com",
+          "phone": "+41524204242",
+          "position": "Cool Brad",
+          "company": 1,
+          "group": 1,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 4,
+      "name": "Project 4",
+      "number": "h356ydgd",
+      "image": {
+        "id": 4,
+        "name": "sroom.png",
+        "link": "http://localhost/media/sroom.png",
+        "size": 0,
+        "hash": "dsfghj4598yhgdg",
+        "is_public": true,
+        "created_at": "2020-07-30T12:21:16.129000Z",
+        "updated_at": "2020-07-30T12:21:16.129000Z",
+        "local_id": null
+      },
+      "image_id": 4,
+      "status": "completed",
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "created_at": "2020-07-30T12:21:16.129000Z",
+      "updated_at": "2020-07-30T12:21:16.129000Z",
+      "show_estimated_man_hours": true,
+      "value": "765543.43",
+      "value_currency": "USD",
+      "news": [],
+      "key_contacts": [],
+      "location_matrix": [],
+      "package_matrix": [],
+      "users": [
+        {
+          "id": 2,
+          "status": "pending",
+          "first_name": "Brad",
+          "last_name": "Seatwood",
+          "email": "cool.brad+1@gmail.com",
+          "phone": "+41524204242",
+          "position": "Cool Brad",
+          "company": 2,
+          "group": 3,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        },
+        {
+          "id": 4,
+          "status": "pending",
+          "first_name": "Awesome",
+          "last_name": "Client",
+          "email": "cool.client@gmail.com",
+          "phone": "+41524904241",
+          "position": "cashier",
+          "company": 2,
+          "group": 5,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        }
+      ],
+      "company_admins": [
+        {
+          "id": 1,
+          "status": "pending",
+          "first_name": "Bradwood",
+          "last_name": "Feat",
+          "email": "cool.brad@gmail.com",
+          "phone": "+41524204242",
+          "position": "Cool Brad",
+          "company": 1,
+          "group": 1,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 5,
+      "name": "Project 5",
+      "number": "y356ywrtwe",
+      "image": {
+        "id": 5,
+        "name": "kroom.png",
+        "link": "http://localhost/media/kroom.png",
+        "size": 0,
+        "hash": "gh49o875yhteghgdfg",
+        "is_public": true,
+        "created_at": "2020-07-30T12:21:16.129000Z",
+        "updated_at": "2020-07-30T12:21:16.129000Z",
+        "local_id": null
+      },
+      "image_id": 5,
+      "status": "archived",
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "created_at": "2020-07-30T12:21:16.129000Z",
+      "updated_at": "2020-07-30T12:21:16.129000Z",
+      "show_estimated_man_hours": true,
+      "value": "123765.11",
+      "value_currency": "USD",
+      "news": [
+        {
+          "id": 1,
+          "title": "First title",
+          "date": "2020-02-02",
+          "text": "First text",
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        }
+      ],
+      "key_contacts": [
+        {
+          "id": 2,
+          "status": "pending",
+          "first_name": "Brad",
+          "last_name": "Seatwood",
+          "email": "cool.brad+1@gmail.com",
+          "phone": "+41524204242",
+          "position": "Cool Brad",
+          "company": 2,
+          "group": 3,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        },
+        {
+          "id": 4,
+          "status": "pending",
+          "first_name": "Awesome",
+          "last_name": "Client",
+          "email": "cool.client@gmail.com",
+          "phone": "+41524904241",
+          "position": "cashier",
+          "company": 2,
+          "group": 5,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        }
+      ],
+      "location_matrix": [
+        {
+          "id": 1,
+          "project": 5,
+          "building": "Building A",
+          "level": "A",
+          "area": "Hall",
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "expanded_quality_issues": [
+            {
+              "id": 1,
+              "location_matrix": 1,
+              "user": 1,
+              "description": "Oh! My! God!",
+              "status": "under_review",
+              "attachments": [
+                1,
+                2,
+                3
+              ],
+              "created_at": "2020-09-30T12:21:16.129000Z",
+              "updated_at": "2020-09-30T12:21:16.129000Z",
+              "due_date": "2021-04-22T12:21:16.129000Z",
+              "last_confirmed_update": null,
+              "old_quality_issue": null,
+              "local_id": null,
+              "expanded_last_status_change_update": null,
+              "expanded_attachments": [
+                {
+                  "id": 1,
+                  "name": "troom.png",
+                  "link": "http://localhost/media/troom.png",
+                  "size": 0,
+                  "hash": "fdghioj4098yhgsdfgf",
+                  "is_public": true,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "local_id": null
+                },
+                {
+                  "id": 2,
+                  "name": "broom.png",
+                  "link": "http://localhost/media/broom.png",
+                  "size": 0,
+                  "hash": "ghj49hgghsdlfghdffdg",
+                  "is_public": true,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "local_id": null
+                },
+                {
+                  "id": 3,
+                  "name": "kroom.png",
+                  "link": "http://localhost/media/kroom.png",
+                  "size": 0,
+                  "hash": "hbgo8475hygegfhsldifguhsd",
+                  "is_public": true,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "local_id": null
+                }
+              ],
+              "expanded_old_quality_issue": null,
+              "expanded_last_confirmed_update": null,
+              "expanded_last_update": {
+                "id": 5,
+                "quality_issue": 1,
+                "user": 5,
+                "comment": null,
+                "files": [],
+                "old_data": {
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "under_review",
+                  "description": "Oh! My! God!"
+                },
+                "created_at": "2020-09-30T12:21:16.129000Z",
+                "updated_at": "2020-09-30T12:21:16.129000Z",
+                "recipients": [],
+                "is_conflict": false,
+                "expanded_files": [],
+                "expanded_recipients": [],
+                "expanded_previous_status": null,
+                "expanded_user": {
+                  "id": 5,
+                  "status": "pending",
+                  "first_name": "Awesome",
+                  "last_name": "Consultant",
+                  "email": "cool.consultant@gmail.com",
+                  "phone": "+41524904241",
+                  "position": "consultant",
+                  "company": 2,
+                  "group": 6,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z"
+                }
+              },
+              "expanded_updates": [
+                {
+                  "id": 5,
+                  "quality_issue": 1,
+                  "user": 5,
+                  "comment": null,
+                  "files": [],
+                  "old_data": {
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "under_review",
+                    "description": "Oh! My! God!"
+                  },
+                  "created_at": "2020-09-30T12:21:16.129000Z",
+                  "updated_at": "2020-09-30T12:21:16.129000Z",
+                  "recipients": [],
+                  "is_conflict": false,
+                  "expanded_files": [],
+                  "expanded_recipients": [],
+                  "expanded_previous_status": null,
+                  "expanded_user": {
+                    "id": 5,
+                    "status": "pending",
+                    "first_name": "Awesome",
+                    "last_name": "Consultant",
+                    "email": "cool.consultant@gmail.com",
+                    "phone": "+41524904241",
+                    "position": "consultant",
+                    "company": 2,
+                    "group": 6,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                }
+              ],
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_user": {
+                "id": 1,
+                "status": "pending",
+                "first_name": "Bradwood",
+                "last_name": "Feat",
+                "email": "cool.brad@gmail.com",
+                "phone": "+41524204242",
+                "position": "Cool Brad",
+                "company": 1,
+                "group": 1,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_last_recipients": []
+            },
+            {
+              "id": 2,
+              "location_matrix": 1,
+              "user": 2,
+              "description": "Somebody, stop me!",
+              "status": "in_progress",
+              "attachments": [],
+              "created_at": "2020-09-30T12:21:16.129000Z",
+              "updated_at": "2020-09-30T12:21:16.129000Z",
+              "due_date": null,
+              "last_confirmed_update": null,
+              "old_quality_issue": null,
+              "local_id": null,
+              "expanded_last_status_change_update": {
+                "id": 4,
+                "quality_issue": 2,
+                "user": 4,
+                "comment": null,
+                "files": [],
+                "old_data": {
+                  "status": "under_review",
+                  "description": "In aqua sanitas!"
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "in_progress",
+                  "description": "Somebody, stop me!"
+                },
+                "created_at": "2020-09-30T12:21:16.129000Z",
+                "updated_at": "2020-09-30T12:21:16.129000Z",
+                "recipients": [],
+                "is_conflict": false
+              },
+              "expanded_attachments": [],
+              "expanded_old_quality_issue": null,
+              "expanded_last_confirmed_update": null,
+              "expanded_last_update": {
+                "id": 4,
+                "quality_issue": 2,
+                "user": 4,
+                "comment": null,
+                "files": [],
+                "old_data": {
+                  "status": "under_review",
+                  "description": "In aqua sanitas!"
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "in_progress",
+                  "description": "Somebody, stop me!"
+                },
+                "created_at": "2020-09-30T12:21:16.129000Z",
+                "updated_at": "2020-09-30T12:21:16.129000Z",
+                "recipients": [],
+                "is_conflict": false,
+                "expanded_files": [],
+                "expanded_recipients": [],
+                "expanded_previous_status": "under_review",
+                "expanded_user": {
+                  "id": 4,
+                  "status": "pending",
+                  "first_name": "Awesome",
+                  "last_name": "Client",
+                  "email": "cool.client@gmail.com",
+                  "phone": "+41524904241",
+                  "position": "cashier",
+                  "company": 2,
+                  "group": 5,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z"
+                }
+              },
+              "expanded_updates": [
+                {
+                  "id": 4,
+                  "quality_issue": 2,
+                  "user": 4,
+                  "comment": null,
+                  "files": [],
+                  "old_data": {
+                    "status": "under_review",
+                    "description": "In aqua sanitas!"
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "in_progress",
+                    "description": "Somebody, stop me!"
+                  },
+                  "created_at": "2020-09-30T12:21:16.129000Z",
+                  "updated_at": "2020-09-30T12:21:16.129000Z",
+                  "recipients": [],
+                  "is_conflict": false,
+                  "expanded_files": [],
+                  "expanded_recipients": [],
+                  "expanded_previous_status": "under_review",
+                  "expanded_user": {
+                    "id": 4,
+                    "status": "pending",
+                    "first_name": "Awesome",
+                    "last_name": "Client",
+                    "email": "cool.client@gmail.com",
+                    "phone": "+41524904241",
+                    "position": "cashier",
+                    "company": 2,
+                    "group": 5,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                }
+              ],
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_user": {
+                "id": 2,
+                "status": "pending",
+                "first_name": "Brad",
+                "last_name": "Seatwood",
+                "email": "cool.brad+1@gmail.com",
+                "phone": "+41524204242",
+                "position": "Cool Brad",
+                "company": 2,
+                "group": 3,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_last_recipients": []
+            },
+            {
+              "id": 5,
+              "location_matrix": 1,
+              "user": 2,
+              "description": "In aqua sanitas!",
+              "status": "under_review",
+              "attachments": [
+                3
+              ],
+              "created_at": "2020-09-30T12:21:16.129000Z",
+              "updated_at": "2020-09-30T12:21:16.129000Z",
+              "due_date": null,
+              "last_confirmed_update": null,
+              "old_quality_issue": null,
+              "local_id": null,
+              "expanded_last_status_change_update": null,
+              "expanded_attachments": [
+                {
+                  "id": 3,
+                  "name": "kroom.png",
+                  "link": "http://localhost/media/kroom.png",
+                  "size": 0,
+                  "hash": "hbgo8475hygegfhsldifguhsd",
+                  "is_public": true,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "local_id": null
+                }
+              ],
+              "expanded_old_quality_issue": null,
+              "expanded_last_confirmed_update": null,
+              "expanded_last_update": {
+                "id": 1,
+                "quality_issue": 5,
+                "user": 4,
+                "comment": null,
+                "files": [
+                  1,
+                  2
+                ],
+                "old_data": {
+                  "status": "under_review",
+                  "description": "Viva la vida loca!"
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "under_review",
+                  "description": "In aqua sanitas!"
+                },
+                "created_at": "2020-09-30T12:21:16.129000Z",
+                "updated_at": "2020-09-30T12:21:16.129000Z",
+                "recipients": [
+                  {
+                    "id": 1,
+                    "first_name": "Tom",
+                    "last_name": "Soyer",
+                    "email": "tom_digidom@gmail.com",
+                    "user": 3,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-08-30T12:21:16.129000Z"
+                  },
+                  {
+                    "id": 2,
+                    "first_name": "Gan",
+                    "last_name": "Gsta",
+                    "email": "gan_gsta@gmail.com",
+                    "user": null,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-08-30T12:21:16.129000Z"
+                  }
+                ],
+                "is_conflict": false,
+                "expanded_files": [
+                  {
+                    "id": 1,
+                    "name": "troom.png",
+                    "link": "http://localhost/media/troom.png",
+                    "size": 0,
+                    "hash": "fdghioj4098yhgsdfgf",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  {
+                    "id": 2,
+                    "name": "broom.png",
+                    "link": "http://localhost/media/broom.png",
+                    "size": 0,
+                    "hash": "ghj49hgghsdlfghdffdg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  }
+                ],
+                "expanded_recipients": [
+                  {
+                    "id": 1,
+                    "first_name": "Tom",
+                    "last_name": "Soyer",
+                    "email": "tom_digidom@gmail.com",
+                    "user": 3,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-08-30T12:21:16.129000Z",
+                    "expanded_user": {
+                      "id": 3,
+                      "status": "pending",
+                      "first_name": "Brad",
+                      "last_name": "Heat",
+                      "email": "cool.brad+2wood@gmail.com",
+                      "phone": "+41524204242",
+                      "position": "Cool Brad",
+                      "company": 3,
+                      "group": 2,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z"
+                    }
+                  },
+                  {
+                    "id": 2,
+                    "first_name": "Gan",
+                    "last_name": "Gsta",
+                    "email": "gan_gsta@gmail.com",
+                    "user": null,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-08-30T12:21:16.129000Z",
+                    "expanded_user": null
+                  }
+                ],
+                "expanded_previous_status": null,
+                "expanded_user": {
+                  "id": 4,
+                  "status": "pending",
+                  "first_name": "Awesome",
+                  "last_name": "Client",
+                  "email": "cool.client@gmail.com",
+                  "phone": "+41524904241",
+                  "position": "cashier",
+                  "company": 2,
+                  "group": 5,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z"
+                }
+              },
+              "expanded_updates": [
+                {
+                  "id": 1,
+                  "quality_issue": 5,
+                  "user": 4,
+                  "comment": null,
+                  "files": [
+                    1,
+                    2
+                  ],
+                  "old_data": {
+                    "status": "under_review",
+                    "description": "Viva la vida loca!"
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "under_review",
+                    "description": "In aqua sanitas!"
+                  },
+                  "created_at": "2020-09-30T12:21:16.129000Z",
+                  "updated_at": "2020-09-30T12:21:16.129000Z",
+                  "recipients": [
+                    {
+                      "id": 1,
+                      "first_name": "Tom",
+                      "last_name": "Soyer",
+                      "email": "tom_digidom@gmail.com",
+                      "user": 3,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-08-30T12:21:16.129000Z"
+                    },
+                    {
+                      "id": 2,
+                      "first_name": "Gan",
+                      "last_name": "Gsta",
+                      "email": "gan_gsta@gmail.com",
+                      "user": null,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-08-30T12:21:16.129000Z"
+                    }
+                  ],
+                  "is_conflict": false,
+                  "expanded_files": [
+                    {
+                      "id": 1,
+                      "name": "troom.png",
+                      "link": "http://localhost/media/troom.png",
+                      "size": 0,
+                      "hash": "fdghioj4098yhgsdfgf",
+                      "is_public": true,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "local_id": null
+                    },
+                    {
+                      "id": 2,
+                      "name": "broom.png",
+                      "link": "http://localhost/media/broom.png",
+                      "size": 0,
+                      "hash": "ghj49hgghsdlfghdffdg",
+                      "is_public": true,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "local_id": null
+                    }
+                  ],
+                  "expanded_recipients": [
+                    {
+                      "id": 1,
+                      "first_name": "Tom",
+                      "last_name": "Soyer",
+                      "email": "tom_digidom@gmail.com",
+                      "user": 3,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-08-30T12:21:16.129000Z",
+                      "expanded_user": {
+                        "id": 3,
+                        "status": "pending",
+                        "first_name": "Brad",
+                        "last_name": "Heat",
+                        "email": "cool.brad+2wood@gmail.com",
+                        "phone": "+41524204242",
+                        "position": "Cool Brad",
+                        "company": 3,
+                        "group": 2,
+                        "created_at": "2020-07-30T12:21:16.129000Z",
+                        "updated_at": "2020-07-30T12:21:16.129000Z"
+                      }
+                    },
+                    {
+                      "id": 2,
+                      "first_name": "Gan",
+                      "last_name": "Gsta",
+                      "email": "gan_gsta@gmail.com",
+                      "user": null,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-08-30T12:21:16.129000Z",
+                      "expanded_user": null
+                    }
+                  ],
+                  "expanded_previous_status": null,
+                  "expanded_user": {
+                    "id": 4,
+                    "status": "pending",
+                    "first_name": "Awesome",
+                    "last_name": "Client",
+                    "email": "cool.client@gmail.com",
+                    "phone": "+41524904241",
+                    "position": "cashier",
+                    "company": 2,
+                    "group": 5,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                }
+              ],
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_user": {
+                "id": 2,
+                "status": "pending",
+                "first_name": "Brad",
+                "last_name": "Seatwood",
+                "email": "cool.brad+1@gmail.com",
+                "phone": "+41524204242",
+                "position": "Cool Brad",
+                "company": 2,
+                "group": 3,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_last_recipients": [
+                {
+                  "id": 1,
+                  "first_name": "Tom",
+                  "last_name": "Soyer",
+                  "email": "tom_digidom@gmail.com",
+                  "user": 3,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-08-30T12:21:16.129000Z",
+                  "expanded_user": {
+                    "id": 3,
+                    "status": "pending",
+                    "first_name": "Brad",
+                    "last_name": "Heat",
+                    "email": "cool.brad+2wood@gmail.com",
+                    "phone": "+41524204242",
+                    "position": "Cool Brad",
+                    "company": 3,
+                    "group": 2,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                },
+                {
+                  "id": 2,
+                  "first_name": "Gan",
+                  "last_name": "Gsta",
+                  "email": "gan_gsta@gmail.com",
+                  "user": null,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-08-30T12:21:16.129000Z",
+                  "expanded_user": null
+                }
+              ]
+            },
+            {
+              "id": 6,
+              "location_matrix": 1,
+              "user": 1,
+              "description": "Oh! My! God!",
+              "status": "contested",
+              "attachments": [
+                1,
+                2,
+                3
+              ],
+              "created_at": "2020-09-30T12:21:16.129000Z",
+              "updated_at": "2020-09-30T12:21:16.129000Z",
+              "due_date": null,
+              "last_confirmed_update": 8,
+              "old_quality_issue": null,
+              "local_id": null,
+              "expanded_last_status_change_update": {
+                "id": 8,
+                "quality_issue": 6,
+                "user": 2,
+                "comment": "It's not a deal!",
+                "files": [
+                  1
+                ],
+                "old_data": {
+                  "status": "under_review"
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "contested"
+                },
+                "created_at": "2020-09-29T12:21:16.129000Z",
+                "updated_at": "2020-09-29T12:21:16.129000Z",
+                "recipients": [],
+                "is_conflict": false
+              },
+              "expanded_attachments": [
+                {
+                  "id": 1,
+                  "name": "troom.png",
+                  "link": "http://localhost/media/troom.png",
+                  "size": 0,
+                  "hash": "fdghioj4098yhgsdfgf",
+                  "is_public": true,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "local_id": null
+                },
+                {
+                  "id": 2,
+                  "name": "broom.png",
+                  "link": "http://localhost/media/broom.png",
+                  "size": 0,
+                  "hash": "ghj49hgghsdlfghdffdg",
+                  "is_public": true,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "local_id": null
+                },
+                {
+                  "id": 3,
+                  "name": "kroom.png",
+                  "link": "http://localhost/media/kroom.png",
+                  "size": 0,
+                  "hash": "hbgo8475hygegfhsldifguhsd",
+                  "is_public": true,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "local_id": null
+                }
+              ],
+              "expanded_old_quality_issue": null,
+              "expanded_last_confirmed_update": {
+                "id": 8,
+                "quality_issue": 6,
+                "user": 2,
+                "comment": "It's not a deal!",
+                "files": [
+                  1
+                ],
+                "old_data": {
+                  "status": "under_review"
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "contested"
+                },
+                "created_at": "2020-09-29T12:21:16.129000Z",
+                "updated_at": "2020-09-29T12:21:16.129000Z",
+                "recipients": [],
+                "is_conflict": false,
+                "expanded_files": [
+                  {
+                    "id": 1,
+                    "name": "troom.png",
+                    "link": "http://localhost/media/troom.png",
+                    "size": 0,
+                    "hash": "fdghioj4098yhgsdfgf",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  }
+                ],
+                "expanded_recipients": [],
+                "expanded_user": {
+                  "id": 2,
+                  "status": "pending",
+                  "first_name": "Brad",
+                  "last_name": "Seatwood",
+                  "email": "cool.brad+1@gmail.com",
+                  "phone": "+41524204242",
+                  "position": "Cool Brad",
+                  "company": 2,
+                  "group": 3,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z"
+                }
+              },
+              "expanded_last_update": {
+                "id": 7,
+                "quality_issue": 6,
+                "user": 5,
+                "comment": null,
+                "files": [
+                  1
+                ],
+                "old_data": {
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "under_review",
+                  "description": "Pimp my ride!"
+                },
+                "created_at": "2020-09-29T12:21:16.129000Z",
+                "updated_at": "2020-09-29T12:21:16.129000Z",
+                "recipients": [],
+                "is_conflict": false,
+                "expanded_files": [
+                  {
+                    "id": 1,
+                    "name": "troom.png",
+                    "link": "http://localhost/media/troom.png",
+                    "size": 0,
+                    "hash": "fdghioj4098yhgsdfgf",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  }
+                ],
+                "expanded_recipients": [],
+                "expanded_previous_status": "under_review",
+                "expanded_user": {
+                  "id": 5,
+                  "status": "pending",
+                  "first_name": "Awesome",
+                  "last_name": "Consultant",
+                  "email": "cool.consultant@gmail.com",
+                  "phone": "+41524904241",
+                  "position": "consultant",
+                  "company": 2,
+                  "group": 6,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z"
+                }
+              },
+              "expanded_updates": [
+                {
+                  "id": 7,
+                  "quality_issue": 6,
+                  "user": 5,
+                  "comment": null,
+                  "files": [
+                    1
+                  ],
+                  "old_data": {
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "under_review",
+                    "description": "Pimp my ride!"
+                  },
+                  "created_at": "2020-09-29T12:21:16.129000Z",
+                  "updated_at": "2020-09-29T12:21:16.129000Z",
+                  "recipients": [],
+                  "is_conflict": false,
+                  "expanded_files": [
+                    {
+                      "id": 1,
+                      "name": "troom.png",
+                      "link": "http://localhost/media/troom.png",
+                      "size": 0,
+                      "hash": "fdghioj4098yhgsdfgf",
+                      "is_public": true,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "local_id": null
+                    }
+                  ],
+                  "expanded_recipients": [],
+                  "expanded_previous_status": "under_review",
+                  "expanded_user": {
+                    "id": 5,
+                    "status": "pending",
+                    "first_name": "Awesome",
+                    "last_name": "Consultant",
+                    "email": "cool.consultant@gmail.com",
+                    "phone": "+41524904241",
+                    "position": "consultant",
+                    "company": 2,
+                    "group": 6,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                },
+                {
+                  "id": 8,
+                  "quality_issue": 6,
+                  "user": 2,
+                  "comment": "It's not a deal!",
+                  "files": [
+                    1
+                  ],
+                  "old_data": {
+                    "status": "under_review"
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "contested"
+                  },
+                  "created_at": "2020-09-29T12:21:16.129000Z",
+                  "updated_at": "2020-09-29T12:21:16.129000Z",
+                  "recipients": [],
+                  "is_conflict": false,
+                  "expanded_files": [
+                    {
+                      "id": 1,
+                      "name": "troom.png",
+                      "link": "http://localhost/media/troom.png",
+                      "size": 0,
+                      "hash": "fdghioj4098yhgsdfgf",
+                      "is_public": true,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "local_id": null
+                    }
+                  ],
+                  "expanded_recipients": [],
+                  "expanded_previous_status": "under_review",
+                  "expanded_user": {
+                    "id": 2,
+                    "status": "pending",
+                    "first_name": "Brad",
+                    "last_name": "Seatwood",
+                    "email": "cool.brad+1@gmail.com",
+                    "phone": "+41524204242",
+                    "position": "Cool Brad",
+                    "company": 2,
+                    "group": 3,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                },
+                {
+                  "id": 9,
+                  "quality_issue": 6,
+                  "user": 2,
+                  "comment": "Hallelujah!",
+                  "files": [
+                    1
+                  ],
+                  "old_data": {
+                    "status": "contested"
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "contested"
+                  },
+                  "created_at": "2020-09-29T12:21:16.129000Z",
+                  "updated_at": "2020-09-29T12:21:16.129000Z",
+                  "recipients": [],
+                  "is_conflict": false,
+                  "expanded_files": [
+                    {
+                      "id": 1,
+                      "name": "troom.png",
+                      "link": "http://localhost/media/troom.png",
+                      "size": 0,
+                      "hash": "fdghioj4098yhgsdfgf",
+                      "is_public": true,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "local_id": null
+                    }
+                  ],
+                  "expanded_recipients": [],
+                  "expanded_previous_status": "under_review",
+                  "expanded_user": {
+                    "id": 2,
+                    "status": "pending",
+                    "first_name": "Brad",
+                    "last_name": "Seatwood",
+                    "email": "cool.brad+1@gmail.com",
+                    "phone": "+41524204242",
+                    "position": "Cool Brad",
+                    "company": 2,
+                    "group": 3,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                }
+              ],
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_user": {
+                "id": 1,
+                "status": "pending",
+                "first_name": "Bradwood",
+                "last_name": "Feat",
+                "email": "cool.brad@gmail.com",
+                "phone": "+41524204242",
+                "position": "Cool Brad",
+                "company": 1,
+                "group": 1,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_last_recipients": []
+            },
+            {
+              "id": 7,
+              "location_matrix": 1,
+              "user": 1,
+              "description": "Mama mia!",
+              "status": "requesting_approval",
+              "attachments": [],
+              "created_at": "2020-09-30T12:21:16.129000Z",
+              "updated_at": "2020-09-30T12:21:16.129000Z",
+              "due_date": null,
+              "last_confirmed_update": null,
+              "old_quality_issue": null,
+              "local_id": null,
+              "expanded_last_status_change_update": null,
+              "expanded_attachments": [],
+              "expanded_old_quality_issue": null,
+              "expanded_last_confirmed_update": null,
+              "expanded_last_update": null,
+              "expanded_updates": [],
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_user": {
+                "id": 1,
+                "status": "pending",
+                "first_name": "Bradwood",
+                "last_name": "Feat",
+                "email": "cool.brad@gmail.com",
+                "phone": "+41524204242",
+                "position": "Cool Brad",
+                "company": 1,
+                "group": 1,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_last_recipients": []
+            },
+            {
+              "id": 8,
+              "location_matrix": 1,
+              "user": 1,
+              "description": "Santa lucia!",
+              "status": "in_progress",
+              "attachments": [],
+              "created_at": "2020-09-30T12:21:16.129000Z",
+              "updated_at": "2020-09-30T12:21:16.129000Z",
+              "due_date": null,
+              "last_confirmed_update": null,
+              "old_quality_issue": null,
+              "local_id": null,
+              "expanded_last_status_change_update": null,
+              "expanded_attachments": [],
+              "expanded_old_quality_issue": null,
+              "expanded_last_confirmed_update": null,
+              "expanded_last_update": null,
+              "expanded_updates": [],
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_user": {
+                "id": 1,
+                "status": "pending",
+                "first_name": "Bradwood",
+                "last_name": "Feat",
+                "email": "cool.brad@gmail.com",
+                "phone": "+41524204242",
+                "position": "Cool Brad",
+                "company": 1,
+                "group": 1,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_last_recipients": []
+            },
+            {
+              "id": 9,
+              "location_matrix": 1,
+              "user": 1,
+              "description": "Santa lucia 2!",
+              "status": "in_progress",
+              "attachments": [],
+              "created_at": "2020-09-30T12:21:16.129000Z",
+              "updated_at": "2020-09-30T12:21:16.129000Z",
+              "due_date": null,
+              "last_confirmed_update": null,
+              "old_quality_issue": null,
+              "local_id": null,
+              "expanded_last_status_change_update": null,
+              "expanded_attachments": [],
+              "expanded_old_quality_issue": null,
+              "expanded_last_confirmed_update": null,
+              "expanded_last_update": null,
+              "expanded_updates": [],
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_user": {
+                "id": 1,
+                "status": "pending",
+                "first_name": "Bradwood",
+                "last_name": "Feat",
+                "email": "cool.brad@gmail.com",
+                "phone": "+41524204242",
+                "position": "Cool Brad",
+                "company": 1,
+                "group": 1,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_last_recipients": []
+            },
+            {
+              "id": 10,
+              "location_matrix": 1,
+              "user": 1,
+              "description": "Santa lucia 2!",
+              "status": "requesting_approval_rejected",
+              "attachments": [],
+              "created_at": "2020-09-30T12:21:16.129000Z",
+              "updated_at": "2020-09-30T12:21:16.129000Z",
+              "due_date": null,
+              "last_confirmed_update": 13,
+              "old_quality_issue": null,
+              "local_id": null,
+              "expanded_last_status_change_update": {
+                "id": 12,
+                "quality_issue": 10,
+                "user": 2,
+                "comment": "Let's check!",
+                "files": [],
+                "old_data": {
+                  "status": "in_progress"
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "requesting_approval"
+                },
+                "created_at": "2020-10-01T12:21:16.129000Z",
+                "updated_at": "2020-10-01T12:21:16.129000Z",
+                "recipients": [],
+                "is_conflict": false
+              },
+              "expanded_attachments": [],
+              "expanded_old_quality_issue": null,
+              "expanded_last_confirmed_update": {
+                "id": 13,
+                "quality_issue": 10,
+                "user": 2,
+                "comment": "Just update my last request!",
+                "files": [],
+                "old_data": {
+                  "status": "requesting_approval"
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "requesting_approval"
+                },
+                "created_at": "2020-10-02T12:21:16.129000Z",
+                "updated_at": "2020-10-02T12:21:16.129000Z",
+                "recipients": [],
+                "is_conflict": false,
+                "expanded_files": [],
+                "expanded_recipients": [],
+                "expanded_user": {
+                  "id": 2,
+                  "status": "pending",
+                  "first_name": "Brad",
+                  "last_name": "Seatwood",
+                  "email": "cool.brad+1@gmail.com",
+                  "phone": "+41524204242",
+                  "position": "Cool Brad",
+                  "company": 2,
+                  "group": 3,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z"
+                }
+              },
+              "expanded_last_update": {
+                "id": 13,
+                "quality_issue": 10,
+                "user": 2,
+                "comment": "Just update my last request!",
+                "files": [],
+                "old_data": {
+                  "status": "requesting_approval"
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "requesting_approval"
+                },
+                "created_at": "2020-10-02T12:21:16.129000Z",
+                "updated_at": "2020-10-02T12:21:16.129000Z",
+                "recipients": [],
+                "is_conflict": false,
+                "expanded_files": [],
+                "expanded_recipients": [],
+                "expanded_previous_status": "in_progress",
+                "expanded_user": {
+                  "id": 2,
+                  "status": "pending",
+                  "first_name": "Brad",
+                  "last_name": "Seatwood",
+                  "email": "cool.brad+1@gmail.com",
+                  "phone": "+41524204242",
+                  "position": "Cool Brad",
+                  "company": 2,
+                  "group": 3,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z"
+                }
+              },
+              "expanded_updates": [
+                {
+                  "id": 10,
+                  "quality_issue": 10,
+                  "user": 2,
+                  "comment": "Hallelujah!",
+                  "files": [
+                    1
+                  ],
+                  "old_data": {
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "under_review"
+                  },
+                  "created_at": "2020-09-29T12:21:16.129000Z",
+                  "updated_at": "2020-09-29T12:21:16.129000Z",
+                  "recipients": [],
+                  "is_conflict": false,
+                  "expanded_files": [
+                    {
+                      "id": 1,
+                      "name": "troom.png",
+                      "link": "http://localhost/media/troom.png",
+                      "size": 0,
+                      "hash": "fdghioj4098yhgsdfgf",
+                      "is_public": true,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "local_id": null
+                    }
+                  ],
+                  "expanded_recipients": [],
+                  "expanded_previous_status": "in_progress",
+                  "expanded_user": {
+                    "id": 2,
+                    "status": "pending",
+                    "first_name": "Brad",
+                    "last_name": "Seatwood",
+                    "email": "cool.brad+1@gmail.com",
+                    "phone": "+41524204242",
+                    "position": "Cool Brad",
+                    "company": 2,
+                    "group": 3,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                },
+                {
+                  "id": 11,
+                  "quality_issue": 10,
+                  "user": 2,
+                  "comment": "Let's go to the work!",
+                  "files": [
+                    1
+                  ],
+                  "old_data": {
+                    "status": "under_review"
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "in_progress"
+                  },
+                  "created_at": "2020-09-30T12:21:16.129000Z",
+                  "updated_at": "2020-09-30T12:21:16.129000Z",
+                  "recipients": [],
+                  "is_conflict": false,
+                  "expanded_files": [
+                    {
+                      "id": 1,
+                      "name": "troom.png",
+                      "link": "http://localhost/media/troom.png",
+                      "size": 0,
+                      "hash": "fdghioj4098yhgsdfgf",
+                      "is_public": true,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "local_id": null
+                    }
+                  ],
+                  "expanded_recipients": [],
+                  "expanded_previous_status": "in_progress",
+                  "expanded_user": {
+                    "id": 2,
+                    "status": "pending",
+                    "first_name": "Brad",
+                    "last_name": "Seatwood",
+                    "email": "cool.brad+1@gmail.com",
+                    "phone": "+41524204242",
+                    "position": "Cool Brad",
+                    "company": 2,
+                    "group": 3,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                },
+                {
+                  "id": 12,
+                  "quality_issue": 10,
+                  "user": 2,
+                  "comment": "Let's check!",
+                  "files": [],
+                  "old_data": {
+                    "status": "in_progress"
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "requesting_approval"
+                  },
+                  "created_at": "2020-10-01T12:21:16.129000Z",
+                  "updated_at": "2020-10-01T12:21:16.129000Z",
+                  "recipients": [],
+                  "is_conflict": false,
+                  "expanded_files": [],
+                  "expanded_recipients": [],
+                  "expanded_previous_status": "in_progress",
+                  "expanded_user": {
+                    "id": 2,
+                    "status": "pending",
+                    "first_name": "Brad",
+                    "last_name": "Seatwood",
+                    "email": "cool.brad+1@gmail.com",
+                    "phone": "+41524204242",
+                    "position": "Cool Brad",
+                    "company": 2,
+                    "group": 3,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                },
+                {
+                  "id": 13,
+                  "quality_issue": 10,
+                  "user": 2,
+                  "comment": "Just update my last request!",
+                  "files": [],
+                  "old_data": {
+                    "status": "requesting_approval"
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "requesting_approval"
+                  },
+                  "created_at": "2020-10-02T12:21:16.129000Z",
+                  "updated_at": "2020-10-02T12:21:16.129000Z",
+                  "recipients": [],
+                  "is_conflict": false,
+                  "expanded_files": [],
+                  "expanded_recipients": [],
+                  "expanded_previous_status": "in_progress",
+                  "expanded_user": {
+                    "id": 2,
+                    "status": "pending",
+                    "first_name": "Brad",
+                    "last_name": "Seatwood",
+                    "email": "cool.brad+1@gmail.com",
+                    "phone": "+41524204242",
+                    "position": "Cool Brad",
+                    "company": 2,
+                    "group": 3,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                }
+              ],
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_user": {
+                "id": 1,
+                "status": "pending",
+                "first_name": "Bradwood",
+                "last_name": "Feat",
+                "email": "cool.brad@gmail.com",
+                "phone": "+41524204242",
+                "position": "Cool Brad",
+                "company": 1,
+                "group": 1,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_last_recipients": []
+            },
+            {
+              "id": 11,
+              "location_matrix": 1,
+              "user": 1,
+              "description": "Santa lucia 3!",
+              "status": "contested",
+              "attachments": [],
+              "created_at": "2020-09-30T12:21:16.129000Z",
+              "updated_at": "2020-09-30T12:21:16.129000Z",
+              "due_date": null,
+              "last_confirmed_update": null,
+              "old_quality_issue": null,
+              "local_id": null,
+              "expanded_last_status_change_update": {
+                "id": 14,
+                "quality_issue": 11,
+                "user": 2,
+                "comment": "Hallelujah!",
+                "files": [
+                  1
+                ],
+                "old_data": {
+                  "status": "under_review"
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "contested"
+                },
+                "created_at": "2020-09-30T12:21:16.129000Z",
+                "updated_at": "2020-09-30T12:21:16.129000Z",
+                "recipients": [],
+                "is_conflict": false
+              },
+              "expanded_attachments": [],
+              "expanded_old_quality_issue": null,
+              "expanded_last_confirmed_update": null,
+              "expanded_last_update": {
+                "id": 14,
+                "quality_issue": 11,
+                "user": 2,
+                "comment": "Hallelujah!",
+                "files": [
+                  1
+                ],
+                "old_data": {
+                  "status": "under_review"
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "contested"
+                },
+                "created_at": "2020-09-30T12:21:16.129000Z",
+                "updated_at": "2020-09-30T12:21:16.129000Z",
+                "recipients": [],
+                "is_conflict": false,
+                "expanded_files": [
+                  {
+                    "id": 1,
+                    "name": "troom.png",
+                    "link": "http://localhost/media/troom.png",
+                    "size": 0,
+                    "hash": "fdghioj4098yhgsdfgf",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  }
+                ],
+                "expanded_recipients": [],
+                "expanded_previous_status": "under_review",
+                "expanded_user": {
+                  "id": 2,
+                  "status": "pending",
+                  "first_name": "Brad",
+                  "last_name": "Seatwood",
+                  "email": "cool.brad+1@gmail.com",
+                  "phone": "+41524204242",
+                  "position": "Cool Brad",
+                  "company": 2,
+                  "group": 3,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z"
+                }
+              },
+              "expanded_updates": [
+                {
+                  "id": 14,
+                  "quality_issue": 11,
+                  "user": 2,
+                  "comment": "Hallelujah!",
+                  "files": [
+                    1
+                  ],
+                  "old_data": {
+                    "status": "under_review"
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "contested"
+                  },
+                  "created_at": "2020-09-30T12:21:16.129000Z",
+                  "updated_at": "2020-09-30T12:21:16.129000Z",
+                  "recipients": [],
+                  "is_conflict": false,
+                  "expanded_files": [
+                    {
+                      "id": 1,
+                      "name": "troom.png",
+                      "link": "http://localhost/media/troom.png",
+                      "size": 0,
+                      "hash": "fdghioj4098yhgsdfgf",
+                      "is_public": true,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "local_id": null
+                    }
+                  ],
+                  "expanded_recipients": [],
+                  "expanded_previous_status": "under_review",
+                  "expanded_user": {
+                    "id": 2,
+                    "status": "pending",
+                    "first_name": "Brad",
+                    "last_name": "Seatwood",
+                    "email": "cool.brad+1@gmail.com",
+                    "phone": "+41524204242",
+                    "position": "Cool Brad",
+                    "company": 2,
+                    "group": 3,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                }
+              ],
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_user": {
+                "id": 1,
+                "status": "pending",
+                "first_name": "Bradwood",
+                "last_name": "Feat",
+                "email": "cool.brad@gmail.com",
+                "phone": "+41524204242",
+                "position": "Cool Brad",
+                "company": 1,
+                "group": 1,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_last_recipients": []
+            },
+            {
+              "id": 12,
+              "location_matrix": 1,
+              "user": 5,
+              "description": "Closed Quality issue!",
+              "status": "closed",
+              "attachments": [],
+              "created_at": "2020-09-30T12:21:16.129000Z",
+              "updated_at": "2020-09-30T12:21:16.129000Z",
+              "due_date": null,
+              "last_confirmed_update": null,
+              "old_quality_issue": null,
+              "local_id": null,
+              "expanded_last_status_change_update": {
+                "id": 16,
+                "quality_issue": 12,
+                "user": 1,
+                "comment": "Everything is fine!",
+                "files": [],
+                "old_data": {
+                  "status": "requesting_approval"
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "closed"
+                },
+                "created_at": "2020-09-30T12:21:16.129000Z",
+                "updated_at": "2020-09-30T12:21:16.129000Z",
+                "recipients": [],
+                "is_conflict": false
+              },
+              "expanded_attachments": [],
+              "expanded_old_quality_issue": null,
+              "expanded_last_confirmed_update": null,
+              "expanded_last_update": {
+                "id": 15,
+                "quality_issue": 12,
+                "user": 4,
+                "comment": "I have a bug!",
+                "files": [],
+                "old_data": {
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "under_review"
+                },
+                "created_at": "2020-09-30T12:21:16.129000Z",
+                "updated_at": "2020-09-30T12:21:16.129000Z",
+                "recipients": [],
+                "is_conflict": false,
+                "expanded_files": [],
+                "expanded_recipients": [],
+                "expanded_previous_status": "requesting_approval",
+                "expanded_user": {
+                  "id": 4,
+                  "status": "pending",
+                  "first_name": "Awesome",
+                  "last_name": "Client",
+                  "email": "cool.client@gmail.com",
+                  "phone": "+41524904241",
+                  "position": "cashier",
+                  "company": 2,
+                  "group": 5,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z"
+                }
+              },
+              "expanded_updates": [
+                {
+                  "id": 15,
+                  "quality_issue": 12,
+                  "user": 4,
+                  "comment": "I have a bug!",
+                  "files": [],
+                  "old_data": {
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "under_review"
+                  },
+                  "created_at": "2020-09-30T12:21:16.129000Z",
+                  "updated_at": "2020-09-30T12:21:16.129000Z",
+                  "recipients": [],
+                  "is_conflict": false,
+                  "expanded_files": [],
+                  "expanded_recipients": [],
+                  "expanded_previous_status": "requesting_approval",
+                  "expanded_user": {
+                    "id": 4,
+                    "status": "pending",
+                    "first_name": "Awesome",
+                    "last_name": "Client",
+                    "email": "cool.client@gmail.com",
+                    "phone": "+41524904241",
+                    "position": "cashier",
+                    "company": 2,
+                    "group": 5,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                },
+                {
+                  "id": 16,
+                  "quality_issue": 12,
+                  "user": 1,
+                  "comment": "Everything is fine!",
+                  "files": [],
+                  "old_data": {
+                    "status": "requesting_approval"
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "closed"
+                  },
+                  "created_at": "2020-09-30T12:21:16.129000Z",
+                  "updated_at": "2020-09-30T12:21:16.129000Z",
+                  "recipients": [],
+                  "is_conflict": false,
+                  "expanded_files": [],
+                  "expanded_recipients": [],
+                  "expanded_previous_status": "requesting_approval",
+                  "expanded_user": {
+                    "id": 1,
+                    "status": "pending",
+                    "first_name": "Bradwood",
+                    "last_name": "Feat",
+                    "email": "cool.brad@gmail.com",
+                    "phone": "+41524204242",
+                    "position": "Cool Brad",
+                    "company": 1,
+                    "group": 1,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                }
+              ],
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_user": {
+                "id": 5,
+                "status": "pending",
+                "first_name": "Awesome",
+                "last_name": "Consultant",
+                "email": "cool.consultant@gmail.com",
+                "phone": "+41524904241",
+                "position": "consultant",
+                "company": 2,
+                "group": 6,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_last_recipients": []
+            },
+            {
+              "id": 13,
+              "location_matrix": 1,
+              "user": 5,
+              "description": "It is Quality issue!",
+              "status": "under_inspection",
+              "attachments": [],
+              "created_at": "2020-09-30T12:21:16.129000Z",
+              "updated_at": "2020-09-30T12:21:16.129000Z",
+              "due_date": null,
+              "last_confirmed_update": null,
+              "old_quality_issue": null,
+              "local_id": null,
+              "expanded_last_status_change_update": null,
+              "expanded_attachments": [],
+              "expanded_old_quality_issue": null,
+              "expanded_last_confirmed_update": null,
+              "expanded_last_update": null,
+              "expanded_updates": [],
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_user": {
+                "id": 5,
+                "status": "pending",
+                "first_name": "Awesome",
+                "last_name": "Consultant",
+                "email": "cool.consultant@gmail.com",
+                "phone": "+41524904241",
+                "position": "consultant",
+                "company": 2,
+                "group": 6,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_last_recipients": []
+            }
+          ],
+          "expanded_location_matrix_packages": [
+            {
+              "id": 1,
+              "location_matrix": 1,
+              "package_matrix": 2,
+              "enabled": true,
+              "package": 4,
+              "package_activity": 2,
+              "package_activity_name": "Second package activity",
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "expanded_media": [],
+              "expanded_package": {
+                "id": 4,
+                "name": "Fourth package",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "order": 5
+              },
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_package_matrix": {
+                "project": 5,
+                "package": 4,
+                "package_activity": 2,
+                "id": 2,
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                },
+                "expanded_companies": [],
+                "expanded_package_activity": {
+                  "id": 2,
+                  "name": "Second package activity",
+                  "activity_id": null,
+                  "package_activity_tasks": [
+                    {
+                      "id": 2,
+                      "description": "Second desc",
+                      "is_not_applicable_status_by_default": true,
+                      "is_photo_required": false,
+                      "order": 0,
+                      "package_activity": 2,
+                      "photo_requirement_comment": "",
+                      "is_default_for_subtask": false
+                    }
+                  ],
+                  "files": []
+                },
+                "expanded_package": {
+                  "id": 4,
+                  "name": "Fourth package",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "order": 5
+                }
+              }
+            },
+            {
+              "id": 2,
+              "location_matrix": 1,
+              "package_matrix": 3,
+              "enabled": false,
+              "package": 4,
+              "package_activity": 3,
+              "package_activity_name": "Third package activity",
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "expanded_media": [],
+              "expanded_package": {
+                "id": 4,
+                "name": "Fourth package",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "order": 5
+              },
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_package_matrix": {
+                "project": 5,
+                "package": 4,
+                "package_activity": 3,
+                "id": 3,
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                },
+                "expanded_companies": [],
+                "expanded_package_activity": {
+                  "id": 3,
+                  "name": "Third package activity",
+                  "activity_id": null,
+                  "package_activity_tasks": [
+                    {
+                      "id": 3,
+                      "description": "Third desc",
+                      "is_not_applicable_status_by_default": false,
+                      "is_photo_required": false,
+                      "order": 0,
+                      "package_activity": 3,
+                      "photo_requirement_comment": "",
+                      "is_default_for_subtask": false
+                    }
+                  ],
+                  "files": []
+                },
+                "expanded_package": {
+                  "id": 4,
+                  "name": "Fourth package",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "order": 5
+                }
+              }
+            },
+            {
+              "id": 3,
+              "location_matrix": 1,
+              "package_matrix": 4,
+              "enabled": true,
+              "package": 3,
+              "package_activity": 4,
+              "package_activity_name": "Fourth package activity",
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "expanded_media": [],
+              "expanded_package": {
+                "id": 3,
+                "name": "Third package",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "order": 4
+              },
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_package_matrix": {
+                "project": 5,
+                "package": 3,
+                "package_activity": 4,
+                "id": 4,
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                },
+                "expanded_companies": [],
+                "expanded_package_activity": {
+                  "id": 4,
+                  "name": "Fourth package activity",
+                  "activity_id": null,
+                  "package_activity_tasks": [
+                    {
+                      "id": 4,
+                      "description": "Fourth desc",
+                      "is_not_applicable_status_by_default": true,
+                      "is_photo_required": false,
+                      "order": 0,
+                      "package_activity": 4,
+                      "photo_requirement_comment": "",
+                      "is_default_for_subtask": false
+                    },
+                    {
+                      "id": 5,
+                      "description": "Fifth desc",
+                      "is_not_applicable_status_by_default": true,
+                      "is_photo_required": false,
+                      "order": 0,
+                      "package_activity": 4,
+                      "photo_requirement_comment": "",
+                      "is_default_for_subtask": false
+                    }
+                  ],
+                  "files": []
+                },
+                "expanded_package": {
+                  "id": 3,
+                  "name": "Third package",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "order": 4
+                }
+              }
+            },
+            {
+              "id": 4,
+              "location_matrix": 1,
+              "package_matrix": 5,
+              "enabled": true,
+              "package": 4,
+              "package_activity": 1,
+              "package_activity_name": "First package activity",
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "expanded_media": [],
+              "expanded_package": {
+                "id": 4,
+                "name": "Fourth package",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "order": 5
+              },
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_package_matrix": {
+                "project": 5,
+                "package": 4,
+                "package_activity": 1,
+                "id": 5,
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                },
+                "expanded_companies": [],
+                "expanded_package_activity": {
+                  "id": 1,
+                  "name": "First package activity",
+                  "activity_id": null,
+                  "package_activity_tasks": [
+                    {
+                      "id": 1,
+                      "description": "First desc",
+                      "is_not_applicable_status_by_default": true,
+                      "is_photo_required": false,
+                      "order": 0,
+                      "package_activity": 1,
+                      "photo_requirement_comment": "",
+                      "is_default_for_subtask": false
+                    }
+                  ],
+                  "files": []
+                },
+                "expanded_package": {
+                  "id": 4,
+                  "name": "Fourth package",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "order": 5
+                }
+              }
+            }
+          ],
+          "expanded_tasks": [
+            {
+              "id": 1,
+              "status": "not_applicable",
+              "package_activity": {
+                "id": 2,
+                "name": "Second package activity",
+                "activity_id": null,
+                "files": []
+              },
+              "package_activity_task": {
+                "id": 2,
+                "description": "Second desc",
+                "is_not_applicable_status_by_default": true,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 2,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              },
+              "local_id": null,
+              "location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "user": {
+                "id": 2,
+                "status": "pending",
+                "first_name": "Brad",
+                "last_name": "Seatwood",
+                "email": "cool.brad+1@gmail.com",
+                "phone": "+41524204242",
+                "position": "Cool Brad",
+                "company": 2,
+                "group": 3,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "date_of_approval": null,
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "expanded_updates": [
+                {
+                  "id": 1,
+                  "task": 1,
+                  "user": 1,
+                  "comment": "test comment!",
+                  "files": [
+                    1
+                  ],
+                  "old_data": {
+                    "status": "outstanding"
+                  },
+                  "new_data": {
+                    "status": "accepted"
+                  },
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "recipients": [
+                    {
+                      "id": 1,
+                      "first_name": "Tom",
+                      "last_name": "Soyer",
+                      "email": "tom_digidom@gmail.com",
+                      "user": 3,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-08-30T12:21:16.129000Z"
+                    },
+                    {
+                      "id": 2,
+                      "first_name": "Gan",
+                      "last_name": "Gsta",
+                      "email": "gan_gsta@gmail.com",
+                      "user": null,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-08-30T12:21:16.129000Z"
+                    },
+                    {
+                      "id": 3,
+                      "first_name": "Bradwood",
+                      "last_name": "Feat",
+                      "email": "cool.brad@gmail.com",
+                      "user": 1,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-08-30T12:21:16.129000Z"
+                    }
+                  ],
+                  "is_conflict": false,
+                  "local_id": null,
+                  "expanded_files": [
+                    {
+                      "id": 1,
+                      "name": "troom.png",
+                      "link": "http://localhost/media/troom.png",
+                      "size": 0,
+                      "hash": "fdghioj4098yhgsdfgf",
+                      "is_public": true,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "local_id": null
+                    }
+                  ],
+                  "expanded_recipients": [
+                    {
+                      "id": 1,
+                      "first_name": "Tom",
+                      "last_name": "Soyer",
+                      "email": "tom_digidom@gmail.com",
+                      "user": 3,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-08-30T12:21:16.129000Z",
+                      "expanded_user": {
+                        "id": 3,
+                        "status": "pending",
+                        "first_name": "Brad",
+                        "last_name": "Heat",
+                        "email": "cool.brad+2wood@gmail.com",
+                        "phone": "+41524204242",
+                        "position": "Cool Brad",
+                        "company": 3,
+                        "group": 2,
+                        "created_at": "2020-07-30T12:21:16.129000Z",
+                        "updated_at": "2020-07-30T12:21:16.129000Z"
+                      }
+                    },
+                    {
+                      "id": 2,
+                      "first_name": "Gan",
+                      "last_name": "Gsta",
+                      "email": "gan_gsta@gmail.com",
+                      "user": null,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-08-30T12:21:16.129000Z",
+                      "expanded_user": null
+                    },
+                    {
+                      "id": 3,
+                      "first_name": "Bradwood",
+                      "last_name": "Feat",
+                      "email": "cool.brad@gmail.com",
+                      "user": 1,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-08-30T12:21:16.129000Z",
+                      "expanded_user": {
+                        "id": 1,
+                        "status": "pending",
+                        "first_name": "Bradwood",
+                        "last_name": "Feat",
+                        "email": "cool.brad@gmail.com",
+                        "phone": "+41524204242",
+                        "position": "Cool Brad",
+                        "company": 1,
+                        "group": 1,
+                        "created_at": "2020-07-30T12:21:16.129000Z",
+                        "updated_at": "2020-07-30T12:21:16.129000Z"
+                      }
+                    }
+                  ],
+                  "expanded_user": {
+                    "id": 1,
+                    "status": "pending",
+                    "first_name": "Bradwood",
+                    "last_name": "Feat",
+                    "email": "cool.brad@gmail.com",
+                    "phone": "+41524204242",
+                    "position": "Cool Brad",
+                    "company": 1,
+                    "group": 1,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                },
+                {
+                  "id": 2,
+                  "task": 1,
+                  "user": 1,
+                  "comment": "test comment2!",
+                  "files": [
+                    1
+                  ],
+                  "old_data": {
+                    "status": "outstanding"
+                  },
+                  "new_data": {
+                    "status": "accepted"
+                  },
+                  "created_at": "2020-06-30T12:21:16.129000Z",
+                  "updated_at": "2020-06-30T12:21:16.129000Z",
+                  "recipients": [
+                    {
+                      "id": 2,
+                      "first_name": "Gan",
+                      "last_name": "Gsta",
+                      "email": "gan_gsta@gmail.com",
+                      "user": null,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-08-30T12:21:16.129000Z"
+                    }
+                  ],
+                  "is_conflict": false,
+                  "local_id": null,
+                  "expanded_files": [
+                    {
+                      "id": 1,
+                      "name": "troom.png",
+                      "link": "http://localhost/media/troom.png",
+                      "size": 0,
+                      "hash": "fdghioj4098yhgsdfgf",
+                      "is_public": true,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "local_id": null
+                    }
+                  ],
+                  "expanded_recipients": [
+                    {
+                      "id": 2,
+                      "first_name": "Gan",
+                      "last_name": "Gsta",
+                      "email": "gan_gsta@gmail.com",
+                      "user": null,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-08-30T12:21:16.129000Z",
+                      "expanded_user": null
+                    }
+                  ],
+                  "expanded_user": {
+                    "id": 1,
+                    "status": "pending",
+                    "first_name": "Bradwood",
+                    "last_name": "Feat",
+                    "email": "cool.brad@gmail.com",
+                    "phone": "+41524204242",
+                    "position": "Cool Brad",
+                    "company": 1,
+                    "group": 1,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                },
+                {
+                  "id": 3,
+                  "task": 1,
+                  "user": 1,
+                  "comment": "test comment3!",
+                  "files": [
+                    1
+                  ],
+                  "old_data": {
+                    "status": "outstanding"
+                  },
+                  "new_data": {
+                    "status": "accepted"
+                  },
+                  "created_at": "2020-09-30T12:21:16.129000Z",
+                  "updated_at": "2020-09-30T12:21:16.129000Z",
+                  "recipients": [],
+                  "is_conflict": false,
+                  "local_id": null,
+                  "expanded_files": [
+                    {
+                      "id": 1,
+                      "name": "troom.png",
+                      "link": "http://localhost/media/troom.png",
+                      "size": 0,
+                      "hash": "fdghioj4098yhgsdfgf",
+                      "is_public": true,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "local_id": null
+                    }
+                  ],
+                  "expanded_recipients": [],
+                  "expanded_user": {
+                    "id": 1,
+                    "status": "pending",
+                    "first_name": "Bradwood",
+                    "last_name": "Feat",
+                    "email": "cool.brad@gmail.com",
+                    "phone": "+41524204242",
+                    "position": "Cool Brad",
+                    "company": 1,
+                    "group": 1,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                }
+              ],
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_subtasks": [
+                {
+                  "id": 1,
+                  "description": "",
+                  "is_closed": false,
+                  "task": 1,
+                  "user": 2,
+                  "files": [
+                    1,
+                    2
+                  ],
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "date_of_completion": null,
+                  "estimation": null,
+                  "due_date": "2020-07-30T12:21:16.129000Z",
+                  "company": null,
+                  "quality_issue": null,
+                  "status": "contested",
+                  "is_defect": false,
+                  "last_confirmed_update": null,
+                  "response_due_date": null,
+                  "location_description": null,
+                  "local_id": null,
+                  "expanded_last_confirmed_update": null,
+                  "expanded_files": [
+                    {
+                      "id": 1,
+                      "name": "troom.png",
+                      "link": "http://localhost/media/troom.png",
+                      "size": 0,
+                      "hash": "fdghioj4098yhgsdfgf",
+                      "is_public": true,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "local_id": null
+                    },
+                    {
+                      "id": 2,
+                      "name": "broom.png",
+                      "link": "http://localhost/media/broom.png",
+                      "size": 0,
+                      "hash": "ghj49hgghsdlfghdffdg",
+                      "is_public": true,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "local_id": null
+                    }
+                  ],
+                  "expanded_last_update": {
+                    "id": 1,
+                    "subtask": 1,
+                    "user": 2,
+                    "comment": "test comment!",
+                    "files": [
+                      1,
+                      2
+                    ],
+                    "old_data": {
+                      "status": "closed"
+                    },
+                    "new_data": {
+                      "status": "under_review"
+                    },
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "recipients": [
+                      {
+                        "id": 1,
+                        "first_name": "Tom",
+                        "last_name": "Soyer",
+                        "email": "tom_digidom@gmail.com",
+                        "user": 3,
+                        "created_at": "2020-07-30T12:21:16.129000Z",
+                        "updated_at": "2020-08-30T12:21:16.129000Z"
+                      },
+                      {
+                        "id": 2,
+                        "first_name": "Gan",
+                        "last_name": "Gsta",
+                        "email": "gan_gsta@gmail.com",
+                        "user": null,
+                        "created_at": "2020-07-30T12:21:16.129000Z",
+                        "updated_at": "2020-08-30T12:21:16.129000Z"
+                      }
+                    ],
+                    "is_conflict": false,
+                    "local_id": null,
+                    "expanded_files": [
+                      {
+                        "id": 1,
+                        "name": "troom.png",
+                        "link": "http://localhost/media/troom.png",
+                        "size": 0,
+                        "hash": "fdghioj4098yhgsdfgf",
+                        "is_public": true,
+                        "created_at": "2020-07-30T12:21:16.129000Z",
+                        "updated_at": "2020-07-30T12:21:16.129000Z",
+                        "local_id": null
+                      },
+                      {
+                        "id": 2,
+                        "name": "broom.png",
+                        "link": "http://localhost/media/broom.png",
+                        "size": 0,
+                        "hash": "ghj49hgghsdlfghdffdg",
+                        "is_public": true,
+                        "created_at": "2020-07-30T12:21:16.129000Z",
+                        "updated_at": "2020-07-30T12:21:16.129000Z",
+                        "local_id": null
+                      }
+                    ],
+                    "expanded_recipients": [
+                      {
+                        "id": 1,
+                        "first_name": "Tom",
+                        "last_name": "Soyer",
+                        "email": "tom_digidom@gmail.com",
+                        "user": 3,
+                        "created_at": "2020-07-30T12:21:16.129000Z",
+                        "updated_at": "2020-08-30T12:21:16.129000Z",
+                        "expanded_user": {
+                          "id": 3,
+                          "status": "pending",
+                          "first_name": "Brad",
+                          "last_name": "Heat",
+                          "email": "cool.brad+2wood@gmail.com",
+                          "phone": "+41524204242",
+                          "position": "Cool Brad",
+                          "company": 3,
+                          "group": 2,
+                          "created_at": "2020-07-30T12:21:16.129000Z",
+                          "updated_at": "2020-07-30T12:21:16.129000Z"
+                        }
+                      },
+                      {
+                        "id": 2,
+                        "first_name": "Gan",
+                        "last_name": "Gsta",
+                        "email": "gan_gsta@gmail.com",
+                        "user": null,
+                        "created_at": "2020-07-30T12:21:16.129000Z",
+                        "updated_at": "2020-08-30T12:21:16.129000Z",
+                        "expanded_user": null
+                      }
+                    ],
+                    "expanded_previous_status": "closed",
+                    "expanded_user": {
+                      "id": 2,
+                      "status": "pending",
+                      "first_name": "Brad",
+                      "last_name": "Seatwood",
+                      "email": "cool.brad+1@gmail.com",
+                      "phone": "+41524204242",
+                      "position": "Cool Brad",
+                      "company": 2,
+                      "group": 3,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z"
+                    }
+                  },
+                  "expanded_updates": [
+                    {
+                      "id": 1,
+                      "subtask": 1,
+                      "user": 2,
+                      "comment": "test comment!",
+                      "files": [
+                        1,
+                        2
+                      ],
+                      "old_data": {
+                        "status": "closed"
+                      },
+                      "new_data": {
+                        "status": "under_review"
+                      },
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "recipients": [
+                        {
+                          "id": 1,
+                          "first_name": "Tom",
+                          "last_name": "Soyer",
+                          "email": "tom_digidom@gmail.com",
+                          "user": 3,
+                          "created_at": "2020-07-30T12:21:16.129000Z",
+                          "updated_at": "2020-08-30T12:21:16.129000Z"
+                        },
+                        {
+                          "id": 2,
+                          "first_name": "Gan",
+                          "last_name": "Gsta",
+                          "email": "gan_gsta@gmail.com",
+                          "user": null,
+                          "created_at": "2020-07-30T12:21:16.129000Z",
+                          "updated_at": "2020-08-30T12:21:16.129000Z"
+                        }
+                      ],
+                      "is_conflict": false,
+                      "local_id": null,
+                      "expanded_files": [
+                        {
+                          "id": 1,
+                          "name": "troom.png",
+                          "link": "http://localhost/media/troom.png",
+                          "size": 0,
+                          "hash": "fdghioj4098yhgsdfgf",
+                          "is_public": true,
+                          "created_at": "2020-07-30T12:21:16.129000Z",
+                          "updated_at": "2020-07-30T12:21:16.129000Z",
+                          "local_id": null
+                        },
+                        {
+                          "id": 2,
+                          "name": "broom.png",
+                          "link": "http://localhost/media/broom.png",
+                          "size": 0,
+                          "hash": "ghj49hgghsdlfghdffdg",
+                          "is_public": true,
+                          "created_at": "2020-07-30T12:21:16.129000Z",
+                          "updated_at": "2020-07-30T12:21:16.129000Z",
+                          "local_id": null
+                        }
+                      ],
+                      "expanded_recipients": [
+                        {
+                          "id": 1,
+                          "first_name": "Tom",
+                          "last_name": "Soyer",
+                          "email": "tom_digidom@gmail.com",
+                          "user": 3,
+                          "created_at": "2020-07-30T12:21:16.129000Z",
+                          "updated_at": "2020-08-30T12:21:16.129000Z",
+                          "expanded_user": {
+                            "id": 3,
+                            "status": "pending",
+                            "first_name": "Brad",
+                            "last_name": "Heat",
+                            "email": "cool.brad+2wood@gmail.com",
+                            "phone": "+41524204242",
+                            "position": "Cool Brad",
+                            "company": 3,
+                            "group": 2,
+                            "created_at": "2020-07-30T12:21:16.129000Z",
+                            "updated_at": "2020-07-30T12:21:16.129000Z"
+                          }
+                        },
+                        {
+                          "id": 2,
+                          "first_name": "Gan",
+                          "last_name": "Gsta",
+                          "email": "gan_gsta@gmail.com",
+                          "user": null,
+                          "created_at": "2020-07-30T12:21:16.129000Z",
+                          "updated_at": "2020-08-30T12:21:16.129000Z",
+                          "expanded_user": null
+                        }
+                      ],
+                      "expanded_user": {
+                        "id": 2,
+                        "status": "pending",
+                        "first_name": "Brad",
+                        "last_name": "Seatwood",
+                        "email": "cool.brad+1@gmail.com",
+                        "phone": "+41524204242",
+                        "position": "Cool Brad",
+                        "company": 2,
+                        "group": 3,
+                        "created_at": "2020-07-30T12:21:16.129000Z",
+                        "updated_at": "2020-07-30T12:21:16.129000Z"
+                      }
+                    },
+                    {
+                      "id": 2,
+                      "subtask": 1,
+                      "user": 1,
+                      "comment": "test comment2!",
+                      "files": [
+                        1
+                      ],
+                      "old_data": {
+                        "status": "under_review"
+                      },
+                      "new_data": {
+                        "status": "closed"
+                      },
+                      "created_at": "2020-06-30T12:21:16.129000Z",
+                      "updated_at": "2020-06-30T12:21:16.129000Z",
+                      "recipients": [],
+                      "is_conflict": false,
+                      "local_id": null,
+                      "expanded_files": [
+                        {
+                          "id": 1,
+                          "name": "troom.png",
+                          "link": "http://localhost/media/troom.png",
+                          "size": 0,
+                          "hash": "fdghioj4098yhgsdfgf",
+                          "is_public": true,
+                          "created_at": "2020-07-30T12:21:16.129000Z",
+                          "updated_at": "2020-07-30T12:21:16.129000Z",
+                          "local_id": null
+                        }
+                      ],
+                      "expanded_recipients": [],
+                      "expanded_user": {
+                        "id": 1,
+                        "status": "pending",
+                        "first_name": "Bradwood",
+                        "last_name": "Feat",
+                        "email": "cool.brad@gmail.com",
+                        "phone": "+41524204242",
+                        "position": "Cool Brad",
+                        "company": 1,
+                        "group": 1,
+                        "created_at": "2020-07-30T12:21:16.129000Z",
+                        "updated_at": "2020-07-30T12:21:16.129000Z"
+                      }
+                    }
+                  ],
+                  "expanded_company": null,
+                  "expanded_user": {
+                    "id": 2,
+                    "status": "pending",
+                    "first_name": "Brad",
+                    "last_name": "Seatwood",
+                    "email": "cool.brad+1@gmail.com",
+                    "phone": "+41524204242",
+                    "position": "Cool Brad",
+                    "company": 2,
+                    "group": 3,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  },
+                  "expanded_closed_files": []
+                }
+              ],
+              "expanded_package": {
+                "id": 4,
+                "name": "Fourth package",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "order": 5
+              }
+            },
+            {
+              "id": 2,
+              "status": "not_applicable",
+              "package_activity": {
+                "id": 4,
+                "name": "Fourth package activity",
+                "activity_id": null,
+                "files": []
+              },
+              "package_activity_task": {
+                "id": 4,
+                "description": "Fourth desc",
+                "is_not_applicable_status_by_default": true,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 4,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              },
+              "local_id": null,
+              "location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "user": {
+                "id": 2,
+                "status": "pending",
+                "first_name": "Brad",
+                "last_name": "Seatwood",
+                "email": "cool.brad+1@gmail.com",
+                "phone": "+41524204242",
+                "position": "Cool Brad",
+                "company": 2,
+                "group": 3,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "date_of_approval": null,
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "expanded_updates": [],
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_subtasks": [],
+              "expanded_package": {
+                "id": 3,
+                "name": "Third package",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "order": 4
+              }
+            },
+            {
+              "id": 3,
+              "status": "not_verified",
+              "package_activity": {
+                "id": 4,
+                "name": "Fourth package activity",
+                "activity_id": null,
+                "files": []
+              },
+              "package_activity_task": {
+                "id": 5,
+                "description": "Fifth desc",
+                "is_not_applicable_status_by_default": true,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 4,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              },
+              "local_id": null,
+              "location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "user": {
+                "id": 2,
+                "status": "pending",
+                "first_name": "Brad",
+                "last_name": "Seatwood",
+                "email": "cool.brad+1@gmail.com",
+                "phone": "+41524204242",
+                "position": "Cool Brad",
+                "company": 2,
+                "group": 3,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "date_of_approval": null,
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "expanded_updates": [],
+              "expanded_location_matrix": {
+                "id": 1,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_subtasks": [],
+              "expanded_package": {
+                "id": 3,
+                "name": "Third package",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "order": 4
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "project": 5,
+          "building": "Building A",
+          "level": "A",
+          "area": "Meeting room",
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "expanded_quality_issues": [
+            {
+              "id": 3,
+              "location_matrix": 2,
+              "user": 2,
+              "description": "Stanly Parable is alive!",
+              "status": "closed",
+              "attachments": [
+                1
+              ],
+              "created_at": "2020-09-30T12:21:16.129000Z",
+              "updated_at": "2020-09-30T12:21:16.129000Z",
+              "due_date": null,
+              "last_confirmed_update": null,
+              "old_quality_issue": null,
+              "local_id": null,
+              "expanded_last_status_change_update": {
+                "id": 3,
+                "quality_issue": 3,
+                "user": 4,
+                "comment": null,
+                "files": [],
+                "old_data": {
+                  "status": "requesting_approval",
+                  "description": "Relax maaan!"
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "closed",
+                  "description": "Stanly Parable is alive!"
+                },
+                "created_at": "2020-09-30T12:21:16.129000Z",
+                "updated_at": "2020-09-30T12:21:16.129000Z",
+                "recipients": [
+                  {
+                    "id": 2,
+                    "first_name": "Gan",
+                    "last_name": "Gsta",
+                    "email": "gan_gsta@gmail.com",
+                    "user": null,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-08-30T12:21:16.129000Z"
+                  }
+                ],
+                "is_conflict": false
+              },
+              "expanded_attachments": [
+                {
+                  "id": 1,
+                  "name": "troom.png",
+                  "link": "http://localhost/media/troom.png",
+                  "size": 0,
+                  "hash": "fdghioj4098yhgsdfgf",
+                  "is_public": true,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "local_id": null
+                }
+              ],
+              "expanded_old_quality_issue": null,
+              "expanded_last_confirmed_update": null,
+              "expanded_last_update": {
+                "id": 3,
+                "quality_issue": 3,
+                "user": 4,
+                "comment": null,
+                "files": [],
+                "old_data": {
+                  "status": "requesting_approval",
+                  "description": "Relax maaan!"
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "closed",
+                  "description": "Stanly Parable is alive!"
+                },
+                "created_at": "2020-09-30T12:21:16.129000Z",
+                "updated_at": "2020-09-30T12:21:16.129000Z",
+                "recipients": [
+                  {
+                    "id": 2,
+                    "first_name": "Gan",
+                    "last_name": "Gsta",
+                    "email": "gan_gsta@gmail.com",
+                    "user": null,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-08-30T12:21:16.129000Z"
+                  }
+                ],
+                "is_conflict": false,
+                "expanded_files": [],
+                "expanded_recipients": [
+                  {
+                    "id": 2,
+                    "first_name": "Gan",
+                    "last_name": "Gsta",
+                    "email": "gan_gsta@gmail.com",
+                    "user": null,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-08-30T12:21:16.129000Z",
+                    "expanded_user": null
+                  }
+                ],
+                "expanded_previous_status": "requesting_approval",
+                "expanded_user": {
+                  "id": 4,
+                  "status": "pending",
+                  "first_name": "Awesome",
+                  "last_name": "Client",
+                  "email": "cool.client@gmail.com",
+                  "phone": "+41524904241",
+                  "position": "cashier",
+                  "company": 2,
+                  "group": 5,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z"
+                }
+              },
+              "expanded_updates": [
+                {
+                  "id": 3,
+                  "quality_issue": 3,
+                  "user": 4,
+                  "comment": null,
+                  "files": [],
+                  "old_data": {
+                    "status": "requesting_approval",
+                    "description": "Relax maaan!"
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "closed",
+                    "description": "Stanly Parable is alive!"
+                  },
+                  "created_at": "2020-09-30T12:21:16.129000Z",
+                  "updated_at": "2020-09-30T12:21:16.129000Z",
+                  "recipients": [
+                    {
+                      "id": 2,
+                      "first_name": "Gan",
+                      "last_name": "Gsta",
+                      "email": "gan_gsta@gmail.com",
+                      "user": null,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-08-30T12:21:16.129000Z"
+                    }
+                  ],
+                  "is_conflict": false,
+                  "expanded_files": [],
+                  "expanded_recipients": [
+                    {
+                      "id": 2,
+                      "first_name": "Gan",
+                      "last_name": "Gsta",
+                      "email": "gan_gsta@gmail.com",
+                      "user": null,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-08-30T12:21:16.129000Z",
+                      "expanded_user": null
+                    }
+                  ],
+                  "expanded_previous_status": "requesting_approval",
+                  "expanded_user": {
+                    "id": 4,
+                    "status": "pending",
+                    "first_name": "Awesome",
+                    "last_name": "Client",
+                    "email": "cool.client@gmail.com",
+                    "phone": "+41524904241",
+                    "position": "cashier",
+                    "company": 2,
+                    "group": 5,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                }
+              ],
+              "expanded_location_matrix": {
+                "id": 2,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Meeting room",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_user": {
+                "id": 2,
+                "status": "pending",
+                "first_name": "Brad",
+                "last_name": "Seatwood",
+                "email": "cool.brad+1@gmail.com",
+                "phone": "+41524204242",
+                "position": "Cool Brad",
+                "company": 2,
+                "group": 3,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_last_recipients": []
+            }
+          ],
+          "expanded_location_matrix_packages": [
+            {
+              "id": 5,
+              "location_matrix": 2,
+              "package_matrix": 2,
+              "enabled": false,
+              "package": 4,
+              "package_activity": 2,
+              "package_activity_name": "Second package activity",
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "expanded_media": [],
+              "expanded_package": {
+                "id": 4,
+                "name": "Fourth package",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "order": 5
+              },
+              "expanded_location_matrix": {
+                "id": 2,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Meeting room",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_package_matrix": {
+                "project": 5,
+                "package": 4,
+                "package_activity": 2,
+                "id": 2,
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                },
+                "expanded_companies": [],
+                "expanded_package_activity": {
+                  "id": 2,
+                  "name": "Second package activity",
+                  "activity_id": null,
+                  "package_activity_tasks": [
+                    {
+                      "id": 2,
+                      "description": "Second desc",
+                      "is_not_applicable_status_by_default": true,
+                      "is_photo_required": false,
+                      "order": 0,
+                      "package_activity": 2,
+                      "photo_requirement_comment": "",
+                      "is_default_for_subtask": false
+                    }
+                  ],
+                  "files": []
+                },
+                "expanded_package": {
+                  "id": 4,
+                  "name": "Fourth package",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "order": 5
+                }
+              }
+            },
+            {
+              "id": 6,
+              "location_matrix": 2,
+              "package_matrix": 3,
+              "enabled": true,
+              "package": 4,
+              "package_activity": 3,
+              "package_activity_name": "Third package activity",
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "expanded_media": [],
+              "expanded_package": {
+                "id": 4,
+                "name": "Fourth package",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "order": 5
+              },
+              "expanded_location_matrix": {
+                "id": 2,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Meeting room",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_package_matrix": {
+                "project": 5,
+                "package": 4,
+                "package_activity": 3,
+                "id": 3,
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                },
+                "expanded_companies": [],
+                "expanded_package_activity": {
+                  "id": 3,
+                  "name": "Third package activity",
+                  "activity_id": null,
+                  "package_activity_tasks": [
+                    {
+                      "id": 3,
+                      "description": "Third desc",
+                      "is_not_applicable_status_by_default": false,
+                      "is_photo_required": false,
+                      "order": 0,
+                      "package_activity": 3,
+                      "photo_requirement_comment": "",
+                      "is_default_for_subtask": false
+                    }
+                  ],
+                  "files": []
+                },
+                "expanded_package": {
+                  "id": 4,
+                  "name": "Fourth package",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "order": 5
+                }
+              }
+            },
+            {
+              "id": 7,
+              "location_matrix": 2,
+              "package_matrix": 4,
+              "enabled": false,
+              "package": 3,
+              "package_activity": 4,
+              "package_activity_name": "Fourth package activity",
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "expanded_media": [],
+              "expanded_package": {
+                "id": 3,
+                "name": "Third package",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "order": 4
+              },
+              "expanded_location_matrix": {
+                "id": 2,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Meeting room",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_package_matrix": {
+                "project": 5,
+                "package": 3,
+                "package_activity": 4,
+                "id": 4,
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                },
+                "expanded_companies": [],
+                "expanded_package_activity": {
+                  "id": 4,
+                  "name": "Fourth package activity",
+                  "activity_id": null,
+                  "package_activity_tasks": [
+                    {
+                      "id": 4,
+                      "description": "Fourth desc",
+                      "is_not_applicable_status_by_default": true,
+                      "is_photo_required": false,
+                      "order": 0,
+                      "package_activity": 4,
+                      "photo_requirement_comment": "",
+                      "is_default_for_subtask": false
+                    },
+                    {
+                      "id": 5,
+                      "description": "Fifth desc",
+                      "is_not_applicable_status_by_default": true,
+                      "is_photo_required": false,
+                      "order": 0,
+                      "package_activity": 4,
+                      "photo_requirement_comment": "",
+                      "is_default_for_subtask": false
+                    }
+                  ],
+                  "files": []
+                },
+                "expanded_package": {
+                  "id": 3,
+                  "name": "Third package",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "order": 4
+                }
+              }
+            },
+            {
+              "id": 8,
+              "location_matrix": 2,
+              "package_matrix": 5,
+              "enabled": true,
+              "package": 4,
+              "package_activity": 1,
+              "package_activity_name": "First package activity",
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "expanded_media": [],
+              "expanded_package": {
+                "id": 4,
+                "name": "Fourth package",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "order": 5
+              },
+              "expanded_location_matrix": {
+                "id": 2,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Meeting room",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_package_matrix": {
+                "project": 5,
+                "package": 4,
+                "package_activity": 1,
+                "id": 5,
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                },
+                "expanded_companies": [],
+                "expanded_package_activity": {
+                  "id": 1,
+                  "name": "First package activity",
+                  "activity_id": null,
+                  "package_activity_tasks": [
+                    {
+                      "id": 1,
+                      "description": "First desc",
+                      "is_not_applicable_status_by_default": true,
+                      "is_photo_required": false,
+                      "order": 0,
+                      "package_activity": 1,
+                      "photo_requirement_comment": "",
+                      "is_default_for_subtask": false
+                    }
+                  ],
+                  "files": []
+                },
+                "expanded_package": {
+                  "id": 4,
+                  "name": "Fourth package",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "order": 5
+                }
+              }
+            }
+          ],
+          "expanded_tasks": [
+            {
+              "id": 4,
+              "status": "not_verified",
+              "package_activity": {
+                "id": 2,
+                "name": "Second package activity",
+                "activity_id": null,
+                "files": []
+              },
+              "package_activity_task": {
+                "id": 2,
+                "description": "Second desc",
+                "is_not_applicable_status_by_default": true,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 2,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              },
+              "local_id": null,
+              "location_matrix": {
+                "id": 2,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Meeting room",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "user": {
+                "id": 2,
+                "status": "pending",
+                "first_name": "Brad",
+                "last_name": "Seatwood",
+                "email": "cool.brad+1@gmail.com",
+                "phone": "+41524204242",
+                "position": "Cool Brad",
+                "company": 2,
+                "group": 3,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "date_of_approval": null,
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "expanded_updates": [],
+              "expanded_location_matrix": {
+                "id": 2,
+                "project": 5,
+                "building": "Building A",
+                "level": "A",
+                "area": "Meeting room",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_subtasks": [],
+              "expanded_package": {
+                "id": 4,
+                "name": "Fourth package",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "order": 5
+              }
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "project": 5,
+          "building": "Building A",
+          "level": "B",
+          "area": "Hall",
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "expanded_quality_issues": [
+            {
+              "id": 4,
+              "location_matrix": 3,
+              "user": 1,
+              "description": "In vino veritas!",
+              "status": "under_review",
+              "attachments": [
+                2,
+                3
+              ],
+              "created_at": "2020-09-30T12:21:16.129000Z",
+              "updated_at": "2020-09-30T12:21:16.129000Z",
+              "due_date": null,
+              "last_confirmed_update": null,
+              "old_quality_issue": null,
+              "local_id": null,
+              "expanded_last_status_change_update": null,
+              "expanded_attachments": [
+                {
+                  "id": 2,
+                  "name": "broom.png",
+                  "link": "http://localhost/media/broom.png",
+                  "size": 0,
+                  "hash": "ghj49hgghsdlfghdffdg",
+                  "is_public": true,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "local_id": null
+                },
+                {
+                  "id": 3,
+                  "name": "kroom.png",
+                  "link": "http://localhost/media/kroom.png",
+                  "size": 0,
+                  "hash": "hbgo8475hygegfhsldifguhsd",
+                  "is_public": true,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "local_id": null
+                }
+              ],
+              "expanded_old_quality_issue": null,
+              "expanded_last_confirmed_update": null,
+              "expanded_last_update": {
+                "id": 2,
+                "quality_issue": 4,
+                "user": 4,
+                "comment": null,
+                "files": [
+                  1
+                ],
+                "old_data": {
+                },
+                "local_id": null,
+                "new_data": {
+                  "status": "under_review",
+                  "description": "Be cool!"
+                },
+                "created_at": "2020-09-30T12:21:16.129000Z",
+                "updated_at": "2020-09-30T12:21:16.129000Z",
+                "recipients": [],
+                "is_conflict": false,
+                "expanded_files": [
+                  {
+                    "id": 1,
+                    "name": "troom.png",
+                    "link": "http://localhost/media/troom.png",
+                    "size": 0,
+                    "hash": "fdghioj4098yhgsdfgf",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  }
+                ],
+                "expanded_recipients": [],
+                "expanded_previous_status": null,
+                "expanded_user": {
+                  "id": 4,
+                  "status": "pending",
+                  "first_name": "Awesome",
+                  "last_name": "Client",
+                  "email": "cool.client@gmail.com",
+                  "phone": "+41524904241",
+                  "position": "cashier",
+                  "company": 2,
+                  "group": 5,
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z"
+                }
+              },
+              "expanded_updates": [
+                {
+                  "id": 2,
+                  "quality_issue": 4,
+                  "user": 4,
+                  "comment": null,
+                  "files": [
+                    1
+                  ],
+                  "old_data": {
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "under_review",
+                    "description": "Be cool!"
+                  },
+                  "created_at": "2020-09-30T12:21:16.129000Z",
+                  "updated_at": "2020-09-30T12:21:16.129000Z",
+                  "recipients": [],
+                  "is_conflict": false,
+                  "expanded_files": [
+                    {
+                      "id": 1,
+                      "name": "troom.png",
+                      "link": "http://localhost/media/troom.png",
+                      "size": 0,
+                      "hash": "fdghioj4098yhgsdfgf",
+                      "is_public": true,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "local_id": null
+                    }
+                  ],
+                  "expanded_recipients": [],
+                  "expanded_previous_status": null,
+                  "expanded_user": {
+                    "id": 4,
+                    "status": "pending",
+                    "first_name": "Awesome",
+                    "last_name": "Client",
+                    "email": "cool.client@gmail.com",
+                    "phone": "+41524904241",
+                    "position": "cashier",
+                    "company": 2,
+                    "group": 5,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                },
+                {
+                  "id": 6,
+                  "quality_issue": 4,
+                  "user": 5,
+                  "comment": null,
+                  "files": [
+                    1
+                  ],
+                  "old_data": {
+                    "status": "under_review",
+                    "description": "Be cool!"
+                  },
+                  "local_id": null,
+                  "new_data": {
+                    "status": "under_review",
+                    "description": "In vino veritas!"
+                  },
+                  "created_at": "2020-09-29T12:21:16.129000Z",
+                  "updated_at": "2020-09-29T12:21:16.129000Z",
+                  "recipients": [],
+                  "is_conflict": false,
+                  "expanded_files": [
+                    {
+                      "id": 1,
+                      "name": "troom.png",
+                      "link": "http://localhost/media/troom.png",
+                      "size": 0,
+                      "hash": "fdghioj4098yhgsdfgf",
+                      "is_public": true,
+                      "created_at": "2020-07-30T12:21:16.129000Z",
+                      "updated_at": "2020-07-30T12:21:16.129000Z",
+                      "local_id": null
+                    }
+                  ],
+                  "expanded_recipients": [],
+                  "expanded_previous_status": null,
+                  "expanded_user": {
+                    "id": 5,
+                    "status": "pending",
+                    "first_name": "Awesome",
+                    "last_name": "Consultant",
+                    "email": "cool.consultant@gmail.com",
+                    "phone": "+41524904241",
+                    "position": "consultant",
+                    "company": 2,
+                    "group": 6,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z"
+                  }
+                }
+              ],
+              "expanded_location_matrix": {
+                "id": 3,
+                "project": 5,
+                "building": "Building A",
+                "level": "B",
+                "area": "Hall",
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z",
+                "expanded_project": {
+                  "id": 5,
+                  "name": "Project 5",
+                  "number": "y356ywrtwe",
+                  "image": {
+                    "id": 5,
+                    "name": "kroom.png",
+                    "link": "http://localhost/media/kroom.png",
+                    "size": 0,
+                    "hash": "gh49o875yhteghgdfg",
+                    "is_public": true,
+                    "created_at": "2020-07-30T12:21:16.129000Z",
+                    "updated_at": "2020-07-30T12:21:16.129000Z",
+                    "local_id": null
+                  },
+                  "status": "archived",
+                  "start_date": "2020-07-30",
+                  "completion_date": "2020-08-30",
+                  "created_at": "2020-07-30T12:21:16.129000Z",
+                  "updated_at": "2020-07-30T12:21:16.129000Z",
+                  "show_estimated_man_hours": true,
+                  "value": "123765.11",
+                  "value_currency": "USD"
+                }
+              },
+              "expanded_user": {
+                "id": 1,
+                "status": "pending",
+                "first_name": "Bradwood",
+                "last_name": "Feat",
+                "email": "cool.brad@gmail.com",
+                "phone": "+41524204242",
+                "position": "Cool Brad",
+                "company": 1,
+                "group": 1,
+                "created_at": "2020-07-30T12:21:16.129000Z",
+                "updated_at": "2020-07-30T12:21:16.129000Z"
+              },
+              "expanded_last_recipients": []
+            }
+          ],
+          "expanded_location_matrix_packages": [],
+          "expanded_tasks": []
+        },
+        {
+          "id": 5,
+          "project": 5,
+          "building": "Building D",
+          "level": "A",
+          "area": "Hall",
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "expanded_quality_issues": [],
+          "expanded_location_matrix_packages": [],
+          "expanded_tasks": []
+        }
+      ],
+      "package_matrix": [
+        {
+          "project": 5,
+          "package": 4,
+          "package_activity": 2,
+          "id": 2,
+          "expanded_project": {
+            "id": 5,
+            "name": "Project 5",
+            "number": "y356ywrtwe",
+            "image": {
+              "id": 5,
+              "name": "kroom.png",
+              "link": "http://localhost/media/kroom.png",
+              "size": 0,
+              "hash": "gh49o875yhteghgdfg",
+              "is_public": true,
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "local_id": null
+            },
+            "status": "archived",
+            "start_date": "2020-07-30",
+            "completion_date": "2020-08-30",
+            "created_at": "2020-07-30T12:21:16.129000Z",
+            "updated_at": "2020-07-30T12:21:16.129000Z",
+            "show_estimated_man_hours": true,
+            "value": "123765.11",
+            "value_currency": "USD"
+          },
+          "expanded_companies": [],
+          "expanded_package_activity": {
+            "id": 2,
+            "name": "Second package activity",
+            "activity_id": null,
+            "package_activity_tasks": [
+              {
+                "id": 2,
+                "description": "Second desc",
+                "is_not_applicable_status_by_default": true,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 2,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              }
+            ],
+            "files": [],
+            "expanded_package_activity_tasks": [
+              {
+                "id": 2,
+                "description": "Second desc",
+                "is_not_applicable_status_by_default": true,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 2,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              }
+            ]
+          },
+          "expanded_package": {
+            "id": 4,
+            "name": "Fourth package",
+            "created_at": "2020-07-30T12:21:16.129000Z",
+            "updated_at": "2020-07-30T12:21:16.129000Z",
+            "order": 5
+          }
+        },
+        {
+          "project": 5,
+          "package": 4,
+          "package_activity": 3,
+          "id": 3,
+          "expanded_project": {
+            "id": 5,
+            "name": "Project 5",
+            "number": "y356ywrtwe",
+            "image": {
+              "id": 5,
+              "name": "kroom.png",
+              "link": "http://localhost/media/kroom.png",
+              "size": 0,
+              "hash": "gh49o875yhteghgdfg",
+              "is_public": true,
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "local_id": null
+            },
+            "status": "archived",
+            "start_date": "2020-07-30",
+            "completion_date": "2020-08-30",
+            "created_at": "2020-07-30T12:21:16.129000Z",
+            "updated_at": "2020-07-30T12:21:16.129000Z",
+            "show_estimated_man_hours": true,
+            "value": "123765.11",
+            "value_currency": "USD"
+          },
+          "expanded_companies": [],
+          "expanded_package_activity": {
+            "id": 3,
+            "name": "Third package activity",
+            "activity_id": null,
+            "package_activity_tasks": [
+              {
+                "id": 3,
+                "description": "Third desc",
+                "is_not_applicable_status_by_default": false,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 3,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              }
+            ],
+            "files": [],
+            "expanded_package_activity_tasks": [
+              {
+                "id": 3,
+                "description": "Third desc",
+                "is_not_applicable_status_by_default": false,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 3,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              }
+            ]
+          },
+          "expanded_package": {
+            "id": 4,
+            "name": "Fourth package",
+            "created_at": "2020-07-30T12:21:16.129000Z",
+            "updated_at": "2020-07-30T12:21:16.129000Z",
+            "order": 5
+          }
+        },
+        {
+          "project": 5,
+          "package": 3,
+          "package_activity": 4,
+          "id": 4,
+          "expanded_project": {
+            "id": 5,
+            "name": "Project 5",
+            "number": "y356ywrtwe",
+            "image": {
+              "id": 5,
+              "name": "kroom.png",
+              "link": "http://localhost/media/kroom.png",
+              "size": 0,
+              "hash": "gh49o875yhteghgdfg",
+              "is_public": true,
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "local_id": null
+            },
+            "status": "archived",
+            "start_date": "2020-07-30",
+            "completion_date": "2020-08-30",
+            "created_at": "2020-07-30T12:21:16.129000Z",
+            "updated_at": "2020-07-30T12:21:16.129000Z",
+            "show_estimated_man_hours": true,
+            "value": "123765.11",
+            "value_currency": "USD"
+          },
+          "expanded_companies": [],
+          "expanded_package_activity": {
+            "id": 4,
+            "name": "Fourth package activity",
+            "activity_id": null,
+            "package_activity_tasks": [
+              {
+                "id": 4,
+                "description": "Fourth desc",
+                "is_not_applicable_status_by_default": true,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 4,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              },
+              {
+                "id": 5,
+                "description": "Fifth desc",
+                "is_not_applicable_status_by_default": true,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 4,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              }
+            ],
+            "files": [],
+            "expanded_package_activity_tasks": [
+              {
+                "id": 4,
+                "description": "Fourth desc",
+                "is_not_applicable_status_by_default": true,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 4,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              },
+              {
+                "id": 5,
+                "description": "Fifth desc",
+                "is_not_applicable_status_by_default": true,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 4,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              }
+            ]
+          },
+          "expanded_package": {
+            "id": 3,
+            "name": "Third package",
+            "created_at": "2020-07-30T12:21:16.129000Z",
+            "updated_at": "2020-07-30T12:21:16.129000Z",
+            "order": 4
+          }
+        },
+        {
+          "project": 5,
+          "package": 4,
+          "package_activity": 1,
+          "id": 5,
+          "expanded_project": {
+            "id": 5,
+            "name": "Project 5",
+            "number": "y356ywrtwe",
+            "image": {
+              "id": 5,
+              "name": "kroom.png",
+              "link": "http://localhost/media/kroom.png",
+              "size": 0,
+              "hash": "gh49o875yhteghgdfg",
+              "is_public": true,
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "local_id": null
+            },
+            "status": "archived",
+            "start_date": "2020-07-30",
+            "completion_date": "2020-08-30",
+            "created_at": "2020-07-30T12:21:16.129000Z",
+            "updated_at": "2020-07-30T12:21:16.129000Z",
+            "show_estimated_man_hours": true,
+            "value": "123765.11",
+            "value_currency": "USD"
+          },
+          "expanded_companies": [],
+          "expanded_package_activity": {
+            "id": 1,
+            "name": "First package activity",
+            "activity_id": null,
+            "package_activity_tasks": [
+              {
+                "id": 1,
+                "description": "First desc",
+                "is_not_applicable_status_by_default": true,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 1,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              }
+            ],
+            "files": [],
+            "expanded_package_activity_tasks": [
+              {
+                "id": 1,
+                "description": "First desc",
+                "is_not_applicable_status_by_default": true,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 1,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              }
+            ]
+          },
+          "expanded_package": {
+            "id": 4,
+            "name": "Fourth package",
+            "created_at": "2020-07-30T12:21:16.129000Z",
+            "updated_at": "2020-07-30T12:21:16.129000Z",
+            "order": 5
+          }
+        }
+      ],
+      "users": [
+        {
+          "id": 2,
+          "status": "pending",
+          "first_name": "Brad",
+          "last_name": "Seatwood",
+          "email": "cool.brad+1@gmail.com",
+          "phone": "+41524204242",
+          "position": "Cool Brad",
+          "company": 2,
+          "group": 3,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        },
+        {
+          "id": 4,
+          "status": "pending",
+          "first_name": "Awesome",
+          "last_name": "Client",
+          "email": "cool.client@gmail.com",
+          "phone": "+41524904241",
+          "position": "cashier",
+          "company": 2,
+          "group": 5,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        }
+      ],
+      "company_admins": [
+        {
+          "id": 1,
+          "status": "pending",
+          "first_name": "Bradwood",
+          "last_name": "Feat",
+          "email": "cool.brad@gmail.com",
+          "phone": "+41524204242",
+          "position": "Cool Brad",
+          "company": 1,
+          "group": 1,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "id": 6,
+      "name": "Project 6",
+      "number": "fg2645y4tf",
+      "image": {
+        "id": 6,
+        "name": "lroom.png",
+        "link": "http://localhost/media/lroom.png",
+        "size": 0,
+        "hash": "lrfiug4095hgsdghdgf",
+        "is_public": true,
+        "created_at": "2020-07-30T12:21:16.129000Z",
+        "updated_at": "2020-07-30T12:21:16.129000Z",
+        "local_id": null
+      },
+      "image_id": 6,
+      "status": "tendering",
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "created_at": "2020-07-30T12:21:16.129000Z",
+      "updated_at": "2020-07-30T12:21:16.129000Z",
+      "show_estimated_man_hours": true,
+      "value": "34551.43",
+      "value_currency": "USD",
+      "news": [],
+      "key_contacts": [],
+      "location_matrix": [
+        {
+          "id": 4,
+          "project": 6,
+          "building": "Building A",
+          "level": "A",
+          "area": "Hall",
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "expanded_quality_issues": [],
+          "expanded_location_matrix_packages": [],
+          "expanded_tasks": []
+        },
+        {
+          "id": 6,
+          "project": 6,
+          "building": "Building A",
+          "level": "R",
+          "area": "Kitchen",
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "expanded_quality_issues": [],
+          "expanded_location_matrix_packages": [],
+          "expanded_tasks": []
+        }
+      ],
+      "package_matrix": [
+        {
+          "project": 6,
+          "package": 4,
+          "package_activity": 1,
+          "id": 1,
+          "expanded_project": {
+            "id": 6,
+            "name": "Project 6",
+            "number": "fg2645y4tf",
+            "image": {
+              "id": 6,
+              "name": "lroom.png",
+              "link": "http://localhost/media/lroom.png",
+              "size": 0,
+              "hash": "lrfiug4095hgsdghdgf",
+              "is_public": true,
+              "created_at": "2020-07-30T12:21:16.129000Z",
+              "updated_at": "2020-07-30T12:21:16.129000Z",
+              "local_id": null
+            },
+            "status": "tendering",
+            "start_date": "2020-07-30",
+            "completion_date": "2020-08-30",
+            "created_at": "2020-07-30T12:21:16.129000Z",
+            "updated_at": "2020-07-30T12:21:16.129000Z",
+            "show_estimated_man_hours": true,
+            "value": "34551.43",
+            "value_currency": "USD"
+          },
+          "expanded_companies": [],
+          "expanded_package_activity": {
+            "id": 1,
+            "name": "First package activity",
+            "activity_id": null,
+            "package_activity_tasks": [
+              {
+                "id": 1,
+                "description": "First desc",
+                "is_not_applicable_status_by_default": true,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 1,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              }
+            ],
+            "files": [],
+            "expanded_package_activity_tasks": [
+              {
+                "id": 1,
+                "description": "First desc",
+                "is_not_applicable_status_by_default": true,
+                "is_photo_required": false,
+                "order": 0,
+                "package_activity": 1,
+                "photo_requirement_comment": "",
+                "is_default_for_subtask": false
+              }
+            ]
+          },
+          "expanded_package": {
+            "id": 4,
+            "name": "Fourth package",
+            "created_at": "2020-07-30T12:21:16.129000Z",
+            "updated_at": "2020-07-30T12:21:16.129000Z",
+            "order": 5
+          }
+        }
+      ],
+      "users": [
+        {
+          "id": 3,
+          "status": "pending",
+          "first_name": "Brad",
+          "last_name": "Heat",
+          "email": "cool.brad+2wood@gmail.com",
+          "phone": "+41524204242",
+          "position": "Cool Brad",
+          "company": 3,
+          "group": 2,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        }
+      ],
+      "company_admins": [
+        {
+          "id": 1,
+          "status": "pending",
+          "first_name": "Bradwood",
+          "last_name": "Feat",
+          "email": "cool.brad@gmail.com",
+          "phone": "+41524204242",
+          "position": "Cool Brad",
+          "company": 1,
+          "group": 1,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z"
+        }
+      ]
+    }
+  }
+]

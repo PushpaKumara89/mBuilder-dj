@@ -1,0 +1,11 @@
+{
+  "comment": "changed from in progress to contested",
+  "old_data": {
+    "company": 3,
+    "status": "inspection_rejected"
+  },
+  "new_data": {
+    "company": 3,
+    "status": "contested"
+  }
+}

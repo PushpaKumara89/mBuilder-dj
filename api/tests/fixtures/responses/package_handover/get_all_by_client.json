@@ -1,0 +1,621 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 5,
+   "inspection_period": 6,
+   "maintenance_period": 18,
+   "package_matrix": 5,
+   "expanded_package_activity": {
+    "id": 1,
+    "name": "First package activity",
+    "activity_id": "Activity"
+   },
+   "package_handover_document_groups": [
+    {
+     "id": 1,
+     "name": "Subcontractor Documents",
+     "package_handover_documents": [
+      {
+       "id": 1,
+       "package_handover": 5,
+       "package_handover_document_type": 1,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_type": {
+        "id": 1,
+        "name": "Manufactures Literature",
+        "group": 1,
+        "expanded_group": {
+         "id": 1,
+         "name": "Subcontractor Documents"
+        }
+       },
+       "expanded_package_handover_document_media": [
+        {
+         "id": 1,
+         "package_handover_document": 1,
+         "media": 2,
+         "status": "requesting_approval",
+         "last_confirmed_update": null,
+         "uid": "sdf342342dsfs",
+         "information": null,
+         "expanded_media": {
+          "id": 2,
+          "name": "broom.png",
+          "link": "http://localhost/media/broom.png",
+          "size": 0,
+          "hash": null,
+          "is_public": false,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "local_id": null,
+          "extension": "png"
+         },
+         "expanded_upload_update": {
+          "id": 11,
+          "package_handover_document_media": 1,
+          "user": 2,
+          "comment": "Comment",
+          "old_data": {
+           "media": 1,
+           "status": "in_progress"
+          },
+          "new_data": {
+           "media": 2,
+           "status": "in_progress"
+          },
+          "created_at": "2020-07-30T12:22:16.129000Z",
+          "updated_at": "2020-07-30T12:22:16.129000Z",
+          "company": 2
+         }
+        },
+        {
+         "id": 9,
+         "package_handover_document": 1,
+         "media": 1,
+         "status": "in_progress",
+         "last_confirmed_update": null,
+         "uid": "sdfgh34jafd",
+         "information": "still alive",
+         "expanded_media": {
+          "id": 1,
+          "name": "troom.png",
+          "link": "http://localhost/media/troom.png",
+          "size": 0,
+          "hash": null,
+          "is_public": false,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "local_id": null,
+          "extension": "png"
+         },
+         "expanded_upload_update": {
+          "id": 17,
+          "package_handover_document_media": 9,
+          "user": 15,
+          "comment": "Comment",
+          "old_data": {},
+          "new_data": {
+           "media": 1,
+           "status": "in_progress"
+          },
+          "created_at": "2020-07-20T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "company": 1
+         }
+        }
+       ]
+      },
+      {
+       "id": 8,
+       "package_handover": 5,
+       "package_handover_document_type": 1,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_type": {
+        "id": 1,
+        "name": "Manufactures Literature",
+        "group": 1,
+        "expanded_group": {
+         "id": 1,
+         "name": "Subcontractor Documents"
+        }
+       },
+       "expanded_package_handover_document_media": []
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "name": "Consultant Documents",
+     "package_handover_documents": [
+      {
+       "id": 2,
+       "package_handover": 5,
+       "package_handover_document_type": 9,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_type": {
+        "id": 9,
+        "name": "Compliance Statement",
+        "group": 2,
+        "expanded_group": {
+         "id": 2,
+         "name": "Consultant Documents"
+        }
+       },
+       "expanded_package_handover_document_media": [
+        {
+         "id": 2,
+         "package_handover_document": 2,
+         "media": 1,
+         "status": "in_progress",
+         "last_confirmed_update": null,
+         "uid": "dfsdgfds3432",
+         "information": null,
+         "expanded_media": {
+          "id": 1,
+          "name": "troom.png",
+          "link": "http://localhost/media/troom.png",
+          "size": 0,
+          "hash": null,
+          "is_public": false,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "local_id": null,
+          "extension": "png"
+         },
+         "expanded_upload_update": {
+          "id": 2,
+          "package_handover_document_media": 2,
+          "user": 1,
+          "old_data": {
+           "media": 2,
+           "status": "in_progress"
+          },
+          "new_data": {
+           "media": 1,
+           "status": "contested"
+          },
+          "created_at": "2020-07-21T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "company": 1
+         }
+        },
+        {
+         "id": 13,
+         "package_handover_document": 2,
+         "media": 1,
+         "status": "in_progress",
+         "last_confirmed_update": null,
+         "uid": "sdfgh34jafa",
+         "information": null,
+         "expanded_media": {
+          "id": 1,
+          "name": "troom.png",
+          "link": "http://localhost/media/troom.png",
+          "size": 0,
+          "hash": null,
+          "is_public": false,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "local_id": null,
+          "extension": "png"
+         },
+         "expanded_upload_update": {
+          "id": 12,
+          "package_handover_document_media": 13,
+          "user": 9,
+          "comment": "Comment",
+          "old_data": {},
+          "new_data": {
+           "media": 1,
+           "status": "in_progress"
+          },
+          "created_at": "2020-07-20T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "company": 4
+         }
+        },
+        {
+         "id": 14,
+         "package_handover_document": 2,
+         "media": 1,
+         "status": "requesting_approval",
+         "last_confirmed_update": null,
+         "uid": "sdfgh34jsdd",
+         "information": null,
+         "expanded_media": {
+          "id": 1,
+          "name": "troom.png",
+          "link": "http://localhost/media/troom.png",
+          "size": 0,
+          "hash": null,
+          "is_public": false,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "local_id": null,
+          "extension": "png"
+         },
+         "expanded_upload_update": {
+          "id": 13,
+          "package_handover_document_media": 14,
+          "user": 14,
+          "comment": "Comment",
+          "old_data": {},
+          "new_data": {
+           "media": 1,
+           "status": "in_progress"
+          },
+          "created_at": "2020-07-20T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "company": 4
+         }
+        },
+        {
+         "id": 15,
+         "package_handover_document": 2,
+         "media": 1,
+         "status": "in_progress",
+         "last_confirmed_update": null,
+         "uid": "sdfgh34jwdd",
+         "information": null,
+         "expanded_media": {
+          "id": 1,
+          "name": "troom.png",
+          "link": "http://localhost/media/troom.png",
+          "size": 0,
+          "hash": null,
+          "is_public": false,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "local_id": null,
+          "extension": "png"
+         },
+         "expanded_upload_update": {
+          "id": 14,
+          "package_handover_document_media": 15,
+          "user": 15,
+          "comment": "Comment",
+          "old_data": {},
+          "new_data": {
+           "media": 1,
+           "status": "in_progress"
+          },
+          "created_at": "2020-07-20T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "company": 1
+         }
+        },
+        {
+         "id": 16,
+         "package_handover_document": 2,
+         "media": 1,
+         "status": "accepted",
+         "last_confirmed_update": null,
+         "uid": "sdfgh34jwda",
+         "information": null,
+         "expanded_media": {
+          "id": 1,
+          "name": "troom.png",
+          "link": "http://localhost/media/troom.png",
+          "size": 0,
+          "hash": null,
+          "is_public": false,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "local_id": null,
+          "extension": "png"
+         },
+         "expanded_upload_update": null
+        }
+       ]
+      },
+      {
+       "id": 7,
+       "package_handover": 5,
+       "package_handover_document_type": 9,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_type": {
+        "id": 9,
+        "name": "Compliance Statement",
+        "group": 2,
+        "expanded_group": {
+         "id": 2,
+         "name": "Consultant Documents"
+        }
+       },
+       "expanded_package_handover_document_media": [
+        {
+         "id": 7,
+         "package_handover_document": 7,
+         "media": 1,
+         "status": "contested",
+         "last_confirmed_update": null,
+         "uid": "dfds333322",
+         "information": null,
+         "expanded_media": {
+          "id": 1,
+          "name": "troom.png",
+          "link": "http://localhost/media/troom.png",
+          "size": 0,
+          "hash": null,
+          "is_public": false,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "local_id": null,
+          "extension": "png"
+         },
+         "expanded_upload_update": {
+          "id": 15,
+          "package_handover_document_media": 7,
+          "user": 15,
+          "comment": "Comment",
+          "old_data": {},
+          "new_data": {
+           "media": 1,
+           "status": "contested"
+          },
+          "created_at": "2020-07-20T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "company": 1
+         }
+        },
+        {
+         "id": 8,
+         "package_handover_document": 7,
+         "media": 1,
+         "status": "requested_approval_rejected",
+         "last_confirmed_update": null,
+         "uid": "dfdf333dfs",
+         "information": null,
+         "expanded_media": {
+          "id": 1,
+          "name": "troom.png",
+          "link": "http://localhost/media/troom.png",
+          "size": 0,
+          "hash": null,
+          "is_public": false,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "local_id": null,
+          "extension": "png"
+         },
+         "expanded_upload_update": {
+          "id": 16,
+          "package_handover_document_media": 8,
+          "user": 15,
+          "comment": "Comment",
+          "old_data": {},
+          "new_data": {
+           "media": 1,
+           "status": "requested_approval_rejected"
+          },
+          "created_at": "2020-07-20T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "company": 1
+         }
+        }
+       ]
+      },
+      {
+       "id": 9,
+       "package_handover": 5,
+       "package_handover_document_type": 9,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_type": {
+        "id": 9,
+        "name": "Compliance Statement",
+        "group": 2,
+        "expanded_group": {
+         "id": 2,
+         "name": "Consultant Documents"
+        }
+       },
+       "expanded_package_handover_document_media": []
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "name": "H&S Consultant Documents",
+     "package_handover_documents": [
+      {
+       "id": 3,
+       "package_handover": 5,
+       "package_handover_document_type": 16,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_type": {
+        "id": 16,
+        "name": "Project Information",
+        "group": 3,
+        "expanded_group": {
+         "id": 3,
+         "name": "H&S Consultant Documents"
+        }
+       },
+       "expanded_package_handover_document_media": [
+        {
+         "id": 3,
+         "package_handover_document": 3,
+         "media": 1,
+         "status": "in_progress",
+         "last_confirmed_update": null,
+         "uid": "fdsfds4343sadsa",
+         "information": null,
+         "expanded_media": {
+          "id": 1,
+          "name": "troom.png",
+          "link": "http://localhost/media/troom.png",
+          "size": 0,
+          "hash": null,
+          "is_public": false,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "local_id": null,
+          "extension": "png"
+         },
+         "expanded_upload_update": {
+          "id": 3,
+          "package_handover_document_media": 3,
+          "user": 1,
+          "old_data": {
+           "media": 2,
+           "status": "in_progress"
+          },
+          "new_data": {
+           "media": 1,
+           "status": "contested"
+          },
+          "created_at": "2020-07-22T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "company": 1
+         }
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "inspection_period": 6,
+   "maintenance_period": 18,
+   "package_matrix": 10,
+   "expanded_package_activity": {
+    "id": 7,
+    "name": "Seven package activity",
+    "activity_id": null
+   },
+   "package_handover_document_groups": [
+    {
+     "id": 2,
+     "name": "Consultant Documents",
+     "package_handover_documents": [
+      {
+       "id": 10,
+       "package_handover": 8,
+       "package_handover_document_type": 9,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 7,
+       "expanded_package_handover_document_type": {
+        "id": 9,
+        "name": "Compliance Statement",
+        "group": 2,
+        "expanded_group": {
+         "id": 2,
+         "name": "Consultant Documents"
+        }
+       },
+       "expanded_package_handover_document_media": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "inspection_period": 6,
+   "maintenance_period": 18,
+   "package_matrix": 11,
+   "expanded_package_activity": {
+    "id": 8,
+    "name": "Eight package activity",
+    "activity_id": null
+   },
+   "package_handover_document_groups": [
+    {
+     "id": 2,
+     "name": "Consultant Documents",
+     "package_handover_documents": [
+      {
+       "id": 11,
+       "package_handover": 9,
+       "package_handover_document_type": 9,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 8,
+       "expanded_package_handover_document_type": {
+        "id": 9,
+        "name": "Compliance Statement",
+        "group": 2,
+        "expanded_group": {
+         "id": 2,
+         "name": "Consultant Documents"
+        }
+       },
+       "expanded_package_handover_document_media": [
+        {
+         "id": 12,
+         "package_handover_document": 11,
+         "media": 1,
+         "status": "in_progress",
+         "last_confirmed_update": null,
+         "uid": "sdfgh34jafq",
+         "information": null,
+         "expanded_media": {
+          "id": 1,
+          "name": "troom.png",
+          "link": "http://localhost/media/troom.png",
+          "size": 0,
+          "hash": null,
+          "is_public": false,
+          "created_at": "2020-07-30T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "local_id": null,
+          "extension": "png"
+         },
+         "expanded_upload_update": {
+          "id": 20,
+          "package_handover_document_media": 12,
+          "user": 15,
+          "comment": "Comment",
+          "old_data": {},
+          "new_data": {
+           "media": 1,
+           "status": "in_progress"
+          },
+          "created_at": "2020-07-20T12:21:16.129000Z",
+          "updated_at": "2020-07-30T12:21:16.129000Z",
+          "company": 1
+         }
+        }
+       ]
+      },
+      {
+       "id": 12,
+       "package_handover": 9,
+       "package_handover_document_type": 9,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 8,
+       "expanded_package_handover_document_type": {
+        "id": 9,
+        "name": "Compliance Statement",
+        "group": 2,
+        "expanded_group": {
+         "id": 2,
+         "name": "Consultant Documents"
+        }
+       },
+       "expanded_package_handover_document_media": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "next_page": null
+}

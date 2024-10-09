@@ -1,0 +1,148 @@
+[
+ {
+  "data": {
+   "company": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad@gmail.com",
+   "first_name": "Bradwood",
+   "group": 1,
+   "id": 1,
+   "last_name": "Feat",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "date_of_approval": null,
+   "id": 1,
+   "local_id": null,
+   "location_matrix": {
+    "id": 1,
+    "project": 5,
+    "building": "Building A",
+    "level": "A",
+    "area": "Hall",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "package_activity": {
+    "id": 2,
+    "name": "Second package activity",
+    "activity_id": null,
+    "files": []
+   },
+   "package_activity_task": {
+    "id": 2,
+    "description": "Second desc",
+    "is_not_applicable_status_by_default": true,
+    "is_photo_required": false,
+    "order": 0,
+    "package_activity": 2,
+    "photo_requirement_comment": "",
+    "is_default_for_subtask": false
+   },
+   "status": "not_applicable",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": {
+    "id": 1,
+    "status": "pending",
+    "first_name": "Bradwood",
+    "last_name": "Feat",
+    "email": "cool.brad@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 1,
+    "group": 1,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_updated",
+  "entity": "task",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "comment": "test comment",
+   "created_at": "2020-02-02T00:00:00Z",
+   "files": [],
+   "id": 14,
+   "is_conflict": false,
+   "local_id": null,
+   "new_data": {
+    "status": "not_applicable"
+   },
+   "old_data": {
+    "status": "accepted"
+   },
+   "recipients": [],
+   "task": 1,
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 1
+  },
+  "type": "entity_created",
+  "entity": "task_update",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "task_update": 14,
+   "media": {
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_project_snapshot_thumbnails": [],
+    "expanded_thumbnails": [],
+    "extension": "png",
+    "hash": "fdghioj4098yhgsdfgf",
+    "id": 1,
+    "is_public": true,
+    "link": "http://localhost/media/troom.png",
+    "local_id": null,
+    "name": "troom.png",
+    "size": 0,
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_created",
+  "entity": "task_update_files",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "task_update": 14,
+   "media": {
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_project_snapshot_thumbnails": [],
+    "expanded_thumbnails": [],
+    "extension": "png",
+    "hash": "ghj49hgghsdlfghdffdg",
+    "id": 2,
+    "is_public": true,
+    "link": "http://localhost/media/broom.png",
+    "local_id": null,
+    "name": "broom.png",
+    "size": 0,
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_created",
+  "entity": "task_update_files",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ }
+]

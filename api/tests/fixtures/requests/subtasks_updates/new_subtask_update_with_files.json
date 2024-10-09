@@ -1,0 +1,12 @@
+{
+  "comment": "new test comment",
+  "old_data": {
+    "company": null,
+    "status": "in_progress"
+  },
+  "new_data": {
+    "company": null,
+    "status": "in_progress"
+  },
+  "files": [1, 2]
+}

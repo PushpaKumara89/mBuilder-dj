@@ -1,0 +1,20 @@
+{
+  "comment": "test comment",
+  "old_data": {
+    "status": "requesting_approval"
+  },
+  "new_data": {
+    "status": "requested_approval_rejected"
+  },
+  "recipients": [
+    {
+      "email": "cool.subcontractor@gmail.com"
+    },
+    {
+      "email": "cool.consultant@gmail.com"
+    },
+    {
+      "email": "user_from_mobile_contacts@gmail.com"
+    }
+  ]
+}

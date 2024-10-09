@@ -1,0 +1,9 @@
+{
+  "comment": "Undo requesting approval to in progress!",
+  "old_data": {
+    "status": "requesting_approval"
+  },
+  "new_data": {
+    "status": "in_progress"
+  }
+}

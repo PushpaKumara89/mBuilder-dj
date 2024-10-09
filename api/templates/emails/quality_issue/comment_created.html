@@ -1,0 +1,80 @@
+{% load frontend_url %}
+{% load static %}
+{% load color_quality_issue_and_rework_status %}
+<html lang="en">
+<body>
+<table border="0" cellpadding="0" cellspacing="0" style="width: 100%; background-color: #f9fafb;">
+    <tr>
+        <td>
+            <table border="0" cellpadding="0" cellspacing="0"
+                   style="font-family: Helvetica Neue, Arial, Roboto, sans-serif; font-size: 14px; line-height: 21px; box-sizing: border-box; margin: 0 auto 70px; padding: 0; width: 446px; -premailer-cellpadding: 0; -premailer-cellspacing: 0; -premailer-width: 446px;">
+                <tr>
+                    <td style="padding-bottom: 30px;">
+                        <p style="margin: 20px 0;"><span style="font-weight: bold;">Quality Issue Reference:</span> QI-{{ quality_issue_id }}</p>
+                        <p style="margin: 20px 0;"><a href="mailto:{{ update_user.email }}" style="color: #2C71D3; font-weight: bold; text-decoration: none; font-size: 14px;">{{ update_user.first_name }} {{ update_user.last_name }}</a>,
+                        {{ update_user.company.name }}, has responded to the following works in question.</p>
+                        <p style="margin-bottom: 7px; font-weight: bold;">Status: <span style="color: {{ status|color_quality_issue_and_rework_status }}">{{ status_name }}</span></p>
+                        <p style="margin-bottom: 7px; font-weight: bold;">Details:</p>
+                        <table style="font-family: Helvetica Neue, Arial, Roboto, sans-serif; font-size: 14px;">
+                            <tr style="line-height: 17px;">
+                                <td style="vertical-align: top; padding-left: 8px;">•</td>
+                                <td style="padding-left: 17px;">{{ project_name }} - {{ building }} - {{ level }} - {{ area }}</td>
+                            </tr>
+                            {% if package_name %}
+                            <tr style="line-height: 17px;">
+                                <td style="vertical-align: top; padding-left: 8px;">•</td>
+                                <td style="padding-left: 17px;">{{ package_name }} - {{ package_activity_name }}</td>
+                            </tr>
+                            {% endif %}
+                            {% if package_activity_task_description %}
+                            <tr style="line-height: 17px;">
+                                <td style="vertical-align: top; padding-left: 8px;">•</td>
+                                <td style="padding-left: 17px;">Task: {{ package_activity_task_description }}</td>
+                            </tr>
+                            {% endif %}
+                            <tr style="line-height: 17px;">
+                                <td style="vertical-align: top; padding-left: 8px;">•</td>
+                                <td style="padding-left: 17px;">Due Date: {{ due_date }}</td>
+                            </tr>
+                        </table>
+                        <p style="margin: 16px 0 8px; font-weight: bold;">Comment:</p>
+                        <p style="margin: 8px 0 18px;">{{ update.comment }}</p>
+                        {% spaceless %}
+                            {% if links %}
+                                <p style="margin: 16px 0;">
+                                    {% for link in links %}
+                                        <a href="{{ link.url }}"
+                                           style="color: #2C71D3; margin-right: 12px; text-decoration: none;">{{ link.name }}</a>
+                                    {% endfor %}
+                                </p>
+                            {% endif %}
+                        {% endspaceless %}
+                        <p style="margin-bottom: 7px; font-weight: bold;">User details:</p>
+                        <p style="margin: 18px 0 16px;">Actioned by: {{ update_user.first_name }} {{ update_user.last_name }}</p>
+                        <p style="margin: 16px 0 8px;">Contact: {{ update_user.phone }}</p>
+                        <p style="margin: 16px 0 8px;"><a href="mailto:{{ update_user.email }}" style="color: #2C71D3; text-decoration: none; font-size: 14px;">{{ update_user.email }}</a></p>
+                        <p style="margin: 16px 0;">If you have any questions, please contact the above.</p>
+                        {% if has_subcontractor_in_recipients %}
+                            <p style="margin: 20px 0;">This email serves as notice in accordance with the Sub-Contract Agreement that Multiplex has identified the need for immediate action to be taken in order to rectify or adequately complete the works in question. Each item identified above has corresponding detailed information contained within MBuild and can be reviewed via this link.</p>
+                            <p style="margin: 20px 0;">The subcontractor is hereby directed to address the issue and request approval of the rectified works within MBuild within the nominated due dates for each item. Where Multiplex has communicated the necessity for the sub-contractor to submit a proposal for testing and rectification prior to undertaking any further works, the subcontractor must submit this proposal to Multiplex in Aconex, referencing the rework ID. The proposal must be submitted for approval within the same timeframe.</p>
+                            <p style="margin: 20px 0;">Should further information be required in order to do so effectively by the nominated deadline, respond to the person who has identified the actions required within MBuild or contact the person directly.</p>
+                            <p style="margin: 20px 0;">Any other reports containing these issue which are subsequently distributed via Aconex as a follow up, do not change the deadline to address the required actions nominated within MBuild.</p>
+                        {% endif %}
+                    </td>
+                </tr>
+                <tr>
+                    <td style="font-size: 12px; line-height: 18px; color: #0c0c0d; padding-top: 20px; border-top: 1px solid #d8d8d8;">
+                        <p style="color: #0b0d0e; margin: 12px 0 8px; line-height: 21px;">
+                            <img src="{% static "/logo.png" %}"
+                                 style="width: 115px; display: block; background-repeat: no-repeat; background-size: contain;"
+                                 alt="logo">
+                        </p>
+                        <p style="margin: 0;">© {% now "Y" %} MBuild. All rights reserved.</p>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+</body>
+</html>

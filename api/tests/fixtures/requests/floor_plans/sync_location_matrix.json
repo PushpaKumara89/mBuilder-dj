@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "project": 5,
+    "building": "Building A",
+    "level": "6A",
+    "area": "Hall"
+  },
+  {
+    "id": 2,
+    "project": 1,
+    "building": "Building A",
+    "level": "-9A",
+    "area": "Meeting room"
+  }
+]

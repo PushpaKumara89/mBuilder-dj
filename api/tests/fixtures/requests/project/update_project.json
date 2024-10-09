@@ -1,0 +1,10 @@
+{
+  "id": 5,
+  "name": "Updated project 5",
+  "image_id": 2,
+  "value": 457645,
+  "show_estimated_man_hours": true,
+  "start_date": "2020-01-21",
+  "completion_date": "2020-03-20",
+  "status": "under_construction"
+}

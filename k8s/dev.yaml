@@ -1,0 +1,293 @@
+replicaCount: 1
+
+image:
+  repository: ronasit/php-nginx
+  tag: 7.4
+  secret:
+
+# basedir for application
+directory: /app
+# php user
+user: application
+# environment for application, used in gitlab built-in terminal
+environment: development
+# application port for service and ingress
+port: 8080
+
+probe:
+  liveness: true
+  readiness: true
+  path: /api/health-check/
+
+resources:
+  requests:
+    cpu: 800m
+    memory: 1Gi
+  limits:
+    cpu: 1000m
+    memory: 1444Mi
+
+persistence:
+  enabled: false
+  path: /media
+  storage: 10Gi
+  snapshots: false
+  snapshotDeltas: "PT1H P2D P30D P180D"
+
+configMap:
+  PROJECT_NAME: app
+
+secret: {}
+
+customConfigMap: ""
+
+customSecret: ""
+
+ingress:
+  enabled: true
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    certmanager.k8s.io/cluster-issuer: letsencrypt-prod
+    ingress.kubernetes.io/ssl-redirect: "true"
+    kubernetes.io/ingress.class: nginx
+    kubernetes.io/tls-acme: "true"
+    nginx.ingress.kubernetes.io/proxy-connect-timeout: "600"
+    nginx.ingress.kubernetes.io/proxy-max-temp-file-size: 4096m
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "600"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "600"
+    nginx.ingress.kubernetes.io/send_timeout: "600"
+    nginx.ingress.kubernetes.io/proxy-body-size: 4096m
+
+migrate:
+  enabled: true
+  timeout: 1200 # <- activeDeadlineSeconds
+  cmd: "python manage.py migrate && python manage.py collectstatic --noinput"
+
+worker:
+  enabled: true
+  workers:
+    - name: commands
+      replicas: 1
+      cmd: "DJANGO_SETTINGS_MODULE=mbuild.settings rq worker commands-project-* --queue-class api.rq.queues.CommandProjectQueue -c mbuild.settings"
+      resources:
+        requests:
+          cpu: 100m
+          memory: 140Mi
+        limits:
+          cpu: 144m
+          memory: 220Mi
+    - name: celery-default
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q default -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 200m
+          memory: 190Mi
+        limits:
+          cpu: 260m
+          memory: 240Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-events
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q events -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 80m
+          memory: 180Mi
+        limits:
+          cpu: 120m
+          memory: 220Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-summaries
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q summaries -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 68m
+          memory: 160Mi
+        limits:
+          cpu: 82m
+          memory: 180Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-handover-documents
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q handover_document -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 68m
+          memory: 160Mi
+        limits:
+          cpu: 82m
+          memory: 180Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-thumbnails
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q thumbnails -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 180m
+          memory: 440Mi
+        limits:
+          cpu: 220m
+          memory: 480Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-package-handover-statistics
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q package_handover_statistics -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 140m
+          memory: 440Mi
+        limits:
+          cpu: 180m
+          memory: 480Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-asset-handover-statistics
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q asset_handover_statistics -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 140m
+          memory: 440Mi
+        limits:
+          cpu: 180m
+          memory: 480Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-reports
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q reports -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 260m
+          memory: 240Mi
+        limits:
+          cpu: 340m
+          memory: 360Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-tasks
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q tasks -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 68m
+          memory: 190Mi
+        limits:
+          cpu: 82m
+          memory: 240Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-floor-plans
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q floor_plan -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 68m
+          memory: 160Mi
+        limits:
+          cpu: 82m
+          memory: 180Mi
+      customLabels:
+        celery-worker: "true"
+
+restarter:
+  enabled: true
+  schedule: "0 0 * * *"
+  labelSelector: "celery-worker=true"
+
+cronjobs:
+  enabled: true
+  shcedulers:
+    - name: summary-scheduler
+      cmd: "python manage.py runcrons api.jobs.DailySummaryJob api.jobs.WeeklySummaryJob"
+      resources:
+        requests:
+          cpu: 80m
+          memory: 140Mi
+        limits:
+          cpu: 120m
+          memory: 210Mi
+    - name: recalculate-stats
+      schedule: "0 * * * *"
+      cmd: "python manage.py runcrons api.jobs.RecalculateStatisticsJob"
+      resources:
+        requests:
+          cpu: 80m
+          memory: 140Mi
+        limits:
+          cpu: 120m
+          memory: 210Mi
+    - name: default-scheduler
+      schedule: "* * * * *"
+      cmd: "python manage.py runcrons api.jobs.ClearPasswordResetTokenJob api.jobs.UpdateSubtaskDefectStatusJob api.jobs.RemoveExpiredEditModeJob"
+      resources:
+        requests:
+          cpu: 120m
+          memory: 140Mi
+        limits:
+          cpu: 160m
+          memory: 210Mi
+  schedule: "*/1 * * * *"  # <- default value
+  concurrency: "Forbid"
+  restartPolicy: "Never"
+  startingDeadlineSeconds: "200"
+  successfulJobsHistoryLimit: "1"
+
+# For Google Cloud SQL
+sqlproxy:
+  enabled: false
+  existingSecret: ""
+  existingSecretKey: ""
+  instance: ""
+  project: ""
+  region: ""
+  port: "5432"
+
+# For Google Cloud Storage
+gcs:
+  enabled: false
+  projectId: "ronas-it-development"
+  bucketName: "ronasit-development"
+  apiUri: "https://storage.googleapis.com/ronasit-development"
+  key: "secret"
+
+postgres:
+  enabled: false
+
+mysql:
+  enabled: false
+
+redis:
+  enabled: true
+  persistence:
+    enabled: false
+    size: 1Gi
+  resources:
+    requests:
+      cpu: 20m
+      memory: 56Mi
+    limits:
+      cpu: 36m
+      memory: 128Mi
+
+elasticsearch:
+  enabled: false
+
+mongodb:
+  enabled: true
+  image:
+    tag: 4.4.4
+  mongodbUsername: mongo
+  mongodbPassword: secret
+  mongodbDatabase: "mbuild"
+  persistence:
+    enabled: true
+    size: 1Gi
+  # mongodbRootPassword:

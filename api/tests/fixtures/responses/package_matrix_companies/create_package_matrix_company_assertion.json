@@ -1,0 +1,174 @@
+[
+ {
+  "data": {
+   "company": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad@gmail.com",
+   "first_name": "Bradwood",
+   "group": 1,
+   "id": 1,
+   "last_name": "Feat",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "company": 2,
+   "expanded_company": {
+    "id": 2,
+    "name": "Ford",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "expanded_package_matrix": {
+    "project": 4,
+    "package": 4,
+    "package_activity": 2,
+    "id": 6,
+    "expanded_project": {
+     "id": 4,
+     "name": "Project 4",
+     "number": "h356ydgd",
+     "image": {
+      "id": 4,
+      "name": "sroom.png",
+      "link": "http://localhost/media/sroom.png",
+      "size": 0,
+      "hash": null,
+      "is_public": true,
+      "created_at": "2020-07-30T12:21:16.129000Z",
+      "updated_at": "2020-07-30T12:21:16.129000Z",
+      "local_id": null,
+      "extension": "png"
+     },
+     "status": "completed",
+     "start_date": "2020-07-30",
+     "completion_date": "2020-08-30",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "show_estimated_man_hours": true,
+     "value": "765543.43",
+     "value_currency": "USD",
+     "is_subtask_visible_for_clients": false,
+     "is_task_visible_for_clients": true
+    },
+    "expanded_package_activity": {
+     "id": 2,
+     "name": "Second package activity",
+     "activity_id": null,
+     "package_activity_tasks": [
+      {
+       "id": 4,
+       "description": "Fourth desc",
+       "is_not_applicable_status_by_default": true,
+       "is_photo_required": false,
+       "order": 0,
+       "package_activity": 2,
+       "photo_requirement_comment": "",
+       "is_default_for_subtask": false
+      }
+     ],
+     "files": []
+    },
+    "expanded_package": {
+     "id": 4,
+     "name": "Fourth package",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "order": 5
+    }
+   },
+   "id": 10,
+   "package_matrix": 6
+  },
+  "type": "entity_created",
+  "entity": "package_matrix_company",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "company": 3,
+   "expanded_company": {
+    "id": 3,
+    "name": "Toyota",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "expanded_package_matrix": {
+    "project": 4,
+    "package": 4,
+    "package_activity": 2,
+    "id": 6,
+    "expanded_project": {
+     "id": 4,
+     "name": "Project 4",
+     "number": "h356ydgd",
+     "image": {
+      "id": 4,
+      "name": "sroom.png",
+      "link": "http://localhost/media/sroom.png",
+      "size": 0,
+      "hash": null,
+      "is_public": true,
+      "created_at": "2020-07-30T12:21:16.129000Z",
+      "updated_at": "2020-07-30T12:21:16.129000Z",
+      "local_id": null,
+      "extension": "png"
+     },
+     "status": "completed",
+     "start_date": "2020-07-30",
+     "completion_date": "2020-08-30",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "show_estimated_man_hours": true,
+     "value": "765543.43",
+     "value_currency": "USD",
+     "is_subtask_visible_for_clients": false,
+     "is_task_visible_for_clients": true
+    },
+    "expanded_package_activity": {
+     "id": 2,
+     "name": "Second package activity",
+     "activity_id": null,
+     "package_activity_tasks": [
+      {
+       "id": 4,
+       "description": "Fourth desc",
+       "is_not_applicable_status_by_default": true,
+       "is_photo_required": false,
+       "order": 0,
+       "package_activity": 2,
+       "photo_requirement_comment": "",
+       "is_default_for_subtask": false
+      }
+     ],
+     "files": []
+    },
+    "expanded_package": {
+     "id": 4,
+     "name": "Fourth package",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "order": 5
+    }
+   },
+   "id": 11,
+   "package_matrix": 6
+  },
+  "type": "entity_created",
+  "entity": "package_matrix_company",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ }
+]

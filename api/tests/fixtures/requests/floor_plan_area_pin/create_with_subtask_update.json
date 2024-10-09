@@ -1,0 +1,16 @@
+{
+  "comment": "test comment",
+  "old_data": {
+    "status": "in_progress"
+  },
+  "new_data": {
+    "status": "in_progress",
+    "floor_plan_area_pin": {
+      "floor_plan_area": 2,
+      "pin": {
+        "x": 234,
+        "y": 567
+      }
+    }
+  }
+}

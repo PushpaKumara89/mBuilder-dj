@@ -1,0 +1,512 @@
+[
+ {
+  "data": {
+   "company": 2,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad+1@gmail.com",
+   "first_name": "Brad",
+   "group": 3,
+   "id": 2,
+   "last_name": "Seatwood",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "area": "X",
+   "building": "A",
+   "created_at": "2020-02-02T00:00:00Z",
+   "id": 43,
+   "level": "11",
+   "project": 1,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "area": "e",
+   "building": "A",
+   "created_at": "2020-02-02T00:00:00Z",
+   "id": 44,
+   "level": "4",
+   "project": 1,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "area": "c",
+   "building": "A",
+   "created_at": "2020-02-02T00:00:00Z",
+   "id": 45,
+   "level": "3",
+   "project": 1,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "area": "b",
+   "building": "A",
+   "created_at": "2020-02-02T00:00:00Z",
+   "id": 46,
+   "level": "2",
+   "project": 1,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "area": "m",
+   "building": "A",
+   "created_at": "2020-02-02T00:00:00Z",
+   "id": 47,
+   "level": "0",
+   "project": 1,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "area": "v",
+   "building": "A",
+   "created_at": "2020-02-02T00:00:00Z",
+   "id": 48,
+   "level": "-1",
+   "project": 1,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "area": "p",
+   "building": "A",
+   "created_at": "2020-02-02T00:00:00Z",
+   "id": 49,
+   "level": "-10",
+   "project": 1,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 52,
+   "location_matrix": 43,
+   "package": 4,
+   "package_activity": 4,
+   "package_activity_name": "Fourth package activity",
+   "package_matrix": 6,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 53,
+   "location_matrix": 43,
+   "package": 4,
+   "package_activity": 3,
+   "package_activity_name": "Third package activity",
+   "package_matrix": 7,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 54,
+   "location_matrix": 43,
+   "package": 4,
+   "package_activity": 2,
+   "package_activity_name": "Second package activity",
+   "package_matrix": 10,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 55,
+   "location_matrix": 44,
+   "package": 4,
+   "package_activity": 4,
+   "package_activity_name": "Fourth package activity",
+   "package_matrix": 6,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 56,
+   "location_matrix": 44,
+   "package": 4,
+   "package_activity": 3,
+   "package_activity_name": "Third package activity",
+   "package_matrix": 7,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 57,
+   "location_matrix": 44,
+   "package": 4,
+   "package_activity": 2,
+   "package_activity_name": "Second package activity",
+   "package_matrix": 10,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 58,
+   "location_matrix": 45,
+   "package": 4,
+   "package_activity": 4,
+   "package_activity_name": "Fourth package activity",
+   "package_matrix": 6,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 59,
+   "location_matrix": 45,
+   "package": 4,
+   "package_activity": 3,
+   "package_activity_name": "Third package activity",
+   "package_matrix": 7,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 60,
+   "location_matrix": 45,
+   "package": 4,
+   "package_activity": 2,
+   "package_activity_name": "Second package activity",
+   "package_matrix": 10,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 61,
+   "location_matrix": 46,
+   "package": 4,
+   "package_activity": 4,
+   "package_activity_name": "Fourth package activity",
+   "package_matrix": 6,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 62,
+   "location_matrix": 46,
+   "package": 4,
+   "package_activity": 3,
+   "package_activity_name": "Third package activity",
+   "package_matrix": 7,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 63,
+   "location_matrix": 46,
+   "package": 4,
+   "package_activity": 2,
+   "package_activity_name": "Second package activity",
+   "package_matrix": 10,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 64,
+   "location_matrix": 47,
+   "package": 4,
+   "package_activity": 4,
+   "package_activity_name": "Fourth package activity",
+   "package_matrix": 6,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 65,
+   "location_matrix": 47,
+   "package": 4,
+   "package_activity": 3,
+   "package_activity_name": "Third package activity",
+   "package_matrix": 7,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 66,
+   "location_matrix": 47,
+   "package": 4,
+   "package_activity": 2,
+   "package_activity_name": "Second package activity",
+   "package_matrix": 10,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 67,
+   "location_matrix": 48,
+   "package": 4,
+   "package_activity": 4,
+   "package_activity_name": "Fourth package activity",
+   "package_matrix": 6,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 68,
+   "location_matrix": 48,
+   "package": 4,
+   "package_activity": 3,
+   "package_activity_name": "Third package activity",
+   "package_matrix": 7,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 69,
+   "location_matrix": 48,
+   "package": 4,
+   "package_activity": 2,
+   "package_activity_name": "Second package activity",
+   "package_matrix": 10,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 70,
+   "location_matrix": 49,
+   "package": 4,
+   "package_activity": 4,
+   "package_activity_name": "Fourth package activity",
+   "package_matrix": 6,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 71,
+   "location_matrix": 49,
+   "package": 4,
+   "package_activity": 3,
+   "package_activity_name": "Third package activity",
+   "package_matrix": 7,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 72,
+   "location_matrix": 49,
+   "package": 4,
+   "package_activity": 2,
+   "package_activity_name": "Second package activity",
+   "package_matrix": 10,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ }
+]

@@ -1,0 +1,185 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 5,
+   "inspection_period": 6,
+   "maintenance_period": 18,
+   "package_matrix": 5,
+   "expanded_package_activity": {
+    "id": 1,
+    "name": "First package activity",
+    "activity_id": "Activity"
+   },
+   "package_handover_document_groups": [
+    {
+     "id": 1,
+     "name": "Subcontractor Documents",
+     "package_handover_documents": [
+      {
+       "id": 1,
+       "package_handover": 5,
+       "package_handover_document_type": 1,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_media": [
+        {
+         "id": 1,
+         "package_handover_document": 1,
+         "media": 2,
+         "status": "requesting_approval",
+         "last_confirmed_update": null,
+         "uid": "sdf342342dsfs",
+         "information": null
+        },
+        {
+         "id": 9,
+         "package_handover_document": 1,
+         "media": 1,
+         "status": "in_progress",
+         "last_confirmed_update": null,
+         "uid": "sdfgh34jafd",
+         "information": "still alive"
+        }
+       ]
+      },
+      {
+       "id": 8,
+       "package_handover": 5,
+       "package_handover_document_type": 1,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_media": []
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "name": "Consultant Documents",
+     "package_handover_documents": [
+      {
+       "id": 2,
+       "package_handover": 5,
+       "package_handover_document_type": 9,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_media": [
+        {
+         "id": 2,
+         "package_handover_document": 2,
+         "media": 1,
+         "status": "in_progress",
+         "last_confirmed_update": null,
+         "uid": "dfsdgfds3432",
+         "information": null
+        },
+        {
+         "id": 13,
+         "package_handover_document": 2,
+         "media": 1,
+         "status": "in_progress",
+         "last_confirmed_update": null,
+         "uid": "sdfgh34jafa",
+         "information": null
+        },
+        {
+         "id": 14,
+         "package_handover_document": 2,
+         "media": 1,
+         "status": "requesting_approval",
+         "last_confirmed_update": null,
+         "uid": "sdfgh34jsdd",
+         "information": null
+        },
+        {
+         "id": 15,
+         "package_handover_document": 2,
+         "media": 1,
+         "status": "in_progress",
+         "last_confirmed_update": null,
+         "uid": "sdfgh34jwdd",
+         "information": null
+        },
+        {
+         "id": 16,
+         "package_handover_document": 2,
+         "media": 1,
+         "status": "accepted",
+         "last_confirmed_update": null,
+         "uid": "sdfgh34jwda",
+         "information": null
+        }
+       ]
+      },
+      {
+       "id": 7,
+       "package_handover": 5,
+       "package_handover_document_type": 9,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_media": [
+        {
+         "id": 7,
+         "package_handover_document": 7,
+         "media": 1,
+         "status": "contested",
+         "last_confirmed_update": null,
+         "uid": "dfds333322",
+         "information": null
+        },
+        {
+         "id": 8,
+         "package_handover_document": 7,
+         "media": 1,
+         "status": "requested_approval_rejected",
+         "last_confirmed_update": null,
+         "uid": "dfdf333dfs",
+         "information": null
+        }
+       ]
+      },
+      {
+       "id": 9,
+       "package_handover": 5,
+       "package_handover_document_type": 9,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_media": []
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "name": "H&S Consultant Documents",
+     "package_handover_documents": [
+      {
+       "id": 3,
+       "package_handover": 5,
+       "package_handover_document_type": 16,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_media": [
+        {
+         "id": 3,
+         "package_handover_document": 3,
+         "media": 1,
+         "status": "in_progress",
+         "last_confirmed_update": null,
+         "uid": "fdsfds4343sadsa",
+         "information": null
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "next_page": null
+}

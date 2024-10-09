@@ -1,0 +1,14 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 1,
+   "package_handover": 5,
+   "package_handover_document_type": 1,
+   "number_required_files": 5,
+   "project": 5,
+   "package_activity": 1
+  }
+ ],
+ "next_page": null
+}

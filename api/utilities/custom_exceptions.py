@@ -1,0 +1,2 @@
+class DuplicatedSubtaskError(Exception):
+    pass

@@ -1,0 +1,222 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 1,
+   "document_type": 1,
+   "number_required_files": 0,
+   "asset_handover": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_asset_handover_document_media": [
+    {
+     "id": 1,
+     "asset_handover_document": 1,
+     "last_confirmed_update": null,
+     "media": 1,
+     "uid": null,
+     "status": "contested",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "expanded_upload_update": {
+      "id": 2,
+      "asset_handover_document_media": 1,
+      "user": 1,
+      "comment": "test comment",
+      "old_data": {
+       "media": 2,
+       "status": "in_progress"
+      },
+      "new_data": {
+       "media": 1,
+       "status": "contested"
+      },
+      "created_at": "2020-07-30T12:21:16.130000Z",
+      "updated_at": "2020-07-30T12:21:16.130000Z",
+      "company": 1,
+      "expanded_user": {
+       "id": 1,
+       "status": "pending",
+       "first_name": "Bradwood",
+       "last_name": "Feat",
+       "email": "cool.brad@gmail.com",
+       "phone": "+41524204242",
+       "position": "Cool Brad",
+       "company": 1,
+       "group": 1,
+       "created_at": "2020-07-30T12:21:16.129000Z",
+       "updated_at": "2020-07-30T12:21:16.129000Z",
+       "expanded_user_company": {
+        "id": 1,
+        "name": "Stussy",
+        "created_at": "2020-07-30T12:21:16.129000Z",
+        "updated_at": "2020-07-30T12:21:16.129000Z"
+       }
+      }
+     }
+    },
+    {
+     "id": 2,
+     "asset_handover_document": 1,
+     "last_confirmed_update": null,
+     "media": 2,
+     "uid": null,
+     "status": "in_progress",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "expanded_upload_update": null
+    },
+    {
+     "id": 3,
+     "asset_handover_document": 1,
+     "last_confirmed_update": null,
+     "media": 3,
+     "uid": null,
+     "status": "in_progress",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "expanded_upload_update": null
+    },
+    {
+     "id": 9,
+     "asset_handover_document": 1,
+     "last_confirmed_update": null,
+     "media": 4,
+     "uid": null,
+     "status": "accepted",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "expanded_upload_update": null
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "document_type": 2,
+   "number_required_files": 1,
+   "asset_handover": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_asset_handover_document_media": [
+    {
+     "id": 4,
+     "asset_handover_document": 2,
+     "last_confirmed_update": null,
+     "media": 1,
+     "uid": null,
+     "status": "in_progress",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "expanded_upload_update": null
+    },
+    {
+     "id": 10,
+     "asset_handover_document": 2,
+     "last_confirmed_update": null,
+     "media": 4,
+     "uid": null,
+     "status": "in_progress",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "expanded_upload_update": null
+    },
+    {
+     "id": 11,
+     "asset_handover_document": 2,
+     "last_confirmed_update": null,
+     "media": 5,
+     "uid": null,
+     "status": "requesting_approval",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "expanded_upload_update": null
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "document_type": 1,
+   "number_required_files": 2,
+   "asset_handover": 2,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_asset_handover_document_media": [
+    {
+     "id": 5,
+     "asset_handover_document": 3,
+     "last_confirmed_update": null,
+     "media": 1,
+     "uid": null,
+     "status": "in_progress",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "expanded_upload_update": null
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "document_type": 2,
+   "number_required_files": 3,
+   "asset_handover": 2,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_asset_handover_document_media": [
+    {
+     "id": 6,
+     "asset_handover_document": 4,
+     "last_confirmed_update": null,
+     "media": 1,
+     "uid": null,
+     "status": "in_progress",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "expanded_upload_update": null
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "document_type": 1,
+   "number_required_files": 4,
+   "asset_handover": 3,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_asset_handover_document_media": [
+    {
+     "id": 7,
+     "asset_handover_document": 5,
+     "last_confirmed_update": null,
+     "media": 1,
+     "uid": null,
+     "status": "in_progress",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "expanded_upload_update": null
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "document_type": 2,
+   "number_required_files": 5,
+   "asset_handover": 3,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_asset_handover_document_media": [
+    {
+     "id": 8,
+     "asset_handover_document": 6,
+     "last_confirmed_update": null,
+     "media": 1,
+     "uid": null,
+     "status": "in_progress",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "expanded_upload_update": null
+    }
+   ]
+  }
+ ],
+ "next_page": null
+}

@@ -1,0 +1,299 @@
+replicaCount: 4
+
+nodeSelector:
+  pool: workers
+
+image:
+  repository: alpine
+  tag: latest
+  secret:
+
+labels:
+  tags.datadoghq.com/env: "production"
+  admission.datadoghq.com/enabled: "true"
+  admission.datadoghq.com/config.mode: "socket"
+
+annotations:
+  admission.datadoghq.com/python-lib.version: v1.12.0
+
+# basedir for application
+directory: /app
+# php user
+user: application
+# environment for application, used in gitlab built-in terminal
+environment: development
+# application port for service and ingress
+port: 8080
+
+probe:
+  liveness: true
+  readiness: true
+  path: /api/health-check/
+
+resources:
+  requests:
+    cpu: 2000m
+    memory: 4200Mi
+  limits:
+    memory: 4200Mi
+
+persistence:
+  enabled: false
+  path: /media
+  storage: 10Gi
+  snapshots: false
+  snapshotDeltas: "PT1H P2D P30D P180D"
+
+configMap:
+  PROJECT_NAME: app
+
+secret: {}
+
+customConfigMap: ""
+
+customSecret: ""
+
+ingress:
+  enabled: true
+  annotations:
+    cert-manager.io/cluster-issuer: letsencrypt-prod
+    certmanager.k8s.io/cluster-issuer: letsencrypt-prod
+    ingress.kubernetes.io/ssl-redirect: "true"
+    kubernetes.io/ingress.class: nginx
+    kubernetes.io/tls-acme: "true"
+    nginx.ingress.kubernetes.io/proxy-connect-timeout: "600"
+    nginx.ingress.kubernetes.io/proxy-max-temp-file-size: 4096m
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "600"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "600"
+    nginx.ingress.kubernetes.io/send_timeout: "600"
+    nginx.ingress.kubernetes.io/proxy-body-size: 4096m
+
+migrate:
+  enabled: true
+  timeout: 360 # <- activeDeadlineSeconds
+  cmd: "python manage.py migrate && python manage.py collectstatic --noinput"
+
+worker:
+  enabled: true
+  workers:
+    - name: commands
+      replicas: 1
+      cmd: "DJANGO_SETTINGS_MODULE=mbuild.settings rq worker commands-project-* --queue-class api.rq.queues.CommandProjectQueue -c mbuild.settings"
+      resources:
+        requests:
+          cpu: 360m
+          memory: 380Mi
+        limits:
+          cpu: 440m
+          memory: 480Mi
+    - name: celery-default
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q default -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 -c 4 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 580m
+          memory: 2400Mi
+        limits:
+          memory: 2400Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-events
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q events -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 -c 4 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 280m
+          memory: 560Mi
+        limits:
+          memory: 560Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-summaries
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q summaries -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 -c 4 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 280m
+          memory: 2400Mi
+        limits:
+          memory: 2400Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-handover-documents
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q handover_document -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 -c 4 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 240m
+          memory: 320Mi
+        limits:
+          memory: 2400Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-handover-document-archives
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q handover_document_archive -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 -c 5 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 2000m
+          memory: 8Gi
+        limits:
+          memory: 8Gi
+      persistence:
+        enabled: true
+        size: 100Gi
+        className: "azurefile-csi-premium"
+        path: /mnt/celery-handover-document-archives
+      customLabels:
+        celery-worker: "true"
+    - name: celery-thumbnails
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q thumbnails -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 -c 4 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 800m
+          memory: 2400Mi
+        limits:
+          memory: 2400Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-package-handover-statistics
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q package_handover_statistics -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 -c 4 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 160m
+          memory: 2400Mi
+        limits:
+          memory: 2400Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-asset-handover-statistics
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q asset_handover_statistics -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 -c 4 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 260m
+          memory: 2400Mi
+        limits:
+          memory: 2400Mi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-reports
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q reports -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 -c 4 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 2000m
+          memory: 6Gi
+        limits:
+          memory: 6Gi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-tasks
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q tasks -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 -c 4 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 480m
+          memory: 3Gi
+        limits:
+          memory: 3Gi
+      customLabels:
+        celery-worker: "true"
+    - name: celery-floor-plans
+      replicas: 1
+      cmd: "celery -A mbuild worker -Q floor_plan -l info -E --heartbeat-interval=10 --optimization=fair --max-tasks-per-child=1 -c 4 --without-mingle --without-gossip"
+      resources:
+        requests:
+          cpu: 320m
+          memory: 480Mi
+        limits:
+          memory: 480Mi
+      customLabels:
+        celery-worker: "true"
+
+restarter:
+  enabled: true
+  schedule: "30 3 * * *"
+  labelSelector: "celery-worker=true"
+
+cronjobs:
+  enabled: true
+  shcedulers:
+    - name: summary-scheduler
+      cmd: "python manage.py runcrons api.jobs.DailySummaryJob api.jobs.WeeklySummaryJob"
+      resources:
+        requests:
+          cpu: 180m
+          memory: 240Mi
+        limits:
+          cpu: 240m
+          memory: 280Mi
+    - name: recalculate-stats
+      schedule: "0 * * * *"
+      cmd: "python manage.py runcrons api.jobs.RecalculateStatisticsJob"
+      resources:
+        requests:
+          cpu: 180m
+          memory: 240Mi
+        limits:
+          cpu: 240m
+          memory: 280Mi
+    - name: default-scheduler
+      schedule: "* * * * *"
+      cmd: "python manage.py runcrons api.jobs.ClearPasswordResetTokenJob api.jobs.UpdateSubtaskDefectStatusJob api.jobs.RemoveExpiredEditModeJob"
+      resources:
+        requests:
+          cpu: 180m
+          memory: 240Mi
+        limits:
+          cpu: 240m
+          memory: 280Mi
+  schedule: "*/1 * * * *"
+  concurrency: "Forbid"
+  restartPolicy: "Never"
+  startingDeadlineSeconds: "200"
+
+# For Google Cloud SQL
+sqlproxy:
+  enabled: false
+  existingSecret: ""
+  existingSecretKey: ""
+  instance: ""
+  project: ""
+  region: ""
+  port: "5432"
+
+# For Google Cloud Storage
+gcs:
+  enabled: false
+  projectId: "ronas-it-development"
+  bucketName: "ronasit-development"
+  apiUri: "https://storage.googleapis.com/ronasit-development"
+  key: "secret"
+
+postgres:
+  enabled: false
+
+mysql:
+  enabled: false
+
+redis:
+  enabled: false
+  persistence:
+    enabled: true
+    size: 1Gi
+  resources:
+    requests:
+      memory: 256Mi
+      cpu: 300m
+    limits:
+      memory: 1024Mi
+      cpu: 1000m
+
+elasticsearch:
+  enabled: false
+
+mongodb:
+  enabled: false

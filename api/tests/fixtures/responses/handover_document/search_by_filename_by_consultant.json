@@ -1,0 +1,42 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 5,
+   "project": 5,
+   "building": "Building A",
+   "level": "7A",
+   "area": "Hall",
+   "package": 4,
+   "package_activity": 1,
+   "company": 1,
+   "media": 2,
+   "document_type": 1,
+   "filename": "broom.png",
+   "uid": null,
+   "information": null,
+   "file_type": "png",
+   "entity": "asset_handover",
+   "entity_id": 13
+  },
+  {
+   "id": 9,
+   "project": 5,
+   "building": null,
+   "level": null,
+   "area": null,
+   "package": 1,
+   "package_activity": 5,
+   "company": 4,
+   "media": 2,
+   "document_type": 9,
+   "filename": "broom.png",
+   "uid": "sub345",
+   "information": "bingo 777",
+   "file_type": "png",
+   "entity": "package_handover",
+   "entity_id": 6
+  }
+ ],
+ "next_page": null
+}

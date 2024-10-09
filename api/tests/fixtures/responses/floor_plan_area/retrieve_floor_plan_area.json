@@ -1,0 +1,58 @@
+{
+ "id": 1,
+ "floor_plan": 1,
+ "polygon": {
+  "top": 247.49,
+  "fill": "lightblue",
+  "left": 616.36,
+  "type": "polygon",
+  "angle": 0,
+  "flipX": false,
+  "flipY": false,
+  "skewX": 0,
+  "skewY": 0,
+  "width": 275.71,
+  "height": 180.63,
+  "points": [
+   {
+    "x": 618.3558792924038,
+    "y": 249.4877049180328
+   },
+   {
+    "x": 618.3558792924038,
+    "y": 430.1168032786885
+   },
+   {
+    "x": 894.0686784599375,
+    "y": 426.125
+   },
+   {
+    "x": 888.0749219562955,
+    "y": 249.4877049180328
+   }
+  ],
+  "scaleX": 1,
+  "scaleY": 1,
+  "shadow": null,
+  "stroke": "blue",
+  "opacity": 1,
+  "originX": "left",
+  "originY": "top",
+  "version": "5.2.4",
+  "visible": true,
+  "fillRule": "nonzero",
+  "paintFirst": "fill",
+  "strokeWidth": 3,
+  "strokeLineCap": "butt",
+  "strokeUniform": false,
+  "strokeLineJoin": "miter",
+  "backgroundColor": "",
+  "strokeDashArray": null,
+  "strokeDashOffset": 0,
+  "strokeMiterLimit": 4,
+  "globalCompositeOperation": "source-over"
+ },
+ "area": "beatle",
+ "created_at": "2020-07-30T12:21:16.129000Z",
+ "updated_at": "2020-07-30T12:21:16.129000Z"
+}

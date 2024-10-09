@@ -1,0 +1,150 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 23,
+   "project": 1,
+   "building": "Building A",
+   "level": "2",
+   "area": "Group",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 8,
+   "project": 1,
+   "building": "Building A",
+   "level": "1R1",
+   "area": "Soup",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 9,
+   "project": 1,
+   "building": "Building A",
+   "level": "1R2",
+   "area": "Soup",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 19,
+   "project": 1,
+   "building": "Building A",
+   "level": "0N4",
+   "area": "Soup",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 21,
+   "project": 1,
+   "building": "Building A",
+   "level": "0T4",
+   "area": "Group",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 20,
+   "project": 1,
+   "building": "Building A",
+   "level": "0T4",
+   "area": "Soup",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 18,
+   "project": 1,
+   "building": "Building A",
+   "level": "0M",
+   "area": "Soup",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 17,
+   "project": 1,
+   "building": "Building A",
+   "level": "0N",
+   "area": "Soup",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 13,
+   "project": 1,
+   "building": "Building A",
+   "level": "0",
+   "area": "Soup",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 15,
+   "project": 1,
+   "building": "Building A",
+   "level": "-0M",
+   "area": "Soup",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 16,
+   "project": 1,
+   "building": "Building A",
+   "level": "-0N",
+   "area": "Soup",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 14,
+   "project": 1,
+   "building": "Building A",
+   "level": "-0N4",
+   "area": "Soup",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 10,
+   "project": 1,
+   "building": "Building A",
+   "level": "-1R1",
+   "area": "Soup",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 11,
+   "project": 1,
+   "building": "Building A",
+   "level": "-1R2",
+   "area": "Soup",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 12,
+   "project": 1,
+   "building": "Building A",
+   "level": "-1R3",
+   "area": "Soup",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 3,
+   "project": 1,
+   "building": "Building A",
+   "level": "-2B",
+   "area": "Hall",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  }
+ ],
+ "next_page": null
+}

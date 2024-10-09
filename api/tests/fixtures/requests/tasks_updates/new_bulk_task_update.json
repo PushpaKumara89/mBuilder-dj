@@ -1,0 +1,40 @@
+{
+  "task_updates": [
+    {
+      "task": 1,
+      "old_data": {
+        "status": "not_applicable"
+      }
+    },
+    {
+      "task": 2,
+      "old_data": {
+        "status": "not_applicable"
+      }
+    },
+    {
+      "task": 3,
+      "old_data": {
+        "status": "not_verified"
+      }
+    }
+  ],
+  "comment": "bulk create test comment",
+  "recipients": [
+    {
+      "email": "tom_dvaer@gmail.com"
+    },
+    {
+      "email": "tim_robinson@gmail.com",
+      "first_name": "Tim",
+      "last_name": "Robinson"
+    }
+  ],
+  "files": [
+    1,
+    2
+  ],
+  "new_data": {
+    "status": "accepted"
+  }
+}

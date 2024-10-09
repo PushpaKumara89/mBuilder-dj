@@ -1,0 +1,260 @@
+[
+ {
+  "id": 20,
+  "package_handover_document": 2,
+  "media": 12,
+  "status": "requesting_approval",
+  "last_confirmed_update": 24,
+  "uid": null,
+  "information": null,
+  "expanded_media": {
+   "id": 12,
+   "name": "package_handover_media.png",
+   "size": 315,
+   "is_public": false,
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "local_id": null,
+   "extension": "png"
+  },
+  "expanded_upload_update": {
+   "id": 24,
+   "package_handover_document_media": 20,
+   "user": 2,
+   "comment": null,
+   "old_data": {},
+   "new_data": {
+    "media": 12,
+    "status": "requesting_approval"
+   },
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "company": 2,
+   "expanded_user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_user_company": {
+     "id": 2,
+     "name": "20 Century Fox",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  "expanded_last_confirmed_update": {
+   "id": 24,
+   "package_handover_document_media": 20,
+   "user": 2,
+   "comment": null,
+   "old_data": {},
+   "new_data": {
+    "media": 12,
+    "status": "requesting_approval"
+   },
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "company": 2,
+   "expanded_user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_user_company": {
+     "id": 2,
+     "name": "20 Century Fox",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  "expanded_last_status_change_update": null
+ },
+ {
+  "id": 21,
+  "package_handover_document": 7,
+  "media": 13,
+  "status": "requesting_approval",
+  "last_confirmed_update": 25,
+  "uid": null,
+  "information": null,
+  "expanded_media": {
+   "id": 13,
+   "name": "package_handover_media.png",
+   "size": 315,
+   "is_public": false,
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "local_id": null,
+   "extension": "png"
+  },
+  "expanded_upload_update": {
+   "id": 25,
+   "package_handover_document_media": 21,
+   "user": 2,
+   "comment": null,
+   "old_data": {},
+   "new_data": {
+    "media": 13,
+    "status": "requesting_approval"
+   },
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "company": 2,
+   "expanded_user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_user_company": {
+     "id": 2,
+     "name": "20 Century Fox",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  "expanded_last_confirmed_update": {
+   "id": 25,
+   "package_handover_document_media": 21,
+   "user": 2,
+   "comment": null,
+   "old_data": {},
+   "new_data": {
+    "media": 13,
+    "status": "requesting_approval"
+   },
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "company": 2,
+   "expanded_user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_user_company": {
+     "id": 2,
+     "name": "20 Century Fox",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  "expanded_last_status_change_update": null
+ },
+ {
+  "id": 22,
+  "package_handover_document": 9,
+  "media": 14,
+  "status": "requesting_approval",
+  "last_confirmed_update": 26,
+  "uid": null,
+  "information": null,
+  "expanded_media": {
+   "id": 14,
+   "name": "package_handover_media.png",
+   "size": 315,
+   "is_public": false,
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "local_id": null,
+   "extension": "png"
+  },
+  "expanded_upload_update": {
+   "id": 26,
+   "package_handover_document_media": 22,
+   "user": 2,
+   "comment": null,
+   "old_data": {},
+   "new_data": {
+    "media": 14,
+    "status": "requesting_approval"
+   },
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "company": 2,
+   "expanded_user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_user_company": {
+     "id": 2,
+     "name": "20 Century Fox",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  "expanded_last_confirmed_update": {
+   "id": 26,
+   "package_handover_document_media": 22,
+   "user": 2,
+   "comment": null,
+   "old_data": {},
+   "new_data": {
+    "media": 14,
+    "status": "requesting_approval"
+   },
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "company": 2,
+   "expanded_user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_user_company": {
+     "id": 2,
+     "name": "20 Century Fox",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  "expanded_last_status_change_update": null
+ }
+]

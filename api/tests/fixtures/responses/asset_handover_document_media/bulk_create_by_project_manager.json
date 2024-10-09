@@ -1,0 +1,112 @@
+[
+ {
+  "id": 17,
+  "asset_handover_document": 7,
+  "last_confirmed_update": null,
+  "media": 13,
+  "uid": null,
+  "status": "requesting_approval",
+  "created_at": "2020-02-02T00:00:00Z",
+  "updated_at": "2020-02-02T00:00:00Z",
+  "expanded_last_confirmed_update": null,
+  "expanded_last_status_change_update": null,
+  "expanded_upload_update": {
+   "id": 8,
+   "asset_handover_document_media": 17,
+   "user": 2,
+   "comment": null,
+   "old_data": {},
+   "new_data": {
+    "media": 13,
+    "status": "requesting_approval"
+   },
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "company": 2,
+   "expanded_user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_user_company": {
+     "id": 2,
+     "name": "20 Century Fox",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  "expanded_media": {
+   "id": 13,
+   "name": "troom.png",
+   "size": 315,
+   "is_public": false,
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "local_id": null,
+   "extension": "png"
+  }
+ },
+ {
+  "id": 18,
+  "asset_handover_document": 7,
+  "last_confirmed_update": null,
+  "media": 14,
+  "uid": null,
+  "status": "requesting_approval",
+  "created_at": "2020-02-02T00:00:00Z",
+  "updated_at": "2020-02-02T00:00:00Z",
+  "expanded_last_confirmed_update": null,
+  "expanded_last_status_change_update": null,
+  "expanded_upload_update": {
+   "id": 9,
+   "asset_handover_document_media": 18,
+   "user": 2,
+   "comment": null,
+   "old_data": {},
+   "new_data": {
+    "media": 14,
+    "status": "requesting_approval"
+   },
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "company": 2,
+   "expanded_user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_user_company": {
+     "id": 2,
+     "name": "20 Century Fox",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  "expanded_media": {
+   "id": 14,
+   "name": "troom.png",
+   "size": 315,
+   "is_public": false,
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "local_id": null,
+   "extension": "png"
+  }
+ }
+]

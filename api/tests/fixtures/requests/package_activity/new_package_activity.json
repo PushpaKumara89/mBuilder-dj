@@ -1,0 +1,36 @@
+{
+  "name": "New package activity",
+  "description": "New package activity description",
+  "description_image": 1,
+  "activity_id": "sdfugh#456",
+  "package_activity_tasks": [
+    {
+      "description": "New description 1",
+      "is_not_applicable_status_by_default": false,
+      "is_photo_required": true,
+      "order": 3,
+      "photo_requirement_comment": "Comment"
+    },
+    {
+      "description": "New description 2",
+      "is_not_applicable_status_by_default": false,
+      "order": 3,
+      "photo_requirement_comment": "Comment"
+    },
+    {
+      "description": "New description 3",
+      "is_photo_required": true,
+      "order": 3,
+      "photo_requirement_comment": "Comment"
+    },
+    {
+      "description": "New description 4",
+      "order": 3,
+      "photo_requirement_comment": "Comment"
+    }
+  ],
+  "files": [
+    1,
+    2
+  ]
+}

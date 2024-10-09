@@ -1,0 +1,131 @@
+[
+ {
+  "data": {
+   "id": 1,
+   "status": "pending",
+   "first_name": "Bradwood",
+   "last_name": "Feat",
+   "email": "cool.brad@gmail.com",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "company": 1,
+   "group": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "id": 6,
+   "description": "test",
+   "is_closed": false,
+   "task": 3,
+   "user": 2,
+   "files": [
+    1,
+    2
+   ],
+   "created_at": "2020-07-25T12:21:16.129000Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "date_of_completion": "2020-07-30T12:21:16.129000Z",
+   "estimation": null,
+   "due_date": "2020-07-30T12:21:16.129000Z",
+   "company": null,
+   "quality_issue": null,
+   "status": "in_progress",
+   "is_defect": false,
+   "last_confirmed_update": null,
+   "response_due_date": null,
+   "location_description": null,
+   "local_id": null
+  },
+  "type": "entity_updated",
+  "entity": "subtask",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "id": 3,
+   "status": "rejected",
+   "package_activity": {
+    "id": 4,
+    "name": "Fourth package activity",
+    "activity_id": null,
+    "files": []
+   },
+   "package_activity_task": {
+    "id": 5,
+    "description": "Fifth desc",
+    "is_not_applicable_status_by_default": true,
+    "is_photo_required": false,
+    "order": 0,
+    "package_activity": 4,
+    "photo_requirement_comment": "",
+    "is_default_for_subtask": false
+   },
+   "local_id": null,
+   "location_matrix": {
+    "id": 1,
+    "project": 5,
+    "building": "Building A",
+    "level": "A",
+    "area": "Hall",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "date_of_approval": null,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_updated",
+  "entity": "task",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "id": 17,
+   "task": 3,
+   "user": 2,
+   "comment": "test",
+   "files": [],
+   "old_data": {
+    "status": "rejected"
+   },
+   "new_data": {
+    "status": "rejected"
+   },
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "recipients": [],
+   "is_conflict": false,
+   "local_id": null
+  },
+  "type": "entity_created",
+  "entity": "task_update",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ }
+]

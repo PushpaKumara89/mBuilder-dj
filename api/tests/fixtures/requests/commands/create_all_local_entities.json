@@ -1,0 +1,37 @@
+{
+  "commands": [
+    {
+      "data": {
+        "local_id": "BUIF737382323",
+        "task": 1,
+        "user": 1,
+        "company": 2,
+        "description": "test description",
+        "status": "in_progress",
+        "due_date": "2020-09-22T11:24:23.543Z"
+      },
+      "type": "create_entity",
+      "entity": "subtask",
+      "project_id": 1
+    },
+    {
+      "data": {
+        "parent_entity_local_id": "BUIF737382323",
+        "local_id": "fbubsbfuibsbduf88888",
+        "user": 1,
+        "comment": "new test comment",
+        "old_data": {
+          "description": "test description",
+          "status": "in_progress"
+        },
+        "new_data": {
+          "description": "updated description",
+          "status": "in_progress"
+        }
+      },
+      "type": "create_entity",
+      "entity": "subtask_update",
+      "project_id": 1
+    }
+  ]
+}

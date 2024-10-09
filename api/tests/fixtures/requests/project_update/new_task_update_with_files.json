@@ -1,0 +1,13 @@
+{
+  "comment": "test comment",
+  "old_data": {
+    "status": "accepted"
+  },
+  "new_data": {
+    "status": "not_applicable"
+  },
+  "files": [
+    1,
+    2
+  ]
+}

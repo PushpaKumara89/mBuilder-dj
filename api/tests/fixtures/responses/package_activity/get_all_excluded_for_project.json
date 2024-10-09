@@ -1,0 +1,20 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 6,
+   "name": "Sixth package activity",
+   "activity_id": null,
+   "package_activity_tasks": [],
+   "files": []
+  },
+  {
+   "id": 7,
+   "name": "Seventh package activity",
+   "activity_id": null,
+   "package_activity_tasks": [],
+   "files": []
+  }
+ ],
+ "next_page": null
+}

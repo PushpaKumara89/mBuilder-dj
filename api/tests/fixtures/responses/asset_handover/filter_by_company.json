@@ -1,0 +1,14 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 9,
+   "package_activity": 1,
+   "location_matrix": 2,
+   "project": 5,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  }
+ ],
+ "next_page": null
+}

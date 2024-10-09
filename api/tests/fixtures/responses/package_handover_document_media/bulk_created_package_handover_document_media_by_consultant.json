@@ -1,0 +1,260 @@
+[
+ {
+  "id": 17,
+  "package_handover_document": 2,
+  "media": 9,
+  "status": "in_progress",
+  "last_confirmed_update": 21,
+  "uid": null,
+  "information": null,
+  "expanded_last_status_change_update": null,
+  "expanded_upload_update": {
+   "id": 21,
+   "package_handover_document_media": 17,
+   "user": 9,
+   "comment": null,
+   "old_data": {},
+   "new_data": {
+    "media": 9,
+    "status": "in_progress"
+   },
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "company": 4,
+   "expanded_user": {
+    "id": 9,
+    "status": "pending",
+    "first_name": "Wrap",
+    "last_name": "Trap",
+    "email": "wrap.trap1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Wrap trap",
+    "company": 4,
+    "group": 6,
+    "created_at": "2020-07-22T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_user_company": {
+     "id": 4,
+     "name": "Universal",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  "expanded_last_confirmed_update": {
+   "id": 21,
+   "package_handover_document_media": 17,
+   "user": 9,
+   "comment": null,
+   "old_data": {},
+   "new_data": {
+    "media": 9,
+    "status": "in_progress"
+   },
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "company": 4,
+   "expanded_user": {
+    "id": 9,
+    "status": "pending",
+    "first_name": "Wrap",
+    "last_name": "Trap",
+    "email": "wrap.trap1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Wrap trap",
+    "company": 4,
+    "group": 6,
+    "created_at": "2020-07-22T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_user_company": {
+     "id": 4,
+     "name": "Universal",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  "expanded_media": {
+   "id": 9,
+   "name": "package_handover_media.png",
+   "size": 315,
+   "is_public": false,
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "local_id": null,
+   "extension": "png"
+  }
+ },
+ {
+  "id": 18,
+  "package_handover_document": 7,
+  "media": 10,
+  "status": "in_progress",
+  "last_confirmed_update": 22,
+  "uid": null,
+  "information": null,
+  "expanded_last_status_change_update": null,
+  "expanded_upload_update": {
+   "id": 22,
+   "package_handover_document_media": 18,
+   "user": 9,
+   "comment": null,
+   "old_data": {},
+   "new_data": {
+    "media": 10,
+    "status": "in_progress"
+   },
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "company": 4,
+   "expanded_user": {
+    "id": 9,
+    "status": "pending",
+    "first_name": "Wrap",
+    "last_name": "Trap",
+    "email": "wrap.trap1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Wrap trap",
+    "company": 4,
+    "group": 6,
+    "created_at": "2020-07-22T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_user_company": {
+     "id": 4,
+     "name": "Universal",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  "expanded_last_confirmed_update": {
+   "id": 22,
+   "package_handover_document_media": 18,
+   "user": 9,
+   "comment": null,
+   "old_data": {},
+   "new_data": {
+    "media": 10,
+    "status": "in_progress"
+   },
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "company": 4,
+   "expanded_user": {
+    "id": 9,
+    "status": "pending",
+    "first_name": "Wrap",
+    "last_name": "Trap",
+    "email": "wrap.trap1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Wrap trap",
+    "company": 4,
+    "group": 6,
+    "created_at": "2020-07-22T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_user_company": {
+     "id": 4,
+     "name": "Universal",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  "expanded_media": {
+   "id": 10,
+   "name": "package_handover_media.png",
+   "size": 315,
+   "is_public": false,
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "local_id": null,
+   "extension": "png"
+  }
+ },
+ {
+  "id": 19,
+  "package_handover_document": 9,
+  "media": 11,
+  "status": "in_progress",
+  "last_confirmed_update": 23,
+  "uid": null,
+  "information": null,
+  "expanded_last_status_change_update": null,
+  "expanded_upload_update": {
+   "id": 23,
+   "package_handover_document_media": 19,
+   "user": 9,
+   "comment": null,
+   "old_data": {},
+   "new_data": {
+    "media": 11,
+    "status": "in_progress"
+   },
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "company": 4,
+   "expanded_user": {
+    "id": 9,
+    "status": "pending",
+    "first_name": "Wrap",
+    "last_name": "Trap",
+    "email": "wrap.trap1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Wrap trap",
+    "company": 4,
+    "group": 6,
+    "created_at": "2020-07-22T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_user_company": {
+     "id": 4,
+     "name": "Universal",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  "expanded_last_confirmed_update": {
+   "id": 23,
+   "package_handover_document_media": 19,
+   "user": 9,
+   "comment": null,
+   "old_data": {},
+   "new_data": {
+    "media": 11,
+    "status": "in_progress"
+   },
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "company": 4,
+   "expanded_user": {
+    "id": 9,
+    "status": "pending",
+    "first_name": "Wrap",
+    "last_name": "Trap",
+    "email": "wrap.trap1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Wrap trap",
+    "company": 4,
+    "group": 6,
+    "created_at": "2020-07-22T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_user_company": {
+     "id": 4,
+     "name": "Universal",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  "expanded_media": {
+   "id": 11,
+   "name": "package_handover_media.png",
+   "size": 315,
+   "is_public": false,
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "local_id": null,
+   "extension": "png"
+  }
+ }
+]

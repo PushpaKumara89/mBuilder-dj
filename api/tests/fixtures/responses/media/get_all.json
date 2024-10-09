@@ -1,0 +1,150 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 1,
+   "name": "troom.png",
+   "link": "http://localhost/media/troom.png",
+   "size": 0,
+   "hash": null,
+   "is_public": true,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png"
+  },
+  {
+   "id": 2,
+   "name": "broom.png",
+   "link": "http://localhost/media/broom.png",
+   "size": 0,
+   "hash": null,
+   "is_public": true,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png"
+  },
+  {
+   "id": 3,
+   "name": "kroom.png",
+   "link": "http://localhost/media/kroom.png",
+   "size": 0,
+   "hash": null,
+   "is_public": true,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png"
+  },
+  {
+   "id": 4,
+   "name": "sroom.png",
+   "link": "http://localhost/media/sroom.png",
+   "size": 0,
+   "hash": null,
+   "is_public": true,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png"
+  },
+  {
+   "id": 5,
+   "name": "kroom.png",
+   "link": "http://localhost/media/kroom.png",
+   "size": 0,
+   "hash": null,
+   "is_public": true,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png"
+  },
+  {
+   "id": 6,
+   "name": "lroom.png",
+   "link": "http://localhost/media/lroom.png",
+   "size": 0,
+   "hash": null,
+   "is_public": true,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png"
+  },
+  {
+   "id": 7,
+   "name": "wroom.png",
+   "link": "http://localhost/media/wroom.png",
+   "size": 0,
+   "hash": null,
+   "is_public": true,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png"
+  },
+  {
+   "id": 8,
+   "name": "image.png",
+   "link": "http://localhost/media/image.png",
+   "size": 274555,
+   "hash": "c0b7387122b04fee87602fce2a48028b",
+   "is_public": false,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png"
+  },
+  {
+   "id": 9,
+   "name": "image_without_thumbnail.png",
+   "link": "http://localhost/media/image_without_thumbnail.png",
+   "size": 274555,
+   "hash": "c0b7387122b04fee87602fce2r48028b",
+   "is_public": false,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png"
+  },
+  {
+   "id": 10,
+   "name": "report.pdf",
+   "link": "http://localhost/media/report.pdf",
+   "size": 274555,
+   "hash": "c0b7387122b04fee87602fce2a480r8b",
+   "is_public": false,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "pdf"
+  },
+  {
+   "id": 11,
+   "name": "152x140_still.jpeg",
+   "link": "http://localhost/media/152x140_still.jpeg",
+   "size": 274555,
+   "hash": "c0b7387122b040fee87602fce2a480r8b",
+   "is_public": false,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "jpeg"
+  },
+  {
+   "id": 12,
+   "name": "72x72_pinky.jpeg",
+   "link": "http://localhost/media/72x72_pinky.jpeg",
+   "size": 274555,
+   "hash": "c0b7387122b044fee87602fce2a480r8b",
+   "is_public": false,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "jpeg"
+  }
+ ],
+ "next_page": null
+}

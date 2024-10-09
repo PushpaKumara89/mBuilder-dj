@@ -1,0 +1,223 @@
+[
+ {
+  "data": {
+   "company": 3,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad+2wood@gmail.com",
+   "first_name": "Brad",
+   "group": 2,
+   "id": 3,
+   "last_name": "Heat",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "expanded_package": {
+    "id": 4,
+    "name": "Fourth package",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "order": 5
+   },
+   "expanded_package_activity": {
+    "id": 1,
+    "name": "First package activity",
+    "activity_id": null,
+    "package_activity_tasks": [
+     {
+      "id": 5,
+      "description": "Fifth desc",
+      "is_not_applicable_status_by_default": true,
+      "is_photo_required": false,
+      "order": 0,
+      "package_activity": 1,
+      "photo_requirement_comment": "",
+      "is_default_for_subtask": false
+     },
+     {
+      "id": 6,
+      "description": "Sixth desc",
+      "is_not_applicable_status_by_default": true,
+      "is_photo_required": false,
+      "order": 0,
+      "package_activity": 1,
+      "photo_requirement_comment": "",
+      "is_default_for_subtask": false
+     }
+    ],
+    "files": []
+   },
+   "expanded_project": {
+    "id": 6,
+    "name": "Project 6",
+    "number": "fg2645y4tf",
+    "image": {
+     "id": 6,
+     "name": "lroom.png",
+     "link": "http://localhost/media/lroom.png",
+     "size": 0,
+     "hash": null,
+     "is_public": true,
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "local_id": null,
+     "extension": "png"
+    },
+    "status": "tendering",
+    "start_date": "2020-07-30",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "value": "34551.43",
+    "completion_date": "2020-08-30",
+    "show_estimated_man_hours": true,
+    "is_task_visible_for_clients": true,
+    "value_currency": "USD",
+    "is_subtask_visible_for_clients": false
+   },
+   "id": 1,
+   "package": 4,
+   "package_activity": 1,
+   "project": 6
+  },
+  "type": "entity_deleted",
+  "entity": "package_matrix",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "closed_files_count": 0,
+   "company": null,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "date_of_completion": null,
+   "description": "",
+   "due_date": "2020-07-30T12:21:16.129000Z",
+   "estimation": null,
+   "files": [],
+   "files_count": 0,
+   "id": 1,
+   "is_closed": false,
+   "is_defect": false,
+   "last_confirmed_update": null,
+   "local_id": null,
+   "location_description": null,
+   "quality_issue": null,
+   "response_due_date": null,
+   "status": "in_progress",
+   "task": 1,
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "user": 2
+  },
+  "type": "entity_deleted",
+  "entity": "subtask",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "comment": "test comment!",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "files": [],
+   "id": 1,
+   "is_conflict": false,
+   "local_id": null,
+   "new_data": {
+    "status": "outstanding"
+   },
+   "old_data": {
+    "status": "accepted"
+   },
+   "recipients": [],
+   "task": 1,
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "user": 1
+  },
+  "type": "entity_deleted",
+  "entity": "task_update",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "date_of_approval": null,
+   "id": 1,
+   "local_id": null,
+   "location_matrix": {
+    "id": 4,
+    "project": 6,
+    "building": "Building B",
+    "level": "-2B",
+    "area": "Hall",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "package_activity": {
+    "id": 1,
+    "name": "First package activity",
+    "activity_id": null,
+    "files": []
+   },
+   "package_activity_task": {
+    "id": 5,
+    "description": "Fifth desc",
+    "is_not_applicable_status_by_default": true,
+    "is_photo_required": false,
+    "order": 0,
+    "package_activity": 1,
+    "photo_requirement_comment": "",
+    "is_default_for_subtask": false
+   },
+   "status": "not_verified",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "user": {
+    "id": 3,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Heat",
+    "email": "cool.brad+2wood@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 3,
+    "group": 2,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_deleted",
+  "entity": "task",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "enabled": true,
+   "id": 4,
+   "location_matrix": 3,
+   "package": 4,
+   "package_activity": 1,
+   "package_activity_name": "",
+   "package_matrix": 1,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_deleted",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ }
+]

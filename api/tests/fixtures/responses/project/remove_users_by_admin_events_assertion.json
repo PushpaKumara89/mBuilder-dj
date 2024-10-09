@@ -1,0 +1,164 @@
+[
+ {
+  "data": {
+   "company": 3,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad+2wood@gmail.com",
+   "first_name": "Brad",
+   "group": 2,
+   "id": 3,
+   "last_name": "Heat",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "expanded_user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "is_notifications_enabled": false,
+   "project": 2,
+   "user": 2
+  },
+  "type": "entity_deleted",
+  "entity": "project_user",
+  "local_id": null,
+  "project_id": 2,
+  "user": null
+ },
+ {
+  "data": {
+   "project": 2,
+   "user": {
+    "company": 2,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "email": "cool.brad+1@gmail.com",
+    "first_name": "Brad",
+    "group": 3,
+    "id": 2,
+    "last_name": "Seatwood",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "status": "pending",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_deleted",
+  "entity": "project_user",
+  "local_id": null,
+  "project_id": 2,
+  "user": null
+ },
+ {
+  "data": {
+   "project": 2,
+   "user": {
+    "company": 2,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "email": "cool.brad+1@gmail.com",
+    "first_name": "Brad",
+    "group": 3,
+    "id": 2,
+    "last_name": "Seatwood",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "status": "pending",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_deleted",
+  "entity": "project_key_contacts",
+  "local_id": null,
+  "project_id": 2,
+  "user": null
+ },
+ {
+  "data": {
+   "expanded_user": {
+    "id": 3,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Heat",
+    "email": "cool.brad+2wood@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 3,
+    "group": 2,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "is_notifications_enabled": false,
+   "project": 2,
+   "user": 3
+  },
+  "type": "entity_deleted",
+  "entity": "project_user",
+  "local_id": null,
+  "project_id": 2,
+  "user": null
+ },
+ {
+  "data": {
+   "project": 2,
+   "user": {
+    "company": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "email": "cool.brad+2wood@gmail.com",
+    "first_name": "Brad",
+    "group": 2,
+    "id": 3,
+    "last_name": "Heat",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "status": "pending",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_deleted",
+  "entity": "project_user",
+  "local_id": null,
+  "project_id": 2,
+  "user": null
+ },
+ {
+  "data": {
+   "project": 2,
+   "user": {
+    "company": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "email": "cool.brad+2wood@gmail.com",
+    "first_name": "Brad",
+    "group": 2,
+    "id": 3,
+    "last_name": "Heat",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "status": "pending",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_deleted",
+  "entity": "project_key_contacts",
+  "local_id": null,
+  "project_id": 2,
+  "user": null
+ }
+]

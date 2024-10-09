@@ -1,0 +1,1804 @@
+[
+  {
+    "model": "rest_framework_api_key.apikey",
+    "pk": "gMopOTBs.bcrypt_sha256$$2b$12$0TiIZyuRb9wYCYRYzNNgAe44m0zedUPbHf71WMeTisCQepxECR6OW",
+    "fields": {
+      "created": "2021-08-16 10:48:01.399820",
+      "name": "test",
+      "revoked": false,
+      "expiry_date": null,
+      "hashed_key": "bcrypt_sha256$$2b$12$0TiIZyuRb9wYCYRYzNNgAe44m0zedUPbHf71WMeTisCQepxECR6OW",
+      "prefix": "gMopOTBs"
+    }
+  },
+  {
+    "model": "api.company",
+    "pk": 1,
+    "fields": {
+      "name": "Dodge",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.company",
+    "pk": 2,
+    "fields": {
+      "name": "Ford",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.company",
+    "pk": 3,
+    "fields": {
+      "name": "Toyota",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 1,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": true,
+      "first_name": "Bradwood",
+      "last_name": "Feat",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.brad@gmail.com",
+      "company": 1,
+      "phone": "+41524204242",
+      "position": "Cool Brad",
+      "group": 1,
+      "groups": [
+        1
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 2,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Brad",
+      "last_name": "Seatwood",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.brad+1@gmail.com",
+      "company": 2,
+      "phone": "+41524204242",
+      "position": "Cool Brad",
+      "group": 3,
+      "groups": [
+        3
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 3,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Brad",
+      "last_name": "Heat",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.brad+2wood@gmail.com",
+      "company": 3,
+      "phone": "+41524204242",
+      "position": "Cool Brad",
+      "group": 2,
+      "groups": [
+        2
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 4,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Marie",
+      "last_name": "Sue",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "marie.sue+999@gmail.com",
+      "company": 1,
+      "phone": "+41524204242",
+      "position": "Super girl",
+      "group": 2,
+      "groups": [
+        2
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 5,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Marie",
+      "last_name": "Subcontractor",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "marie.subcontractor@gmail.com",
+      "company": 1,
+      "phone": "+41524204242",
+      "position": "Super Subcontractor",
+      "group": 4,
+      "groups": [
+        4
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 6,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Marie",
+      "last_name": "Client",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "marie.client@gmail.com",
+      "company": 1,
+      "phone": "+41524204242",
+      "position": "Super Client",
+      "group": 5,
+      "groups": [
+        5
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 7,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Marie",
+      "last_name": "Non project subcontractor",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "marie.non_project_subcontractor@gmail.com",
+      "company": 1,
+      "phone": "+41524204242",
+      "position": "Super Non Project Subcontractor",
+      "group": 4,
+      "groups": [
+        4
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 8,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Marie",
+      "last_name": "Subcontractor 2",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "marie.subcontractor2@gmail.com",
+      "company": 3,
+      "phone": "+41524204242",
+      "position": "Super Subcontractor 2",
+      "group": 4,
+      "groups": [
+        4
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 9,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Ork",
+      "last_name": "Pork",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "ork.pork@gmail.com",
+      "company": 1,
+      "phone": "+41524204242",
+      "position": "Super Pork",
+      "group": 5,
+      "groups": [
+        5
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.media",
+    "pk": 1,
+    "fields": {
+      "name": "troom.png",
+      "link": "http://localhost/sdfgsdgdsfgfdgf",
+      "original_link": "troom.png",
+      "is_public": false,
+      "hash": "sdfgsdgdsfgfdgf",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.media",
+    "pk": 2,
+    "fields": {
+      "name": "broom.png",
+      "link": "broom.png",
+      "original_link": "broom.png",
+      "is_public": false,
+      "hash": "456hy4w5ytwertgdsf",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.media",
+    "pk": 3,
+    "fields": {
+      "name": "kroom.png",
+      "link": "http://localhost/h45978yhtghdjfkhgfd",
+      "original_link": "kroom.png",
+      "is_public": false,
+      "hash": "h45978yhtghdjfkhgfd",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.media",
+    "pk": 4,
+    "fields": {
+      "name": "sroom.png",
+      "link": "sroom.png",
+      "hash": "sdiughsdfghruirerr",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.media",
+    "pk": 5,
+    "fields": {
+      "name": "kroom.png",
+      "link": "kroom.png",
+      "hash": "dsfguih985hgghdfgd",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.media",
+    "pk": 6,
+    "fields": {
+      "name": "lroom.png",
+      "link": "lroom.png",
+      "hash": "sfghj4985tyhsdgsdfg",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.media",
+    "pk": 7,
+    "fields": {
+      "name": "wroom.png",
+      "link": "wroom.png",
+      "hash": "riuh34y587thdghdfg",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packageactivitytask",
+    "pk": 1,
+    "fields": {
+      "description": "First desc",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "package_activity": 1
+    }
+  },
+  {
+    "model": "api.packageactivitytask",
+    "pk": 2,
+    "fields": {
+      "description": "Second desc",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "package_activity": 2
+    }
+  },
+  {
+    "model": "api.packageactivitytask",
+    "pk": 3,
+    "fields": {
+      "description": "Third desc",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "package_activity": 3,
+      "is_not_applicable_status_by_default": false
+    }
+  },
+  {
+    "model": "api.packageactivitytask",
+    "pk": 4,
+    "fields": {
+      "description": "Fourth desc",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "package_activity": 4
+    }
+  },
+  {
+    "model": "api.packageactivitytask",
+    "pk": 5,
+    "fields": {
+      "description": "Fifth desc",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "package_activity": 4
+    }
+  },
+  {
+    "model": "api.packageactivitytask",
+    "pk": 6,
+    "fields": {
+      "description": "Sixth desc",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "package_activity": 5
+    }
+  },
+  {
+    "model": "api.packageactivitytask",
+    "pk": 7,
+    "fields": {
+      "description": "Seventh desc",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "package_activity": 5
+    }
+  },
+  {
+    "model": "api.packageactivity",
+    "pk": 1,
+    "fields": {
+      "name": "First package activity",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packageactivity",
+    "pk": 2,
+    "fields": {
+      "name": "Second package activity",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packageactivity",
+    "pk": 3,
+    "fields": {
+      "name": "Third package activity",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packageactivity",
+    "pk": 4,
+    "fields": {
+      "name": "Fourth package activity",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packageactivity",
+    "pk": 5,
+    "fields": {
+      "name": "Fifth package activity",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.package",
+    "pk": 1,
+    "fields": {
+      "name": "First package",
+      "order": 2,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.package",
+    "pk": 2,
+    "fields": {
+      "name": "Second package",
+      "order": 3,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.package",
+    "pk": 3,
+    "fields": {
+      "name": "Third package",
+      "order": 4,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.package",
+    "pk": 4,
+    "fields": {
+      "name": "Fourth package",
+      "order": 5,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 1,
+    "fields": {
+      "name": "Project 1",
+      "number": "dfg134",
+      "status": "tendering",
+      "show_estimated_man_hours": true,
+      "image": 1,
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "value": 2343456.23,
+      "value_currency": "USD",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "users": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 2,
+    "fields": {
+      "name": "Project 2",
+      "number": "h5636uytsf",
+      "status": "under_construction",
+      "show_estimated_man_hours": false,
+      "image": 2,
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "value": 6534.65,
+      "value_currency": "USD",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "users": [
+        2
+      ],
+      "key_contacts": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 3,
+    "fields": {
+      "name": "Mitron 3",
+      "number": "7th46ds",
+      "status": "partially_completed",
+      "show_estimated_man_hours": true,
+      "image": 3,
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "value": 765.34,
+      "value_currency": "USD",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 4,
+    "fields": {
+      "name": "Project 4",
+      "number": "h356ydgd",
+      "status": "completed",
+      "show_estimated_man_hours": true,
+      "image": 4,
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "value": 765543.43,
+      "value_currency": "USD",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "users": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 5,
+    "fields": {
+      "name": "Project 5",
+      "number": "y356ywrtwe",
+      "status": "archived",
+      "show_estimated_man_hours": true,
+      "image": 5,
+      "start_date": "2020-07-30",
+      "completion_date": "2020-02-02",
+      "value": 123765.11,
+      "value_currency": "USD",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.projectuser",
+    "pk": 10,
+    "fields": {
+      "user": 2,
+      "project": 5,
+      "is_notifications_enabled": true,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.projectuser",
+    "pk": 12,
+    "fields": {
+      "user": 5,
+      "project": 5,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.projectuser",
+    "pk": 13,
+    "fields": {
+      "user": 9,
+      "project": 5,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 6,
+    "fields": {
+      "name": "Project 6",
+      "number": "fg2645y4tf",
+      "status": "tendering",
+      "show_estimated_man_hours": true,
+      "image": 6,
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "value": 34551.43,
+      "value_currency": "USD",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "is_subtask_visible_for_clients": true,
+      "users": [
+        3,
+        9
+      ]
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 7,
+    "fields": {
+      "name": "Projcto 7",
+      "number": "rt4efweewe",
+      "status": "tendering",
+      "show_estimated_man_hours": false,
+      "image": 7,
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "value": 2346345.54,
+      "value_currency": "USD",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagematrix",
+    "pk": 1,
+    "fields": {
+      "project": 6,
+      "package": 4,
+      "package_activity": 1,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagematrix",
+    "pk": 2,
+    "fields": {
+      "project": 5,
+      "package": 4,
+      "package_activity": 2,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagematrix",
+    "pk": 3,
+    "fields": {
+      "project": 5,
+      "package": 4,
+      "package_activity": 3,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagematrix",
+    "pk": 4,
+    "fields": {
+      "project": 5,
+      "package": 3,
+      "package_activity": 4,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagematrix",
+    "pk": 5,
+    "fields": {
+      "project": 5,
+      "package": 4,
+      "package_activity": 1,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagematrixcompany",
+    "pk": 1,
+    "fields": {
+      "package_matrix": 2,
+      "company": 2,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagematrixcompany",
+    "pk": 2,
+    "fields": {
+      "package_matrix": 2,
+      "company": 3,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagematrixhiddenactivitytask",
+    "pk": 1,
+    "fields": {
+      "package_matrix": 4,
+      "package_activity_task": 1,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.locationmatrix",
+    "pk": 1,
+    "fields": {
+      "project": 5,
+      "building": "Building A",
+      "level": "A",
+      "area": "Hall",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.locationmatrix",
+    "pk": 2,
+    "fields": {
+      "project": 5,
+      "building": "Building A",
+      "level": "A",
+      "area": "Meeting room",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.locationmatrix",
+    "pk": 3,
+    "fields": {
+      "project": 5,
+      "building": "Building A",
+      "level": "B",
+      "area": "Hall",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.locationmatrix",
+    "pk": 4,
+    "fields": {
+      "project": 6,
+      "building": "Building A",
+      "level": "A",
+      "area": "Hall",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.locationmatrix",
+    "pk": 5,
+    "fields": {
+      "project": 5,
+      "building": "Building D",
+      "level": "A",
+      "area": "Hall",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.locationmatrix",
+    "pk": 6,
+    "fields": {
+      "project": 6,
+      "building": "Building A",
+      "level": "R",
+      "area": "Kitchen",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.locationmatrixpackage",
+    "pk": 1,
+    "fields": {
+      "location_matrix": 1,
+      "package_matrix": 2,
+      "enabled": true,
+      "package": 4,
+      "package_activity": 2,
+      "package_activity_name": "Second package activity",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.locationmatrixpackage",
+    "pk": 2,
+    "fields": {
+      "location_matrix": 1,
+      "package_matrix": 3,
+      "enabled": false,
+      "package": 4,
+      "package_activity": 3,
+      "package_activity_name": "Third package activity",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.locationmatrixpackage",
+    "pk": 3,
+    "fields": {
+      "location_matrix": 1,
+      "package_matrix": 4,
+      "enabled": true,
+      "package": 3,
+      "package_activity": 4,
+      "package_activity_name": "Fourth package activity",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.locationmatrixpackage",
+    "pk": 4,
+    "fields": {
+      "location_matrix": 1,
+      "package_matrix": 5,
+      "package": 4,
+      "package_activity": 1,
+      "package_activity_name": "First package activity",
+      "enabled": true,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.locationmatrixpackage",
+    "pk": 5,
+    "fields": {
+      "location_matrix": 2,
+      "package_matrix": 2,
+      "package": 4,
+      "package_activity": 2,
+      "package_activity_name": "Second package activity",
+      "enabled": false,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.locationmatrixpackage",
+    "pk": 6,
+    "fields": {
+      "location_matrix": 2,
+      "package_matrix": 3,
+      "package": 4,
+      "package_activity": 3,
+      "package_activity_name": "Third package activity",
+      "enabled": true,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.locationmatrixpackage",
+    "pk": 7,
+    "fields": {
+      "location_matrix": 2,
+      "package_matrix": 4,
+      "package": 3,
+      "package_activity": 4,
+      "package_activity_name": "Fourth package activity",
+      "enabled": false,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.locationmatrixpackage",
+    "pk": 8,
+    "fields": {
+      "location_matrix": 2,
+      "package_matrix": 5,
+      "package": 4,
+      "package_activity": 1,
+      "package_activity_name": "First package activity",
+      "enabled": true,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.locationmatrixpackage",
+    "pk": 9,
+    "fields": {
+      "location_matrix": 3,
+      "package_matrix": 5,
+      "package": 4,
+      "package_activity": 1,
+      "package_activity_name": "First package activity",
+      "enabled": true,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 1,
+    "fields": {
+      "location_matrix": 1,
+      "package_activity": 2,
+      "package_activity_task": 2,
+      "project": 5,
+      "status": "accepted",
+      "user": 2,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 2,
+    "fields": {
+      "location_matrix": 1,
+      "package_activity": 4,
+      "package_activity_task": 4,
+      "project": 5,
+      "status": "rejected",
+      "user": 2,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 3,
+    "fields": {
+      "location_matrix": 1,
+      "package_activity": 4,
+      "package_activity_task": 5,
+      "project": 5,
+      "status": "outstanding",
+      "user": 2,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 4,
+    "fields": {
+      "location_matrix": 2,
+      "package_activity": 2,
+      "package_activity_task": 2,
+      "project": 5,
+      "status": "not_verified",
+      "user": 2,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 5,
+    "fields": {
+      "location_matrix": 2,
+      "package_activity": 2,
+      "package_activity_task": 1,
+      "project": 5,
+      "status": "rejected",
+      "user": 2,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2012-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 6,
+    "fields": {
+      "location_matrix": 3,
+      "package_activity": 1,
+      "package_activity_task": 1,
+      "project": 5,
+      "status": "rejected",
+      "user": 2,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2012-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 7,
+    "fields": {
+      "location_matrix": 4,
+      "package_activity": 1,
+      "package_activity_task": 1,
+      "project": 6,
+      "status": "rejected",
+      "user": 2,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2012-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.task",
+    "pk": 8,
+    "fields": {
+      "location_matrix": 6,
+      "package_activity": 1,
+      "package_activity_task": 1,
+      "project": 6,
+      "status": "rejected",
+      "user": 2,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2012-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.subtask",
+    "pk": 1,
+    "fields": {
+      "task": 1,
+      "description": "test",
+      "status": "closed",
+      "user": 2,
+      "estimation": 4,
+      "company": 1,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "due_date": "2020-07-30T12:21:10.129Z",
+      "last_confirmed_update": 3,
+      "quality_issue": 1,
+      "last_update": 4
+    }
+  },
+  {
+    "model": "api.subtask",
+    "pk": 2,
+    "fields": {
+      "task": 1,
+      "description": "test",
+      "status": "in_progress",
+      "user": 1,
+      "files": [
+        6
+      ],
+      "estimation": 5,
+      "created_at": "2020-07-29T12:21:16.129Z",
+      "updated_at": "2020-07-29T12:28:16.129Z",
+      "due_date": "2020-07-30T12:21:11.129Z"
+    }
+  },
+  {
+    "model": "api.subtask",
+    "pk": 3,
+    "fields": {
+      "task": 4,
+      "description": "test",
+      "status": "removed",
+      "user": 2,
+      "files": [
+        2,
+        4,
+        5
+      ],
+      "company": 1,
+      "created_at": "2020-10-28T12:21:16.129Z",
+      "updated_at": "2020-10-30T12:21:16.129Z",
+      "due_date": "2020-07-30T12:21:12.129Z"
+    }
+  },
+  {
+    "model": "api.subtask",
+    "pk": 4,
+    "fields": {
+      "task": 4,
+      "description": "test",
+      "status": "closed",
+      "user": 2,
+      "files": [
+        1,
+        2
+      ],
+      "created_at": "2020-01-27T12:21:16.129Z",
+      "updated_at": "2020-01-30T12:21:16.129Z",
+      "date_of_completion": "2020-07-30T12:21:16.129Z",
+      "due_date": "2020-07-30T12:21:13.129Z",
+      "is_defect": 1
+    }
+  },
+  {
+    "model": "api.subtask",
+    "pk": 5,
+    "fields": {
+      "task": 4,
+      "description": "test",
+      "status": "closed",
+      "user": 2,
+      "files": [
+        1,
+        2
+      ],
+      "created_at": "2020-01-26T12:21:16.129Z",
+      "updated_at": "2020-01-30T12:21:16.129Z",
+      "date_of_completion": "2020-07-30T12:21:16.129Z",
+      "due_date": "2020-07-30T12:21:14.129Z"
+    }
+  },
+  {
+    "model": "api.subtask",
+    "pk": 6,
+    "fields": {
+      "task": 3,
+      "description": "test",
+      "status": "closed",
+      "user": 2,
+      "files": [
+        1,
+        2
+      ],
+      "created_at": "2020-07-25T12:21:16.129Z",
+      "updated_at": "2020-08-30T12:21:16.129Z",
+      "date_of_completion": "2020-07-30T12:21:16.129Z",
+      "due_date": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.subtask",
+    "pk": 7,
+    "fields": {
+      "task": 5,
+      "description": "test",
+      "status": "in_progress",
+      "user": 2,
+      "files": [
+        1,
+        2
+      ],
+      "due_date": "2020-08-12T12:21:16.129Z",
+      "created_at": "2020-10-24T12:21:16.129Z",
+      "updated_at": "2020-08-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.subtask",
+    "pk": 8,
+    "fields": {
+      "task": 2,
+      "description": "test",
+      "status": "in_progress",
+      "user": 2,
+      "files": [
+        1,
+        2
+      ],
+      "due_date": "2020-08-12T12:21:16.129Z",
+      "created_at": "2020-07-23T12:21:16.129Z",
+      "deleted": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-08-30T12:21:16.129Z",
+      "is_defect": 1
+    }
+  },
+  {
+    "model": "api.subtask",
+    "pk": 9,
+    "fields": {
+      "task": 1,
+      "description": "test",
+      "status": "removed",
+      "user": 5,
+      "files": [
+        1,
+        2
+      ],
+      "due_date": "2020-08-12T12:21:16.129Z",
+      "created_at": "2020-07-22T12:21:16.129Z",
+      "updated_at": "2020-08-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.subtask",
+    "pk": 10,
+    "fields": {
+      "task": 1,
+      "description": "test",
+      "status": "removed",
+      "user": 5,
+      "files": [
+        1,
+        2
+      ],
+      "due_date": "2020-08-12T12:21:16.129Z",
+      "created_at": "2020-07-21T12:21:16.129Z",
+      "updated_at": "2020-08-30T12:21:16.129Z",
+      "is_defect": 1
+    }
+  },
+  {
+    "model": "api.subtask",
+    "pk": 11,
+    "fields": {
+      "task": 2,
+      "description": "test",
+      "status": "removed",
+      "user": 2,
+      "files": [
+        1,
+        2
+      ],
+      "due_date": "2020-08-12T12:21:16.129Z",
+      "created_at": "2020-07-23T12:21:16.129Z",
+      "updated_at": "2020-08-30T12:21:16.129Z",
+      "is_defect": 1
+    }
+  },
+  {
+    "model": "api.subtask",
+    "pk": 12,
+    "fields": {
+      "task": 7,
+      "description": "test",
+      "status": "removed",
+      "user": 2,
+      "files": [
+        1,
+        2
+      ],
+      "due_date": "2020-08-12T12:21:16.129Z",
+      "created_at": "2020-07-23T12:21:16.129Z",
+      "updated_at": "2020-08-30T12:21:16.129Z",
+      "is_defect": 1
+    }
+  },
+  {
+    "model": "api.subtask",
+    "pk": 13,
+    "fields": {
+      "task": 8,
+      "description": "test",
+      "status": "removed",
+      "user": 2,
+      "files": [
+        1,
+        2
+      ],
+      "due_date": "2020-08-12T12:21:16.129Z",
+      "created_at": "2020-07-23T12:21:16.129Z",
+      "updated_at": "2020-08-30T12:21:16.129Z",
+      "is_defect": 1,
+      "quality_issue": 4
+    }
+  },
+  {
+    "model": "api.recipient",
+    "pk": 1,
+    "fields": {
+      "first_name": "Tom",
+      "last_name": "Soyer",
+      "email": "tom_digidom@gmail.com",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-08-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.recipient",
+    "pk": 2,
+    "fields": {
+      "first_name": "Gan",
+      "last_name": "Gsta",
+      "email": "gan_gsta@gmail.com",
+      "user_id": 1,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-08-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.recipient",
+    "pk": 3,
+    "fields": {
+      "first_name": "Joshua",
+      "last_name": "Milgrem",
+      "email": "staff_owner@gmail.com",
+      "user_id": 1,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-08-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.subtaskupdate",
+    "pk": 1,
+    "fields": {
+      "subtask": 1,
+      "comment": "test comment!",
+      "old_data": {
+        "status": "closed"
+      },
+      "new_data": {
+        "status": "in_progress"
+      },
+      "files": [
+        1
+      ],
+      "user": 1,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.subtaskupdate",
+    "pk": 2,
+    "fields": {
+      "subtask": 2,
+      "comment": "test comment2!",
+      "old_data": {
+        "status": "in_progress"
+      },
+      "new_data": {
+        "status": "closed"
+      },
+      "files": [
+        1,
+        2
+      ],
+      "user": 1,
+      "created_at": "2020-06-30T12:21:16.129Z",
+      "updated_at": "2020-06-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.subtaskupdate",
+    "pk": 3,
+    "fields": {
+      "subtask": 1,
+      "comment": "test comment3!",
+      "old_data": {
+        "status": "in_progress"
+      },
+      "new_data": {
+        "status": "closed"
+      },
+      "files": [
+        4
+      ],
+      "user": 1,
+      "created_at": "2020-09-30T12:21:16.129Z",
+      "updated_at": "2020-09-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.subtaskupdate",
+    "pk": 4,
+    "fields": {
+      "subtask": 1,
+      "comment": "test comment4!",
+      "old_data": {
+        "status": "in_progress"
+      },
+      "new_data": {
+        "status": "closed"
+      },
+      "files": [
+        1,
+        2,
+        3
+      ],
+      "user": 1,
+      "created_at": "2020-10-30T12:21:16.129Z",
+      "updated_at": "2020-10-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.subtaskupdate",
+    "pk": 5,
+    "fields": {
+      "subtask": 1,
+      "comment": "test comment5!",
+      "old_data": {},
+      "new_data": {
+        "status": "in_progress"
+      },
+      "recipients": [
+        1
+      ],
+      "user": 1,
+      "created_at": "2020-10-29T12:21:16.129Z",
+      "updated_at": "2020-10-29T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.subtaskupdate",
+    "pk": 6,
+    "fields": {
+      "subtask": 1,
+      "comment": "test comment6!",
+      "old_data": {
+        "status": "contested"
+      },
+      "new_data": {
+        "status": "in_progress"
+      },
+      "recipients": [
+        1,
+        2
+      ],
+      "user": 1,
+      "created_at": "2020-10-30T12:21:16.129Z",
+      "updated_at": "2020-10-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.qualityissue",
+    "pk": 1,
+    "fields": {
+      "description": "Oh! My! God!",
+      "status": "under_review",
+      "location_matrix": 1,
+      "attachments": [
+        1,
+        2,
+        3
+      ],
+      "user": 1,
+      "due_date": "2021-04-22T12:21:16.129Z",
+      "created_at": "2020-09-22T12:21:16.129Z",
+      "updated_at": "2020-09-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.qualityissue",
+    "pk": 2,
+    "fields": {
+      "description": "Oh! My! God!",
+      "status": "removed",
+      "location_matrix": 1,
+      "attachments": [
+        1,
+        2,
+        3
+      ],
+      "user": 1,
+      "created_at": "2020-09-22T12:21:16.129Z",
+      "updated_at": "2020-09-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.qualityissue",
+    "pk": 3,
+    "fields": {
+      "description": "Oh! My! God!",
+      "status": "under_review",
+      "location_matrix": 3,
+      "attachments": [
+        1,
+        2,
+        3
+      ],
+      "user": 1,
+      "due_date": "2021-04-22T12:21:16.129Z",
+      "created_at": "2020-09-22T12:21:16.129Z",
+      "updated_at": "2020-09-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.qualityissue",
+    "pk": 4,
+    "fields": {
+      "description": "Oh! My! God!",
+      "status": "removed",
+      "location_matrix": 4,
+      "user": 1,
+      "created_at": "2020-09-22T12:21:16.129Z",
+      "updated_at": "2020-09-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.qualityissue",
+    "pk": 5,
+    "fields": {
+      "description": "Oh! My! God!",
+      "status": "removed",
+      "location_matrix": 4,
+      "user": 1,
+      "created_at": "2020-09-22T12:21:16.129Z",
+      "updated_at": "2020-09-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.qualityissue",
+    "pk": 6,
+    "fields": {
+      "description": "Stay alive!",
+      "status": "removed",
+      "location_matrix": 5,
+      "user": 1,
+      "created_at": "2020-09-22T12:21:16.129Z",
+      "updated_at": "2020-09-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.qualityissue",
+    "pk": 7,
+    "fields": {
+      "description": "Test quality issue",
+      "status": "under_review",
+      "location_matrix": 1,
+      "attachments": [
+        1,
+        2,
+        3
+      ],
+      "user": 1,
+      "due_date": "2021-04-22T12:21:16.129Z",
+      "created_at": "2020-09-22T12:21:16.129Z",
+      "updated_at": "2020-09-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.qualityissue",
+    "pk": 8,
+    "fields": {
+      "description": "Oh! My! God!",
+      "status": "under_review",
+      "location_matrix": 5,
+      "user": 1,
+      "created_at": "2020-09-22T12:21:16.129Z",
+      "updated_at": "2020-09-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.qualityissue",
+    "pk": 9,
+    "fields": {
+      "description": "Oh! My! God!",
+      "status": "under_review",
+      "location_matrix": 5,
+      "user": 1,
+      "created_at": "2020-09-22T12:21:16.129Z",
+      "updated_at": "2020-09-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.qualityissueupdate",
+    "pk": 1,
+    "fields": {
+      "new_data": {
+        "description": "Oh! My! God!",
+        "status": "under_review"
+      },
+      "old_data": {},
+      "files": [
+        1,
+        2,
+        3
+      ],
+      "user": 1,
+      "quality_issue": 1,
+      "created_at": "2019-01-30T12:21:16.129Z",
+      "updated_at": "2019-01-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.qualityissueupdate",
+    "pk": 2,
+    "fields": {
+      "new_data": {
+        "description": "Oh! My! Goodness!",
+        "status": "under_review"
+      },
+      "old_data": {},
+      "files": [
+        1,
+        2,
+        3
+      ],
+      "user": 1,
+      "quality_issue": 7,
+      "created_at": "2019-01-30T12:21:16.129Z",
+      "updated_at": "2019-01-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.editmode",
+    "pk": 1,
+    "fields": {
+      "project": 5,
+      "user": 2,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.floorplan",
+    "pk": 1,
+    "fields": {
+      "project": 5,
+      "package": 4,
+      "building": "building1",
+      "level": "level1",
+      "media": 1,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.floorplan",
+    "pk": 2,
+    "fields": {
+      "project": 5,
+      "package": 4,
+      "building": "building1",
+      "level": "level2",
+      "media": 2,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.floorplanarea",
+    "pk": 1,
+    "fields": {
+      "floor_plan": 1,
+      "area": "beatle",
+      "polygon": {
+        "type": "polygon",
+        "version": "5.2.4",
+        "originX": "left",
+        "originY": "top",
+        "left": 616.36,
+        "top": 247.49,
+        "width": 275.71,
+        "height": 180.63,
+        "fill": "lightblue",
+        "stroke": "blue",
+        "strokeWidth": 3,
+        "strokeDashArray": null,
+        "strokeLineCap": "butt",
+        "strokeDashOffset": 0,
+        "strokeLineJoin": "miter",
+        "strokeUniform": false,
+        "strokeMiterLimit": 4,
+        "scaleX": 1,
+        "scaleY": 1,
+        "angle": 0,
+        "flipX": false,
+        "flipY": false,
+        "opacity": 1,
+        "shadow": null,
+        "visible": true,
+        "backgroundColor": "",
+        "fillRule": "nonzero",
+        "paintFirst": "fill",
+        "globalCompositeOperation": "source-over",
+        "skewX": 0,
+        "skewY": 0,
+        "points": [
+          {
+            "x": 618.3558792924038,
+            "y": 249.4877049180328
+          },
+          {
+            "x": 618.3558792924038,
+            "y": 430.1168032786885
+          },
+          {
+            "x": 894.0686784599375,
+            "y": 426.125
+          },
+          {
+            "x": 888.0749219562955,
+            "y": 249.4877049180328
+          }
+        ]
+      },
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.floorplanarea",
+    "pk": 2,
+    "fields": {
+      "floor_plan": 1,
+      "area": "fly",
+      "polygon": {
+        "type": "polygon",
+        "version": "5.2.4",
+        "originX": "left",
+        "originY": "top",
+        "left": 616.36,
+        "top": 247.49,
+        "width": 275.71,
+        "height": 180.63,
+        "fill": "lightblue",
+        "stroke": "blue",
+        "strokeWidth": 3,
+        "strokeDashArray": null,
+        "strokeLineCap": "butt",
+        "strokeDashOffset": 0,
+        "strokeLineJoin": "miter",
+        "strokeUniform": false,
+        "strokeMiterLimit": 4,
+        "scaleX": 1,
+        "scaleY": 1,
+        "angle": 0,
+        "flipX": false,
+        "flipY": false,
+        "opacity": 1,
+        "shadow": null,
+        "visible": true,
+        "backgroundColor": "",
+        "fillRule": "nonzero",
+        "paintFirst": "fill",
+        "globalCompositeOperation": "source-over",
+        "skewX": 0,
+        "skewY": 0,
+        "points": [
+          {
+            "x": 618.3558792924038,
+            "y": 249.4877049180328
+          },
+          {
+            "x": 618.3558792924038,
+            "y": 430.1168032786885
+          },
+          {
+            "x": 894.0686784599375,
+            "y": 426.125
+          },
+          {
+            "x": 888.0749219562955,
+            "y": 249.4877049180328
+          }
+        ]
+      },
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.floorplanareapin",
+    "pk": 1,
+    "fields": {
+      "content_type": 23,
+      "object_id": 1,
+      "floor_plan_area": 2,
+      "pin": {
+        "x": 45,
+        "y": 2
+      },
+      "created_at": "2020-07-30T12:21:17.129Z",
+      "updated_at": "2020-07-30T12:21:17.129Z"
+    }
+  },
+  {
+    "model": "api.floorplanimage",
+    "pk": 1,
+    "fields": {
+      "plan": 1,
+      "image": 2,
+      "created_at": "2020-07-30T12:21:17.129Z",
+      "updated_at": "2020-07-30T12:21:17.129Z"
+    }
+  }
+]

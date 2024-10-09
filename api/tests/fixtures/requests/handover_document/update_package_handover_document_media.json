@@ -1,0 +1,16 @@
+{
+  "package_handover_document_media": 1,
+  "comment": "maybe baby",
+  "old_data": {
+    "status": "requesting_approval",
+    "uid": "sdf342342dsfs",
+    "information": "some dummy info",
+    "media": 2
+  },
+  "new_data": {
+    "status": "contested",
+    "uid": "updated uid",
+    "information": "updated information",
+    "media": 3
+  }
+}

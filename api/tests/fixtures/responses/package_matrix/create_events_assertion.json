@@ -1,0 +1,245 @@
+[
+ {
+  "data": {
+   "id": 1,
+   "status": "pending",
+   "first_name": "Bradwood",
+   "last_name": "Feat",
+   "email": "cool.brad@gmail.com",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "company": 1,
+   "group": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "project": 6,
+   "package": 2,
+   "package_activity": 2,
+   "id": 6
+  },
+  "type": "entity_restored",
+  "entity": "package_matrix",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "id": 5,
+   "location_matrix": 3,
+   "package_matrix": 6,
+   "enabled": false,
+   "package": 2,
+   "package_activity": 2,
+   "package_activity_name": "",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_restored",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "id": 2,
+   "status": "not_verified",
+   "package_activity": {
+    "id": 2,
+    "name": "Second package activity",
+    "activity_id": null,
+    "files": []
+   },
+   "package_activity_task": {
+    "id": 4,
+    "description": "Fourth desc",
+    "is_not_applicable_status_by_default": true,
+    "is_photo_required": false,
+    "order": 0,
+    "package_activity": 2,
+    "photo_requirement_comment": "",
+    "is_default_for_subtask": false
+   },
+   "local_id": null,
+   "location_matrix": {
+    "id": 3,
+    "project": 6,
+    "building": "Building A",
+    "level": "-2B",
+    "area": "Hall",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "user": {
+    "id": 3,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Heat",
+    "email": "cool.brad+2wood@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 3,
+    "group": 2,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "date_of_approval": null,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_restored",
+  "entity": "task",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "id": 14,
+   "location_matrix": 1,
+   "package_matrix": 6,
+   "enabled": false,
+   "package": 2,
+   "package_activity": 2,
+   "package_activity_name": "Second package activity",
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "id": 15,
+   "location_matrix": 2,
+   "package_matrix": 6,
+   "enabled": false,
+   "package": 2,
+   "package_activity": 2,
+   "package_activity_name": "Second package activity",
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "id": 16,
+   "location_matrix": 4,
+   "package_matrix": 6,
+   "enabled": false,
+   "package": 2,
+   "package_activity": 2,
+   "package_activity_name": "Second package activity",
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "project": 6,
+   "package": 2,
+   "package_activity": 3,
+   "id": 8
+  },
+  "type": "entity_created",
+  "entity": "package_matrix",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "id": 17,
+   "location_matrix": 1,
+   "package_matrix": 8,
+   "enabled": false,
+   "package": 2,
+   "package_activity": 3,
+   "package_activity_name": "Third package activity",
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "id": 18,
+   "location_matrix": 2,
+   "package_matrix": 8,
+   "enabled": false,
+   "package": 2,
+   "package_activity": 3,
+   "package_activity_name": "Third package activity",
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "id": 19,
+   "location_matrix": 3,
+   "package_matrix": 8,
+   "enabled": false,
+   "package": 2,
+   "package_activity": 3,
+   "package_activity_name": "Third package activity",
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "id": 20,
+   "location_matrix": 4,
+   "package_matrix": 8,
+   "enabled": false,
+   "package": 2,
+   "package_activity": 3,
+   "package_activity_name": "Third package activity",
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ }
+]

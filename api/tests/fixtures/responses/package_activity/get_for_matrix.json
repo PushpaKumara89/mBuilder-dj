@@ -1,0 +1,31 @@
+{
+ "id": 2,
+ "name": "Second package activity",
+ "activity_id": null,
+ "package_activity_tasks": [
+  {
+   "id": 3,
+   "description": "Third desc",
+   "is_not_applicable_status_by_default": false,
+   "is_photo_required": false,
+   "order": 0,
+   "package_activity": 2,
+   "photo_requirement_comment": "",
+   "is_default_for_subtask": false
+  }
+ ],
+ "files": [],
+ "expanded_package_activity_tasks": [
+  {
+   "id": 3,
+   "description": "Third desc",
+   "is_not_applicable_status_by_default": false,
+   "is_photo_required": false,
+   "order": 0,
+   "package_activity": 2,
+   "photo_requirement_comment": "",
+   "is_default_for_subtask": false,
+   "expanded_hidden": true
+  }
+ ]
+}

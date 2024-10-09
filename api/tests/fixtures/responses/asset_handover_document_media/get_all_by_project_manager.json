@@ -1,0 +1,82 @@
+[
+ {
+  "id": 1,
+  "asset_handover_document": 1,
+  "last_confirmed_update": null,
+  "media": 1,
+  "uid": "Stranger things",
+  "status": "contested",
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z"
+ },
+ {
+  "id": 2,
+  "asset_handover_document": 1,
+  "last_confirmed_update": null,
+  "media": 2,
+  "uid": null,
+  "status": "in_progress",
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z"
+ },
+ {
+  "id": 3,
+  "asset_handover_document": 1,
+  "last_confirmed_update": null,
+  "media": 3,
+  "uid": null,
+  "status": "in_progress",
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z"
+ },
+ {
+  "id": 4,
+  "asset_handover_document": 2,
+  "last_confirmed_update": null,
+  "media": 1,
+  "uid": null,
+  "status": "in_progress",
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z"
+ },
+ {
+  "id": 5,
+  "asset_handover_document": 3,
+  "last_confirmed_update": null,
+  "media": 1,
+  "uid": null,
+  "status": "in_progress",
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z"
+ },
+ {
+  "id": 6,
+  "asset_handover_document": 4,
+  "last_confirmed_update": null,
+  "media": 1,
+  "uid": null,
+  "status": "in_progress",
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z"
+ },
+ {
+  "id": 9,
+  "asset_handover_document": 1,
+  "last_confirmed_update": null,
+  "media": 4,
+  "uid": null,
+  "status": "accepted",
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z"
+ },
+ {
+  "id": 10,
+  "asset_handover_document": 1,
+  "last_confirmed_update": null,
+  "media": 5,
+  "uid": null,
+  "status": "requesting_approval",
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z"
+ }
+]

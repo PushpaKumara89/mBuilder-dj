@@ -1,0 +1,13 @@
+{
+  "comment": "This is it!",
+  "old_data": {
+    "status": "requesting_approval"
+  },
+  "new_data": {
+    "status": "closed"
+  },
+  "files": [
+    1,
+    2
+  ]
+}

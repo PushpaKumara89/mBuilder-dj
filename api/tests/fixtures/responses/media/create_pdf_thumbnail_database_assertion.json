@@ -1,0 +1,10 @@
+{
+  "name": "test.pdf",
+  "link": "http://localhost/image.jpg",
+  "size": 710443,
+  "hash": null,
+  "is_public": true,
+  "created_at": "2020-02-02T00:00:00Z",
+  "updated_at": "2020-02-02T00:00:00Z",
+  "local_id": null
+}

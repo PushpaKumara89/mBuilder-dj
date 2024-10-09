@@ -1,0 +1,7 @@
+from api.http.serializers.package_handover.package_handover_document_media_update.package_handover_document_media_update_serializer import PackageHandoverDocumentMediaUpdateSerializer
+from api.http.serializers.last_entity_list_serializer import LastEntityListSerializer
+
+
+class PackageHandoverDocumentMediaLastUpdateSerializer(PackageHandoverDocumentMediaUpdateSerializer):
+    class Meta(PackageHandoverDocumentMediaUpdateSerializer.Meta):
+        list_serializer_class = LastEntityListSerializer

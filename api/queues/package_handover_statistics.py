@@ -1,0 +1,79 @@
+from api.queues.core.base import use_rq_if_configured
+
+from api.queues.celery.package_handover_statistics import \
+    create_statistics_on_package_handover_document_create as create_statistics_on_package_handover_document_create_celery, \
+    delete_statistics_on_package_handover_document_delete as delete_statistics_on_package_handover_document_delete_celery, \
+    undelete_statistics_on_package_handover_document_undelete as undelete_statistics_on_package_handover_document_undelete_celery, \
+    increase_statistics_for_document_media_status as increase_statistics_for_document_media_status_celery, \
+    decrease_statistics_for_document_media_status as decrease_statistics_for_document_media_status_celery, \
+    update_statistics_by_statuses_on_document_media_status_change as update_statistics_by_statuses_on_document_media_status_change_celery, \
+    delete_statistics_on_project_delete as delete_statistics_on_project_delete_celery, \
+    delete_statistics_on_package_handover_delete as delete_statistics_on_package_handover_delete_celery, \
+    undelete_statistics_on_package_handover_undelete as undelete_statistics_on_package_handover_undelete_celery, \
+    change_statistics_on_package_handover_document_media_update_create as change_statistics_on_package_handover_document_media_update_create_celery
+
+from api.queues.rq.package_handover_statistics import \
+    create_statistics_on_package_handover_document_create as create_statistics_on_package_handover_document_create_rq, \
+    delete_statistics_on_package_handover_document_delete as delete_statistics_on_package_handover_document_delete_rq, \
+    undelete_statistics_on_package_handover_document_undelete as undelete_statistics_on_package_handover_document_undelete_rq, \
+    increase_statistics_for_document_media_status as increase_statistics_for_document_media_status_rq, \
+    decrease_statistics_for_document_media_status as decrease_statistics_for_document_media_status_rq, \
+    update_statistics_by_statuses_on_document_media_status_change as update_statistics_by_statuses_on_document_media_status_change_rq, \
+    delete_statistics_on_project_delete as delete_statistics_on_project_delete_rq, \
+    delete_statistics_on_package_handover_delete as delete_statistics_on_package_handover_delete_rq, \
+    undelete_statistics_on_package_handover_undelete as undelete_statistics_on_package_handover_undelete_rq, \
+    change_statistics_on_package_handover_document_media_update_create as change_statistics_on_package_handover_document_media_update_create_rq
+
+from api.models import PackageHandoverDocumentMedia, PackageHandoverDocument, Project, PackageHandover, \
+    PackageHandoverDocumentMediaUpdate, User
+
+
+@use_rq_if_configured(create_statistics_on_package_handover_document_create_rq)
+def create_statistics_on_package_handover_document_create(package_handover_document: PackageHandoverDocument) -> None:
+    create_statistics_on_package_handover_document_create_celery.delay(package_handover_document)
+
+
+@use_rq_if_configured(delete_statistics_on_package_handover_document_delete_rq)
+def delete_statistics_on_package_handover_document_delete(package_handover_document: PackageHandoverDocument) -> None:
+    delete_statistics_on_package_handover_document_delete_celery.delay(package_handover_document)
+
+
+@use_rq_if_configured(undelete_statistics_on_package_handover_document_undelete_rq)
+def undelete_statistics_on_package_handover_document_undelete(package_handover_document: PackageHandoverDocument) -> None:
+    undelete_statistics_on_package_handover_document_undelete_celery.delay(package_handover_document)
+
+
+@use_rq_if_configured(increase_statistics_for_document_media_status_rq)
+def increase_statistics_for_document_media_status(package_handover_document_media: PackageHandoverDocumentMedia) -> None:
+    increase_statistics_for_document_media_status_celery.delay(package_handover_document_media)
+
+
+@use_rq_if_configured(decrease_statistics_for_document_media_status_rq)
+def decrease_statistics_for_document_media_status(package_handover_document_media: PackageHandoverDocumentMedia) -> None:
+    decrease_statistics_for_document_media_status_celery.delay(package_handover_document_media)
+
+
+@use_rq_if_configured(update_statistics_by_statuses_on_document_media_status_change_rq)
+def update_statistics_by_statuses_on_document_media_status_change(package_handover_document_media: PackageHandoverDocumentMedia) -> None:
+    update_statistics_by_statuses_on_document_media_status_change_celery.delay(package_handover_document_media)
+
+
+# TODO: Unused task, https://projects.ronasit.com/TomSynnott/MBuild/mbuild-django/-/blob/development/api/signals/asset_handover_statistics/project.py#L12
+@use_rq_if_configured(delete_statistics_on_project_delete_rq)
+def delete_statistics_on_project_delete(project: Project) -> None:
+    delete_statistics_on_project_delete_celery.delay(project)
+
+
+@use_rq_if_configured(delete_statistics_on_package_handover_delete_rq)
+def delete_statistics_on_package_handover_delete(package_handover: PackageHandover) -> None:
+    delete_statistics_on_package_handover_delete_celery.delay(package_handover)
+
+
+@use_rq_if_configured(undelete_statistics_on_package_handover_undelete_rq)
+def undelete_statistics_on_package_handover_undelete(package_handover: PackageHandover) -> None:
+    undelete_statistics_on_package_handover_undelete_celery.delay(package_handover)
+
+
+@use_rq_if_configured(change_statistics_on_package_handover_document_media_update_create_rq)
+def change_statistics_on_package_handover_document_media_update_create(update: PackageHandoverDocumentMediaUpdate, user: User) -> None:
+    change_statistics_on_package_handover_document_media_update_create_celery.delay(update, user)

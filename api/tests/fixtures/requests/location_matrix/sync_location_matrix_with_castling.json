@@ -1,0 +1,21 @@
+[
+  {
+    "building": "Building A",
+    "level": "-3A",
+    "area": "Hall"
+  },
+  {
+    "id": 6,
+    "project": 3,
+    "building": "Building A",
+    "level": "1R",
+    "area": "Soup"
+  },
+  {
+    "id": 7,
+    "project": 3,
+    "building": "Building A",
+    "level": "1R",
+    "area": "Kitchen"
+  }
+]

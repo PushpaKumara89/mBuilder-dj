@@ -1,0 +1,178 @@
+{
+  "create": [
+    {
+      "floor_plan": 1,
+      "area": "bug",
+      "polygon": {
+        "type": "polygon",
+        "version": "5.2.4",
+        "originX": "left",
+        "originY": "top",
+        "left": 616.36,
+        "top": 247.49,
+        "width": 275.71,
+        "height": 180.63,
+        "fill": "lightblue",
+        "stroke": "blue",
+        "strokeWidth": 3,
+        "strokeDashArray": null,
+        "strokeLineCap": "butt",
+        "strokeDashOffset": 0,
+        "strokeLineJoin": "miter",
+        "strokeUniform": false,
+        "strokeMiterLimit": 4,
+        "scaleX": 1,
+        "scaleY": 1,
+        "angle": 0,
+        "flipX": false,
+        "flipY": false,
+        "opacity": 1,
+        "shadow": null,
+        "visible": true,
+        "backgroundColor": "",
+        "fillRule": "nonzero",
+        "paintFirst": "fill",
+        "globalCompositeOperation": "source-over",
+        "skewX": 0,
+        "skewY": 0,
+        "points": [
+          {
+            "x": 618.3558792924038,
+            "y": 249.4877049180328
+          },
+          {
+            "x": 618.3558792924038,
+            "y": 430.1168032786885
+          },
+          {
+            "x": 894.0686784599375,
+            "y": 426.125
+          },
+          {
+            "x": 888.0749219562955,
+            "y": 249.4877049180328
+          }
+        ]
+      }
+    },
+    {
+      "floor_plan": 1,
+      "area": "pyramid",
+      "polygon": {
+        "type": "polygon",
+        "version": "5.2.4",
+        "originX": "left",
+        "originY": "top",
+        "left": 616.36,
+        "top": 247.49,
+        "width": 275.71,
+        "height": 180.63,
+        "fill": "lightblue",
+        "stroke": "blue",
+        "strokeWidth": 3,
+        "strokeDashArray": null,
+        "strokeLineCap": "butt",
+        "strokeDashOffset": 0,
+        "strokeLineJoin": "miter",
+        "strokeUniform": false,
+        "strokeMiterLimit": 4,
+        "scaleX": 1,
+        "scaleY": 1,
+        "angle": 0,
+        "flipX": false,
+        "flipY": false,
+        "opacity": 1,
+        "shadow": null,
+        "visible": true,
+        "backgroundColor": "",
+        "fillRule": "nonzero",
+        "paintFirst": "fill",
+        "globalCompositeOperation": "source-over",
+        "skewX": 0,
+        "skewY": 0,
+        "points": [
+          {
+            "x": 618.3558792924038,
+            "y": 249.4877049180328
+          },
+          {
+            "x": 618.3558792924038,
+            "y": 430.1168032786885
+          },
+          {
+            "x": 894.0686784599375,
+            "y": 426.125
+          },
+          {
+            "x": 888.0749219562955,
+            "y": 249.4877049180328
+          }
+        ]
+      }
+    }
+  ],
+  "update": [
+    {
+      "id": 1,
+      "polygon": {
+        "type": "polygon",
+        "version": "5.2.4",
+        "originX": "left",
+        "originY": "top",
+        "left": 616.36,
+        "top": 247.49,
+        "width": 275.71,
+        "height": 180.63,
+        "fill": "lightblue",
+        "stroke": "blue",
+        "strokeWidth": 3,
+        "strokeDashArray": null,
+        "strokeLineCap": "butt",
+        "strokeDashOffset": 0,
+        "strokeLineJoin": "miter",
+        "strokeUniform": false,
+        "strokeMiterLimit": 4,
+        "scaleX": 1,
+        "scaleY": 1,
+        "angle": 0,
+        "flipX": false,
+        "flipY": false,
+        "opacity": 1,
+        "shadow": null,
+        "visible": true,
+        "backgroundColor": "",
+        "fillRule": "nonzero",
+        "paintFirst": "fill",
+        "globalCompositeOperation": "source-over",
+        "skewX": 1,
+        "skewY": 0,
+        "points": [
+          {
+            "x": 618.3558792924038,
+            "y": 249.4877049180328
+          },
+          {
+            "x": 618.3558792924038,
+            "y": 430.1168032786885
+          },
+          {
+            "x": 894.0686784599375,
+            "y": 426.125
+          },
+          {
+            "x": 888.0749219562955,
+            "y": 249.4877049180328
+          }
+        ]
+      }
+    }
+  ],
+  "delete": [
+    {
+      "id": 2
+    },
+    {
+      "id": 3
+    }
+  ]
+}

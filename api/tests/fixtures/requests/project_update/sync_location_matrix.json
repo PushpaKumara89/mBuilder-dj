@@ -1,0 +1,64 @@
+[
+  {
+    "building": "Building C",
+    "level": "2R",
+    "area": "Bedroom"
+  },
+  {
+    "building": "Building K",
+    "level": "-2U",
+    "area": "Pool"
+  },
+  {
+    "building": "Building C",
+    "level": "0X",
+    "area": "Playroom"
+  },
+  {
+    "building": "Building A",
+    "level": "-3A",
+    "area": "Hall"
+  },
+  {
+    "building": "Building A",
+    "level": "0I3",
+    "area": "Group"
+  },
+  {
+    "id": 1,
+    "project": 1,
+    "building": "Building A",
+    "level": "7A",
+    "area": "Hall"
+  },
+  {
+    "id": 2,
+    "project": 1,
+    "building": "Building A",
+    "level": "-9A",
+    "area": "Meeting room"
+  },
+  {
+    "id": 5,
+    "project": 1,
+    "building": "Building F",
+    "level": "1A1",
+    "area": "Hall 1"
+  },
+  {
+    "id": 8,
+    "project": 1,
+    "building": "Building A",
+    "level": "1R1",
+    "area": "Soup",
+    "delete_matrix": true
+  },
+  {
+    "id": 9,
+    "project": 1,
+    "building": "Building A",
+    "level": "1R2",
+    "area": "Soup",
+    "delete_matrix": true
+  }
+]

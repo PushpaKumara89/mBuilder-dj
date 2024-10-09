@@ -1,0 +1,175 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 5,
+   "inspection_period": 6,
+   "maintenance_period": 18,
+   "package_matrix": 5,
+   "expanded_package_activity": {
+    "id": 1,
+    "name": "First package activity",
+    "activity_id": "Activity"
+   },
+   "package_handover_document_groups": [
+    {
+     "id": 1,
+     "name": "Subcontractor Documents",
+     "package_handover_documents": [
+      {
+       "id": 1,
+       "package_handover": 5,
+       "package_handover_document_type": 1,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_media": []
+      },
+      {
+       "id": 8,
+       "package_handover": 5,
+       "package_handover_document_type": 1,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_media": []
+      }
+     ]
+    },
+    {
+     "id": 2,
+     "name": "Consultant Documents",
+     "package_handover_documents": [
+      {
+       "id": 2,
+       "package_handover": 5,
+       "package_handover_document_type": 9,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_media": [
+        {
+         "id": 13,
+         "package_handover_document": 2,
+         "media": 1,
+         "status": "in_progress",
+         "last_confirmed_update": null,
+         "uid": "sdfgh34jafa",
+         "information": null
+        },
+        {
+         "id": 14,
+         "package_handover_document": 2,
+         "media": 1,
+         "status": "requesting_approval",
+         "last_confirmed_update": null,
+         "uid": "sdfgh34jsdd",
+         "information": null
+        }
+       ]
+      },
+      {
+       "id": 7,
+       "package_handover": 5,
+       "package_handover_document_type": 9,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_media": []
+      },
+      {
+       "id": 9,
+       "package_handover": 5,
+       "package_handover_document_type": 9,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_media": []
+      }
+     ]
+    },
+    {
+     "id": 3,
+     "name": "H&S Consultant Documents",
+     "package_handover_documents": [
+      {
+       "id": 3,
+       "package_handover": 5,
+       "package_handover_document_type": 16,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1,
+       "expanded_package_handover_document_media": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "inspection_period": 6,
+   "maintenance_period": 18,
+   "package_matrix": 10,
+   "expanded_package_activity": {
+    "id": 7,
+    "name": "Seven package activity",
+    "activity_id": null
+   },
+   "package_handover_document_groups": [
+    {
+     "id": 2,
+     "name": "Consultant Documents",
+     "package_handover_documents": [
+      {
+       "id": 10,
+       "package_handover": 8,
+       "package_handover_document_type": 9,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 7,
+       "expanded_package_handover_document_media": []
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "inspection_period": 6,
+   "maintenance_period": 18,
+   "package_matrix": 11,
+   "expanded_package_activity": {
+    "id": 8,
+    "name": "Eight package activity",
+    "activity_id": null
+   },
+   "package_handover_document_groups": [
+    {
+     "id": 2,
+     "name": "Consultant Documents",
+     "package_handover_documents": [
+      {
+       "id": 11,
+       "package_handover": 9,
+       "package_handover_document_type": 9,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 8,
+       "expanded_package_handover_document_media": []
+      },
+      {
+       "id": 12,
+       "package_handover": 9,
+       "package_handover_document_type": 9,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 8,
+       "expanded_package_handover_document_media": []
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "next_page": null
+}

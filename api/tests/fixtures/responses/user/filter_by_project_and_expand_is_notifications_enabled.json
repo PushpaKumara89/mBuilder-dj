@@ -1,0 +1,106 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 2,
+   "status": "accepted",
+   "first_name": "Brad",
+   "last_name": "Seatwood",
+   "email": "cool.brad+1@gmail.com",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "company": 2,
+   "group": 3,
+   "created_at": "2020-07-29T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_user_company": {
+    "id": 2,
+    "name": "Ford",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "expanded_is_notifications_enabled": false
+  },
+  {
+   "id": 4,
+   "status": "accepted",
+   "first_name": "Stan",
+   "last_name": "Ford",
+   "email": "stan.ford@gmail.com",
+   "phone": "+41524204242",
+   "position": "University",
+   "company": 1,
+   "group": 5,
+   "created_at": "2020-07-27T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_user_company": {
+    "id": 1,
+    "name": "Dodge",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "expanded_is_notifications_enabled": true
+  },
+  {
+   "id": 5,
+   "status": "pending",
+   "first_name": "John",
+   "last_name": "Smith",
+   "email": "john.smith@gmail.com",
+   "phone": "+41524204242",
+   "position": "Citizen",
+   "company": 2,
+   "group": 6,
+   "created_at": "2020-07-26T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_user_company": {
+    "id": 2,
+    "name": "Ford",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "expanded_is_notifications_enabled": false
+  },
+  {
+   "id": 8,
+   "status": "rejected",
+   "first_name": "Beep",
+   "last_name": "Bop",
+   "email": "bee.boop@gmail.com",
+   "phone": "+41524204242",
+   "position": "Cowboyyy",
+   "company": 2,
+   "group": 4,
+   "created_at": "2020-07-23T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_user_company": {
+    "id": 2,
+    "name": "Ford",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "expanded_is_notifications_enabled": true
+  },
+  {
+   "id": 10,
+   "status": "pending",
+   "first_name": "Wrap",
+   "last_name": "Trap",
+   "email": "wrap.trap@gmail.com",
+   "phone": "+41524204242",
+   "position": "Wrap trap",
+   "company": 4,
+   "group": 4,
+   "created_at": "2020-07-22T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_user_company": {
+    "id": 4,
+    "name": "Tesla",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "expanded_is_notifications_enabled": false
+  }
+ ],
+ "next_page": null
+}

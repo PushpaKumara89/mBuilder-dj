@@ -1,0 +1,657 @@
+[
+  {
+    "model": "api.company",
+    "pk": 1,
+    "fields": {
+      "name": "Dodge",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.company",
+    "pk": 2,
+    "fields": {
+      "name": "Ford",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.company",
+    "pk": 3,
+    "fields": {
+      "name": "Toyota",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 1,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": true,
+      "first_name": "Bradwood",
+      "last_name": "Feat",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.brad@gmail.com",
+      "company": 1,
+      "phone": "+41524204242",
+      "position": "Cool Brad",
+      "group": 1,
+      "groups": [
+        1
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 2,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Brad",
+      "last_name": "Seatwood",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.brad+1@gmail.com",
+      "company": 2,
+      "phone": "+41524204242",
+      "position": "Cool Brad",
+      "group": 3,
+      "groups": [
+        3
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 3,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Brad",
+      "last_name": "Heat",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.brad+2wood@gmail.com",
+      "company": 3,
+      "phone": "+41524204242",
+      "position": "Cool Brad",
+      "group": 2,
+      "groups": [
+        2
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 4,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Awesome",
+      "last_name": "Client",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.client@gmail.com",
+      "company": 2,
+      "phone": "+41524904241",
+      "position": "cashier",
+      "group": 5,
+      "groups": [
+        5
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 5,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Awesome",
+      "last_name": "Consultant",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.consultant@gmail.com",
+      "company": 2,
+      "phone": "+41524904241",
+      "position": "consultant",
+      "group": 6,
+      "groups": [
+        6
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 6,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Awesome",
+      "last_name": "Subcontractor",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.subcontractor@gmail.com",
+      "company": 2,
+      "phone": "+41524904241",
+      "position": "subcontractor",
+      "group": 4,
+      "groups": [
+        4
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 7,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Awesome",
+      "last_name": "Tank",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.tank@gmail.com",
+      "company": 2,
+      "phone": "+41524904241",
+      "position": "Tank",
+      "group": 3,
+      "groups": [
+        3
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 8,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Awesome",
+      "last_name": "Client 2",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.client2@gmail.com",
+      "company": 2,
+      "phone": "+41524904241",
+      "position": "cashier2",
+      "group": 5,
+      "groups": [
+        5
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 9,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Awesome",
+      "last_name": "Consultant2",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.consultant2@gmail.com",
+      "company": 2,
+      "phone": "+41524904241",
+      "position": "consultant2",
+      "group": 6,
+      "groups": [
+        6
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 10,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Awesome",
+      "last_name": "Manager3",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.manager3@gmail.com",
+      "company": 2,
+      "phone": "+41524904241",
+      "position": "manager3",
+      "group": 3,
+      "groups": [
+        3
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 11,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Awesome",
+      "last_name": "Admin3",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.admin3@gmail.com",
+      "company": 2,
+      "phone": "+41524904241",
+      "position": "admin3",
+      "group": 2,
+      "groups": [
+        2
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 12,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Awesome",
+      "last_name": "Subcontractor3",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.subcontractor3@gmail.com",
+      "company": 2,
+      "phone": "+41524904241",
+      "position": "subcontractor3",
+      "group": 4,
+      "groups": [
+        4
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 13,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Awesome",
+      "last_name": "CompanyAdmin",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "company.admin2@gmail.com",
+      "company": 2,
+      "phone": "+41524904241",
+      "position": "companyAdmin2",
+      "group": 1,
+      "groups": [
+        1
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.media",
+    "pk": 1,
+    "fields": {
+      "name": "troom.png",
+      "link": "troom.png",
+      "hash": "sdogijh459ythgfd",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.media",
+    "pk": 2,
+    "fields": {
+      "name": "broom.png",
+      "link": "broom.png",
+      "hash": "werutgh45whgdgfh",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.media",
+    "pk": 3,
+    "fields": {
+      "name": "kroom.png",
+      "link": "kroom.png",
+      "hash": "ugh4589thgdghdjfg",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.media",
+    "pk": 4,
+    "fields": {
+      "name": "sroom.png",
+      "link": "sroom.png",
+      "hash": "erotuihj4958ghsdfgdf",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.media",
+    "pk": 5,
+    "fields": {
+      "name": "kroom.png",
+      "link": "kroom.png",
+      "hash": "fdghk45ujgdfgdfg",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.media",
+    "pk": 6,
+    "fields": {
+      "name": "lroom.png",
+      "link": "lroom.png",
+      "hash": "sdugkhwghsdgsdfgds",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.media",
+    "pk": 7,
+    "fields": {
+      "name": "wroom.png",
+      "link": "wroom.png",
+      "hash": "riouthyy429857thdfg",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 1,
+    "fields": {
+      "name": "Project 1",
+      "number": "dfg134",
+      "status": "tendering",
+      "show_estimated_man_hours": true,
+      "image": 1,
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "value": 2343456.23,
+      "value_currency": "USD",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "users": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 2,
+    "fields": {
+      "name": "Project 2",
+      "number": "h5636uytsf",
+      "status": "under_construction",
+      "show_estimated_man_hours": false,
+      "image": 2,
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "value": 6534.65,
+      "value_currency": "USD",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "users": [
+        2
+      ],
+      "key_contacts": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 3,
+    "fields": {
+      "name": "Mitron 3",
+      "number": "7th46ds",
+      "status": "partially_completed",
+      "show_estimated_man_hours": true,
+      "image": 3,
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "value": 765.34,
+      "value_currency": "USD",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 4,
+    "fields": {
+      "name": "Project 4",
+      "number": "h356ydgd",
+      "status": "completed",
+      "show_estimated_man_hours": true,
+      "image": 4,
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "value": 765543.43,
+      "value_currency": "USD",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "users": [
+        2
+      ]
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 5,
+    "fields": {
+      "name": "Project 5",
+      "number": "y356ywrtwe",
+      "status": "archived",
+      "show_estimated_man_hours": true,
+      "image": 5,
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "value": 123765.11,
+      "value_currency": "USD",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.projectuser",
+    "pk": 1,
+    "fields": {
+      "project": 5,
+      "user": 2,
+      "is_notifications_enabled": true,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.projectuser",
+    "pk": 2,
+    "fields": {
+      "project": 5,
+      "user": 4,
+      "is_notifications_enabled": true,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.projectuser",
+    "pk": 3,
+    "fields": {
+      "project": 5,
+      "user": 5,
+      "is_notifications_enabled": true,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.projectuser",
+    "pk": 5,
+    "fields": {
+      "project": 5,
+      "user": 6,
+      "is_notifications_enabled": true,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.projectuser",
+    "pk": 6,
+    "fields": {
+      "project": 5,
+      "user": 7,
+      "is_notifications_enabled": false,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.projectuser",
+    "pk": 7,
+    "fields": {
+      "project": 5,
+      "user": 3,
+      "is_notifications_enabled": true,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.projectuser",
+    "pk": 8,
+    "fields": {
+      "project": 5,
+      "user": 1,
+      "is_notifications_enabled": true,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 6,
+    "fields": {
+      "name": "Project 6",
+      "number": "fg2645y4tf",
+      "status": "tendering",
+      "show_estimated_man_hours": true,
+      "image": 6,
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "value": 34551.43,
+      "value_currency": "USD",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "users": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        7
+      ]
+    }
+  },
+  {
+    "model": "api.project",
+    "pk": 7,
+    "fields": {
+      "name": "Projcto 7",
+      "number": "rt4efweewe",
+      "status": "tendering",
+      "show_estimated_man_hours": false,
+      "image": 7,
+      "start_date": "2020-07-30",
+      "completion_date": "2020-08-30",
+      "value": 2346345.54,
+      "value_currency": "USD",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "users": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "api.assetregister",
+    "pk": 1,
+    "fields": {
+      "data": {"first": "first", "second": "second"},
+      "project": 5,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.assetregister",
+    "pk": 7,
+    "fields": {
+      "data": {"first": "first", "second": "second"},
+      "project": 7,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  }
+]

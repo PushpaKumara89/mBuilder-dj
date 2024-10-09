@@ -1,0 +1,10 @@
+{
+  "comment": "test comment",
+  "old_data": {
+    "status": "in_progress"
+  },
+  "new_data": {
+    "status": "in_progress",
+    "floor_plan_area_pin": null
+  }
+}

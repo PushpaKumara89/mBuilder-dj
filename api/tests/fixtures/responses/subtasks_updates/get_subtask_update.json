@@ -1,0 +1,40 @@
+{
+ "id": 1,
+ "subtask": 1,
+ "user": 1,
+ "comment": "test comment!",
+ "files": [
+  1
+ ],
+ "old_data": {
+  "status": "closed"
+ },
+ "new_data": {
+  "status": "removed"
+ },
+ "created_at": "2020-07-30T12:21:16.129000Z",
+ "updated_at": "2020-07-30T12:21:16.129000Z",
+ "recipients": [
+  {
+   "id": 1,
+   "first_name": "Tom",
+   "last_name": "Soyer",
+   "email": "tom_digidom@gmail.com",
+   "user": null,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-08-30T12:21:16.129000Z"
+  },
+  {
+   "id": 2,
+   "first_name": "Gan",
+   "last_name": "Gsta",
+   "email": "gan_gsta@gmail.com",
+   "user": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-08-30T12:21:16.129000Z"
+  }
+ ],
+ "is_conflict": false,
+ "local_id": null,
+ "is_comment": false
+}

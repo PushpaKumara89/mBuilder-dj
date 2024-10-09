@@ -1,0 +1,237 @@
+[
+  {
+    "_collection": "event",
+    "_id": {
+      "$oid": "612d1ca00000000000000000"
+    },
+    "data": {
+      "id": 5,
+      "deleted": null,
+      "created_at": "2020-07-32 12:21:16.129000+00:00",
+      "updated_at": "2020-02-02 00:00:00+00:00",
+      "package_activity": 3,
+      "package_activity_task": 4,
+      "location_matrix": 22,
+      "user": 2,
+      "status": "accepted",
+      "date_of_approval": null
+    },
+    "entity": "task",
+    "project_id": 1,
+    "type": "entity_updated",
+    "created_at": {
+      "$date": "2020-02-05T00:00:00.000000Z"
+    },
+    "updated_at": {
+      "$date": "2020-02-05T00:00:00.000000Z"
+    }
+  },
+  {
+    "_collection": "event",
+    "_id": {
+      "$oid": "5e361100349239039eed486f"
+    },
+    "data": {
+      "id": 3,
+      "deleted": "2020-02-02 00:00:00+00:00",
+      "created_at": "2020-07-30 12:21:16.129000+00:00",
+      "updated_at": "2020-02-02 00:00:00+00:00",
+      "package_activity": 3,
+      "package_activity_task": 4,
+      "location_matrix": 8,
+      "user": 2,
+      "status": "accepted",
+      "date_of_approval": null
+    },
+    "entity": "task",
+    "project_id": 1,
+    "type": "entity_deleted",
+    "user": 1,
+    "created_at": {
+      "$date": "2020-01-31T00:00:00.000000Z"
+    },
+    "updated_at": {
+      "$date": "2020-01-31T00:00:00.000000Z"
+    }
+  },
+  {
+    "_collection": "event",
+    "_id": {
+      "$oid": "5e361100349239039eed486f"
+    },
+    "data": {
+      "id": 2,
+      "deleted": "2020-02-02 00:00:00+00:00",
+      "created_at": "2020-07-30 12:21:16.129000+00:00",
+      "updated_at": "2020-02-02 00:00:00+00:00",
+      "package_activity": 3,
+      "package_activity_task": 3,
+      "location_matrix": 8,
+      "user": 2,
+      "status": "accepted",
+      "date_of_approval": null
+    },
+    "entity": "task",
+    "project_id": 2,
+    "type": "entity_deleted",
+    "created_at": {
+      "$date": "2020-02-01T00:00:00.000000Z"
+    },
+    "updated_at": {
+      "$date": "2020-02-01T00:00:00.000000Z"
+    }
+  },
+  {
+    "_collection": "event",
+    "_id": {
+      "$oid": "5e361100349239029eed486f"
+    },
+    "data": {
+      "id": 4,
+      "deleted": null,
+      "created_at": "2020-07-30 12:21:16.129000+00:00",
+      "updated_at": "2020-02-02 00:00:00+00:00",
+      "package_activity": 3,
+      "package_activity_task": 4,
+      "location_matrix": 22,
+      "user": 2,
+      "status": "accepted",
+      "date_of_approval": null
+    },
+    "entity": "task",
+    "project_id": 1,
+    "type": "entity_updated",
+    "user": 1,
+    "created_at": {
+      "$date": "2020-02-02T00:00:00.000000Z"
+    },
+    "updated_at": {
+      "$date": "2020-02-02T00:00:00.000000Z"
+    }
+  },
+  {
+    "_collection": "event",
+    "_id": {
+      "$oid": "5e361100349139039eed486f"
+    },
+    "data": {
+      "id": 5,
+      "deleted": null,
+      "created_at": "2020-07-30 12:21:16.129000+00:00",
+      "updated_at": "2020-02-02 00:00:00+00:00",
+      "package_activity": 3,
+      "package_activity_task": 4,
+      "location_matrix": 22,
+      "user": 2,
+      "status": "accepted",
+      "date_of_approval": null
+    },
+    "entity": "task",
+    "project_id": 1,
+    "type": "entity_updated",
+    "created_at": {
+      "$date": "2020-02-03T00:00:00.000000Z"
+    },
+    "updated_at": {
+      "$date": "2020-02-03T00:00:00.000000Z"
+    }
+  },
+  {
+    "_collection": "event",
+    "_id": {
+      "$oid": "5e361100349239039eed386f"
+    },
+    "data": {
+      "id": 6,
+      "deleted": null,
+      "created_at": "2020-07-30 12:21:16.129000+00:00",
+      "updated_at": "2020-02-02 00:00:00+00:00",
+      "package_activity": 3,
+      "package_activity_task": 4,
+      "location_matrix": 22,
+      "user": 2,
+      "status": "accepted",
+      "date_of_approval": null
+    },
+    "entity": "task",
+    "project_id": 2,
+    "type": "entity_updated",
+    "user": 1,
+    "created_at": {
+      "$date": "2020-02-04T00:00:00.000000Z"
+    },
+    "updated_at": {
+      "$date": "2020-02-04T00:00:00.000000Z"
+    }
+  },
+  {
+    "_collection": "event",
+    "_id": {
+      "$oid": "5e361100319239039eed386f"
+    },
+    "created_at": {
+      "$date": "2020-01-01T00:00:00.000000Z"
+    },
+    "data": {
+      "id": 3,
+      "last_login": null,
+      "is_superuser": true,
+      "first_name": "Man",
+      "last_name": "Strong",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-02-02 00:00:00+00:00",
+      "deleted": null,
+      "created_at": "2020-02-02 00:00:00+00:00",
+      "updated_at": "2020-02-02 00:00:00+00:00",
+      "email": "strong.man@gmail.com",
+      "company": "Headstrong",
+      "phone": "+41524204242",
+      "position": "The Boss",
+      "status": "approved",
+      "groups": [],
+      "user_permissions": []
+    },
+    "entity": "user",
+    "project_id": null,
+    "type": "entity_created",
+    "updated_at": {
+      "$date": "2020-02-06T00:00:00.000Z"
+    }
+  },
+  {
+    "_collection": "event",
+    "_id": {
+      "$oid": "5e361100349239039eed316f"
+    },
+    "created_at": {
+      "$date": "2020-01-01T00:00:00.000000Z"
+    },
+    "data": {
+      "id": 2,
+      "last_login": null,
+      "is_superuser": true,
+      "first_name": "Stay",
+      "last_name": "True",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-02-02 00:00:00+00:00",
+      "deleted": null,
+      "created_at": "2020-02-02 00:00:00+00:00",
+      "updated_at": "2020-02-02 00:00:00+00:00",
+      "email": "stay.true@gmail.com",
+      "company": "Headstrong",
+      "phone": "+41524204242",
+      "position": "The Boss",
+      "status": "approved",
+      "groups": [],
+      "user_permissions": []
+    },
+    "entity": "user",
+    "project_id": null,
+    "type": "entity_created",
+    "updated_at": {
+      "$date": "2020-02-06T00:00:00.000000Z"
+    }
+  }
+]

@@ -1,0 +1,172 @@
+[
+ {
+  "data": {
+   "company": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad@gmail.com",
+   "first_name": "Bradwood",
+   "group": 1,
+   "id": 1,
+   "last_name": "Feat",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "quality_issue_update": 1,
+   "recipient": {
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "email": "tom_digidom@gmail.com",
+    "expanded_user": null,
+    "first_name": "Tom",
+    "id": 1,
+    "last_name": "Soyer",
+    "updated_at": "2020-08-30T12:21:16.129000Z",
+    "user": null
+   }
+  },
+  "type": "entity_deleted",
+  "entity": "quality_issue_update_recipients",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "quality_issue_update": 1,
+   "recipient": {
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "email": "gan_gsta@gmail.com",
+    "expanded_user": {
+     "id": 1,
+     "status": "pending",
+     "first_name": "Bradwood",
+     "last_name": "Feat",
+     "email": "cool.brad@gmail.com",
+     "phone": "+41524204242",
+     "position": "Cool Brad",
+     "company": 1,
+     "group": 1,
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    },
+    "first_name": "Gan",
+    "id": 2,
+    "last_name": "Gsta",
+    "updated_at": "2020-08-30T12:21:16.129000Z",
+    "user": 1
+   }
+  },
+  "type": "entity_deleted",
+  "entity": "quality_issue_update_recipients",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "quality_issue_update": 1,
+   "media": {
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_project_snapshot_thumbnails": [],
+    "expanded_thumbnails": [],
+    "extension": "png",
+    "hash": "sdogijh459ythgfd",
+    "id": 1,
+    "is_public": true,
+    "link": "http://localhost/media/troom.png",
+    "local_id": null,
+    "name": "troom.png",
+    "size": 0,
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_deleted",
+  "entity": "quality_issue_update_files",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "quality_issue_update": 1,
+   "media": {
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_project_snapshot_thumbnails": [],
+    "expanded_thumbnails": [],
+    "extension": "png",
+    "hash": "werutgh45whgdgfh",
+    "id": 2,
+    "is_public": true,
+    "link": "http://localhost/media/broom.png",
+    "local_id": null,
+    "name": "broom.png",
+    "size": 0,
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_deleted",
+  "entity": "quality_issue_update_files",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "comment": null,
+   "created_at": "2020-09-30T12:21:16.129000Z",
+   "files": [
+    1,
+    2
+   ],
+   "id": 1,
+   "is_comment": false,
+   "is_conflict": false,
+   "local_id": null,
+   "new_data": {
+    "status": "under_review",
+    "description": "In aqua sanitas!"
+   },
+   "old_data": {
+    "status": "under_review",
+    "description": "Viva la vida loca!"
+   },
+   "quality_issue": 5,
+   "recipients": [
+    {
+     "id": 1,
+     "first_name": "Tom",
+     "last_name": "Soyer",
+     "email": "tom_digidom@gmail.com",
+     "user": null,
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-08-30T12:21:16.129000Z"
+    },
+    {
+     "id": 2,
+     "first_name": "Gan",
+     "last_name": "Gsta",
+     "email": "gan_gsta@gmail.com",
+     "user": 1,
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-08-30T12:21:16.129000Z"
+    }
+   ],
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 4
+  },
+  "type": "entity_deleted",
+  "entity": "quality_issue_update",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ }
+]

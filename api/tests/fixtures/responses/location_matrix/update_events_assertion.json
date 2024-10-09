@@ -1,0 +1,38 @@
+[
+ {
+  "data": {
+   "company": 2,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad+1@gmail.com",
+   "first_name": "Brad",
+   "group": 3,
+   "id": 2,
+   "last_name": "Seatwood",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "area": "Kitchen",
+   "building": "Building E",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "id": 5,
+   "level": "E",
+   "project": 1,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_updated",
+  "entity": "location_matrix",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ }
+]

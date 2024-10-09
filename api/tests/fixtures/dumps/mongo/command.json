@@ -1,0 +1,601 @@
+[
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100349239039eed386f"
+    },
+    "data": {
+      "id": 3,
+      "deleted": "2020-02-02 00:00:00+00:00",
+      "created_at": "2020-07-30 12:21:16.129000+00:00",
+      "updated_at": "2020-02-02 00:00:00+00:00",
+      "package_activity": 3,
+      "package_activity_task": 4,
+      "location_matrix": 8,
+      "user": 2,
+      "status": "accepted",
+      "date_of_approval": null
+    },
+    "entity": "task",
+    "project_id": 1,
+    "status": "processed",
+    "type": "delete_entity",
+    "user": 1,
+    "created_at": {
+      "$date": "2020-01-31T00:00:00.000000Z"
+    },
+    "updated_at": {
+      "$date": "2020-01-31T00:00:00.000000Z"
+    }
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100349239039eed286f"
+    },
+    "data": {
+      "id": 2,
+      "deleted": "2020-02-02 00:00:00+00:00",
+      "created_at": "2020-07-30 12:21:16.129000+00:00",
+      "updated_at": "2020-02-02 00:00:00+00:00",
+      "package_activity": 3,
+      "package_activity_task": 3,
+      "location_matrix": 8,
+      "user": 2,
+      "status": "accepted",
+      "date_of_approval": null
+    },
+    "entity": "task",
+    "project_id": 2,
+    "status": "processed",
+    "type": "delete_entity",
+    "created_at": {
+      "$date": "2020-02-01T00:00:00.000000Z"
+    },
+    "updated_at": {
+      "$date": "2020-02-01T00:00:00.000000Z"
+    }
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100349239029eed486f"
+    },
+    "data": {
+      "id": 4,
+      "deleted": null,
+      "created_at": "2020-07-30 12:21:16.129000+00:00",
+      "updated_at": "2020-02-02 00:00:00+00:00",
+      "package_activity": 3,
+      "package_activity_task": 4,
+      "location_matrix": 22,
+      "user": 2,
+      "status": "accepted",
+      "date_of_approval": null
+    },
+    "entity": "task",
+    "project_id": 1,
+    "status": "conflicted",
+    "type": "update_entity",
+    "user": 1,
+    "created_at": {
+      "$date": "2020-02-02T00:00:00.000000Z"
+    },
+    "updated_at": {
+      "$date": "2020-02-02T00:00:00.000000Z"
+    }
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100349139039eed486f"
+    },
+    "data": {
+      "id": 5,
+      "deleted": null,
+      "created_at": "2020-07-30 12:21:16.129000+00:00",
+      "updated_at": "2020-02-02 00:00:00+00:00",
+      "package_activity": 3,
+      "package_activity_task": 4,
+      "location_matrix": 22,
+      "user": 2,
+      "status": "accepted",
+      "date_of_approval": null
+    },
+    "entity": "task",
+    "project_id": 1,
+    "status": "failed",
+    "type": "update_entity",
+    "created_at": {
+      "$date": "2020-02-03T00:00:00.000000Z"
+    },
+    "updated_at": {
+      "$date": "2020-02-03T00:00:00.000000Z"
+    }
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100349239039eed386f"
+    },
+    "data": {
+      "id": 6,
+      "deleted": null,
+      "created_at": "2020-07-30 12:21:16.129000+00:00",
+      "updated_at": "2020-02-02 00:00:00+00:00",
+      "package_activity": 3,
+      "package_activity_task": 4,
+      "location_matrix": 22,
+      "user": 2,
+      "status": "accepted",
+      "date_of_approval": null
+    },
+    "entity": "task",
+    "project_id": 2,
+    "status": "processed",
+    "type": "update_entity",
+    "user": 1,
+    "created_at": {
+      "$date": "2020-02-04T00:00:00.000000Z"
+    },
+    "updated_at": {
+      "$date": "2020-02-04T00:00:00.000000Z"
+    }
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100319239039eed386f"
+    },
+    "created_at": {
+      "$date": "2020-01-01T00:00:00.000000Z"
+    },
+    "data": {
+      "id": 3,
+      "last_login": null,
+      "is_superuser": true,
+      "first_name": "Man",
+      "last_name": "Strong",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-02-02 00:00:00+00:00",
+      "deleted": null,
+      "created_at": "2020-02-02 00:00:00+00:00",
+      "updated_at": "2020-02-02 00:00:00+00:00",
+      "email": "strong.man@gmail.com",
+      "company": "Headstrong",
+      "phone": "+41524204242",
+      "position": "The Boss",
+      "status": "approved",
+      "groups": [],
+      "user_permissions": []
+    },
+    "entity": "user",
+    "project_id": null,
+    "status": "processed",
+    "type": "create_entity",
+    "updated_at": {
+      "$date": "2020-02-06T00:00:00.000Z"
+    }
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100349239039eed316f"
+    },
+    "created_at": {
+      "$date": "2020-01-01T00:00:00.000000Z"
+    },
+    "data": {
+      "id": 2,
+      "last_login": null,
+      "is_superuser": true,
+      "first_name": "Stay",
+      "last_name": "True",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-02-02 00:00:00+00:00",
+      "deleted": null,
+      "created_at": "2020-02-02 00:00:00+00:00",
+      "updated_at": "2020-02-02 00:00:00+00:00",
+      "email": "stay.true@gmail.com",
+      "company": "Headstrong",
+      "phone": "+41524204242",
+      "position": "The Boss",
+      "status": "approved",
+      "groups": [],
+      "user_permissions": []
+    },
+    "entity": "user",
+    "project_id": null,
+    "status": "processed",
+    "type": "create_entity",
+    "updated_at": {
+      "$date": "2020-02-06T00:00:00.000000Z"
+    }
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100349239039eed316e"
+    },
+    "data": {
+      "subtask": 1,
+      "user": 1,
+      "comment": "new subtask update from event",
+      "files": [],
+      "old_data": {
+        "status": "in_progress"
+      },
+      "new_data": {
+        "status": "requesting_approval"
+      },
+      "created_at": "2020-02-02T00:00:00Z",
+      "updated_at": "2020-02-02T00:00:00Z",
+      "recipients": []
+    },
+    "type": "create_entity",
+    "status": "pending",
+    "entity": "subtask_update",
+    "created_at": {
+      "$date": "2020-07-30T12:21:16.129000Z"
+    },
+    "updated_at": {
+      "$date": "2020-07-30T12:21:16.129000Z"
+    },
+    "user": 1,
+    "project_id": 5
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100349239039eed316d"
+    },
+    "data": {
+      "local_id": "34ff34rsadf",
+      "subtask": 1,
+      "user": 1,
+      "comment": "new conflicted subtask update from event",
+      "files": [],
+      "old_data": {
+        "status": "under_inspection"
+      },
+      "new_data": {
+        "status": "under_inspection"
+      },
+      "created_at": "2020-02-02T00:00:00Z",
+      "updated_at": "2020-02-02T00:00:00Z",
+      "recipients": []
+    },
+    "type": "create_entity",
+    "status": "pending",
+    "entity": "subtask_update",
+    "created_at": {
+      "$date": "2020-08-02T12:21:16.129000Z"
+    },
+    "updated_at": {
+      "$date": "2020-08-02T12:21:16.129000Z"
+    },
+    "user": 1,
+    "project_id": 5
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100984665cf1784a58b"
+    },
+    "data": {
+      "id": 1,
+      "task": 1,
+      "description": "successfully updated subtask",
+      "status": "in_progress",
+      "company": 3,
+      "quality_issue": 8,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "due_date": "2020-07-30T12:21:16.129Z"
+    },
+    "type": "update_entity",
+    "status": "pending",
+    "entity": "subtask",
+    "created_at": {
+      "$date": "2020-08-04T12:21:16.129000Z"
+    },
+    "updated_at": {
+      "$date": "2020-08-04T12:21:16.129000Z"
+    },
+    "user": 1,
+    "project_id": 5
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100984665cf1784a57d"
+    },
+    "data": {
+      "id": 2,
+      "task": 1,
+      "description": "successfully deleted subtask",
+      "status": "in_progress",
+      "files": [
+        6
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "due_date": "2020-07-30T12:21:16.129Z"
+    },
+    "type": "delete_entity",
+    "status": "pending",
+    "entity": "subtask",
+    "created_at": {
+      "$date": "2020-08-08T12:21:16.129000Z"
+    },
+    "updated_at": {
+      "$date": "2020-08-08T12:21:16.129000Z"
+    },
+    "user": 1,
+    "project_id": 5
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100984665cf1784a56d"
+    },
+    "data": {
+      "id": 3,
+      "task": 1,
+      "description": "successfully restore subtask",
+      "status": "in_progress",
+      "files": [
+        6
+      ],
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "due_date": "2020-07-30T12:21:16.129Z"
+    },
+    "type": "restore_entity",
+    "status": "pending",
+    "entity": "subtask",
+    "created_at": {
+      "$date": "2020-08-11T12:21:16.129000Z"
+    },
+    "updated_at": {
+      "$date": "2020-08-11T12:21:16.129000Z"
+    },
+    "user": 1,
+    "project_id": 5
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100349239039eed486f"
+    },
+    "data": {
+      "local_id": "werg234twef34",
+      "package_activity": 3,
+      "package_activity_task": 4,
+      "location_matrix": 1,
+      "user": 2,
+      "status": "accepted",
+      "date_of_approval": null,
+      "project": 1
+    },
+    "entity": "task",
+    "project_id": 1,
+    "type": "create_entity",
+    "status": "pending",
+    "user": 1,
+    "created_at": {
+      "$date": "2020-01-31T00:00:00.000000Z"
+    },
+    "updated_at": {
+      "$date": "2020-01-31T00:00:00.000000Z"
+    }
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100349239039eed586f"
+    },
+    "data": {
+      "local_id": "jimmyneutron222",
+      "task": 1,
+      "description": "new subtask test",
+      "location_description": "new location description",
+      "status": "contested",
+      "files": [
+        1,
+        2
+      ],
+      "recipients": [
+        {
+          "email": "tom_dvaer@gmail.com"
+        },
+        {
+          "email": "tim_robinson@gmail.com",
+          "first_name": "Tim",
+          "last_name": "Robinson"
+        }
+      ],
+      "due_date": "2020-09-22T11:24:23.543Z",
+      "response_due_date": "2021-09-22T11:24:23.543Z",
+      "company": 2,
+      "quality_issue": 7
+    },
+    "entity": "subtask",
+    "project_id": 5,
+    "type": "create_entity",
+    "status": "pending",
+    "user": 1,
+    "related_entities_local_ids": {
+      "subtask_update_local_id": "familyguy333",
+      "task_update_local_id": "simpsons444",
+      "quality_issue_update_local_id": "southpark555"
+    },
+    "created_at": {
+      "$date": "2020-01-31T00:00:00.000000Z"
+    },
+    "updated_at": {
+      "$date": "2020-01-31T00:00:00.000000Z"
+    }
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100349239039eed686f"
+    },
+    "data": {
+      "local_id": "messi998",
+      "quality_issue": 1,
+      "comment": "new test comment",
+      "old_data": {
+        "status": "in_progress"
+      },
+      "new_data": {
+        "status": "contested"
+      },
+      "recipients": [
+        {
+          "email": "tom_dvaer@gmail.com"
+        },
+        {
+          "email": "tim_robinson@gmail.com",
+          "first_name": "Tim",
+          "last_name": "Robinson"
+        }
+      ],
+      "files": [
+        1,
+        2
+      ]
+    },
+    "entity": "quality_issue_update",
+    "project_id": 5,
+    "type": "create_entity",
+    "status": "pending",
+    "user": 1,
+    "related_entities_local_ids": {
+      "subtask_update_local_id": "pinocchio555"
+    },
+    "created_at": {
+      "$date": "2020-01-31T00:00:00.000000Z"
+    },
+    "updated_at": {
+      "$date": "2020-01-31T00:00:00.000000Z"
+    }
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100349239039eed317d"
+    },
+    "data": {
+      "local_id": "123456qwerty",
+      "subtask": 12,
+      "user": 1,
+      "comment": "new conflicted subtask update from event",
+      "is_comment": true,
+      "files": [],
+      "old_data": {},
+      "new_data": {},
+      "created_at": "2020-02-02T00:00:00Z",
+      "updated_at": "2020-02-02T00:00:00Z",
+      "recipients": []
+    },
+    "type": "create_entity",
+    "status": "pending",
+    "entity": "subtask_update",
+    "created_at": {
+      "$date": "2020-08-02T12:21:16.129000Z"
+    },
+    "updated_at": {
+      "$date": "2020-08-02T12:21:16.129000Z"
+    },
+    "user": 1,
+    "project_id": 5,
+    "related_entities_local_ids": {
+      "quality_issue_update_local_id": "pinkyandbrain"
+    }
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100349239039eed317e"
+    },
+    "data": {
+      "local_id": "123457qwerty",
+      "subtask": 7,
+      "user": 1,
+      "files": [],
+      "old_data": {
+        "status": "contested"
+      },
+      "new_data": {
+        "status": "in_progress"
+      },
+      "created_at": "2020-02-02T00:00:00Z",
+      "updated_at": "2020-02-02T00:00:00Z",
+      "recipients": []
+    },
+    "type": "create_entity",
+    "status": "pending",
+    "entity": "subtask_update",
+    "created_at": {
+      "$date": "2020-08-02T12:21:16.129000Z"
+    },
+    "updated_at": {
+      "$date": "2020-08-02T12:21:16.129000Z"
+    },
+    "user": 1,
+    "project_id": 5,
+    "related_entities_local_ids": {
+      "quality_issue_update_local_id": "pinkyandbrain"
+    }
+  },
+  {
+    "_collection": "command_model",
+    "_id": {
+      "$oid": "5e361100349239039eed786f"
+    },
+    "data": {
+      "local_id": "prettyenvy",
+      "quality_issue": 5,
+      "comment": "new test comment",
+      "is_comment": true,
+      "old_data": {
+        "status": "in_progress"
+      },
+      "new_data": {
+        "status": "contested"
+      },
+      "recipients": [
+        {
+          "email": "tom_dvaer@gmail.com"
+        },
+        {
+          "email": "tim_robinson@gmail.com",
+          "first_name": "Tim",
+          "last_name": "Robinson"
+        }
+      ],
+      "files": [
+        1,
+        2
+      ]
+    },
+    "entity": "quality_issue_update",
+    "project_id": 5,
+    "type": "create_entity",
+    "status": "pending",
+    "user": 1,
+    "related_entities_local_ids": {
+      "subtask_update_local_id": "stounhange"
+    },
+    "created_at": {
+      "$date": "2020-01-31T00:00:00.000000Z"
+    },
+    "updated_at": {
+      "$date": "2020-01-31T00:00:00.000000Z"
+    }
+  }
+]

@@ -1,0 +1,11 @@
+from api.queues.core.base import use_rq_if_configured
+
+from api.queues.rq.package_activity_tasks_hard_delete_related_qct import \
+    package_activity_tasks_hard_delete_related_qct as package_activity_tasks_hard_delete_related_qct_rq
+from api.queues.celery.package_activity_tasks_hard_delete_related_qct import \
+    package_activity_tasks_hard_delete_related_qct as package_activity_tasks_hard_delete_related_qct_celery
+
+
+@use_rq_if_configured(package_activity_tasks_hard_delete_related_qct_rq)
+def package_activity_tasks_hard_delete_related_qct(task_filters: dict, task_exclude_filters: dict = None):
+    package_activity_tasks_hard_delete_related_qct_celery.delay(task_filters, task_exclude_filters)

@@ -1,0 +1,42 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 2,
+   "status": "not_applicable",
+   "package_activity": {
+    "id": 4,
+    "name": "Fourth package activity",
+    "activity_id": null,
+    "files": []
+   },
+   "package_activity_task": {
+    "id": 4,
+    "description": "Fourth desc",
+    "is_not_applicable_status_by_default": true,
+    "is_photo_required": false,
+    "order": 0,
+    "package_activity": 4,
+    "photo_requirement_comment": "",
+    "is_default_for_subtask": true
+   },
+   "local_id": null,
+   "location_matrix": {
+    "id": 1,
+    "building": "Building A",
+    "level": "A",
+    "area": "Hall",
+    "project": 5
+   },
+   "user": 2,
+   "date_of_approval": null,
+   "created_at": "2020-07-29T12:21:16.129000Z",
+   "updated_at": "2020-07-29T12:21:16.129000Z",
+   "building": "Building A",
+   "level": "A",
+   "area": "Hall",
+   "package": 3
+  }
+ ],
+ "next_page": null
+}

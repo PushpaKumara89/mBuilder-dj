@@ -1,0 +1,11 @@
+{
+  "comment": "test comment",
+  "old_data": {
+    "status": "requesting_approval",
+    "information": null
+  },
+  "new_data": {
+    "status": "requesting_approval",
+    "information": "Free text field!"
+  }
+}

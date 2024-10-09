@@ -1,0 +1,37 @@
+{
+ "id": 1,
+ "location_matrix": 1,
+ "package_matrix": 2,
+ "enabled": true,
+ "package": 4,
+ "package_activity": 2,
+ "package_activity_name": "Second package activity",
+ "created_at": "2020-07-30T12:21:16.129000Z",
+ "updated_at": "2020-07-30T12:21:16.129000Z",
+ "expanded_media": [
+  {
+   "id": 1,
+   "name": "troom.png",
+   "link": "http://localhost/media/troom.png",
+   "size": 0,
+   "hash": null,
+   "is_public": true,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png"
+  },
+  {
+   "id": 2,
+   "name": "broom.png",
+   "link": "http://localhost/media/broom.png",
+   "size": 0,
+   "hash": null,
+   "is_public": true,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png"
+  }
+ ]
+}

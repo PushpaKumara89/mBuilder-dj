@@ -1,0 +1,16 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 6,
+   "project": 5,
+   "package": 4,
+   "building": "building4",
+   "level": "level3",
+   "media": 6,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  }
+ ],
+ "next_page": null
+}

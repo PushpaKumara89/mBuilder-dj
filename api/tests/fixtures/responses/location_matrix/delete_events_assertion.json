@@ -1,0 +1,109 @@
+[
+ {
+  "data": {
+   "company": 2,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad+1@gmail.com",
+   "first_name": "Brad",
+   "group": 3,
+   "id": 2,
+   "last_name": "Seatwood",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "enabled": false,
+   "id": 1,
+   "location_matrix": 5,
+   "package": 4,
+   "package_activity": 4,
+   "package_activity_name": "Fourth package activity",
+   "package_matrix": 6,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_deleted",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "date_of_approval": null,
+   "id": 5,
+   "local_id": null,
+   "location_matrix": {
+    "id": 5,
+    "project": 1,
+    "building": "Building D",
+    "level": "2A",
+    "area": "Hall",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "package_activity": {
+    "id": 3,
+    "name": "Third package activity",
+    "activity_id": null,
+    "files": []
+   },
+   "package_activity_task": {
+    "id": 4,
+    "description": "Fourth desc",
+    "is_not_applicable_status_by_default": true,
+    "is_photo_required": false,
+    "order": 0,
+    "package_activity": 3,
+    "photo_requirement_comment": "",
+    "is_default_for_subtask": false
+   },
+   "status": "accepted",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_deleted",
+  "entity": "task",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "area": "Hall",
+   "building": "Building D",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "id": 5,
+   "level": "2A",
+   "project": 1,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_deleted",
+  "entity": "location_matrix",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ }
+]

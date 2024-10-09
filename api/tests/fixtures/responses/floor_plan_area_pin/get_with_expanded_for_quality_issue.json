@@ -1,0 +1,328 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 6,
+   "floor_plan_area": 2,
+   "object_id": 1,
+   "pin": {
+    "x": 8,
+    "y": 56
+   },
+   "created_at": "2020-07-30T12:21:17.129000Z",
+   "updated_at": "2020-07-30T12:21:17.129000Z",
+   "expanded_thumbnails": [],
+   "expanded_quality_issue": {
+    "id": 1,
+    "location_matrix": 1,
+    "user": 1,
+    "description": "Oh! My! God!",
+    "status": "under_review",
+    "attachments": [
+     1,
+     2,
+     3
+    ],
+    "created_at": "2020-09-22T12:21:16.129000Z",
+    "updated_at": "2020-09-30T12:21:16.129000Z",
+    "due_date": null,
+    "last_confirmed_update": null,
+    "old_quality_issue": null,
+    "local_id": null,
+    "response_category": null,
+    "expanded_location_matrix": {
+     "id": 1,
+     "project": 5,
+     "building": "building1",
+     "level": "level1",
+     "area": "beatle",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   },
+   "expanded_object_id": {
+    "id": 1,
+    "location_matrix": 1,
+    "user": 1,
+    "description": "Oh! My! God!",
+    "status": "under_review",
+    "attachments": [
+     1,
+     2,
+     3
+    ],
+    "created_at": "2020-09-22T12:21:16.129000Z",
+    "updated_at": "2020-09-30T12:21:16.129000Z",
+    "due_date": null,
+    "last_confirmed_update": null,
+    "old_quality_issue": null,
+    "local_id": null,
+    "response_category": null,
+    "expanded_location_matrix": {
+     "id": 1,
+     "project": 5,
+     "building": "building1",
+     "level": "level1",
+     "area": "beatle",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  {
+   "id": 7,
+   "floor_plan_area": 3,
+   "object_id": 2,
+   "pin": {
+    "x": 34,
+    "y": 2645
+   },
+   "created_at": "2020-07-30T12:21:19.129000Z",
+   "updated_at": "2020-07-30T12:21:19.129000Z",
+   "expanded_thumbnails": [],
+   "expanded_quality_issue": {
+    "id": 2,
+    "location_matrix": 1,
+    "user": 12,
+    "description": "Somebody, stop me!",
+    "status": "in_progress",
+    "attachments": [],
+    "created_at": "2020-09-23T12:21:16.129000Z",
+    "updated_at": "2020-09-30T12:21:16.129000Z",
+    "due_date": null,
+    "last_confirmed_update": null,
+    "old_quality_issue": null,
+    "local_id": null,
+    "response_category": null,
+    "expanded_location_matrix": {
+     "id": 1,
+     "project": 5,
+     "building": "building1",
+     "level": "level1",
+     "area": "beatle",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   },
+   "expanded_object_id": {
+    "id": 2,
+    "location_matrix": 1,
+    "user": 12,
+    "description": "Somebody, stop me!",
+    "status": "in_progress",
+    "attachments": [],
+    "created_at": "2020-09-23T12:21:16.129000Z",
+    "updated_at": "2020-09-30T12:21:16.129000Z",
+    "due_date": null,
+    "last_confirmed_update": null,
+    "old_quality_issue": null,
+    "local_id": null,
+    "response_category": null,
+    "expanded_location_matrix": {
+     "id": 1,
+     "project": 5,
+     "building": "building1",
+     "level": "level1",
+     "area": "beatle",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  {
+   "id": 8,
+   "floor_plan_area": 1,
+   "object_id": 3,
+   "pin": {
+    "x": 9875,
+    "y": 6540
+   },
+   "created_at": "2020-07-30T12:21:20.129000Z",
+   "updated_at": "2020-07-30T12:21:20.129000Z",
+   "expanded_thumbnails": [],
+   "expanded_quality_issue": {
+    "id": 3,
+    "location_matrix": 1,
+    "user": 2,
+    "description": "Stanly Parable is alive!",
+    "status": "in_progress",
+    "attachments": [
+     1
+    ],
+    "created_at": "2020-09-24T12:21:16.129000Z",
+    "updated_at": "2020-10-02T12:21:16.129000Z",
+    "due_date": null,
+    "last_confirmed_update": null,
+    "old_quality_issue": null,
+    "local_id": null,
+    "response_category": null,
+    "expanded_location_matrix": {
+     "id": 1,
+     "project": 5,
+     "building": "building1",
+     "level": "level1",
+     "area": "beatle",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   },
+   "expanded_object_id": {
+    "id": 3,
+    "location_matrix": 1,
+    "user": 2,
+    "description": "Stanly Parable is alive!",
+    "status": "in_progress",
+    "attachments": [
+     1
+    ],
+    "created_at": "2020-09-24T12:21:16.129000Z",
+    "updated_at": "2020-10-02T12:21:16.129000Z",
+    "due_date": null,
+    "last_confirmed_update": null,
+    "old_quality_issue": null,
+    "local_id": null,
+    "response_category": null,
+    "expanded_location_matrix": {
+     "id": 1,
+     "project": 5,
+     "building": "building1",
+     "level": "level1",
+     "area": "beatle",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  {
+   "id": 9,
+   "floor_plan_area": 2,
+   "object_id": 4,
+   "pin": {
+    "x": 123,
+    "y": 432
+   },
+   "created_at": "2020-07-30T12:21:21.129000Z",
+   "updated_at": "2020-07-30T12:21:21.129000Z",
+   "expanded_thumbnails": [],
+   "expanded_quality_issue": {
+    "id": 4,
+    "location_matrix": 3,
+    "user": 1,
+    "description": "In vino veritas!",
+    "status": "under_review",
+    "attachments": [
+     2,
+     3
+    ],
+    "created_at": "2020-09-25T12:21:16.129000Z",
+    "updated_at": "2020-10-01T12:21:16.129000Z",
+    "due_date": null,
+    "last_confirmed_update": null,
+    "old_quality_issue": null,
+    "local_id": null,
+    "response_category": null,
+    "expanded_location_matrix": {
+     "id": 3,
+     "project": 5,
+     "building": "Building A",
+     "level": "B",
+     "area": "Hall",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   },
+   "expanded_object_id": {
+    "id": 4,
+    "location_matrix": 3,
+    "user": 1,
+    "description": "In vino veritas!",
+    "status": "under_review",
+    "attachments": [
+     2,
+     3
+    ],
+    "created_at": "2020-09-25T12:21:16.129000Z",
+    "updated_at": "2020-10-01T12:21:16.129000Z",
+    "due_date": null,
+    "last_confirmed_update": null,
+    "old_quality_issue": null,
+    "local_id": null,
+    "response_category": null,
+    "expanded_location_matrix": {
+     "id": 3,
+     "project": 5,
+     "building": "Building A",
+     "level": "B",
+     "area": "Hall",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  },
+  {
+   "id": 10,
+   "floor_plan_area": 2,
+   "object_id": 5,
+   "pin": {
+    "x": 8,
+    "y": 738
+   },
+   "created_at": "2020-07-30T12:21:22.129000Z",
+   "updated_at": "2020-07-30T12:21:22.129000Z",
+   "expanded_thumbnails": [],
+   "expanded_quality_issue": {
+    "id": 5,
+    "location_matrix": 1,
+    "user": 2,
+    "description": "In aqua sanitas!",
+    "status": "under_review",
+    "attachments": [
+     3
+    ],
+    "created_at": "2020-09-26T12:21:16.129000Z",
+    "updated_at": "2020-09-30T12:21:16.129000Z",
+    "due_date": null,
+    "last_confirmed_update": null,
+    "old_quality_issue": null,
+    "local_id": null,
+    "response_category": null,
+    "expanded_location_matrix": {
+     "id": 1,
+     "project": 5,
+     "building": "building1",
+     "level": "level1",
+     "area": "beatle",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   },
+   "expanded_object_id": {
+    "id": 5,
+    "location_matrix": 1,
+    "user": 2,
+    "description": "In aqua sanitas!",
+    "status": "under_review",
+    "attachments": [
+     3
+    ],
+    "created_at": "2020-09-26T12:21:16.129000Z",
+    "updated_at": "2020-09-30T12:21:16.129000Z",
+    "due_date": null,
+    "last_confirmed_update": null,
+    "old_quality_issue": null,
+    "local_id": null,
+    "response_category": null,
+    "expanded_location_matrix": {
+     "id": 1,
+     "project": 5,
+     "building": "building1",
+     "level": "level1",
+     "area": "beatle",
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z"
+    }
+   }
+  }
+ ],
+ "next_page": null
+}

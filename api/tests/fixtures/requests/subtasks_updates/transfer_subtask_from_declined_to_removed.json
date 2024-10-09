@@ -1,0 +1,11 @@
+{
+  "comment": "changed from contested to in progress",
+  "old_data": {
+    "company": 3,
+    "status": "declined"
+  },
+  "new_data": {
+    "company": 3,
+    "status": "removed"
+  }
+}

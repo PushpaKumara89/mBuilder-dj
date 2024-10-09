@@ -1,0 +1,11 @@
+{
+  "comment": "changed from under_inspection to in_progress",
+  "old_data": {
+    "company": 3,
+    "status": "under_inspection"
+  },
+  "new_data": {
+    "company": 3,
+    "status": "in_progress"
+  }
+}

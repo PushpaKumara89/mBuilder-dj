@@ -1,0 +1,417 @@
+[
+ {
+  "data": {
+   "company": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad@gmail.com",
+   "first_name": "Bradwood",
+   "group": 1,
+   "id": 1,
+   "last_name": "Feat",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "attachments": [],
+   "created_at": "2020-02-02T00:00:00Z",
+   "description": "Baby shark dodo-dodo-dodo!",
+   "due_date": "2020-04-05T02:03:04Z",
+   "id": 15,
+   "last_confirmed_update": null,
+   "local_id": null,
+   "location_matrix": 1,
+   "old_quality_issue": 1,
+   "response_category": 1,
+   "status": "under_review",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 1
+  },
+  "type": "entity_created",
+  "entity": "quality_issue",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "quality_issue": 15,
+   "media": {
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_project_snapshot_thumbnails": [],
+    "expanded_thumbnails": [],
+    "extension": "png",
+    "hash": "sdogijh459ythgfd",
+    "id": 1,
+    "is_public": true,
+    "link": "http://localhost/media/troom.png",
+    "local_id": null,
+    "name": "troom.png",
+    "size": 0,
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_created",
+  "entity": "quality_issue_attachments",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "quality_issue": 15,
+   "media": {
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_project_snapshot_thumbnails": [],
+    "expanded_thumbnails": [],
+    "extension": "png",
+    "hash": "werutgh45whgdgfh",
+    "id": 2,
+    "is_public": true,
+    "link": "http://localhost/media/broom.png",
+    "local_id": null,
+    "name": "broom.png",
+    "size": 0,
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_created",
+  "entity": "quality_issue_attachments",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "attachments": [
+    1,
+    2,
+    3
+   ],
+   "created_at": "2020-09-22T12:21:16.129000Z",
+   "description": "Oh! My! God!",
+   "due_date": null,
+   "id": 1,
+   "last_confirmed_update": null,
+   "local_id": null,
+   "location_matrix": 1,
+   "old_quality_issue": null,
+   "response_category": 1,
+   "status": "removed",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 1
+  },
+  "type": "entity_updated",
+  "entity": "quality_issue",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "comment": null,
+   "created_at": "2020-02-02T00:00:00Z",
+   "files": [],
+   "id": 13,
+   "is_comment": false,
+   "is_conflict": false,
+   "local_id": null,
+   "new_data": {
+    "status": "removed"
+   },
+   "old_data": {
+    "status": "under_review"
+   },
+   "quality_issue": 1,
+   "recipients": [],
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 1
+  },
+  "type": "entity_created",
+  "entity": "quality_issue_update",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "attachments": [
+    1,
+    2
+   ],
+   "created_at": "2020-02-02T00:00:00Z",
+   "description": "Baby shark dodo-dodo-dodo!",
+   "due_date": "2020-04-05T02:03:04Z",
+   "id": 15,
+   "last_confirmed_update": null,
+   "local_id": null,
+   "location_matrix": 1,
+   "old_quality_issue": 1,
+   "response_category": 1,
+   "status": "under_review",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 1
+  },
+  "type": "entity_updated",
+  "entity": "quality_issue",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "comment": "Quality Issue was created based on Q-1 (R-5).",
+   "created_at": "2020-02-02T00:00:00Z",
+   "files": [],
+   "id": 14,
+   "is_comment": false,
+   "is_conflict": false,
+   "local_id": null,
+   "new_data": {
+    "status": "under_review"
+   },
+   "old_data": {
+    "status": "under_review"
+   },
+   "quality_issue": 15,
+   "recipients": [],
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 1
+  },
+  "type": "entity_created",
+  "entity": "quality_issue_update",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "expanded_project_snapshot_thumbnails": [],
+   "expanded_thumbnails": [],
+   "extension": "png",
+   "hash": "dd24692bbb3e4c51b644603b1640f761",
+   "id": 12,
+   "is_public": false,
+   "link": "http://localhost/api/media/private/dd24692bbb3e4c51b644603b1640f761/",
+   "local_id": null,
+   "name": "broom.png",
+   "size": 489,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "media",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "expanded_project_snapshot_thumbnails": [],
+   "expanded_thumbnails": [],
+   "extension": "png",
+   "hash": "83122edaec8f4cb39d84e00d9bd48b18",
+   "id": 13,
+   "is_public": false,
+   "link": "http://localhost/api/media/private/83122edaec8f4cb39d84e00d9bd48b18/",
+   "local_id": null,
+   "name": "broom.png",
+   "size": 322,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "media",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "attachments": [
+    1,
+    2
+   ],
+   "created_at": "2020-02-02T00:00:00Z",
+   "description": "Baby shark dodo-dodo-dodo!",
+   "due_date": "2020-04-05T02:03:04Z",
+   "id": 15,
+   "last_confirmed_update": null,
+   "local_id": null,
+   "location_matrix": 1,
+   "old_quality_issue": 1,
+   "response_category": 1,
+   "status": "under_review",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 1
+  },
+  "type": "entity_updated",
+  "entity": "quality_issue",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "comment": "Baby shark dodo-dodo-dodo!",
+   "created_at": "2020-02-02T00:00:00Z",
+   "files": [],
+   "id": 15,
+   "is_comment": false,
+   "is_conflict": false,
+   "local_id": null,
+   "new_data": {
+    "status": "under_review",
+    "floor_plan_area_pin": {
+     "floor_plan_area": 2,
+     "pin": {
+      "x": 5,
+      "y": 6
+     },
+     "object_id": 15,
+     "content_type": 30
+    }
+   },
+   "old_data": {},
+   "quality_issue": 15,
+   "recipients": [],
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 1
+  },
+  "type": "entity_created",
+  "entity": "quality_issue_update",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "quality_issue_update": 15,
+   "media": {
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_project_snapshot_thumbnails": [],
+    "expanded_thumbnails": [],
+    "extension": "png",
+    "hash": "sdogijh459ythgfd",
+    "id": 1,
+    "is_public": true,
+    "link": "http://localhost/media/troom.png",
+    "local_id": null,
+    "name": "troom.png",
+    "size": 0,
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_created",
+  "entity": "quality_issue_update_files",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "quality_issue_update": 15,
+   "media": {
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_project_snapshot_thumbnails": [],
+    "expanded_thumbnails": [],
+    "extension": "png",
+    "hash": "werutgh45whgdgfh",
+    "id": 2,
+    "is_public": true,
+    "link": "http://localhost/media/broom.png",
+    "local_id": null,
+    "name": "broom.png",
+    "size": 0,
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_created",
+  "entity": "quality_issue_update_files",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "email": "stan.smith@long.com",
+   "expanded_user": null,
+   "first_name": null,
+   "id": 13,
+   "last_name": null,
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": null
+  },
+  "type": "entity_created",
+  "entity": "recipient",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "email": "mimo.stule@bokom.com",
+   "expanded_user": null,
+   "first_name": null,
+   "id": 14,
+   "last_name": null,
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": null
+  },
+  "type": "entity_created",
+  "entity": "recipient",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "quality_issue_update": 15,
+   "recipient": {
+    "created_at": "2020-02-02T00:00:00Z",
+    "email": "stan.smith@long.com",
+    "expanded_user": null,
+    "first_name": null,
+    "id": 13,
+    "last_name": null,
+    "updated_at": "2020-02-02T00:00:00Z",
+    "user": null
+   }
+  },
+  "type": "entity_created",
+  "entity": "quality_issue_update_recipients",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "quality_issue_update": 15,
+   "recipient": {
+    "created_at": "2020-02-02T00:00:00Z",
+    "email": "mimo.stule@bokom.com",
+    "expanded_user": null,
+    "first_name": null,
+    "id": 14,
+    "last_name": null,
+    "updated_at": "2020-02-02T00:00:00Z",
+    "user": null
+   }
+  },
+  "type": "entity_created",
+  "entity": "quality_issue_update_recipients",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ }
+]

@@ -1,0 +1,11 @@
+{
+  "comment": "My bad, man! My bad!",
+  "old_data": {
+    "company": 3,
+    "status": "inspection_rejected"
+  },
+  "new_data": {
+    "company": 3,
+    "status": "under_inspection"
+  }
+}

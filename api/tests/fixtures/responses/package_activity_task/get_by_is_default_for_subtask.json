@@ -1,0 +1,26 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 2,
+   "description": "Second desc",
+   "is_not_applicable_status_by_default": true,
+   "is_photo_required": false,
+   "order": 0,
+   "package_activity": 1,
+   "photo_requirement_comment": "",
+   "is_default_for_subtask": true
+  },
+  {
+   "id": 3,
+   "description": "Third desc",
+   "is_not_applicable_status_by_default": false,
+   "is_photo_required": false,
+   "order": 0,
+   "package_activity": 2,
+   "photo_requirement_comment": "",
+   "is_default_for_subtask": true
+  }
+ ],
+ "next_page": null
+}

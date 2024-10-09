@@ -1,0 +1,56 @@
+[
+ {
+  "data": {
+   "company": 3,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad+2wood@gmail.com",
+   "first_name": "Brad",
+   "group": 2,
+   "id": 3,
+   "last_name": "Heat",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "area": "Bedroom",
+   "building": "Building C",
+   "created_at": "2020-02-02T00:00:00Z",
+   "id": 33,
+   "level": "T",
+   "project": 6,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 26,
+   "location_matrix": 33,
+   "package": 4,
+   "package_activity": 1,
+   "package_activity_name": "First package activity",
+   "package_matrix": 1,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ }
+]

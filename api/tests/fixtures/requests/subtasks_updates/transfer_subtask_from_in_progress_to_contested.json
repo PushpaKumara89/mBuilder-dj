@@ -1,0 +1,11 @@
+{
+  "comment": "Not today, my friend!",
+  "old_data": {
+    "company": 3,
+    "status": "in_progress"
+  },
+  "new_data": {
+    "company": 3,
+    "status": "contested"
+  }
+}

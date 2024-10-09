@@ -1,0 +1,12 @@
+{
+ "total": 2,
+ "closed": 1,
+ "in_progress": 0,
+ "removed": 1,
+ "contested": 0,
+ "under_inspection": 0,
+ "inspection_rejected": 0,
+ "requesting_approval": 0,
+ "declined": 0,
+ "requested_approval_rejected": 0
+}

@@ -1,0 +1,16 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 1,
+   "package_matrix": 5,
+   "company": 2
+  },
+  {
+   "id": 2,
+   "package_matrix": 5,
+   "company": 3
+  }
+ ],
+ "next_page": null
+}

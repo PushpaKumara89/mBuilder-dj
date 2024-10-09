@@ -1,0 +1,11 @@
+from api.queues.core.base import use_rq_if_configured
+
+from api.queues.rq.restore_tasks_related_to_reinstated_location_matrix import \
+    restore_tasks_related_to_reinstated_location_matrix as restore_tasks_related_to_reinstated_location_matrix_rq
+from api.queues.celery.restore_tasks_related_to_reinstated_location_matrix import \
+    restore_tasks_related_to_reinstated_location_matrix as restore_tasks_related_to_reinstated_location_matrix_celery
+
+
+@use_rq_if_configured(restore_tasks_related_to_reinstated_location_matrix_rq)
+def restore_tasks_related_to_reinstated_location_matrix(location_matrices, user):
+    restore_tasks_related_to_reinstated_location_matrix_celery.delay(location_matrices, user)

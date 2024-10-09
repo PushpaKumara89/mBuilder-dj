@@ -1,0 +1,24 @@
+{
+  "commands": [
+    {
+      "data": {
+        "subtask": 6,
+        "comment": "new test comment",
+        "old_data": {
+          "status": "contested",
+          "task": 3
+        },
+        "new_data": {
+          "status": "contested",
+          "task": 2
+        }
+      },
+      "type": "create_entity",
+      "entity": "subtask_update",
+      "project_id": 1,
+      "related_entities_local_ids": {
+        "old_task_update_local_id": "ivandrago777"
+      }
+    }
+  ]
+}

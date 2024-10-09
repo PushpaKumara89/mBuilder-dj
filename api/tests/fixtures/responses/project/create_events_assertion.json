@@ -1,0 +1,57 @@
+[
+ {
+  "data": {
+   "company": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad@gmail.com",
+   "first_name": "Bradwood",
+   "group": 1,
+   "id": 1,
+   "last_name": "Feat",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "completion_date": "2020-09-30",
+   "created_at": "2020-02-02T00:00:00Z",
+   "expanded_key_contacts": [],
+   "id": 8,
+   "image": {
+    "id": 2,
+    "name": "broom.png",
+    "link": "http://localhost/media/broom.png",
+    "size": 0,
+    "hash": null,
+    "is_public": true,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "png"
+   },
+   "is_subtask_visible_for_clients": false,
+   "is_task_visible_for_clients": true,
+   "name": "Boom tram",
+   "number": "#AS-45sd",
+   "show_estimated_man_hours": false,
+   "start_date": "2020-02-20",
+   "status": "under_construction",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "value": "457656.00",
+   "value_currency": "USD"
+  },
+  "type": "entity_created",
+  "entity": "project",
+  "local_id": null,
+  "project_id": 8,
+  "user": null
+ }
+]

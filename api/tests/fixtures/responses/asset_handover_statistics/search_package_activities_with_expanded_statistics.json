@@ -1,0 +1,98 @@
+{
+ "previous_page": null,
+ "next_page": null,
+ "items": [
+  {
+   "id": 1,
+   "name": "First package activity",
+   "activity_id": "Activity",
+   "package_activity_tasks": [
+    {
+     "id": 5,
+     "description": "Fifth desc",
+     "is_not_applicable_status_by_default": true,
+     "is_photo_required": false,
+     "order": 0,
+     "package_activity": 1,
+     "photo_requirement_comment": "",
+     "is_default_for_subtask": false
+    },
+    {
+     "id": 6,
+     "description": "Sixth desc",
+     "is_not_applicable_status_by_default": true,
+     "is_photo_required": false,
+     "order": 0,
+     "package_activity": 1,
+     "photo_requirement_comment": "",
+     "is_default_for_subtask": false
+    }
+   ],
+   "files": [],
+   "expanded_files_count": 0,
+   "expanded_projects_count": 1,
+   "expanded_files": [],
+   "expanded_asset_handover_statistics": null
+  },
+  {
+   "id": 4,
+   "name": "Fourth package activity",
+   "activity_id": null,
+   "package_activity_tasks": [
+    {
+     "id": 1,
+     "description": "First desc",
+     "is_not_applicable_status_by_default": true,
+     "is_photo_required": false,
+     "order": 0,
+     "package_activity": 4,
+     "photo_requirement_comment": "",
+     "is_default_for_subtask": false
+    },
+    {
+     "id": 2,
+     "description": "Second desc",
+     "is_not_applicable_status_by_default": true,
+     "is_photo_required": false,
+     "order": 0,
+     "package_activity": 4,
+     "photo_requirement_comment": "",
+     "is_default_for_subtask": false
+    }
+   ],
+   "files": [],
+   "expanded_files_count": 0,
+   "expanded_projects_count": 1,
+   "expanded_files": [],
+   "expanded_asset_handover_statistics": {
+    "required_files_count": 11,
+    "uploaded_files_count": 2,
+    "filled_information_count": 0,
+    "total_information_count": 1,
+    "statistics_by_statuses": {
+     "contested": 1,
+     "in_progress": 1
+    }
+   }
+  },
+  {
+   "id": 6,
+   "name": "Six package activity",
+   "activity_id": null,
+   "package_activity_tasks": [],
+   "files": [],
+   "expanded_files_count": 0,
+   "expanded_projects_count": 1,
+   "expanded_files": [],
+   "expanded_asset_handover_statistics": {
+    "required_files_count": 3,
+    "uploaded_files_count": 1,
+    "filled_information_count": 0,
+    "total_information_count": 1,
+    "statistics_by_statuses": {
+     "requesting_approval": 1
+    }
+   }
+  }
+ ]
+}

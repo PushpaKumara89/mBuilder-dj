@@ -1,0 +1,38 @@
+[
+  {
+    "building": "A",
+    "level": "11",
+    "area": "X"
+  },
+  {
+    "building": "A",
+    "level": "4",
+    "area": "e"
+  },
+  {
+    "building": "A",
+    "level": "3",
+    "area": "c"
+  },
+  {
+    "building": "A",
+    "level": "2",
+    "area": "b"
+  },
+  {
+    "building": "A",
+    "level": "0",
+    "area": "m"
+  },
+  {
+    "building": "A",
+    "level": "-1",
+    "area": "v"
+  },
+  {
+    "building": "A",
+    "level": "-10",
+    "area": "p"
+  }
+]
+

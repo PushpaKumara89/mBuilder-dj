@@ -1,0 +1,9 @@
+{
+  "description": "Test quality Issue without recipients",
+  "location_matrix": 1,
+  "due_date": "2020-04-05 02:03:04",
+  "response_category": null,
+  "attachments": [],
+  "old_quality_issue": 1,
+  "recipients": []
+}

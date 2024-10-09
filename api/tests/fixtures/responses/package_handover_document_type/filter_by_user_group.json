@@ -1,0 +1,56 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 1,
+   "name": "Manufactures Literature",
+   "group": 1
+  },
+  {
+   "id": 2,
+   "name": "Operating Procedures",
+   "group": 1
+  },
+  {
+   "id": 3,
+   "name": "Materials Disposal",
+   "group": 1
+  },
+  {
+   "id": 4,
+   "name": "Warranties & Guarantees",
+   "group": 1
+  },
+  {
+   "id": 5,
+   "name": "Spares",
+   "group": 1
+  },
+  {
+   "id": 6,
+   "name": "Technical Data Submission",
+   "group": 1
+  },
+  {
+   "id": 7,
+   "name": "Certificates",
+   "group": 1
+  },
+  {
+   "id": 8,
+   "name": "AsBuilt (non-asset)",
+   "group": 1
+  },
+  {
+   "id": 27,
+   "name": "Scope of Works or Systems",
+   "group": 1
+  },
+  {
+   "id": 28,
+   "name": "Asset Register",
+   "group": 1
+  }
+ ],
+ "next_page": 2
+}

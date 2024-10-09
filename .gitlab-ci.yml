@@ -1,0 +1,171 @@
+stages:
+  - tests
+  - push
+  - deploy
+
+variables:
+  CI_PROJECT_NAME: mbuild-django
+  DOMAIN: api.mbuild.sctechnologies.co
+  DOCKERFILE: ./Dockerfile
+  CHART_REPO: ronasit/monolith
+  CHART_VERSION: &ref 1.8.0
+  CHART_VALUES: k8s/dev.yaml
+  DOCKER_CONTAINER_REGISTRY: mbuild.azurecr.io/${CI_PROJECT_NAME}-${CI_ENVIRONMENT_SLUG}
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  HELM_TIMEOUT: "20m0s"
+
+include:
+  - project: 'k8s-tools/charts/monolith'
+    ref: *ref
+    file: '/helpers/.gitlab-ci-template.yml'
+
+cache: &global_cache
+  paths:
+    - .cache/pip
+  policy: pull
+
+tests:
+  stage: tests
+  image: docker
+  before_script:
+    - cp mbuild/.env.testing mbuild/.env
+    - export DOCKER_BUILDKIT=1
+    - export COMPOSE_DOCKER_CLI_BUILD=1
+  script:
+    - docker compose -f ./docker-compose.testing.yaml build
+    - docker compose -f ./docker-compose.testing.yaml up -d --force-recreate --always-recreate-deps --remove-orphans
+    - docker compose -f ./docker-compose.testing.yaml exec -T web coverage run --branch --source='.' manage.py test api -v 2
+    - docker compose -f ./docker-compose.testing.yaml exec -T web coverage report
+    - docker compose -f ./docker-compose.testing.yaml exec -T web coverage xml -o coverage.xml
+    - docker compose cp web:/app/coverage.xml ./
+  coverage: '/(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
+  after_script:
+    - docker compose -f ./docker-compose.testing.yaml exec -T db dropdb -U pguser test_pgdb
+    - docker compose -f ./docker-compose.testing.yaml stop
+    - docker compose -f ./docker-compose.testing.yaml down
+    - rm -f mbuild/.env
+  artifacts:
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage.xml
+  cache:
+    <<: *global_cache
+    policy: pull-push
+  tags:
+    - docker
+    - linux
+    - side
+
+push_development:
+  stage: push
+  extends: .push_acr
+  environment:
+    name: "development"
+  tags:
+    - docker
+    - linux
+    - side
+  only:
+    - development
+  needs: ["tests"]
+
+deploy_development:
+  extends: .deploy
+  image: projects.ronasit.com:4567/docker/azure-cli:latest
+  variables:
+    AZ_RESOURCE_GROUP: staging
+    AZ_CLUSTER: staging
+    CHART_VALUES: k8s/dev.yaml
+  environment:
+    name: "development"
+    url: https://dev.${DOMAIN}
+  before_script:
+    - az login --service-principal -u ${SP_USER} -p ${SP_SECRET} --tenant ${SP_TENANT}
+    - az aks get-credentials --resource-group ${AZ_RESOURCE_GROUP} --name ${AZ_CLUSTER}
+    - az acr login --name mbuild
+  after_script:
+    - kubectl logs -n ${CI_PROJECT_NAME} --selector=job-name=${CI_PROJECT_NAME}-${CI_ENVIRONMENT_SLUG}-migrate
+  only:
+    - development
+  tags:
+    - docker
+    - linux
+    - side
+  needs: ["push_development"]
+
+push_staging:
+  stage: push
+  extends: .push_acr
+  environment:
+    name: "staging"
+  tags:
+    - docker
+    - linux
+    - side
+  only:
+    - master
+  needs: ["tests"]
+
+deploy_staging:
+  image: projects.ronasit.com:4567/docker/azure-cli:latest
+  variables:
+    AZ_RESOURCE_GROUP: staging
+    AZ_CLUSTER: staging
+    CHART_VALUES: k8s/stg.yaml
+  before_script:
+    - az login --service-principal -u ${SP_USER} -p ${SP_SECRET} --tenant ${SP_TENANT}
+    - az aks get-credentials --resource-group ${AZ_RESOURCE_GROUP} --name ${AZ_CLUSTER}
+    - az acr login --name mbuild
+  extends: .deploy
+  environment:
+    name: "staging"
+    url: https://stg.${DOMAIN}
+  tags:
+    - docker
+    - linux
+    - side
+  only:
+    - master
+  needs: ["push_staging"]
+
+push_production:
+  stage: push
+  variables:
+    DOCKER_CONTAINER_REGISTRY: mbuildprod.azurecr.io/${CI_PROJECT_NAME}-${CI_ENVIRONMENT_SLUG}
+  extends: .push_acr
+  environment:
+    name: "production"
+  script:
+    - echo "{\"auths\":{\"$ACR_NAME.azurecr.io\":{\"username\":\"$SP_USER\",\"password\":\"$SP_SECRET\"}}}" > /kaniko/.docker/config.json
+    - /kaniko/executor --context $CI_PROJECT_DIR --dockerfile $DOCKERFILE --destination $DOCKER_CONTAINER_REGISTRY:$CI_PIPELINE_ID --cache=true --build-arg DD_ENABLED=true
+  tags:
+    - docker
+    - linux
+    - side
+  only:
+    - production
+  needs: ["tests"]
+
+deploy_production:
+  image: projects.ronasit.com:4567/docker/azure-cli:latest
+  variables:
+    DOCKER_CONTAINER_REGISTRY: mbuildprod.azurecr.io/${CI_PROJECT_NAME}-${CI_ENVIRONMENT_SLUG}
+    AZ_RESOURCE_GROUP: mbuild-prod-rg-uksouth
+    AZ_CLUSTER: mbuild-prod-aks-uksouth
+    CHART_VALUES: k8s/prod.yaml
+  before_script:
+    - az login --service-principal -u ${SP_USER} -p ${SP_SECRET} --tenant ${SP_TENANT}
+    - az aks get-credentials --resource-group ${AZ_RESOURCE_GROUP} --name ${AZ_CLUSTER}
+    - az acr login --name mbuildprod
+  extends: .deploy
+  environment:
+    name: "production"
+    url: https://api.mbuild.global
+  tags:
+    - docker
+    - linux
+    - side
+  only:
+    - production
+  needs: ["push_production"]

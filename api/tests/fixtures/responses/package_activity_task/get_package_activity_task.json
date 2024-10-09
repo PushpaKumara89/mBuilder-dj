@@ -1,0 +1,10 @@
+{
+ "id": 1,
+ "description": "First desc",
+ "is_not_applicable_status_by_default": true,
+ "is_photo_required": false,
+ "order": 0,
+ "package_activity": 1,
+ "photo_requirement_comment": "",
+ "is_default_for_subtask": false
+}

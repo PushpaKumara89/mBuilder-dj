@@ -1,0 +1,15 @@
+[
+ {
+  "id": 5,
+  "status": "pending",
+  "first_name": "Marie",
+  "last_name": "Subcontractor",
+  "email": "marie.subcontractor@gmail.com",
+  "phone": "+41524204242",
+  "position": "Super Subcontractor",
+  "company": 1,
+  "group": 4,
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z"
+ }
+]

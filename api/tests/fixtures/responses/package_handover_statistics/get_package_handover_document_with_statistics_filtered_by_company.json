@@ -1,0 +1,22 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 1,
+   "package_handover": 5,
+   "package_handover_document_type": 1,
+   "number_required_files": 5,
+   "project": 5,
+   "package_activity": 1,
+   "expanded_package_handover_statistics": {
+    "in_progress_count": 1,
+    "accepted_count": 0,
+    "removed_count": 0,
+    "contested_count": 0,
+    "requesting_approval_count": 0,
+    "requested_approval_rejected_count": 0
+   }
+  }
+ ],
+ "next_page": null
+}

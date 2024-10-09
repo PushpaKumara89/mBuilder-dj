@@ -1,0 +1,24 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 10,
+   "project": 5,
+   "building": null,
+   "level": null,
+   "area": null,
+   "package": 3,
+   "package_activity": 5,
+   "company": 4,
+   "media": 1,
+   "document_type": 9,
+   "filename": "troom.png",
+   "uid": "sub123",
+   "information": "bingo 777",
+   "file_type": "png",
+   "entity": "package_handover",
+   "entity_id": 7
+  }
+ ],
+ "next_page": null
+}

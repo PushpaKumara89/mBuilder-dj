@@ -1,0 +1,173 @@
+{
+ "id": 3,
+ "location_matrix": 2,
+ "user": 2,
+ "description": "Stanly Parable is alive!",
+ "status": "closed",
+ "attachments": [
+  1
+ ],
+ "created_at": "2020-09-24T12:21:16.129000Z",
+ "updated_at": "2020-09-30T12:21:16.129000Z",
+ "due_date": null,
+ "last_confirmed_update": null,
+ "old_quality_issue": null,
+ "local_id": null,
+ "response_category": null,
+ "expanded_location_matrix": {
+  "id": 2,
+  "project": 5,
+  "building": "Building A",
+  "level": "A",
+  "area": "Meeting room",
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z"
+ },
+ "expanded_in_work_subtasks_count": 0,
+ "expanded_last_update": {
+  "id": 1,
+  "quality_issue": 3,
+  "user": 4,
+  "comment": null,
+  "files": [
+   1,
+   2
+  ],
+  "old_data": {
+   "status": "under_review",
+   "description": "Viva la vida loca!"
+  },
+  "local_id": null,
+  "new_data": {
+   "status": "under_review",
+   "description": "In aqua sanitas!"
+  },
+  "created_at": "2020-09-30T12:21:16.129000Z",
+  "updated_at": "2020-09-30T12:21:16.129000Z",
+  "recipients": [
+   {
+    "id": 1,
+    "first_name": "Tom",
+    "last_name": "Soyer",
+    "email": "tom_digidom@gmail.com",
+    "user": null,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-08-30T12:21:16.129000Z"
+   },
+   {
+    "id": 2,
+    "first_name": "Gan",
+    "last_name": "Gsta",
+    "email": "gan_gsta@gmail.com",
+    "user": 1,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-08-30T12:21:16.129000Z"
+   }
+  ],
+  "is_conflict": false,
+  "is_comment": false,
+  "expanded_user": {
+   "id": 4,
+   "status": "pending",
+   "first_name": "Awesome",
+   "last_name": "Client",
+   "email": "cool.client@gmail.com",
+   "phone": "+41524904241",
+   "position": "cashier",
+   "company": 2,
+   "group": 5,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  }
+ },
+ "expanded_last_recipients": [
+  {
+   "id": 1,
+   "first_name": "Tom",
+   "last_name": "Soyer",
+   "email": "tom_digidom@gmail.com",
+   "user": null,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-08-30T12:21:16.129000Z",
+   "expanded_user": null
+  },
+  {
+   "id": 2,
+   "first_name": "Gan",
+   "last_name": "Gsta",
+   "email": "gan_gsta@gmail.com",
+   "user": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-08-30T12:21:16.129000Z",
+   "expanded_user": {
+    "id": 1,
+    "status": "pending",
+    "first_name": "Bradwood",
+    "last_name": "Feat",
+    "email": "cool.brad@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 1,
+    "group": 1,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  }
+ ],
+ "expanded_subtasks": [
+  {
+   "id": 7,
+   "description": "test",
+   "is_closed": false,
+   "task": 2,
+   "user": 2,
+   "files": [
+    1,
+    2
+   ],
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-08-30T12:21:16.129000Z",
+   "date_of_completion": null,
+   "estimation": null,
+   "due_date": "2020-07-30T12:21:16.129000Z",
+   "company": null,
+   "quality_issue": 3,
+   "status": "removed",
+   "is_defect": false,
+   "last_confirmed_update": null,
+   "response_due_date": null,
+   "location_description": null,
+   "local_id": null,
+   "files_count": 0,
+   "closed_files_count": 0
+  }
+ ],
+ "expanded_user": {
+  "id": 2,
+  "status": "pending",
+  "first_name": "Brad",
+  "last_name": "Seatwood",
+  "email": "cool.brad+1@gmail.com",
+  "phone": "+41524204242",
+  "position": "Cool Brad",
+  "company": 2,
+  "group": 3,
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z"
+ },
+ "expanded_last_confirmed_update": null,
+ "expanded_attachments": [
+  {
+   "id": 1,
+   "name": "troom.png",
+   "link": "http://localhost/media/troom.png",
+   "size": 0,
+   "hash": "sdogijh459ythgfd",
+   "is_public": true,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png"
+  }
+ ]
+}

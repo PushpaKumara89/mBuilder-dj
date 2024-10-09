@@ -1,0 +1,1 @@
+from .reset_password_auth import ResetPasswordAuthMiddleware

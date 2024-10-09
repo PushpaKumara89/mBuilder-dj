@@ -1,0 +1,98 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 1,
+   "name": "First package activity",
+   "activity_id": "Activity",
+   "package_activity_tasks": [
+    {
+     "id": 5,
+     "description": "Fifth desc",
+     "is_not_applicable_status_by_default": true,
+     "is_photo_required": false,
+     "order": 0,
+     "package_activity": 1,
+     "photo_requirement_comment": "",
+     "is_default_for_subtask": false
+    },
+    {
+     "id": 6,
+     "description": "Sixth desc",
+     "is_not_applicable_status_by_default": true,
+     "is_photo_required": false,
+     "order": 0,
+     "package_activity": 1,
+     "photo_requirement_comment": "",
+     "is_default_for_subtask": false
+    }
+   ],
+   "files": [],
+   "expanded_package_handover": {
+    "id": 5,
+    "inspection_period": 6,
+    "maintenance_period": 18,
+    "package_matrix": 5
+   }
+  },
+  {
+   "id": 2,
+   "name": "Second package activity",
+   "activity_id": null,
+   "package_activity_tasks": [
+    {
+     "id": 4,
+     "description": "Fourth desc",
+     "is_not_applicable_status_by_default": true,
+     "is_photo_required": false,
+     "order": 0,
+     "package_activity": 2,
+     "photo_requirement_comment": "",
+     "is_default_for_subtask": false
+    }
+   ],
+   "files": [],
+   "expanded_package_handover": {
+    "id": 2,
+    "inspection_period": 1,
+    "maintenance_period": 3,
+    "package_matrix": 2
+   }
+  },
+  {
+   "id": 4,
+   "name": "Fourth package activity",
+   "activity_id": null,
+   "package_activity_tasks": [
+    {
+     "id": 1,
+     "description": "First desc",
+     "is_not_applicable_status_by_default": true,
+     "is_photo_required": false,
+     "order": 0,
+     "package_activity": 4,
+     "photo_requirement_comment": "",
+     "is_default_for_subtask": false
+    },
+    {
+     "id": 2,
+     "description": "Second desc",
+     "is_not_applicable_status_by_default": true,
+     "is_photo_required": false,
+     "order": 0,
+     "package_activity": 4,
+     "photo_requirement_comment": "",
+     "is_default_for_subtask": false
+    }
+   ],
+   "files": [],
+   "expanded_package_handover": {
+    "id": 4,
+    "inspection_period": 6,
+    "maintenance_period": 18,
+    "package_matrix": 4
+   }
+  }
+ ],
+ "next_page": null
+}

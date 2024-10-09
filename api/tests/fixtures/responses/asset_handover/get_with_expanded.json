@@ -1,0 +1,268 @@
+[
+ {
+  "id": 1,
+  "package_activity": 1,
+  "location_matrix": 1,
+  "project": 5,
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z",
+  "expanded_asset_handover_documents": [],
+  "expanded_location_matrix": {
+   "id": 1,
+   "project": 5,
+   "building": "Building A",
+   "level": "7A",
+   "area": "Hall",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "expanded_asset_handover_information": {
+   "id": 2,
+   "guid_external_ref": "external ref 2",
+   "warranty": "warranty 2",
+   "manufacture_serial_number": "S/N 2",
+   "model_number": "M/N 2",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "asset_handover": 1
+  }
+ },
+ {
+  "id": 2,
+  "package_activity": 2,
+  "location_matrix": 2,
+  "project": 5,
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z",
+  "expanded_asset_handover_documents": [],
+  "expanded_location_matrix": {
+   "id": 2,
+   "project": 5,
+   "building": "Building A",
+   "level": "8A",
+   "area": "Hall",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "expanded_asset_handover_information": {
+   "id": 3,
+   "guid_external_ref": "external ref 3",
+   "warranty": "warranty 3",
+   "manufacture_serial_number": "S/N 3",
+   "model_number": "M/N 3",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "asset_handover": 2
+  }
+ },
+ {
+  "id": 5,
+  "package_activity": 6,
+  "location_matrix": 2,
+  "project": 5,
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z",
+  "expanded_asset_handover_documents": [],
+  "expanded_location_matrix": {
+   "id": 2,
+   "project": 5,
+   "building": "Building A",
+   "level": "8A",
+   "area": "Hall",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "expanded_asset_handover_information": {
+   "id": 6,
+   "guid_external_ref": "external ref 6",
+   "warranty": "warranty 6",
+   "manufacture_serial_number": "S/N 6",
+   "model_number": "M/N 6",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "asset_handover": 5
+  }
+ },
+ {
+  "id": 8,
+  "package_activity": 6,
+  "location_matrix": 5,
+  "project": 5,
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z",
+  "expanded_asset_handover_documents": [
+   {
+    "id": 5,
+    "document_type": 1,
+    "number_required_files": 1,
+    "asset_handover": 8,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_document_type": {
+     "id": 1,
+     "name": "Asbuilt Drawing",
+     "created_at": "2020-02-02T00:00:00Z",
+     "updated_at": "2020-02-02T00:00:00Z"
+    },
+    "expanded_asset_handover_document_media": []
+   },
+   {
+    "id": 6,
+    "document_type": 2,
+    "number_required_files": 2,
+    "asset_handover": 8,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_document_type": {
+     "id": 2,
+     "name": "Test Pack",
+     "created_at": "2020-02-02T00:00:00Z",
+     "updated_at": "2020-02-02T00:00:00Z"
+    },
+    "expanded_asset_handover_document_media": []
+   }
+  ],
+  "expanded_location_matrix": {
+   "id": 5,
+   "project": 5,
+   "building": "Building B",
+   "level": "B",
+   "area": "Garden",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "expanded_asset_handover_information": {
+   "id": 1,
+   "guid_external_ref": "external ref 1",
+   "warranty": "warranty 1",
+   "manufacture_serial_number": "S/N 1",
+   "model_number": "M/N 1",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "asset_handover": 8
+  }
+ },
+ {
+  "id": 9,
+  "package_activity": 1,
+  "location_matrix": 2,
+  "project": 5,
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z",
+  "expanded_asset_handover_documents": [
+   {
+    "id": 3,
+    "document_type": 1,
+    "number_required_files": 0,
+    "asset_handover": 9,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_document_type": {
+     "id": 1,
+     "name": "Asbuilt Drawing",
+     "created_at": "2020-02-02T00:00:00Z",
+     "updated_at": "2020-02-02T00:00:00Z"
+    },
+    "expanded_asset_handover_document_media": [
+     {
+      "id": 1,
+      "asset_handover_document": 3,
+      "last_confirmed_update": null,
+      "media": 1,
+      "uid": null,
+      "status": "contested",
+      "created_at": "2020-07-30T12:21:16.129000Z",
+      "updated_at": "2020-07-30T12:21:16.129000Z",
+      "expanded_upload_update": {
+       "id": 3,
+       "asset_handover_document_media": 1,
+       "user": 13,
+       "comment": "test comment",
+       "old_data": {
+        "media": 2,
+        "status": "in_progress"
+       },
+       "new_data": {
+        "media": 1,
+        "status": "contested"
+       },
+       "created_at": "2022-08-01T12:21:16.130000Z",
+       "updated_at": "2022-08-01T12:21:16.130000Z",
+       "company": 8,
+       "expanded_user": {
+        "id": 13,
+        "status": "pending",
+        "first_name": "Another Awesome 2",
+        "last_name": "Another Subcontractor 2",
+        "email": "another2.cool.subcontractor@gmail.com",
+        "phone": "+41524904241",
+        "position": "another subcontractor",
+        "company": 8,
+        "group": 4,
+        "created_at": "2022-08-01T12:21:16.129000Z",
+        "updated_at": "2022-08-01T12:21:16.129000Z",
+        "expanded_user_company": {
+         "id": 8,
+         "name": "Space X",
+         "created_at": "2022-08-01T12:21:16.129000Z",
+         "updated_at": "2022-08-01T12:21:16.129000Z"
+        }
+       }
+      },
+      "expanded_last_status_change_update": {
+       "id": 3,
+       "asset_handover_document_media": 1,
+       "user": 13,
+       "comment": "test comment",
+       "old_data": {
+        "media": 2,
+        "status": "in_progress"
+       },
+       "new_data": {
+        "media": 1,
+        "status": "contested"
+       },
+       "created_at": "2022-08-01T12:21:16.130000Z",
+       "updated_at": "2022-08-01T12:21:16.130000Z",
+       "company": 8
+      }
+     }
+    ]
+   },
+   {
+    "id": 4,
+    "document_type": 2,
+    "number_required_files": 0,
+    "asset_handover": 9,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_document_type": {
+     "id": 2,
+     "name": "Test Pack",
+     "created_at": "2020-02-02T00:00:00Z",
+     "updated_at": "2020-02-02T00:00:00Z"
+    },
+    "expanded_asset_handover_document_media": []
+   }
+  ],
+  "expanded_location_matrix": {
+   "id": 2,
+   "project": 5,
+   "building": "Building A",
+   "level": "8A",
+   "area": "Hall",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "expanded_asset_handover_information": {
+   "id": 9,
+   "guid_external_ref": "external ref 9",
+   "warranty": "warranty 9",
+   "manufacture_serial_number": "S/N 9",
+   "model_number": "M/N 9",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "asset_handover": 9
+  }
+ }
+]

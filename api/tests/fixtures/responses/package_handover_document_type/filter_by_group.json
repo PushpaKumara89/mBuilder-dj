@@ -1,0 +1,51 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 21,
+   "name": "Equip Provided for Cleaning/Maintaining the Structure",
+   "group": 3
+  },
+  {
+   "id": 30,
+   "name": "Fire and Emergency File",
+   "group": 3
+  },
+  {
+   "id": 19,
+   "name": "Hazardous Materials",
+   "group": 3
+  },
+  {
+   "id": 23,
+   "name": "Information/As-Built Drawings of Structure/Plant & Equip",
+   "group": 3
+  },
+  {
+   "id": 18,
+   "name": "Key Structural Principles",
+   "group": 3
+  },
+  {
+   "id": 22,
+   "name": "Nature, Location and Markings of Significant Services",
+   "group": 3
+  },
+  {
+   "id": 16,
+   "name": "Project Information",
+   "group": 3
+  },
+  {
+   "id": 20,
+   "name": "Removal/Dismantling of Installed Plant and Equipment",
+   "group": 3
+  },
+  {
+   "id": 17,
+   "name": "Residual Risks",
+   "group": 3
+  }
+ ],
+ "next_page": null
+}

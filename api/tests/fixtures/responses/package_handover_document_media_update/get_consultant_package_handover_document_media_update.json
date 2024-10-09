@@ -1,0 +1,14 @@
+{
+ "id": 12,
+ "package_handover_document_media": 13,
+ "user": 9,
+ "comment": "Comment",
+ "old_data": {},
+ "new_data": {
+  "media": 1,
+  "status": "in_progress"
+ },
+ "created_at": "2020-07-20T12:21:16.129000Z",
+ "updated_at": "2020-07-30T12:21:16.129000Z",
+ "company": 4
+}

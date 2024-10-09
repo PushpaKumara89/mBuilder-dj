@@ -1,0 +1,156 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 8,
+   "name": "AsBuilt (non-asset)",
+   "group": 1
+  },
+  {
+   "id": 28,
+   "name": "Asset Register",
+   "group": 1
+  },
+  {
+   "id": 7,
+   "name": "Certificates",
+   "group": 1
+  },
+  {
+   "id": 9,
+   "name": "Compliance Statement",
+   "group": 2
+  },
+  {
+   "id": 21,
+   "name": "Equip Provided for Cleaning/Maintaining the Structure",
+   "group": 3
+  },
+  {
+   "id": 30,
+   "name": "Fire and Emergency File",
+   "group": 3
+  },
+  {
+   "id": 13,
+   "name": "FM Training",
+   "group": 2
+  },
+  {
+   "id": 19,
+   "name": "Hazardous Materials",
+   "group": 3
+  },
+  {
+   "id": 23,
+   "name": "Information/As-Built Drawings of Structure/Plant & Equip",
+   "group": 3
+  },
+  {
+   "id": 18,
+   "name": "Key Structural Principles",
+   "group": 3
+  },
+  {
+   "id": 1,
+   "name": "Manufactures Literature",
+   "group": 1
+  },
+  {
+   "id": 26,
+   "name": "Master Schedules",
+   "group": 4
+  },
+  {
+   "id": 3,
+   "name": "Materials Disposal",
+   "group": 1
+  },
+  {
+   "id": 22,
+   "name": "Nature, Location and Markings of Significant Services",
+   "group": 3
+  },
+  {
+   "id": 2,
+   "name": "Operating Procedures",
+   "group": 1
+  },
+  {
+   "id": 14,
+   "name": "Planning Consents",
+   "group": 2
+  },
+  {
+   "id": 29,
+   "name": "PPM Schedule",
+   "group": 1
+  },
+  {
+   "id": 24,
+   "name": "Practical Completion Checklist",
+   "group": 4
+  },
+  {
+   "id": 16,
+   "name": "Project Information",
+   "group": 3
+  },
+  {
+   "id": 15,
+   "name": "Record Drawings",
+   "group": 2
+  },
+  {
+   "id": 20,
+   "name": "Removal/Dismantling of Installed Plant and Equipment",
+   "group": 3
+  },
+  {
+   "id": 17,
+   "name": "Residual Risks",
+   "group": 3
+  },
+  {
+   "id": 27,
+   "name": "Scope of Works or Systems",
+   "group": 1
+  },
+  {
+   "id": 5,
+   "name": "Spares",
+   "group": 1
+  },
+  {
+   "id": 11,
+   "name": "Specifications",
+   "group": 2
+  },
+  {
+   "id": 25,
+   "name": "Statutory Authorities",
+   "group": 4
+  },
+  {
+   "id": 10,
+   "name": "Strategies & Reports",
+   "group": 2
+  },
+  {
+   "id": 6,
+   "name": "Technical Data Submission",
+   "group": 1
+  },
+  {
+   "id": 12,
+   "name": "User Guides",
+   "group": 2
+  },
+  {
+   "id": 4,
+   "name": "Warranties & Guarantees",
+   "group": 1
+  }
+ ],
+ "next_page": null
+}

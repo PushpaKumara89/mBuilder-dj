@@ -1,0 +1,28 @@
+{
+  "comment": "new test comment",
+  "old_data": {
+    "company": null,
+    "status": "contested"
+  },
+  "new_data": {
+    "company": null,
+    "status": "in_progress"
+  },
+  "recipients": [
+    {
+      "email": "tom_dvaer@gmail.com"
+    },
+    {
+      "email": "tim_robinson@gmail.com",
+      "first_name": "Tim",
+      "last_name": "Robinson"
+    },
+    {
+      "email": "cool.subcontractor@gmail.com"
+    }
+  ],
+  "files": [
+    1,
+    2
+  ]
+}

@@ -1,0 +1,31 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 11,
+   "name": "Specifications",
+   "group": 2
+  },
+  {
+   "id": 16,
+   "name": "Project Information",
+   "group": 3
+  },
+  {
+   "id": 22,
+   "name": "Nature, Location and Markings of Significant Services",
+   "group": 3
+  },
+  {
+   "id": 23,
+   "name": "Information/As-Built Drawings of Structure/Plant & Equip",
+   "group": 3
+  },
+  {
+   "id": 24,
+   "name": "Practical Completion Checklist",
+   "group": 4
+  }
+ ],
+ "next_page": null
+}

@@ -1,0 +1,10 @@
+{
+ "id": 1,
+ "guid_external_ref": "external ref 1",
+ "warranty": "warranty 1",
+ "manufacture_serial_number": "S/N 1",
+ "model_number": "M/N 1",
+ "asset_handover": 2,
+ "created_at": "2020-07-30T12:21:16.129000Z",
+ "updated_at": "2020-07-30T12:21:16.129000Z"
+}

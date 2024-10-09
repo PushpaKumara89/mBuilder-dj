@@ -1,0 +1,234 @@
+[
+ {
+  "data": {
+   "company": 2,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad+1@gmail.com",
+   "first_name": "Brad",
+   "group": 3,
+   "id": 2,
+   "last_name": "Seatwood",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "subtask": 7,
+   "media": {
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_project_snapshot_thumbnails": [],
+    "expanded_thumbnails": [],
+    "extension": "png",
+    "hash": "sdfgsdgdsfgfdgf",
+    "id": 1,
+    "is_public": false,
+    "link": "http://localhost/sdfgsdgdsfgfdgf",
+    "local_id": null,
+    "name": "troom.png",
+    "size": 0,
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_deleted",
+  "entity": "subtask_files",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "subtask": 7,
+   "media": {
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_project_snapshot_thumbnails": [],
+    "expanded_thumbnails": [],
+    "extension": "png",
+    "hash": "456hy4w5ytwertgdsf",
+    "id": 2,
+    "is_public": false,
+    "link": "http://localhost/media/broom.png",
+    "local_id": null,
+    "name": "broom.png",
+    "size": 0,
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_deleted",
+  "entity": "subtask_files",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "closed_files_count": 0,
+   "company": null,
+   "created_at": "2020-10-24T12:21:16.129000Z",
+   "date_of_completion": null,
+   "description": "test",
+   "due_date": "2020-08-12T12:21:16.129000Z",
+   "estimation": null,
+   "files": [
+    1,
+    2
+   ],
+   "files_count": 0,
+   "id": 7,
+   "is_closed": false,
+   "is_defect": false,
+   "last_confirmed_update": null,
+   "local_id": null,
+   "location_description": null,
+   "quality_issue": null,
+   "response_due_date": null,
+   "status": "in_progress",
+   "task": 5,
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 2
+  },
+  "type": "entity_deleted",
+  "entity": "subtask",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "date_of_approval": null,
+   "id": 5,
+   "local_id": null,
+   "location_matrix": {
+    "id": 2,
+    "project": 5,
+    "building": "Building A",
+    "level": "A",
+    "area": "Meeting room",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "package_activity": {
+    "id": 2,
+    "name": "Second package activity",
+    "activity_id": null,
+    "files": []
+   },
+   "package_activity_task": {
+    "id": 1,
+    "description": "First desc",
+    "is_not_applicable_status_by_default": true,
+    "is_photo_required": false,
+    "order": 0,
+    "package_activity": 1,
+    "photo_requirement_comment": "",
+    "is_default_for_subtask": false
+   },
+   "status": "not_applicable",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_updated",
+  "entity": "task",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "date_of_approval": null,
+   "id": 5,
+   "local_id": null,
+   "location_matrix": {
+    "id": 2,
+    "project": 5,
+    "building": "Building A",
+    "level": "A",
+    "area": "Meeting room",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "package_activity": {
+    "id": 2,
+    "name": "Second package activity",
+    "activity_id": null,
+    "files": []
+   },
+   "package_activity_task": {
+    "id": 1,
+    "description": "First desc",
+    "is_not_applicable_status_by_default": true,
+    "is_photo_required": false,
+    "order": 0,
+    "package_activity": 1,
+    "photo_requirement_comment": "",
+    "is_default_for_subtask": false
+   },
+   "status": "not_applicable",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_updated",
+  "entity": "task",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "comment": "test",
+   "created_at": "2020-02-02T00:00:00Z",
+   "files": [],
+   "id": 12,
+   "is_conflict": false,
+   "local_id": null,
+   "new_data": {
+    "status": "not_applicable"
+   },
+   "old_data": {
+    "status": "not_applicable"
+   },
+   "recipients": [],
+   "task": 5,
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 2
+  },
+  "type": "entity_created",
+  "entity": "task_update",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ }
+]

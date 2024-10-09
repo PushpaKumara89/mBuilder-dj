@@ -1,0 +1,24 @@
+{
+  "tasks": [
+    2,
+    3,
+    4
+  ],
+  "description": "bulk created subtask",
+  "status": "closed",
+  "files": [
+    1,
+    2
+  ],
+  "recipients": [
+    {
+      "email": "tom_dvaer@gmail.com"
+    },
+    {
+      "email": "tim_robinson@gmail.com",
+      "first_name": "Tim",
+      "last_name": "Robinson"
+    }
+  ],
+  "due_date": "2020-09-22T11:24:23.543Z"
+}

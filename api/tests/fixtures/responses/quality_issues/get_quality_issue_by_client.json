@@ -1,0 +1,58 @@
+{
+ "id": 6,
+ "location_matrix": 1,
+ "user": 4,
+ "description": "In aqua sanitas!",
+ "status": "under_review",
+ "attachments": [
+  3
+ ],
+ "created_at": "2020-09-27T12:21:16.129000Z",
+ "updated_at": "2020-09-30T12:21:16.129000Z",
+ "due_date": null,
+ "last_confirmed_update": null,
+ "old_quality_issue": null,
+ "local_id": null,
+ "response_category": null,
+ "expanded_location_matrix": {
+  "id": 1,
+  "project": 5,
+  "building": "Building A",
+  "level": "A",
+  "area": "Hall",
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z"
+ },
+ "expanded_in_work_subtasks_count": 0,
+ "expanded_last_update": null,
+ "expanded_last_recipients": [],
+ "expanded_user": {
+  "id": 4,
+  "status": "pending",
+  "first_name": "Awesome",
+  "last_name": "Client",
+  "email": "cool.client@gmail.com",
+  "phone": "+41524904241",
+  "position": "cashier",
+  "company": 2,
+  "group": 5,
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z"
+ },
+ "expanded_subtasks": [],
+ "expanded_last_confirmed_update": null,
+ "expanded_attachments": [
+  {
+   "id": 3,
+   "name": "kroom.png",
+   "link": "http://localhost/media/kroom.png",
+   "size": 0,
+   "hash": "ugh4589thgdghdjfg",
+   "is_public": true,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png"
+  }
+ ]
+}

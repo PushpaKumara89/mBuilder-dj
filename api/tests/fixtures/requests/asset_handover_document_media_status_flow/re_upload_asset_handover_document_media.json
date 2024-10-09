@@ -1,0 +1,9 @@
+{
+  "comment": "Re upload!",
+  "old_data": {
+    "status": "contested"
+  },
+  "new_data": {
+    "status": "in_progress"
+  }
+}

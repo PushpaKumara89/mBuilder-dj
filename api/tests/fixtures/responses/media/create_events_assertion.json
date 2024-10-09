@@ -1,0 +1,85 @@
+[
+ {
+  "_id": {
+   "$oid": "5e3611003cd6ccc19d82668f"
+  },
+  "data": {
+   "id": 1,
+   "status": "pending",
+   "first_name": "Bradwood",
+   "last_name": "Feat",
+   "email": "cool.brad@gmail.com",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "company": 1,
+   "group": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "created_at": {
+   "$date": 1601377200000
+  },
+  "updated_at": {
+   "$date": 1601377200000
+  },
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "_id": {
+   "$oid": "5e3611003cd6ccc19d826690"
+  },
+  "data": {
+   "id": 15,
+   "name": "fakeimage.png",
+   "link": "http://localhost/image.jpg",
+   "size": 315,
+   "hash": null,
+   "is_public": true,
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "local_id": null
+  },
+  "type": "entity_created",
+  "entity": "media",
+  "created_at": {
+   "$date": 1601377200000
+  },
+  "updated_at": {
+   "$date": 1601377200000
+  },
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "_id": {
+   "$oid": "5e3611003cd6ccc19d826691"
+  },
+  "data": {
+   "id": 16,
+   "name": "72x72_fakeimage.png.jpg",
+   "link": "http://localhost/image.jpg",
+   "size": 583,
+   "hash": "f1f0fe251b034623bcfaf2cd6a73de8f",
+   "is_public": false,
+   "created_at": "2020-02-02T00:00:00Z",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "local_id": null
+  },
+  "type": "entity_created",
+  "entity": "media",
+  "created_at": {
+   "$date": 1601377200000
+  },
+  "updated_at": {
+   "$date": 1601377200000
+  },
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ }
+]

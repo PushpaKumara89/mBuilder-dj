@@ -1,0 +1,92 @@
+[
+ {
+  "data": {
+   "company": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad@gmail.com",
+   "first_name": "Bradwood",
+   "group": 1,
+   "id": 1,
+   "last_name": "Feat",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "completion_date": "2020-08-30",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_key_contacts": [],
+   "id": 1,
+   "image": {
+    "id": 1,
+    "name": "troom.png",
+    "link": "http://localhost/media/troom.png",
+    "size": 0,
+    "hash": null,
+    "is_public": true,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "png"
+   },
+   "is_subtask_visible_for_clients": false,
+   "is_task_visible_for_clients": true,
+   "name": "Project 1",
+   "number": "dfg134",
+   "show_estimated_man_hours": true,
+   "start_date": "2020-07-30",
+   "status": "tendering",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "value": "2343456.23",
+   "value_currency": "USD"
+  },
+  "type": "entity_deleted",
+  "entity": "project",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "completion_date": "2020-08-30",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_key_contacts": [],
+   "id": 1,
+   "image": {
+    "id": 1,
+    "name": "troom.png",
+    "link": "http://localhost/media/troom.png",
+    "size": 0,
+    "hash": null,
+    "is_public": true,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "png"
+   },
+   "is_subtask_visible_for_clients": false,
+   "is_task_visible_for_clients": true,
+   "name": "Project 1",
+   "number": "dfg134",
+   "show_estimated_man_hours": true,
+   "start_date": "2020-07-30",
+   "status": "tendering",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "value": "2343456.23",
+   "value_currency": "USD"
+  },
+  "type": "entity_deleted",
+  "entity": "project",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ }
+]

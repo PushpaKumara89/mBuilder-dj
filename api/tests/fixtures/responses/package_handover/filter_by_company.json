@@ -1,0 +1,33 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 5,
+   "inspection_period": 6,
+   "maintenance_period": 18,
+   "package_matrix": 5,
+   "expanded_package_activity": {
+    "id": 1,
+    "name": "First package activity",
+    "activity_id": "Activity"
+   },
+   "package_handover_document_groups": [
+    {
+     "id": 1,
+     "name": "Subcontractor Documents",
+     "package_handover_documents": [
+      {
+       "id": 1,
+       "package_handover": 5,
+       "package_handover_document_type": 1,
+       "number_required_files": 5,
+       "project": 5,
+       "package_activity": 1
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "next_page": null
+}

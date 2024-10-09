@@ -1,0 +1,12 @@
+{
+  "task": 1,
+  "description": "new subtask test without recipients",
+  "location_description": "new location description",
+  "status": "in_progress",
+  "files": [],
+  "recipients": [],
+  "due_date": "2020-09-22T11:24:23.543Z",
+  "response_due_date": "2021-09-22T11:24:23.543Z",
+  "company": 2,
+  "quality_issue": 7
+}

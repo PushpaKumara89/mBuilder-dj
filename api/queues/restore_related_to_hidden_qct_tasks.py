@@ -1,0 +1,9 @@
+from api.queues.core.base import use_rq_if_configured
+
+from api.queues.rq.restore_related_to_hidden_qct_tasks import restore_related_to_hidden_qct_tasks as restore_related_to_hidden_qct_tasks_rq
+from api.queues.celery.restore_related_to_hidden_qct_tasks import restore_related_to_hidden_qct_tasks as restore_related_to_hidden_qct_tasks_celery
+
+
+@use_rq_if_configured(restore_related_to_hidden_qct_tasks_rq)
+def restore_related_to_hidden_qct_tasks(activity_task_pk, project_pk, package_matrix, user):
+    restore_related_to_hidden_qct_tasks_celery.delay(activity_task_pk, project_pk, package_matrix, user)

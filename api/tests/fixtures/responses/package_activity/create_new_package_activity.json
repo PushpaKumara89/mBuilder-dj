@@ -1,0 +1,64 @@
+{
+ "id": 9,
+ "name": "New package activity",
+ "activity_id": "sdfugh#456",
+ "package_activity_tasks": [
+  {
+   "id": 5,
+   "description": "New description 1",
+   "is_not_applicable_status_by_default": false,
+   "is_photo_required": true,
+   "order": 3,
+   "package_activity": 9,
+   "photo_requirement_comment": "Comment",
+   "is_default_for_subtask": false
+  },
+  {
+   "id": 6,
+   "description": "New description 2",
+   "is_not_applicable_status_by_default": false,
+   "is_photo_required": false,
+   "order": 3,
+   "package_activity": 9,
+   "photo_requirement_comment": "Comment",
+   "is_default_for_subtask": false
+  },
+  {
+   "id": 7,
+   "description": "New description 3",
+   "is_not_applicable_status_by_default": true,
+   "is_photo_required": true,
+   "order": 3,
+   "package_activity": 9,
+   "photo_requirement_comment": "Comment",
+   "is_default_for_subtask": false
+  },
+  {
+   "id": 8,
+   "description": "New description 4",
+   "is_not_applicable_status_by_default": true,
+   "is_photo_required": false,
+   "order": 3,
+   "package_activity": 9,
+   "photo_requirement_comment": "Comment",
+   "is_default_for_subtask": false
+  }
+ ],
+ "files": [
+  1,
+  2
+ ],
+ "expanded_description": "New package activity description",
+ "expanded_description_image": {
+  "id": 1,
+  "name": "troom.png",
+  "link": "http://localhost/media/troom.png",
+  "size": 0,
+  "hash": null,
+  "is_public": true,
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z",
+  "local_id": null,
+  "extension": "png"
+ }
+}

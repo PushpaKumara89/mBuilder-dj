@@ -1,0 +1,9 @@
+{
+  "comment": "Accept requesting approval!",
+  "old_data": {
+    "status": "requesting_approval"
+  },
+  "new_data": {
+    "status": "accepted"
+  }
+}

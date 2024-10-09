@@ -1,0 +1,9 @@
+{
+  "comment": "We're good!",
+  "old_data": {
+    "status": "contested"
+  },
+  "new_data": {
+    "status": "contested"
+  }
+}

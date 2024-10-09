@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "delete_matrix": true
+  },
+  {
+    "building": "Building B",
+    "level": "B",
+    "area": "Garden"
+  }
+]

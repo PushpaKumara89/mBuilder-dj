@@ -1,0 +1,18 @@
+{
+  "documents": [
+    {
+      "document_type": 1,
+      "number_required_files": 14
+    },
+    {
+      "document_type": 2,
+      "number_required_files": 1
+    }
+  ],
+  "asset_handover_information": {
+    "guid_external_ref": "some text",
+    "warranty": "some warranty",
+    "manufacture_serial_number": "FN-2187",
+    "model_number": null
+  }
+}

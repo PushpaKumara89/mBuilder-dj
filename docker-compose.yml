@@ -1,0 +1,61 @@
+version: '3'
+
+services:
+  db:
+    ports:
+      - 5432:5432
+    image: postgres:14.4
+    environment:
+        POSTGRES_PASSWORD: ""
+        POSTGRES_USER: pguser
+        POSTGRES_DB: pgdb
+        POSTGRES_HOST_AUTH_METHOD: trust
+    volumes:
+      - .:/app
+
+  redis:
+    ports:
+      - 6382:6379
+    image: redis:6
+    volumes:
+      - ./:/app
+
+  mongo:
+    ports:
+      - 27018:27017
+    image: zcube/bitnami-compat-mongodb:6.0.5
+    volumes:
+      - .:/app
+    environment:
+      - MONGODB_ROOT_PASSWORD=root
+      - MONGODB_USERNAME=mongouser
+      - MONGODB_PASSWORD=secret
+      - MONGODB_DATABASE=mongodb
+
+  mongo_test:
+    ports:
+      - 27019:27017
+    image: zcube/bitnami-compat-mongodb:6.0.5
+    volumes:
+      - .:/app
+    environment:
+      - MONGODB_ROOT_PASSWORD=root
+      - MONGODB_USERNAME=mongouser
+      - MONGODB_PASSWORD=secret
+      - MONGODB_DATABASE=test_mongodb
+
+  web:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - 8000:8000
+      - 8888:8888
+      - 8080:8080
+    depends_on:
+      - db
+      - redis
+      - mongo
+      - mongo_test
+    environment:
+        DJANGO_SETTINGS_MODULE: "mbuild.settings"

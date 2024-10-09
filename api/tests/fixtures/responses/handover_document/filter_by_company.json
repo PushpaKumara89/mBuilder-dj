@@ -1,0 +1,24 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 2,
+   "project": 5,
+   "building": "Building D",
+   "level": "7D",
+   "area": "Hall",
+   "package": 2,
+   "package_activity": 1,
+   "company": 2,
+   "media": 1,
+   "document_type": 1,
+   "filename": "image.png",
+   "uid": "123",
+   "information": null,
+   "file_type": "png",
+   "entity": "asset_handover",
+   "entity_id": 2
+  }
+ ],
+ "next_page": null
+}

@@ -1,0 +1,77 @@
+[
+  {
+    "model": "api.company",
+    "pk": 1,
+    "fields": {
+      "name": "Dodge",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.company",
+    "pk": 2,
+    "fields": {
+      "name": "Ford",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.company",
+    "pk": 3,
+    "fields": {
+      "name": "Toyota",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 1,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Brad",
+      "last_name": "Feat",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.brad@gmail.com",
+      "company": 1,
+      "phone": "+41524204242",
+      "position": "Cool Brad",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "group": 1,
+      "groups": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "api.user",
+    "pk": 2,
+    "fields": {
+      "password": "bcrypt_sha256$$2b$12$bmj11SqWnZE1CpgbqqT0.OPXBKGMzTVyLsDWsBe3dRoxlCtN2sP9i",
+      "last_login": null,
+      "is_superuser": false,
+      "first_name": "Brad",
+      "last_name": "Feat",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2020-07-30T12:21:16.129Z",
+      "email": "cool.brad+1@gmail.com",
+      "company": 2,
+      "phone": "+41524204242",
+      "position": "Cool Brad",
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z",
+      "group": 4,
+      "groups": [
+        4
+      ]
+    }
+  }
+]

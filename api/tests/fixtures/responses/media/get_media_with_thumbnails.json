@@ -1,0 +1,79 @@
+{
+ "id": 7,
+ "name": "wroom.png",
+ "link": "http://localhost/media/wroom.png",
+ "size": 0,
+ "hash": null,
+ "is_public": true,
+ "created_at": "2020-07-30T12:21:16.129000Z",
+ "updated_at": "2020-07-30T12:21:16.129000Z",
+ "local_id": null,
+ "extension": "png",
+ "expanded_project_snapshot_thumbnails": [
+  {
+   "id": 6,
+   "original_media": 7,
+   "thumbnail": 12,
+   "width": 72,
+   "height": 72,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_thumbnail": {
+    "id": 12,
+    "name": "72x72_pinky.jpeg",
+    "link": "http://localhost/media/72x72_pinky.jpeg",
+    "size": 274555,
+    "hash": "c0b7387122b044fee87602fce2a480r8b",
+    "is_public": false,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "jpeg"
+   }
+  }
+ ],
+ "expanded_thumbnails": [
+  {
+   "id": 4,
+   "original_media": 7,
+   "thumbnail": 8,
+   "width": null,
+   "height": null,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_thumbnail": {
+    "id": 8,
+    "name": "image.png",
+    "link": "http://localhost/media/image.png",
+    "size": 274555,
+    "hash": "c0b7387122b04fee87602fce2a48028b",
+    "is_public": false,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "png"
+   }
+  },
+  {
+   "id": 5,
+   "original_media": 7,
+   "thumbnail": 11,
+   "width": 152,
+   "height": 140,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_thumbnail": {
+    "id": 11,
+    "name": "152x140_still.jpeg",
+    "link": "http://localhost/media/152x140_still.jpeg",
+    "size": 274555,
+    "hash": "c0b7387122b040fee87602fce2a480r8b",
+    "is_public": false,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "jpeg"
+   }
+  }
+ ]
+}

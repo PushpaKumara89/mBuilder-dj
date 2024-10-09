@@ -1,0 +1,5 @@
+from .azure_media_storage import AzureMediaStorage
+from .azure_static_storage import AzureStaticStorage
+from .azure_private_media_storage import AzurePrivateMediaStorage
+from .azure_private_report_storage import AzurePrivateReportStorage
+from .azure_private_project_snapshot_storage import AzurePrivateProjectSnapshotStorage

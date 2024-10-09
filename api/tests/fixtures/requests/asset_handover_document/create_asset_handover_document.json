@@ -1,0 +1,14 @@
+{
+  "building": "Building A",
+  "level": "8A",
+  "area": "Hall",
+  "package_activity": 6,
+  "asbuilt_drawing_required_files": 2,
+  "test_pack_required_files": 1,
+  "asset_handover_information": {
+    "guid_external_ref": "some text",
+    "warranty": "some warranty",
+    "manufacture_serial_number": "FN-2187",
+    "model_number": "007"
+  }
+}

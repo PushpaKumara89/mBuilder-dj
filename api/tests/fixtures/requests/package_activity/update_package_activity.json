@@ -1,0 +1,34 @@
+{
+  "id": 1,
+  "name": "Updated package activity",
+  "description": "Updated package activity description",
+  "description_image": 1,
+  "package_activity_tasks": [
+    {
+      "id": 1,
+      "description": "New description",
+      "order": 1,
+      "photo_requirement_comment": "sdfgdf",
+      "package_activity": 1
+    },
+    {
+      "id": 2,
+      "description": "Second desc",
+      "package_activity": 1,
+      "is_default_for_subtask": false,
+      "photo_requirement_comment": "sdfgdf",
+      "order": 3
+    },
+    {
+      "description": "My description",
+      "is_not_applicable_status_by_default": false,
+      "is_photo_required": true,
+      "order": 3,
+      "photo_requirement_comment": "sdfgdf",
+      "is_default_for_subtask": true
+    }
+  ],
+  "files": [
+    2
+  ]
+}

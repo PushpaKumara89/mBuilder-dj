@@ -1,0 +1,32 @@
+{
+ "previous_page": 1,
+ "items": [
+  {
+   "id": 4,
+   "status": "accepted",
+   "first_name": "Stan",
+   "last_name": "Ford",
+   "email": "stan.ford@gmail.com",
+   "phone": "+41524204242",
+   "position": "University",
+   "company": 1,
+   "group": 5,
+   "created_at": "2020-07-27T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 3,
+   "status": "accepted",
+   "first_name": "Brad",
+   "last_name": "Heat",
+   "email": "cool.brad+2wood@gmail.com",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "company": 3,
+   "group": 2,
+   "created_at": "2020-07-28T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  }
+ ],
+ "next_page": 3
+}

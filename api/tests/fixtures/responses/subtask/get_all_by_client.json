@@ -1,0 +1,32 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 12,
+   "description": "test",
+   "is_closed": false,
+   "task": 7,
+   "user": 2,
+   "files": [
+    1,
+    2
+   ],
+   "created_at": "2020-07-23T12:21:16.129000Z",
+   "updated_at": "2020-08-30T12:21:16.129000Z",
+   "date_of_completion": null,
+   "estimation": null,
+   "due_date": "2020-08-12T12:21:16.129000Z",
+   "company": null,
+   "quality_issue": null,
+   "status": "removed",
+   "is_defect": true,
+   "last_confirmed_update": null,
+   "response_due_date": null,
+   "location_description": null,
+   "local_id": null,
+   "files_count": 0,
+   "closed_files_count": 0
+  }
+ ],
+ "next_page": null
+}

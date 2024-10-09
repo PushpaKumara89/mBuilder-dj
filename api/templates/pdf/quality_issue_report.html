@@ -1,0 +1,423 @@
+{% load static %}
+{% load is_show_quality_issue_action_required_by %}
+{% load format_to_local_london_date %}
+{% load color_quality_issue_and_rework_status %}
+{% load urlexists %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mbuild</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        {% static "/fonts/HelveticaNeueCyr-Roman.woff" as font_url %}
+        {% if font_url|urlexists %}
+          @font-face {
+            font-family: 'Helvetica Neue';
+            font-weight: 400;
+            src: url("{{ font_url }}") format("woff");
+          }
+        {% endif %}
+        html, body { font-size: 14px; font-family: Helvetica Neue, Arial, sans-serif; height: 100%; font-weight: 400; }
+
+        h1, h2, h3, h4, p { margin: 0; }
+
+        h1 { font-size: 1.3rem; font-style: normal; line-height: 2rem; }
+
+        h2 { font-size: 1rem; font-style: normal; font-weight: 500; color: #6C8393; margin-bottom: 0.55rem; }
+
+        h3 { font-size: 0.75rem; font-style: normal; font-weight: 500; margin-bottom: 0.45rem; color: #999999; }
+
+        .row { margin-left: -10px; margin-right: -10px; border: none; }
+
+        .row::after { content: ''; display: block; clear: both; }
+
+        .col { display: block; float: left; vertical-align: top; padding: 0 10px; box-sizing: border-box; }
+
+        .col-25 { width: 25%; }
+
+        .col-34 { width: 34%; }
+
+        .col-36 { width: 36%; }
+
+        .col-50 { width: 50%; }
+
+        body { padding: 0; margin: 0; position: relative; }
+
+        .page { height: 997px; }
+
+        .head { padding: 2rem 2.75rem 1.75rem 2.75rem; background-color: black; color: white; }
+
+        .head_logowrapper { display: inline-block; line-height: 2rem; margin-right: 2.2rem; vertical-align: middle; }
+
+        .head_logo { display:block; height: 1.5rem; background-repeat: no-repeat; background-size: contain; }
+
+        .head_title { display: inline-block; text-align: center; vertical-align: middle; font-weight: 500; }
+
+        .head_project { line-height: 1.3rem; }
+
+        .head_author { line-height: 1.3rem; }
+
+        .rework { height: 783px; padding: 1.85rem 3rem; }
+
+        .sidebar { padding-right: 2.3rem; }
+
+        .sidebar_status { text-align: right; }
+
+        .sidebar_title { display: inline-block; vertical-align: middle; font-size: 1.3rem; font-weight: 500; line-height: 2rem;
+            margin: 0 0 0.45rem 0; }
+
+        .sidebar_uids { font-size: 1rem; line-height: 1.2rem; margin-bottom: 1.45rem; }
+
+        .sidebar_requiredby { font-size: 1rem; line-height: 0.85rem; }
+
+        .informationblock { margin-bottom: 1.45rem; text-align: justify; }
+
+        .informationblock_tall { height: 13.3rem; margin-bottom: 2.2rem; }
+
+        .field { border-bottom: 1px solid #e6e6e6; margin-bottom: 0.45rem; padding-bottom: 0.55rem; }
+
+        .field_big { margin-bottom: 0.75rem; padding-bottom: 0.85rem; }
+
+        .field_name { display: inline-block; width: 49%; font-weight: 500; color: #6C8393; vertical-align: top; }
+
+        .field_name_big { line-height: 1.4rem; color: black; }
+
+        .field_value { display: inline-block; width: 49%; text-align: right; }
+
+        .description { height: 6.65rem; line-height: 1.3rem; overflow: hidden; }
+
+        .status { display: inline-block; border-radius: 3px; padding: 6px 6px 4px 6px; font-size: 0.82rem; line-height: 1.1rem;
+            vertical-align: top; color: white; }
+
+        .author { padding-right: 2.3rem; }
+
+        .images { margin: 0 -0.45rem 1rem; }
+
+        .images .col { padding: 0 0.45rem; }
+
+        .imagewrapper { position: relative; padding-top: 76%; margin-bottom: 0.85rem; background-color: #F2F2F2; }
+
+        .image { position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto; max-width: 100%; max-height: 100%; }
+
+        .information_block_container {
+            margin-bottom: 0.75rem;
+            padding-bottom: 0.85rem;
+            border-bottom: 1px solid #e6e6e6;
+        }
+
+        .information_block_item {
+            width: 49%;
+            display: inline-block;
+            vertical-align: top;
+            padding-right: 0.5%;
+        }
+
+        .information_block_item .field_big {
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .finaldate { display: inline-block; vertical-align: middle; line-height: 1.2rem; margin-right: 1rem; }
+
+        .footer { font-size: 0.77rem; color: #6C8393; padding: 2.3rem;
+            text-align: end; }
+        .file-wrapper {
+            margin-bottom: 4px;
+        }
+        .file {
+            vertical-align: middle;
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 3px;
+            color: #2C71D3;
+            font-size: 0.8rem;
+            line-height: 1.2rem;
+            overflow: hidden;
+            padding: 0.5rem 0.8rem;
+            background: #F9FAFB;
+        }
+        .file::before {
+            display: inline-block;
+            content: "";
+            width: 1rem;
+            height: 1rem;
+            vertical-align: text-bottom;
+            margin-right: 0.4rem;
+            background-image: url({% static 'attachment.png' %});
+            background-size: 1rem 1rem;
+            background-repeat: no-repeat;
+        }
+        .company { font-weight: 400; }
+    </style>
+</head>
+<body>
+    {% static "/logo_white.png" as logo_url %}
+    {% with logo_exists=logo_url|urlexists %}
+        {% for quality_issue in quality_issues %}
+            <div class="page">
+                <div class="head row">
+                    <div class="col col-50">
+                        <div class="head_logowrapper">
+                            {% if logo_exists %}
+                              <img class="head_logo" src="{{ logo_url }}" alt="logo" />
+                            {% endif %}
+                        </div>
+                        <h1 class="head_title">
+                            Quality Issues Report
+                        </h1>
+                    </div>
+
+                    <div class="head_project col col-25">
+                        Project <br>
+                        {{ quality_issue.expanded_project_name }}, {{ quality_issue.expanded_project_number }}
+                    </div>
+
+                    <div class="head_author col col-25">
+                        Generated by {{ user.expanded_user_fullname }} ({{ user.expanded_user_company_name }}) <br>
+                        {{ created_at|format_to_local_london_date }}
+                    </div>
+                </div>
+
+                <div class="rework row">
+                    <div class="sidebar col col-25">
+                        <div class="informationblock">
+                            <div class="row">
+                                <h1 class="sidebar_title col col-50">
+                                    Quality Issue
+                                </h1>
+                                <div class="sidebar_status col col-50">
+                                    <div class="status" style="background-color: {{ quality_issue.status|color_quality_issue_and_rework_status }}">
+                                        {{ quality_issue.expanded_status_name }}
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="sidebar_uids">
+                                {{ quality_issue.expanded_id }}
+                            </div>
+                        </div>
+
+                        {% if quality_issue|is_show_quality_issue_action_required_by %}
+                            <div class="informationblock">
+                                <h3>
+                                    Action required by
+                                </h3>
+
+                                <div class="sidebar_requiredby">
+                                    {{ quality_issue.expanded_action_required_by }}
+                                </div>
+                            </div>
+                        {% endif %}
+
+                        <div class="informationblock">
+                            <h3>
+                                Location
+                            </h3>
+
+                            <div class="field">
+                                <div class="field_name">
+                                    Building
+                                </div>
+                                <div class="field_value">
+                                    {{ quality_issue.expanded_building }}
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <div class="field_name">
+                                    Level
+                                </div>
+                                <div class="field_value">
+                                    {{ quality_issue.expanded_level }}
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <div class="field_name">
+                                    Area
+                                </div>
+                                <div class="field_value">
+                                    {{ quality_issue.expanded_area }}
+                                </div>
+                            </div>
+                        </div>
+
+                        {% if quality_issue.expanded_package %}
+                            <div class="informationblock">
+                                <h3>
+                                    Package Details
+                                </h3>
+
+                                <div class="field">
+                                    <div class="field_name">
+                                        Package
+                                    </div>
+                                    <div class="field_value">
+                                        {{ quality_issue.expanded_package }}
+                                    </div>
+                                </div>
+
+                                <div class="field">
+                                    <div class="field_name">
+                                        Package Activity
+                                    </div>
+                                    <div class="field_value">
+                                        {{ quality_issue.expanded_package_activity_name }}
+                                    </div>
+                                </div>
+
+                                <h2>
+                                    QCT
+                                </h2>
+                                <div class="description">
+                                    {{ quality_issue.expanded_package_activity_task_description }}
+                                </div>
+                            </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="author col col-36">
+                        <div class="informationblock informationblock_tall">
+                            <div class="information_block_container">
+                                <div class="information_block_item">
+                                    {% if quality_issue.expanded_created_by %}
+                                        <h3>
+                                            Opened by
+                                        </h3>
+
+                                        <div class="field_big">
+                                            <div class="field_name_big">
+                                                {{ quality_issue.expanded_created_by }} <span class="company">({{ quality_issue.expanded_created_by_company_name }})</span>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                </div>
+                                <div class="information_block_item">
+                                    {% if quality_issue.expanded_due_date %}
+                                        <h3>
+                                            Due Date
+                                        </h3>
+
+                                        <div class="finaldate">
+                                            {{ quality_issue.expanded_due_date }}
+                                        </div>
+
+                                        {% if quality_issue.expanded_is_overdue %}
+                                            <div class="status" style="background-color: #FF3B30">
+                                                Overdue
+                                            </div>
+                                        {% endif %}
+                                    {% endif %}
+                                </div>
+                            </div>
+
+                            {% if quality_issue.description %}
+                                <div class="description">
+                                    {{ quality_issue.description }}
+                                </div>
+                            {% endif %}
+                        </div>
+
+                        {% if quality_issue.expanded_files_urls_array.images %}
+                            <h3>Photographic Evidence</h3>
+
+                            <div class="images row">
+                                {% for image in quality_issue.expanded_files_urls_array.images %}
+                                    {% if image.link|urlexists %}
+                                        <div class="col col-50">
+                                            <div class="imagewrapper">
+                                                <img src="{{ image.link }}" class="image" alt="{{ image.name }}"/>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+
+                        {% endif %}
+
+                        {% if quality_issue.expanded_files_urls_array.files %}
+                            <h3>Attached Files</h3>
+                        {% endif %}
+
+                        {% for file in quality_issue.expanded_files_urls_array.files %}
+                            <div class="file-wrapper">
+                                <a class="file" href="{{ file.link }}">{{ file.name }}</a>
+                            </div>
+                        {% endfor %}
+                    </div>
+
+                    <div class="executor col col-34">
+                        <div class="informationblock informationblock_tall">
+                            <div class="information_block_container">
+                                {% if quality_issue.expanded_user_closed %}
+                                    <div class="information_block_item">
+                                        <h3>
+                                            Closed by
+                                        </h3>
+
+                                        <div class="field_big">
+                                            <div class="field_name_big">
+                                                {{ quality_issue.expanded_user_closed }} <span class="company">({{ quality_issue.expanded_user_closed_company }})</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                {% endif %}
+                                {% if quality_issue.expanded_date_of_completion %}
+                                    <div class="information_block_item">
+                                        <h3>
+                                            Date Closed
+                                        </h3>
+
+                                        <div class="finaldate">
+                                            {{ quality_issue.expanded_date_of_completion }}
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            </div>
+                            {% if quality_issue.expanded_closed_comments %}
+                                <div class="description">
+                                    {{ quality_issue.expanded_closed_comments }}
+                                </div>
+                            {% endif %}
+                        </div>
+
+                        {% if quality_issue.expanded_closed_files_urls_array.images %}
+                            <h3>Photographic Evidence</h3>
+
+                            <div class="images row">
+                                {% for image in quality_issue.expanded_closed_files_urls_array.images %}
+                                    {% if image.link|urlexists %}
+                                        <div class="col col-50">
+                                            <div class="imagewrapper">
+                                                <img src="{{ image.link }}" class="image" alt="{{ image.name }}"/>
+                                            </div>
+                                        </div>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+
+                        {% endif %}
+
+                        {% if quality_issue.expanded_closed_files_urls_array.files %}
+                            <h3>Attached Files</h3>
+                        {% endif %}
+
+                        {% for file in quality_issue.expanded_closed_files_urls_array.files %}
+                            <div class="file-wrapper">
+                                <a class="file" href="{{ file.link }}">{{ file.name }}</a>
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <div class="footer">
+                    Page {{ forloop.counter }} of {{ quality_issues|length }}
+                </div>
+            </div>
+        {% endfor %}
+    {% endwith %}
+</body>
+</html>

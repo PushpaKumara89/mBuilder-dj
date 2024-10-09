@@ -1,0 +1,7 @@
+{
+  "description": "Updated description",
+  "is_not_applicable_status_by_default": false,
+  "is_photo_required": true,
+  "order": 3,
+  "package_activity": 2
+}

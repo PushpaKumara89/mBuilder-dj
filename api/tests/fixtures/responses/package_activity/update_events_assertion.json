@@ -1,0 +1,350 @@
+[
+ {
+  "data": {
+   "company": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad@gmail.com",
+   "first_name": "Bradwood",
+   "group": 1,
+   "id": 1,
+   "last_name": "Feat",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "description": "Fourth desc",
+   "id": 4,
+   "is_default_for_subtask": false,
+   "is_not_applicable_status_by_default": false,
+   "is_photo_required": false,
+   "order": 0,
+   "package_activity": 1,
+   "photo_requirement_comment": ""
+  },
+  "type": "entity_updated",
+  "entity": "package_activity_task",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "description": "First desc",
+   "id": 1,
+   "is_default_for_subtask": false,
+   "is_not_applicable_status_by_default": true,
+   "is_photo_required": false,
+   "order": 2,
+   "package_activity": 1,
+   "photo_requirement_comment": ""
+  },
+  "type": "entity_updated",
+  "entity": "package_activity_task",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "description": "Second desc",
+   "id": 2,
+   "is_default_for_subtask": false,
+   "is_not_applicable_status_by_default": true,
+   "is_photo_required": false,
+   "order": 3,
+   "package_activity": 1,
+   "photo_requirement_comment": ""
+  },
+  "type": "entity_updated",
+  "entity": "package_activity_task",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "project": 1,
+   "user": {
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_project_snapshot_thumbnails": [],
+    "expanded_thumbnails": [],
+    "extension": "png",
+    "hash": null,
+    "id": 1,
+    "is_public": true,
+    "link": "http://localhost/media/troom.png",
+    "local_id": null,
+    "name": "troom.png",
+    "size": 0,
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_deleted",
+  "entity": "package_activity_files",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "description": "Fourth desc",
+   "id": 4,
+   "is_default_for_subtask": false,
+   "is_not_applicable_status_by_default": false,
+   "is_photo_required": false,
+   "order": 0,
+   "package_activity": 1,
+   "photo_requirement_comment": ""
+  },
+  "type": "entity_deleted",
+  "entity": "package_activity_task",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "comment": "test comment2!",
+   "created_at": "2020-06-30T12:21:16.129000Z",
+   "files": [],
+   "id": 3,
+   "is_conflict": false,
+   "local_id": null,
+   "new_data": {
+    "status": "accepted"
+   },
+   "old_data": {
+    "status": "outstanding"
+   },
+   "recipients": [],
+   "task": 2,
+   "updated_at": "2020-06-30T12:21:16.129000Z",
+   "user": 1
+  },
+  "type": "entity_deleted",
+  "entity": "task_update",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "date_of_approval": null,
+   "id": 2,
+   "local_id": null,
+   "location_matrix": {
+    "id": 1,
+    "project": 5,
+    "building": "Building A",
+    "level": "A",
+    "area": "Hall",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "package_activity": {
+    "id": 1,
+    "name": "First package activity",
+    "activity_id": null,
+    "files": [
+     2
+    ]
+   },
+   "package_activity_task": {
+    "id": 4,
+    "description": "Fourth desc",
+    "is_not_applicable_status_by_default": false,
+    "is_photo_required": false,
+    "order": 0,
+    "package_activity": 1,
+    "photo_requirement_comment": "",
+    "is_default_for_subtask": false
+   },
+   "status": "not_applicable",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_deleted",
+  "entity": "task",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "description": "New description",
+   "id": 1,
+   "is_default_for_subtask": false,
+   "is_not_applicable_status_by_default": true,
+   "is_photo_required": false,
+   "order": 1,
+   "package_activity": 1,
+   "photo_requirement_comment": "sdfgdf"
+  },
+  "type": "entity_updated",
+  "entity": "package_activity_task",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "description": "Second desc",
+   "id": 2,
+   "is_default_for_subtask": false,
+   "is_not_applicable_status_by_default": true,
+   "is_photo_required": false,
+   "order": 3,
+   "package_activity": 1,
+   "photo_requirement_comment": "sdfgdf"
+  },
+  "type": "entity_updated",
+  "entity": "package_activity_task",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "description": "My description",
+   "id": 9,
+   "is_default_for_subtask": true,
+   "is_not_applicable_status_by_default": false,
+   "is_photo_required": true,
+   "order": 3,
+   "package_activity": 1,
+   "photo_requirement_comment": "sdfgdf"
+  },
+  "type": "entity_created",
+  "entity": "package_activity_task",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "package_activity_task": 9,
+   "package_matrix": 1
+  },
+  "type": "entity_created",
+  "entity": "package_matrix_hidden_activity_task",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "package_activity_task": 9,
+   "package_matrix": 5
+  },
+  "type": "entity_created",
+  "entity": "package_matrix_hidden_activity_task",
+  "local_id": null,
+  "project_id": 6,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "enabled": true,
+   "id": 4,
+   "location_matrix": 1,
+   "package": 4,
+   "package_activity": 1,
+   "package_activity_name": "Updated package activity",
+   "package_matrix": 5,
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "enabled": true,
+   "id": 10,
+   "location_matrix": 10,
+   "package": 4,
+   "package_activity": 1,
+   "package_activity_name": "Updated package activity",
+   "package_matrix": 5,
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "activity_id": null,
+   "files": [
+    2
+   ],
+   "id": 1,
+   "name": "Updated package activity",
+   "package_activity_tasks": [
+    {
+     "id": 1,
+     "description": "New description",
+     "is_not_applicable_status_by_default": true,
+     "is_photo_required": false,
+     "order": 1,
+     "package_activity": 1,
+     "photo_requirement_comment": "sdfgdf",
+     "is_default_for_subtask": false
+    },
+    {
+     "id": 2,
+     "description": "Second desc",
+     "is_not_applicable_status_by_default": true,
+     "is_photo_required": false,
+     "order": 3,
+     "package_activity": 1,
+     "photo_requirement_comment": "sdfgdf",
+     "is_default_for_subtask": false
+    },
+    {
+     "id": 9,
+     "description": "My description",
+     "is_not_applicable_status_by_default": false,
+     "is_photo_required": true,
+     "order": 3,
+     "package_activity": 1,
+     "photo_requirement_comment": "sdfgdf",
+     "is_default_for_subtask": true
+    }
+   ]
+  },
+  "type": "entity_updated",
+  "entity": "package_activity",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ }
+]

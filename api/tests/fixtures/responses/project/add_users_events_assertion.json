@@ -1,0 +1,68 @@
+[
+ {
+  "data": {
+   "company": 2,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad+1@gmail.com",
+   "first_name": "Brad",
+   "group": 3,
+   "id": 2,
+   "last_name": "Seatwood",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "project": 1,
+   "user": {
+    "company": 2,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "email": "ban.shapiro1@gmail.com",
+    "first_name": "Ban",
+    "group": 5,
+    "id": 11,
+    "last_name": "Shapiro",
+    "phone": "+415249042412",
+    "position": "ban shapiro",
+    "status": "approved",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_created",
+  "entity": "project_user",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ },
+ {
+  "data": {
+   "project": 1,
+   "user": {
+    "company": 2,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "email": "ban.shapiro2@gmail.com",
+    "first_name": "Ban",
+    "group": 5,
+    "id": 12,
+    "last_name": "Shapiro",
+    "phone": "+4152490424122",
+    "position": "ban shapiro",
+    "status": "approved",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_created",
+  "entity": "project_user",
+  "local_id": null,
+  "project_id": 1,
+  "user": null
+ }
+]

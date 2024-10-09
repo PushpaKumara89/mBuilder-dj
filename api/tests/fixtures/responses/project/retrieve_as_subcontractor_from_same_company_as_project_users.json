@@ -1,0 +1,26 @@
+{
+ "id": 2,
+ "name": "Project 2",
+ "number": "h5636uytsf",
+ "image": {
+  "id": 2,
+  "name": "broom.png",
+  "link": "http://localhost/media/broom.png",
+  "size": 0,
+  "hash": null,
+  "is_public": true,
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z",
+  "local_id": null,
+  "extension": "png"
+ },
+ "status": "under_construction",
+ "start_date": "2020-07-30",
+ "created_at": "2020-07-30T12:21:16.129000Z",
+ "updated_at": "2020-07-30T12:21:16.129000Z",
+ "value": "6534.65",
+ "show_estimated_man_hours": false,
+ "is_task_visible_for_clients": true,
+ "value_currency": "USD",
+ "is_subtask_visible_for_clients": false
+}

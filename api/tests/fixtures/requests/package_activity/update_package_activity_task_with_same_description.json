@@ -1,0 +1,19 @@
+{
+  "id": 1,
+  "name": "Updated package activity",
+  "package_activity_tasks": [
+    {
+      "id": 1,
+      "description": "First desc",
+      "order": 1,
+      "photo_requirement_comment": "sdfgdf"
+    },
+    {
+      "description": "Second desc",
+      "is_not_applicable_status_by_default": false,
+      "is_photo_required": true,
+      "order": 3,
+      "photo_requirement_comment": "sdfgdf"
+    }
+  ]
+}

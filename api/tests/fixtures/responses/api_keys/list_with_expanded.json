@@ -1,0 +1,144 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 1,
+   "token": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a13",
+   "created_at": "2020-07-20T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "project": 1,
+   "company": 1,
+   "expires_at": "2020-09-30",
+   "has_access_to_project": true,
+   "has_access_to_package_handover": true,
+   "has_access_to_asset_handover": false,
+   "has_access_to_quality_issue": false,
+   "expanded_project": {
+    "id": 1,
+    "name": "Project 1",
+    "number": "dfg134",
+    "image": {
+     "id": 1,
+     "name": "troom.png",
+     "link": "http://localhost/media/troom.png",
+     "size": 0,
+     "hash": null,
+     "is_public": true,
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "local_id": null,
+     "extension": "png"
+    },
+    "status": "tendering",
+    "start_date": "2020-07-30",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "value": "2343456.23",
+    "completion_date": "2020-08-30",
+    "show_estimated_man_hours": true,
+    "is_task_visible_for_clients": true,
+    "value_currency": "USD",
+    "is_subtask_visible_for_clients": false
+   },
+   "expanded_company": {
+    "id": 1,
+    "name": "Dodge",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  {
+   "id": 2,
+   "token": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+   "created_at": "2020-07-20T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "project": 1,
+   "company": 2,
+   "expires_at": "2020-08-30",
+   "has_access_to_project": true,
+   "has_access_to_package_handover": false,
+   "has_access_to_asset_handover": true,
+   "has_access_to_quality_issue": true,
+   "expanded_project": {
+    "id": 1,
+    "name": "Project 1",
+    "number": "dfg134",
+    "image": {
+     "id": 1,
+     "name": "troom.png",
+     "link": "http://localhost/media/troom.png",
+     "size": 0,
+     "hash": null,
+     "is_public": true,
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "local_id": null,
+     "extension": "png"
+    },
+    "status": "tendering",
+    "start_date": "2020-07-30",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "value": "2343456.23",
+    "completion_date": "2020-08-30",
+    "show_estimated_man_hours": true,
+    "is_task_visible_for_clients": true,
+    "value_currency": "USD",
+    "is_subtask_visible_for_clients": false
+   },
+   "expanded_company": {
+    "id": 2,
+    "name": "Ford",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  {
+   "id": 3,
+   "token": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a12",
+   "created_at": "2020-07-20T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "project": 3,
+   "company": 1,
+   "expires_at": "2020-10-30",
+   "has_access_to_project": true,
+   "has_access_to_package_handover": false,
+   "has_access_to_asset_handover": true,
+   "has_access_to_quality_issue": true,
+   "expanded_project": {
+    "id": 3,
+    "name": "Sometimes tower",
+    "number": "demo",
+    "image": {
+     "id": 2,
+     "name": "broom.png",
+     "link": "http://localhost/media/broom.png",
+     "size": 0,
+     "hash": null,
+     "is_public": true,
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "local_id": null,
+     "extension": "png"
+    },
+    "status": "under_construction",
+    "start_date": "2020-07-30",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "value": "6534.65",
+    "completion_date": "2020-08-30",
+    "show_estimated_man_hours": false,
+    "is_task_visible_for_clients": true,
+    "value_currency": "USD",
+    "is_subtask_visible_for_clients": false
+   },
+   "expanded_company": {
+    "id": 1,
+    "name": "Dodge",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  }
+ ],
+ "next_page": null
+}

@@ -1,0 +1,19 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 2,
+   "token": "a0eebc99-9c0b-4ef8-bb6d-6bb9bd380a11",
+   "created_at": "2020-07-20T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "project": 1,
+   "company": 2,
+   "expires_at": "2020-08-30",
+   "has_access_to_project": true,
+   "has_access_to_package_handover": false,
+   "has_access_to_asset_handover": true,
+   "has_access_to_quality_issue": true
+  }
+ ],
+ "next_page": null
+}

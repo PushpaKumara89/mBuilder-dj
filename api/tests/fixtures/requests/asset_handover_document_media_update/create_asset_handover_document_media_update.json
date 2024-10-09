@@ -1,0 +1,11 @@
+{
+  "asset_handover_document_media": 1,
+  "comment": "some new update",
+  "old_data": {
+    "status": "contested"
+  },
+  "new_data": {
+    "status": "requesting_approval",
+    "uid": "testuid2"
+  }
+}

@@ -1,0 +1,213 @@
+[
+ {
+  "data": {
+   "company": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad@gmail.com",
+   "first_name": "Bradwood",
+   "group": 1,
+   "id": 1,
+   "last_name": "Feat",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "expanded_package": {
+    "id": 2,
+    "name": "Second package",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "order": 3
+   },
+   "expanded_package_activity": {
+    "id": 3,
+    "name": "Third package activity",
+    "activity_id": null,
+    "package_activity_tasks": [
+     {
+      "id": 3,
+      "description": "Third desc",
+      "is_not_applicable_status_by_default": true,
+      "is_photo_required": false,
+      "order": 0,
+      "package_activity": 3,
+      "photo_requirement_comment": "",
+      "is_default_for_subtask": false
+     }
+    ],
+    "files": []
+   },
+   "expanded_project": {
+    "id": 5,
+    "name": "Project 5",
+    "number": "y356ywrtwe",
+    "image": {
+     "id": 5,
+     "name": "kroom.png",
+     "link": "http://localhost/media/kroom.png",
+     "size": 0,
+     "hash": null,
+     "is_public": true,
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "local_id": null,
+     "extension": "png"
+    },
+    "status": "archived",
+    "start_date": "2020-07-30",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "value": "123765.11",
+    "completion_date": "2020-08-30",
+    "show_estimated_man_hours": true,
+    "is_task_visible_for_clients": true,
+    "value_currency": "USD",
+    "is_subtask_visible_for_clients": false
+   },
+   "id": 12,
+   "package": 2,
+   "package_activity": 3,
+   "project": 5
+  },
+  "type": "entity_created",
+  "entity": "package_matrix",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 8,
+   "location_matrix": 1,
+   "package": 2,
+   "package_activity": 3,
+   "package_activity_name": "Third package activity",
+   "package_matrix": 12,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 9,
+   "location_matrix": 2,
+   "package": 2,
+   "package_activity": 3,
+   "package_activity_name": "Third package activity",
+   "package_matrix": 12,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "expanded_package": {
+    "id": 2,
+    "name": "Second package",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "order": 3
+   },
+   "expanded_package_activity": {
+    "id": 5,
+    "name": "Fifth package activity",
+    "activity_id": null,
+    "package_activity_tasks": [],
+    "files": []
+   },
+   "expanded_project": {
+    "id": 5,
+    "name": "Project 5",
+    "number": "y356ywrtwe",
+    "image": {
+     "id": 5,
+     "name": "kroom.png",
+     "link": "http://localhost/media/kroom.png",
+     "size": 0,
+     "hash": null,
+     "is_public": true,
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "local_id": null,
+     "extension": "png"
+    },
+    "status": "archived",
+    "start_date": "2020-07-30",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "value": "123765.11",
+    "completion_date": "2020-08-30",
+    "show_estimated_man_hours": true,
+    "is_task_visible_for_clients": true,
+    "value_currency": "USD",
+    "is_subtask_visible_for_clients": false
+   },
+   "id": 8,
+   "package": 2,
+   "package_activity": 5,
+   "project": 5
+  },
+  "type": "entity_restored",
+  "entity": "package_matrix",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "enabled": true,
+   "id": 1,
+   "location_matrix": 1,
+   "package": 2,
+   "package_activity": 5,
+   "package_activity_name": "Second package activity",
+   "package_matrix": 8,
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_restored",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "enabled": false,
+   "id": 10,
+   "location_matrix": 2,
+   "package": 2,
+   "package_activity": 5,
+   "package_activity_name": "Fifth package activity",
+   "package_matrix": 8,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_created",
+  "entity": "location_matrix_package",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ }
+]

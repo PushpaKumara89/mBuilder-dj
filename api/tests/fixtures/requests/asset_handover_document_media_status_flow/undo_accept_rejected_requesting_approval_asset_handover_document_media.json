@@ -1,0 +1,9 @@
+{
+  "comment": "Undo accept rejected requesting approval!",
+  "old_data": {
+    "status": "contested"
+  },
+  "new_data": {
+    "status": "requested_approval_rejected"
+  }
+}

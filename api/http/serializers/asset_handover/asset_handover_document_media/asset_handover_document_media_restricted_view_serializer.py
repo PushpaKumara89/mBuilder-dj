@@ -1,0 +1,8 @@
+from api.http.serializers.asset_handover import AssetHandoverDocumentMediaSerializer
+from api.http.serializers.asset_handover.asset_handover_document_media.asset_handover_document_media_restricted_view_list_serializer import \
+    AssetHandoverDocumentMediaRestrictedViewListSerializer
+
+
+class AssetHandoverDocumentMediaRestrictedViewSerializer(AssetHandoverDocumentMediaSerializer):
+    class Meta(AssetHandoverDocumentMediaSerializer.Meta):
+        list_serializer_class = AssetHandoverDocumentMediaRestrictedViewListSerializer

@@ -1,0 +1,18 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "building": "building1"
+  },
+  {
+   "building": "building2"
+  },
+  {
+   "building": "building3"
+  },
+  {
+   "building": "building4"
+  }
+ ],
+ "next_page": null
+}

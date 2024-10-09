@@ -1,0 +1,30 @@
+{
+ "statistics_by_statuses": [
+  {
+   "status": "accepted",
+   "media_count": 1
+  },
+  {
+   "status": "contested",
+   "media_count": 1
+  },
+  {
+   "status": "in_progress",
+   "media_count": 5
+  },
+  {
+   "status": "requesting_approval",
+   "media_count": 1
+  }
+ ],
+ "uploaded_files_statistics": [
+  {
+   "required_files_count": 6,
+   "uploaded_files_count": 8
+  }
+ ],
+ "information_statistics": {
+  "filled_info_count": 1,
+  "total_info_count": 2
+ }
+}

@@ -1,0 +1,61 @@
+{
+ "expanded_files": [],
+ "expanded_closed_files": [
+  {
+   "id": 4,
+   "name": "sroom.png",
+   "link": "http://localhost/media/sroom.png",
+   "size": 0,
+   "hash": "sdiughsdfghruirerr",
+   "is_public": true,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png",
+   "expanded_thumbnails": [],
+   "expanded_project_snapshot_thumbnails": []
+  },
+  {
+   "id": 1,
+   "name": "troom.png",
+   "link": "http://localhost/sdfgsdgdsfgfdgf",
+   "size": 0,
+   "hash": "sdfgsdgdsfgfdgf",
+   "is_public": false,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png",
+   "expanded_thumbnails": [],
+   "expanded_project_snapshot_thumbnails": []
+  },
+  {
+   "id": 2,
+   "name": "broom.png",
+   "link": "http://localhost/media/broom.png",
+   "size": 0,
+   "hash": "456hy4w5ytwertgdsf",
+   "is_public": false,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png",
+   "expanded_thumbnails": [],
+   "expanded_project_snapshot_thumbnails": []
+  },
+  {
+   "id": 3,
+   "name": "kroom.png",
+   "link": "http://localhost/h45978yhtghdjfkhgfd",
+   "size": 0,
+   "hash": "h45978yhtghdjfkhgfd",
+   "is_public": false,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png",
+   "expanded_thumbnails": [],
+   "expanded_project_snapshot_thumbnails": []
+  }
+ ]
+}

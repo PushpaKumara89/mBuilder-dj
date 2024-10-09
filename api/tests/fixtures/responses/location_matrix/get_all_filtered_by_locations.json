@@ -1,0 +1,24 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 3,
+   "project": 1,
+   "building": "Building A",
+   "level": "-2B",
+   "area": "Hall",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 2,
+   "project": 1,
+   "building": "Building A",
+   "level": "-5A",
+   "area": "Meeting room",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  }
+ ],
+ "next_page": null
+}

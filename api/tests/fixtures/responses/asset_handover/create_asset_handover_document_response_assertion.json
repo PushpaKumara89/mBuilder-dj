@@ -1,0 +1,88 @@
+[
+ {
+  "id": 10,
+  "package_activity": 6,
+  "location_matrix": 6,
+  "project": 5,
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z",
+  "expanded_location_matrix": {
+   "id": 6,
+   "project": 5,
+   "building": "Building A",
+   "level": "B",
+   "area": "Hogwarts",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "expanded_asset_handover_documents": [
+   {
+    "id": 1,
+    "document_type": 1,
+    "number_required_files": 2,
+    "asset_handover": 10,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   {
+    "id": 2,
+    "document_type": 2,
+    "number_required_files": 1,
+    "asset_handover": 10,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  ],
+  "expanded_package_activity": {
+   "id": 6,
+   "name": "Six package activity",
+   "activity_id": null,
+   "package_activity_tasks": [],
+   "files": [],
+   "expanded_can_add_asset_handovers": false
+  }
+ },
+ {
+  "id": 12,
+  "package_activity": 6,
+  "location_matrix": 7,
+  "project": 5,
+  "created_at": "2021-11-11T00:00:00Z",
+  "updated_at": "2021-11-11T00:00:00Z",
+  "expanded_location_matrix": {
+   "id": 7,
+   "project": 5,
+   "building": "Building A",
+   "level": "B",
+   "area": "Dwarfs",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "expanded_asset_handover_documents": [
+   {
+    "id": 11,
+    "document_type": 1,
+    "number_required_files": 2,
+    "asset_handover": 12,
+    "created_at": "2021-11-11T00:00:00Z",
+    "updated_at": "2021-11-11T00:00:00Z"
+   },
+   {
+    "id": 12,
+    "document_type": 2,
+    "number_required_files": 1,
+    "asset_handover": 12,
+    "created_at": "2021-11-11T00:00:00Z",
+    "updated_at": "2021-11-11T00:00:00Z"
+   }
+  ],
+  "expanded_package_activity": {
+   "id": 6,
+   "name": "Six package activity",
+   "activity_id": null,
+   "package_activity_tasks": [],
+   "files": [],
+   "expanded_can_add_asset_handovers": false
+  }
+ }
+]

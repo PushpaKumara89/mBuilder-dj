@@ -1,0 +1,12 @@
+{
+  "comment": "Undo my mistake!",
+  "old_data": {
+    "status": "in_progress"
+  },
+  "new_data": {
+    "status": "declined"
+  },
+  "files": [
+    1
+  ]
+}

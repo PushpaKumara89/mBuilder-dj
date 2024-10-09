@@ -1,0 +1,120 @@
+[
+  {
+    "model": "api.packagehandoverdocument",
+    "pk": 1,
+    "fields": {
+      "package_handover": 5,
+      "package_handover_document_type": 1,
+      "number_required_files": 5,
+      "package_activity": 1,
+      "project": 5,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagehandoverdocument",
+    "pk": 2,
+    "fields": {
+      "package_handover": 5,
+      "package_handover_document_type": 9,
+      "number_required_files": 5,
+      "package_activity": 1,
+      "project": 5,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagehandoverdocument",
+    "pk": 3,
+    "fields": {
+      "package_handover": 5,
+      "package_handover_document_type": 16,
+      "number_required_files": 5,
+      "package_activity": 1,
+      "project": 5,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagehandoverdocument",
+    "pk": 4,
+    "fields": {
+      "package_handover": 6,
+      "package_handover_document_type": 1,
+      "number_required_files": 5,
+      "package_activity": 2,
+      "project": 6,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagehandoverdocument",
+    "pk": 5,
+    "fields": {
+      "package_handover": 6,
+      "package_handover_document_type": 9,
+      "number_required_files": 5,
+      "package_activity": 2,
+      "project": 6,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagehandoverdocument",
+    "pk": 6,
+    "fields": {
+      "package_handover": 6,
+      "package_handover_document_type": 16,
+      "number_required_files": 5,
+      "package_activity": 2,
+      "project": 6,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "deleted": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagehandoverdocument",
+    "pk": 7,
+    "fields": {
+      "package_handover": 5,
+      "package_handover_document_type": 9,
+      "number_required_files": 5,
+      "package_activity": 1,
+      "project": 5,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagehandoverdocument",
+    "pk": 8,
+    "fields": {
+      "package_handover": 5,
+      "package_handover_document_type": 1,
+      "number_required_files": 5,
+      "package_activity": 1,
+      "project": 5,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  },
+  {
+    "model": "api.packagehandoverdocument",
+    "pk": 9,
+    "fields": {
+      "package_handover": 5,
+      "package_handover_document_type": 9,
+      "number_required_files": 5,
+      "package_activity": 1,
+      "project": 5,
+      "created_at": "2020-07-30T12:21:16.129Z",
+      "updated_at": "2020-07-30T12:21:16.129Z"
+    }
+  }
+]

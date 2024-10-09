@@ -1,0 +1,9 @@
+{
+  "comment": "test comment",
+  "old_data": {
+    "status": "under_review"
+  },
+  "new_data": {
+    "status": "removed"
+  }
+}

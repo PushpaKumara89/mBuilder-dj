@@ -1,0 +1,136 @@
+{% load urlexists %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Mbuild</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        html, body {
+            font-size: 11px;
+            font-family: "Roboto", Arial, sans-serif;
+        }
+
+        body {
+            padding: 2px;
+            position: relative;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        table {
+            page-break-inside: auto;
+            width: 100%;
+            word-break: break-word;
+        }
+
+        tr {
+            page-break-inside: avoid;
+            page-break-after: auto;
+        }
+
+        thead {
+            display: table-header-group;
+        }
+
+        tfoot {
+            display: table-footer-group;
+        }
+
+        td {
+            padding: 5px;
+            vertical-align: top;
+        }
+
+        h1, h2 {
+            margin: 0;
+            font-weight: normal;
+        }
+
+        h1 {
+            font-weight: bold;
+        }
+
+        .tasks-report {
+            margin-bottom: 20px;
+        }
+
+        .header-title {
+            border-top-style: hidden;
+            border-right-style: hidden;
+            border-left-style: hidden;
+        }
+    </style>
+</head>
+
+<body>
+
+<table>
+    <thead>
+    <tr class="header-title">
+        <th align="left" colspan="12" class="header-title">
+            <h1 class="tasks-report">{{ project_number }} - {{ project_name }} Quality Report</h1>
+        </th>
+    </tr>
+    <tr>
+        <th width="6%">Status</th>
+        <th width="5%">Quality Critical Task ID</th>
+        <th width="6%">Location</th>
+        <th width="5%">Package</th>
+        <th width="7%">Package Activity</th>
+        <th width="15%">Quality Critical Task</th>
+        <th width="6%">First Update Date</th>
+        <th width="20%">Comments</th>
+        <th width="30%">Attachments</th>
+    </tr>
+    </thead>
+    <tbody>
+    {% for task in tasks %}
+        <tr>
+            <td>
+                {{ task.status }}
+            </td>
+            <td>
+                {{ task.expanded_quality_critical_task_id }}
+            </td>
+            <td>
+                Building: {{ task.expanded_building }}<br/>
+                Level: {{ task.expanded_level }}<br/>
+                Area: {{ task.expanded_area }}<br/>
+            </td>
+            <td>
+                {{ task.expanded_package }}
+            </td>
+            <td>
+                {{ task.expanded_package_activity_name }}
+            </td>
+            <td>
+                {{ task.expanded_package_activity_task_description }}
+            </td>
+            <td>
+                {{ task.expanded_first_update_date }}
+            </td>
+            <td>
+                {{ task.expanded_comments|linebreaksbr }}
+            </td>
+            <td>
+                {% for media in task.expanded_attachments %}
+                    {% if media.link|urlexists %}
+                        <img src="{{ media.link }}" style="max-width: 300px; height: 200px;object-fit: cover;" alt="{{ media.name }}"/>
+                    {% endif %}
+                {% endfor %}
+            </td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+
+</body>
+
+</html>

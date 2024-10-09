@@ -1,0 +1,23 @@
+{
+ "id": 1,
+ "description": "test",
+ "is_closed": true,
+ "task": 1,
+ "user": 2,
+ "files": [],
+ "created_at": "2020-07-30T12:21:16.129000Z",
+ "updated_at": "2020-07-30T12:21:16.129000Z",
+ "date_of_completion": null,
+ "estimation": 4,
+ "due_date": "2020-07-30T12:21:10.129000Z",
+ "company": 1,
+ "quality_issue": 1,
+ "status": "closed",
+ "is_defect": false,
+ "last_confirmed_update": 3,
+ "response_due_date": null,
+ "location_description": null,
+ "local_id": null,
+ "files_count": 0,
+ "closed_files_count": 0
+}

@@ -1,0 +1,371 @@
+{
+ "id": 1,
+ "description": "test",
+ "is_closed": true,
+ "task": 1,
+ "user": 2,
+ "files": [],
+ "created_at": "2020-07-30T12:21:16.129000Z",
+ "updated_at": "2020-07-30T12:21:16.129000Z",
+ "date_of_completion": null,
+ "estimation": 4,
+ "due_date": "2020-07-30T12:21:10.129000Z",
+ "company": 1,
+ "quality_issue": 1,
+ "status": "closed",
+ "is_defect": false,
+ "last_confirmed_update": 3,
+ "response_due_date": null,
+ "location_description": null,
+ "local_id": null,
+ "files_count": 0,
+ "closed_files_count": 0,
+ "expanded_closed_files": [
+  {
+   "id": 4,
+   "name": "sroom.png",
+   "link": "http://localhost/media/sroom.png",
+   "size": 0,
+   "hash": "sdiughsdfghruirerr",
+   "is_public": true,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png",
+   "expanded_thumbnails": [],
+   "expanded_project_snapshot_thumbnails": []
+  },
+  {
+   "id": 1,
+   "name": "troom.png",
+   "link": "http://localhost/sdfgsdgdsfgfdgf",
+   "size": 0,
+   "hash": "sdfgsdgdsfgfdgf",
+   "is_public": false,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png",
+   "expanded_thumbnails": [],
+   "expanded_project_snapshot_thumbnails": []
+  },
+  {
+   "id": 2,
+   "name": "broom.png",
+   "link": "http://localhost/media/broom.png",
+   "size": 0,
+   "hash": "456hy4w5ytwertgdsf",
+   "is_public": false,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png",
+   "expanded_thumbnails": [],
+   "expanded_project_snapshot_thumbnails": []
+  },
+  {
+   "id": 3,
+   "name": "kroom.png",
+   "link": "http://localhost/h45978yhtghdjfkhgfd",
+   "size": 0,
+   "hash": "h45978yhtghdjfkhgfd",
+   "is_public": false,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "local_id": null,
+   "extension": "png",
+   "expanded_thumbnails": [],
+   "expanded_project_snapshot_thumbnails": []
+  }
+ ],
+ "expanded_task": {
+  "id": 1,
+  "status": "accepted",
+  "package_activity": {
+   "id": 2,
+   "name": "Second package activity",
+   "activity_id": null,
+   "files": []
+  },
+  "package_activity_task": {
+   "id": 2,
+   "description": "Second desc",
+   "is_not_applicable_status_by_default": true,
+   "is_photo_required": false,
+   "order": 0,
+   "package_activity": 2,
+   "photo_requirement_comment": "",
+   "is_default_for_subtask": false
+  },
+  "local_id": null,
+  "location_matrix": {
+   "id": 1,
+   "project": 5,
+   "building": "Building A",
+   "level": "A",
+   "area": "Hall",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "user": {
+   "id": 2,
+   "status": "pending",
+   "first_name": "Brad",
+   "last_name": "Seatwood",
+   "email": "cool.brad+1@gmail.com",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "company": 2,
+   "group": 3,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "date_of_approval": null,
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z",
+  "expanded_package": {
+   "id": 4,
+   "name": "Fourth package",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "order": 5
+  }
+ },
+ "expanded_updates": [
+  {
+   "id": 1,
+   "subtask": 1,
+   "user": 1,
+   "comment": "test comment!",
+   "files": [
+    1
+   ],
+   "old_data": {
+    "status": "closed"
+   },
+   "new_data": {
+    "status": "in_progress"
+   },
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "recipients": [],
+   "is_conflict": false,
+   "local_id": null,
+   "is_comment": false
+  },
+  {
+   "id": 3,
+   "subtask": 1,
+   "user": 1,
+   "comment": "test comment3!",
+   "files": [
+    4
+   ],
+   "old_data": {
+    "status": "in_progress"
+   },
+   "new_data": {
+    "status": "closed"
+   },
+   "created_at": "2020-09-30T12:21:16.129000Z",
+   "updated_at": "2020-09-30T12:21:16.129000Z",
+   "recipients": [],
+   "is_conflict": false,
+   "local_id": null,
+   "is_comment": false
+  },
+  {
+   "id": 4,
+   "subtask": 1,
+   "user": 1,
+   "comment": "test comment4!",
+   "files": [
+    1,
+    2,
+    3
+   ],
+   "old_data": {
+    "status": "in_progress"
+   },
+   "new_data": {
+    "status": "closed"
+   },
+   "created_at": "2020-10-30T12:21:16.129000Z",
+   "updated_at": "2020-10-30T12:21:16.129000Z",
+   "recipients": [],
+   "is_conflict": false,
+   "local_id": null,
+   "is_comment": false
+  },
+  {
+   "id": 5,
+   "subtask": 1,
+   "user": 1,
+   "comment": "test comment5!",
+   "files": [],
+   "old_data": {},
+   "new_data": {
+    "status": "in_progress"
+   },
+   "created_at": "2020-10-29T12:21:16.129000Z",
+   "updated_at": "2020-10-29T12:21:16.129000Z",
+   "recipients": [
+    {
+     "id": 1,
+     "first_name": "Tom",
+     "last_name": "Soyer",
+     "email": "tom_digidom@gmail.com",
+     "user": null,
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-08-30T12:21:16.129000Z"
+    }
+   ],
+   "is_conflict": false,
+   "local_id": null,
+   "is_comment": false
+  },
+  {
+   "id": 6,
+   "subtask": 1,
+   "user": 1,
+   "comment": "test comment6!",
+   "files": [],
+   "old_data": {
+    "status": "contested"
+   },
+   "new_data": {
+    "status": "in_progress"
+   },
+   "created_at": "2020-10-30T12:21:16.129000Z",
+   "updated_at": "2020-10-30T12:21:16.129000Z",
+   "recipients": [
+    {
+     "id": 1,
+     "first_name": "Tom",
+     "last_name": "Soyer",
+     "email": "tom_digidom@gmail.com",
+     "user": null,
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-08-30T12:21:16.129000Z"
+    },
+    {
+     "id": 2,
+     "first_name": "Gan",
+     "last_name": "Gsta",
+     "email": "gan_gsta@gmail.com",
+     "user": 1,
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-08-30T12:21:16.129000Z"
+    }
+   ],
+   "is_conflict": false,
+   "local_id": null,
+   "is_comment": false
+  }
+ ],
+ "expanded_status_date": "2020-10-30 12:21:16",
+ "expanded_company": {
+  "id": 1,
+  "name": "Dodge",
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z"
+ },
+ "expanded_last_update": {
+  "id": 4,
+  "subtask": 1,
+  "user": 1,
+  "comment": "test comment4!",
+  "files": [
+   1,
+   2,
+   3
+  ],
+  "old_data": {
+   "status": "in_progress"
+  },
+  "new_data": {
+   "status": "closed"
+  },
+  "created_at": "2020-10-30T12:21:16.129000Z",
+  "updated_at": "2020-10-30T12:21:16.129000Z",
+  "recipients": [],
+  "is_conflict": false,
+  "local_id": null,
+  "is_comment": false
+ },
+ "expanded_last_recipients": [
+  {
+   "id": 1,
+   "first_name": "Tom",
+   "last_name": "Soyer",
+   "email": "tom_digidom@gmail.com",
+   "user": null,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-08-30T12:21:16.129000Z"
+  },
+  {
+   "id": 2,
+   "first_name": "Gan",
+   "last_name": "Gsta",
+   "email": "gan_gsta@gmail.com",
+   "user": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-08-30T12:21:16.129000Z"
+  }
+ ],
+ "expanded_files": [],
+ "expanded_user": {
+  "id": 2,
+  "status": "pending",
+  "first_name": "Brad",
+  "last_name": "Seatwood",
+  "email": "cool.brad+1@gmail.com",
+  "phone": "+41524204242",
+  "position": "Cool Brad",
+  "company": 2,
+  "group": 3,
+  "created_at": "2020-07-30T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z"
+ },
+ "expanded_last_confirmed_update": {
+  "id": 3,
+  "subtask": 1,
+  "user": 1,
+  "comment": "test comment3!",
+  "files": [
+   4
+  ],
+  "old_data": {
+   "status": "in_progress"
+  },
+  "new_data": {
+   "status": "closed"
+  },
+  "created_at": "2020-09-30T12:21:16.129000Z",
+  "updated_at": "2020-09-30T12:21:16.129000Z",
+  "recipients": [],
+  "is_conflict": false,
+  "local_id": null,
+  "is_comment": false,
+  "expanded_previous_status": "in_progress"
+ },
+ "expanded_quality_issue": {
+  "id": 1,
+  "location_matrix": 1,
+  "user": 1,
+  "description": "Oh! My! God!",
+  "status": "under_review",
+  "attachments": [
+   1,
+   2,
+   3
+  ],
+  "created_at": "2020-09-22T12:21:16.129000Z",
+  "updated_at": "2020-09-30T12:21:16.129000Z",
+  "due_date": "2021-04-22T12:21:16.129000Z",
+  "last_confirmed_update": null,
+  "old_quality_issue": null,
+  "local_id": null,
+  "response_category": null
+ }
+}

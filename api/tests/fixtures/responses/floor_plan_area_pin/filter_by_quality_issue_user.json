@@ -1,0 +1,28 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 8,
+   "floor_plan_area": 1,
+   "object_id": 3,
+   "pin": {
+    "x": 9875,
+    "y": 6540
+   },
+   "created_at": "2020-07-30T12:21:20.129000Z",
+   "updated_at": "2020-07-30T12:21:20.129000Z"
+  },
+  {
+   "id": 10,
+   "floor_plan_area": 2,
+   "object_id": 5,
+   "pin": {
+    "x": 8,
+    "y": 738
+   },
+   "created_at": "2020-07-30T12:21:22.129000Z",
+   "updated_at": "2020-07-30T12:21:22.129000Z"
+  }
+ ],
+ "next_page": null
+}

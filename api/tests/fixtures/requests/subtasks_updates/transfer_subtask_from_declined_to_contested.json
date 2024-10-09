@@ -1,0 +1,9 @@
+{
+  "comment": "Undo my mistake!",
+  "old_data": {
+    "status": "declined"
+  },
+  "new_data": {
+    "status": "contested"
+  }
+}

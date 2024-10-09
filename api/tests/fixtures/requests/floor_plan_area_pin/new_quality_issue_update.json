@@ -1,0 +1,18 @@
+{
+  "comment": "test comment",
+  "old_data": {
+    "description": "Oh! My! God!",
+    "status": "under_review"
+  },
+  "new_data": {
+    "status": "under_review",
+    "description": "My life be like: uuuh aaah!",
+    "floor_plan_area_pin": {
+      "id": 6,
+      "pin": {
+        "x": 12,
+        "y": 4
+      }
+    }
+  }
+}

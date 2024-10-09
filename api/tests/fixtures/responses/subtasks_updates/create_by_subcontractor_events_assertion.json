@@ -1,0 +1,473 @@
+[
+ {
+  "data": {
+   "company": 3,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.subcontractor@gmail.com",
+   "first_name": "Brad",
+   "group": 4,
+   "id": 4,
+   "last_name": "Subcontractor",
+   "phone": "+41524204242",
+   "position": "Cool Subcontractor",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "closed_files_count": 0,
+   "company": 3,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "date_of_completion": null,
+   "description": "test",
+   "due_date": "2020-07-30T12:21:16.129000Z",
+   "estimation": null,
+   "files": [],
+   "files_count": 0,
+   "id": 1,
+   "is_closed": false,
+   "is_defect": false,
+   "last_confirmed_update": null,
+   "local_id": null,
+   "location_description": null,
+   "quality_issue": 2,
+   "response_due_date": null,
+   "status": "declined",
+   "task": 1,
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 2
+  },
+  "type": "entity_updated",
+  "entity": "subtask",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "date_of_approval": null,
+   "id": 1,
+   "local_id": null,
+   "location_matrix": {
+    "id": 1,
+    "project": 5,
+    "building": "Building A",
+    "level": "A",
+    "area": "Hall",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "package_activity": {
+    "id": 2,
+    "name": "Second package activity",
+    "activity_id": null,
+    "files": []
+   },
+   "package_activity_task": {
+    "id": 2,
+    "description": "Second desc",
+    "is_not_applicable_status_by_default": true,
+    "is_photo_required": false,
+    "order": 0,
+    "package_activity": 2,
+    "photo_requirement_comment": "",
+    "is_default_for_subtask": false
+   },
+   "status": "rejected",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_updated",
+  "entity": "task",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "date_of_approval": null,
+   "id": 1,
+   "local_id": null,
+   "location_matrix": {
+    "id": 1,
+    "project": 5,
+    "building": "Building A",
+    "level": "A",
+    "area": "Hall",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   },
+   "package_activity": {
+    "id": 2,
+    "name": "Second package activity",
+    "activity_id": null,
+    "files": []
+   },
+   "package_activity_task": {
+    "id": 2,
+    "description": "Second desc",
+    "is_not_applicable_status_by_default": true,
+    "is_photo_required": false,
+    "order": 0,
+    "package_activity": 2,
+    "photo_requirement_comment": "",
+    "is_default_for_subtask": false
+   },
+   "status": "rejected",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": {
+    "id": 2,
+    "status": "pending",
+    "first_name": "Brad",
+    "last_name": "Seatwood",
+    "email": "cool.brad+1@gmail.com",
+    "phone": "+41524204242",
+    "position": "Cool Brad",
+    "company": 2,
+    "group": 3,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_updated",
+  "entity": "task",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "comment": "test",
+   "created_at": "2020-02-02T00:00:00Z",
+   "files": [],
+   "id": 18,
+   "is_conflict": false,
+   "local_id": null,
+   "new_data": {
+    "status": "rejected"
+   },
+   "old_data": {
+    "status": "rejected"
+   },
+   "recipients": [],
+   "task": 1,
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 2
+  },
+  "type": "entity_created",
+  "entity": "task_update",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "comment": "new test comment",
+   "created_at": "2020-02-02T00:00:00Z",
+   "files": [],
+   "id": 19,
+   "is_comment": false,
+   "is_conflict": false,
+   "local_id": null,
+   "new_data": {
+    "company": 3,
+    "status": "declined"
+   },
+   "old_data": {
+    "company": 3,
+    "status": "in_progress"
+   },
+   "recipients": [],
+   "subtask": 1,
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 4
+  },
+  "type": "entity_created",
+  "entity": "subtask_update",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "closed_files_count": 0,
+   "company": 3,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "date_of_completion": null,
+   "description": "test",
+   "due_date": "2020-07-30T12:21:16.129000Z",
+   "estimation": null,
+   "files": [],
+   "files_count": 0,
+   "id": 1,
+   "is_closed": false,
+   "is_defect": false,
+   "last_confirmed_update": null,
+   "local_id": null,
+   "location_description": null,
+   "quality_issue": 2,
+   "response_due_date": null,
+   "status": "declined",
+   "task": 1,
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 2
+  },
+  "type": "entity_updated",
+  "entity": "subtask",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "subtask_update": 19,
+   "media": {
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_project_snapshot_thumbnails": [],
+    "expanded_thumbnails": [],
+    "extension": "png",
+    "hash": "sdogijh459ythgfd",
+    "id": 1,
+    "is_public": true,
+    "link": "http://localhost/media/troom.png",
+    "local_id": null,
+    "name": "troom.png",
+    "size": 0,
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_created",
+  "entity": "subtask_update_files",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "subtask_update": 19,
+   "media": {
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "expanded_project_snapshot_thumbnails": [],
+    "expanded_thumbnails": [],
+    "extension": "png",
+    "hash": "werutgh45whgdgfh",
+    "id": 2,
+    "is_public": true,
+    "link": "http://localhost/media/broom.png",
+    "local_id": null,
+    "name": "broom.png",
+    "size": 0,
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  "type": "entity_created",
+  "entity": "subtask_update_files",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "attachments": [],
+   "created_at": "2020-09-23T12:21:16.129000Z",
+   "description": "Somebody, stop me!",
+   "due_date": null,
+   "id": 2,
+   "last_confirmed_update": null,
+   "local_id": null,
+   "location_matrix": 1,
+   "old_quality_issue": null,
+   "response_category": null,
+   "status": "declined",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 2
+  },
+  "type": "entity_updated",
+  "entity": "quality_issue",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "comment": null,
+   "created_at": "2020-02-02T00:00:00Z",
+   "files": [],
+   "id": 16,
+   "is_comment": false,
+   "is_conflict": false,
+   "local_id": null,
+   "new_data": {
+    "status": "declined"
+   },
+   "old_data": {
+    "status": "in_progress"
+   },
+   "quality_issue": 2,
+   "recipients": [],
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 4
+  },
+  "type": "entity_created",
+  "entity": "quality_issue_update",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "email": "tom_dvaer@gmail.com",
+   "expanded_user": null,
+   "first_name": null,
+   "id": 9,
+   "last_name": null,
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": null
+  },
+  "type": "entity_created",
+  "entity": "recipient",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-02-02T00:00:00Z",
+   "email": "tim_robinson@gmail.com",
+   "expanded_user": null,
+   "first_name": "Tim",
+   "id": 10,
+   "last_name": "Robinson",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": null
+  },
+  "type": "entity_created",
+  "entity": "recipient",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "quality_issue_update": 16,
+   "recipient": {
+    "created_at": "2020-02-02T00:00:00Z",
+    "email": "tom_dvaer@gmail.com",
+    "expanded_user": null,
+    "first_name": null,
+    "id": 9,
+    "last_name": null,
+    "updated_at": "2020-02-02T00:00:00Z",
+    "user": null
+   }
+  },
+  "type": "entity_created",
+  "entity": "quality_issue_update_recipients",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "quality_issue_update": 16,
+   "recipient": {
+    "created_at": "2020-02-02T00:00:00Z",
+    "email": "tim_robinson@gmail.com",
+    "expanded_user": null,
+    "first_name": "Tim",
+    "id": 10,
+    "last_name": "Robinson",
+    "updated_at": "2020-02-02T00:00:00Z",
+    "user": null
+   }
+  },
+  "type": "entity_created",
+  "entity": "quality_issue_update_recipients",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "attachments": [],
+   "created_at": "2020-09-23T12:21:16.129000Z",
+   "description": "Somebody, stop me!",
+   "due_date": null,
+   "id": 2,
+   "last_confirmed_update": 16,
+   "local_id": null,
+   "location_matrix": 1,
+   "old_quality_issue": null,
+   "response_category": null,
+   "status": "declined",
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 2
+  },
+  "type": "entity_updated",
+  "entity": "quality_issue",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "subtask_update": 19,
+   "recipient": {
+    "created_at": "2020-02-02T00:00:00Z",
+    "email": "tom_dvaer@gmail.com",
+    "expanded_user": null,
+    "first_name": null,
+    "id": 9,
+    "last_name": null,
+    "updated_at": "2020-02-02T00:00:00Z",
+    "user": null
+   }
+  },
+  "type": "entity_created",
+  "entity": "subtask_update_recipient",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "subtask_update": 19,
+   "recipient": {
+    "created_at": "2020-02-02T00:00:00Z",
+    "email": "tim_robinson@gmail.com",
+    "expanded_user": null,
+    "first_name": "Tim",
+    "id": 10,
+    "last_name": "Robinson",
+    "updated_at": "2020-02-02T00:00:00Z",
+    "user": null
+   }
+  },
+  "type": "entity_created",
+  "entity": "subtask_update_recipient",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ }
+]

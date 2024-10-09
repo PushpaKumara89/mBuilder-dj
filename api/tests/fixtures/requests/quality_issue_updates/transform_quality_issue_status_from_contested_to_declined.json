@@ -1,0 +1,9 @@
+{
+  "comment": "test comment",
+  "old_data": {
+    "status": "contested"
+  },
+  "new_data": {
+    "status": "declined"
+  }
+}

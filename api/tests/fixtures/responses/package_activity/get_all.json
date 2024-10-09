@@ -1,0 +1,171 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 1,
+   "name": "First package activity",
+   "activity_id": null,
+   "package_activity_tasks": [
+    {
+     "id": 4,
+     "description": "Fourth desc",
+     "is_not_applicable_status_by_default": false,
+     "is_photo_required": false,
+     "order": 0,
+     "package_activity": 1,
+     "photo_requirement_comment": "",
+     "is_default_for_subtask": false
+    },
+    {
+     "id": 1,
+     "description": "First desc",
+     "is_not_applicable_status_by_default": true,
+     "is_photo_required": false,
+     "order": 2,
+     "package_activity": 1,
+     "photo_requirement_comment": "",
+     "is_default_for_subtask": false
+    },
+    {
+     "id": 2,
+     "description": "Second desc",
+     "is_not_applicable_status_by_default": true,
+     "is_photo_required": false,
+     "order": 3,
+     "package_activity": 1,
+     "photo_requirement_comment": "",
+     "is_default_for_subtask": true
+    }
+   ],
+   "files": [
+    1,
+    2
+   ],
+   "expanded_files_count": 2,
+   "expanded_projects_count": 2,
+   "expanded_description_image": null,
+   "expanded_description": null,
+   "expanded_files": [
+    {
+     "id": 1,
+     "name": "troom.png",
+     "link": "http://localhost/media/troom.png",
+     "size": 0,
+     "hash": null,
+     "is_public": true,
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "local_id": null,
+     "extension": "png"
+    },
+    {
+     "id": 2,
+     "name": "broom.png",
+     "link": "http://localhost/media/broom.png",
+     "size": 0,
+     "hash": null,
+     "is_public": true,
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "local_id": null,
+     "extension": "png"
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "name": "Second package activity",
+   "activity_id": null,
+   "package_activity_tasks": [
+    {
+     "id": 3,
+     "description": "Third desc",
+     "is_not_applicable_status_by_default": false,
+     "is_photo_required": false,
+     "order": 0,
+     "package_activity": 2,
+     "photo_requirement_comment": "",
+     "is_default_for_subtask": false
+    }
+   ],
+   "files": [],
+   "expanded_files_count": 0,
+   "expanded_projects_count": 1,
+   "expanded_description_image": null,
+   "expanded_description": null,
+   "expanded_files": []
+  },
+  {
+   "id": 3,
+   "name": "Third package activity",
+   "activity_id": null,
+   "package_activity_tasks": [],
+   "files": [],
+   "expanded_files_count": 0,
+   "expanded_projects_count": 1,
+   "expanded_description_image": null,
+   "expanded_description": null,
+   "expanded_files": []
+  },
+  {
+   "id": 4,
+   "name": "Fourth package activity",
+   "activity_id": null,
+   "package_activity_tasks": [],
+   "files": [],
+   "expanded_files_count": 0,
+   "expanded_projects_count": 1,
+   "expanded_description_image": null,
+   "expanded_description": null,
+   "expanded_files": []
+  },
+  {
+   "id": 5,
+   "name": "Fifth package activity",
+   "activity_id": null,
+   "package_activity_tasks": [],
+   "files": [],
+   "expanded_files_count": 0,
+   "expanded_projects_count": 1,
+   "expanded_description_image": null,
+   "expanded_description": null,
+   "expanded_files": []
+  },
+  {
+   "id": 6,
+   "name": "Sixth package activity",
+   "activity_id": null,
+   "package_activity_tasks": [],
+   "files": [],
+   "expanded_files_count": 0,
+   "expanded_projects_count": 0,
+   "expanded_description_image": null,
+   "expanded_description": null,
+   "expanded_files": []
+  },
+  {
+   "id": 7,
+   "name": "Seventh package activity",
+   "activity_id": null,
+   "package_activity_tasks": [],
+   "files": [],
+   "expanded_files_count": 0,
+   "expanded_projects_count": 0,
+   "expanded_description_image": {
+    "id": 1,
+    "name": "troom.png",
+    "link": "http://localhost/media/troom.png",
+    "size": 0,
+    "hash": null,
+    "is_public": true,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "png"
+   },
+   "expanded_description": "Eight package activity description",
+   "expanded_files": []
+  }
+ ],
+ "next_page": null
+}

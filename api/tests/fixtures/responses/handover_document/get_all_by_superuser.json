@@ -1,0 +1,488 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 1,
+   "project": 5,
+   "building": "Building A",
+   "level": "7A",
+   "area": "Hall",
+   "package": 2,
+   "package_activity": 1,
+   "company": 1,
+   "media": 1,
+   "document_type": 1,
+   "filename": "image.png",
+   "uid": "123",
+   "information": "media info",
+   "file_type": "png",
+   "entity": "asset_handover",
+   "entity_id": 1,
+   "expanded_document_type": {
+    "id": 1,
+    "name": "Asbuilt Drawing",
+    "created_at": "2020-02-02T00:00:00Z",
+    "updated_at": "2020-02-02T00:00:00Z"
+   },
+   "expanded_media": {
+    "id": 1,
+    "name": "troom.png",
+    "link": "http://localhost/media/troom.png",
+    "size": 0,
+    "hash": null,
+    "is_public": false,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "png"
+   },
+   "expanded_package": {
+    "id": 2,
+    "name": "Second package",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "order": 3
+   },
+   "expanded_package_activity": {
+    "id": 1,
+    "name": "First package activity",
+    "activity_id": "Activity"
+   },
+   "expanded_company": {
+    "id": 1,
+    "name": "Stussy",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  {
+   "id": 2,
+   "project": 5,
+   "building": "Building D",
+   "level": "7D",
+   "area": "Hall",
+   "package": 2,
+   "package_activity": 1,
+   "company": 2,
+   "media": 1,
+   "document_type": 1,
+   "filename": "image.png",
+   "uid": "123",
+   "information": null,
+   "file_type": "png",
+   "entity": "asset_handover",
+   "entity_id": 2,
+   "expanded_document_type": {
+    "id": 1,
+    "name": "Asbuilt Drawing",
+    "created_at": "2020-02-02T00:00:00Z",
+    "updated_at": "2020-02-02T00:00:00Z"
+   },
+   "expanded_media": {
+    "id": 1,
+    "name": "troom.png",
+    "link": "http://localhost/media/troom.png",
+    "size": 0,
+    "hash": null,
+    "is_public": false,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "png"
+   },
+   "expanded_package": {
+    "id": 2,
+    "name": "Second package",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "order": 3
+   },
+   "expanded_package_activity": {
+    "id": 1,
+    "name": "First package activity",
+    "activity_id": "Activity"
+   },
+   "expanded_company": {
+    "id": 2,
+    "name": "20 Century Fox",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  {
+   "id": 3,
+   "project": 5,
+   "building": "Building C",
+   "level": "7C",
+   "area": "Hall",
+   "package": 2,
+   "package_activity": 1,
+   "company": 1,
+   "media": 1,
+   "document_type": 1,
+   "filename": "image.png",
+   "uid": "123",
+   "information": "media info",
+   "file_type": "png",
+   "entity": "asset_handover",
+   "entity_id": 3,
+   "expanded_document_type": {
+    "id": 1,
+    "name": "Asbuilt Drawing",
+    "created_at": "2020-02-02T00:00:00Z",
+    "updated_at": "2020-02-02T00:00:00Z"
+   },
+   "expanded_media": {
+    "id": 1,
+    "name": "troom.png",
+    "link": "http://localhost/media/troom.png",
+    "size": 0,
+    "hash": null,
+    "is_public": false,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "png"
+   },
+   "expanded_package": {
+    "id": 2,
+    "name": "Second package",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "order": 3
+   },
+   "expanded_package_activity": {
+    "id": 1,
+    "name": "First package activity",
+    "activity_id": "Activity"
+   },
+   "expanded_company": {
+    "id": 1,
+    "name": "Stussy",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  {
+   "id": 4,
+   "project": 5,
+   "building": "Building B",
+   "level": "7B",
+   "area": "Hall",
+   "package": 2,
+   "package_activity": 1,
+   "company": 1,
+   "media": 1,
+   "document_type": 1,
+   "filename": "image.png",
+   "uid": "123",
+   "information": "media info",
+   "file_type": "png",
+   "entity": "asset_handover",
+   "entity_id": 4,
+   "expanded_document_type": {
+    "id": 1,
+    "name": "Asbuilt Drawing",
+    "created_at": "2020-02-02T00:00:00Z",
+    "updated_at": "2020-02-02T00:00:00Z"
+   },
+   "expanded_media": {
+    "id": 1,
+    "name": "troom.png",
+    "link": "http://localhost/media/troom.png",
+    "size": 0,
+    "hash": null,
+    "is_public": false,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "png"
+   },
+   "expanded_package": {
+    "id": 2,
+    "name": "Second package",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "order": 3
+   },
+   "expanded_package_activity": {
+    "id": 1,
+    "name": "First package activity",
+    "activity_id": "Activity"
+   },
+   "expanded_company": {
+    "id": 1,
+    "name": "Stussy",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  {
+   "id": 5,
+   "project": 5,
+   "building": "Building A",
+   "level": "7A",
+   "area": "Hall",
+   "package": 4,
+   "package_activity": 1,
+   "company": 1,
+   "media": 2,
+   "document_type": 1,
+   "filename": "broom.png",
+   "uid": null,
+   "information": null,
+   "file_type": "png",
+   "entity": "asset_handover",
+   "entity_id": 13,
+   "expanded_document_type": {
+    "id": 1,
+    "name": "Asbuilt Drawing",
+    "created_at": "2020-02-02T00:00:00Z",
+    "updated_at": "2020-02-02T00:00:00Z"
+   },
+   "expanded_media": {
+    "id": 2,
+    "name": "broom.png",
+    "link": "http://localhost/media/broom.png",
+    "size": 0,
+    "hash": null,
+    "is_public": true,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "png"
+   },
+   "expanded_package": {
+    "id": 4,
+    "name": "Fourth package",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "order": 5
+   },
+   "expanded_package_activity": {
+    "id": 1,
+    "name": "First package activity",
+    "activity_id": "Activity"
+   },
+   "expanded_company": {
+    "id": 1,
+    "name": "Stussy",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  {
+   "id": 7,
+   "project": 5,
+   "building": null,
+   "level": null,
+   "area": null,
+   "package": 2,
+   "package_activity": 4,
+   "company": 1,
+   "media": 2,
+   "document_type": 1,
+   "filename": "broom.png",
+   "uid": null,
+   "information": null,
+   "file_type": "png",
+   "entity": "package_handover",
+   "entity_id": 1,
+   "expanded_document_type": {
+    "id": 1,
+    "name": "Manufactures Literature",
+    "group": 1
+   },
+   "expanded_media": {
+    "id": 2,
+    "name": "broom.png",
+    "link": "http://localhost/media/broom.png",
+    "size": 0,
+    "hash": null,
+    "is_public": true,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "png"
+   },
+   "expanded_package": {
+    "id": 2,
+    "name": "Second package",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "order": 3
+   },
+   "expanded_package_activity": {
+    "id": 4,
+    "name": "Fourth package activity",
+    "activity_id": null
+   },
+   "expanded_company": {
+    "id": 1,
+    "name": "Stussy",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  {
+   "id": 8,
+   "project": 5,
+   "building": null,
+   "level": null,
+   "area": null,
+   "package": 3,
+   "package_activity": 4,
+   "company": 1,
+   "media": 1,
+   "document_type": 9,
+   "filename": "troom.png",
+   "uid": null,
+   "information": null,
+   "file_type": "png",
+   "entity": "package_handover",
+   "entity_id": 2,
+   "expanded_document_type": {
+    "id": 9,
+    "name": "Compliance Statement",
+    "group": 2
+   },
+   "expanded_media": {
+    "id": 1,
+    "name": "troom.png",
+    "link": "http://localhost/media/troom.png",
+    "size": 0,
+    "hash": null,
+    "is_public": false,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "png"
+   },
+   "expanded_package": {
+    "id": 3,
+    "name": "Third package",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "order": 4
+   },
+   "expanded_package_activity": {
+    "id": 4,
+    "name": "Fourth package activity",
+    "activity_id": null
+   },
+   "expanded_company": {
+    "id": 1,
+    "name": "Stussy",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  {
+   "id": 9,
+   "project": 5,
+   "building": null,
+   "level": null,
+   "area": null,
+   "package": 1,
+   "package_activity": 5,
+   "company": 4,
+   "media": 2,
+   "document_type": 9,
+   "filename": "broom.png",
+   "uid": "sub345",
+   "information": "bingo 777",
+   "file_type": "png",
+   "entity": "package_handover",
+   "entity_id": 6,
+   "expanded_document_type": {
+    "id": 9,
+    "name": "Compliance Statement",
+    "group": 2
+   },
+   "expanded_media": {
+    "id": 2,
+    "name": "broom.png",
+    "link": "http://localhost/media/broom.png",
+    "size": 0,
+    "hash": null,
+    "is_public": true,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "png"
+   },
+   "expanded_package": {
+    "id": 1,
+    "name": "First package",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "order": 2
+   },
+   "expanded_package_activity": {
+    "id": 5,
+    "name": "Fifth package activity",
+    "activity_id": null
+   },
+   "expanded_company": {
+    "id": 4,
+    "name": "Universal",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  },
+  {
+   "id": 10,
+   "project": 5,
+   "building": null,
+   "level": null,
+   "area": null,
+   "package": 3,
+   "package_activity": 5,
+   "company": 4,
+   "media": 1,
+   "document_type": 9,
+   "filename": "troom.png",
+   "uid": "sub123",
+   "information": "bingo 777",
+   "file_type": "png",
+   "entity": "package_handover",
+   "entity_id": 7,
+   "expanded_document_type": {
+    "id": 9,
+    "name": "Compliance Statement",
+    "group": 2
+   },
+   "expanded_media": {
+    "id": 1,
+    "name": "troom.png",
+    "link": "http://localhost/media/troom.png",
+    "size": 0,
+    "hash": null,
+    "is_public": false,
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "local_id": null,
+    "extension": "png"
+   },
+   "expanded_package": {
+    "id": 3,
+    "name": "Third package",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "order": 4
+   },
+   "expanded_package_activity": {
+    "id": 5,
+    "name": "Fifth package activity",
+    "activity_id": null
+   },
+   "expanded_company": {
+    "id": 4,
+    "name": "Universal",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z"
+   }
+  }
+ ],
+ "next_page": null
+}

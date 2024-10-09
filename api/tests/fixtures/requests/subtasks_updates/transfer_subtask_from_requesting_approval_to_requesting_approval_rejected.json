@@ -1,0 +1,9 @@
+{
+  "comment": "No-no-no!",
+  "old_data": {
+    "status": "requesting_approval"
+  },
+  "new_data": {
+    "status": "requested_approval_rejected"
+  }
+}

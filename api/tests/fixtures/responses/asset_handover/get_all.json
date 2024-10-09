@@ -1,0 +1,23 @@
+{
+ "count": 5,
+ "next": null,
+ "previous": "http://testserver/api/projects/5/asset-handovers/?limit=2&offset=1&sort=location_matrix&use_limit_offset_pagination=True",
+ "results": [
+  {
+   "id": 9,
+   "package_activity": 1,
+   "location_matrix": 2,
+   "project": 5,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  {
+   "id": 8,
+   "package_activity": 6,
+   "location_matrix": 5,
+   "project": 5,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  }
+ ]
+}

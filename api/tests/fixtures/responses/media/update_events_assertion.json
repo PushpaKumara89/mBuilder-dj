@@ -1,0 +1,77 @@
+[
+ {
+  "data": {
+   "company": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad@gmail.com",
+   "first_name": "Bradwood",
+   "group": 1,
+   "id": 1,
+   "last_name": "Feat",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "pending",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "expanded_project_snapshot_thumbnails": [],
+   "expanded_thumbnails": [
+    {
+     "id": 1,
+     "original_media": 1,
+     "thumbnail": 2,
+     "width": null,
+     "height": null,
+     "created_at": "2020-07-30T12:21:16.129000Z",
+     "updated_at": "2020-07-30T12:21:16.129000Z",
+     "expanded_original_media": {
+      "id": 1,
+      "name": "mroom.png",
+      "link": "http://localhost/media/mroom.png",
+      "size": 0,
+      "hash": null,
+      "is_public": true,
+      "created_at": "2020-07-30T12:21:16.129000Z",
+      "updated_at": "2020-02-02T00:00:00Z",
+      "local_id": null,
+      "extension": "png"
+     },
+     "expanded_thumbnail": {
+      "id": 2,
+      "name": "broom.png",
+      "link": "http://localhost/media/broom.png",
+      "size": 0,
+      "hash": null,
+      "is_public": true,
+      "created_at": "2020-07-30T12:21:16.129000Z",
+      "updated_at": "2020-07-30T12:21:16.129000Z",
+      "local_id": null,
+      "extension": "png"
+     }
+    }
+   ],
+   "extension": "png",
+   "hash": null,
+   "id": 1,
+   "is_public": true,
+   "link": "http://localhost/media/mroom.png",
+   "local_id": null,
+   "name": "mroom.png",
+   "size": 0,
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_updated",
+  "entity": "media",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ }
+]

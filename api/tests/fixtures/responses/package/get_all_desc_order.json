@@ -1,0 +1,83 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 8,
+   "name": "Eights package",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "order": 11
+  },
+  {
+   "id": 9,
+   "name": "Nines package",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "order": 10
+  },
+  {
+   "id": 10,
+   "name": "Tenth package",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "order": 9
+  },
+  {
+   "id": 11,
+   "name": "Eleventh package",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "order": 8
+  },
+  {
+   "id": 6,
+   "name": "Sixth package",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "order": 7
+  },
+  {
+   "id": 5,
+   "name": "Fifth package",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "order": 6
+  },
+  {
+   "id": 4,
+   "name": "Fourth package",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "order": 5
+  },
+  {
+   "id": 3,
+   "name": "Third package",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "order": 4
+  },
+  {
+   "id": 2,
+   "name": "Second package",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "order": 3
+  },
+  {
+   "id": 1,
+   "name": "First package",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "order": 2
+  },
+  {
+   "id": 7,
+   "name": "Seventh package",
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z",
+   "order": 1
+  }
+ ],
+ "next_page": null
+}

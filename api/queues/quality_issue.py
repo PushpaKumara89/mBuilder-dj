@@ -1,0 +1,28 @@
+from api.queues.core.base import use_rq_if_configured
+
+from api.queues.celery.quality_issue import \
+    send_quality_issue_created_email_notification as send_quality_issue_created_email_notification_celery, \
+    send_email_notification_about_changed_quality_issue_status as send_email_notification_about_changed_quality_issue_status_celery, \
+    send_email_notification_about_created_quality_issue_comment as send_email_notification_about_created_quality_issue_comment_celery
+
+from api.queues.rq.quality_issue import \
+    send_quality_issue_created_email_notification as send_quality_issue_created_email_notification_rq, \
+    send_email_notification_about_changed_quality_issue_status as send_email_notification_about_changed_quality_issue_status_rq, \
+    send_email_notification_about_created_quality_issue_comment as send_email_notification_about_created_quality_issue_comment_rq
+
+from api.models import QualityIssueUpdate
+
+
+@use_rq_if_configured(send_quality_issue_created_email_notification_rq)
+def send_quality_issue_created_email_notification(quality_issue_update: QualityIssueUpdate) -> None:
+    send_quality_issue_created_email_notification_celery.delay(quality_issue_update)
+
+
+@use_rq_if_configured(send_email_notification_about_changed_quality_issue_status_rq)
+def send_email_notification_about_changed_quality_issue_status(quality_issue_update: QualityIssueUpdate) -> None:
+    send_email_notification_about_changed_quality_issue_status_celery.delay(quality_issue_update)
+
+
+@use_rq_if_configured(send_email_notification_about_created_quality_issue_comment_rq)
+def send_email_notification_about_created_quality_issue_comment(quality_issue_update: QualityIssueUpdate) -> None:
+    send_email_notification_about_created_quality_issue_comment_celery.delay(quality_issue_update)

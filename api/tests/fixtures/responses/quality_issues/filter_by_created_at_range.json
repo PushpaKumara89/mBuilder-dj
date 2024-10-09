@@ -1,0 +1,21 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 2,
+   "location_matrix": 1,
+   "user": 2,
+   "description": "Somebody, stop me!",
+   "status": "in_progress",
+   "attachments": [],
+   "created_at": "2020-09-23T12:21:16.129000Z",
+   "updated_at": "2020-09-24T12:21:16.129000Z",
+   "due_date": null,
+   "last_confirmed_update": 3,
+   "old_quality_issue": null,
+   "local_id": null,
+   "response_category": null
+  }
+ ],
+ "next_page": null
+}

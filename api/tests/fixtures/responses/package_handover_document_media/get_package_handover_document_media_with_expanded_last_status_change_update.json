@@ -1,0 +1,24 @@
+{
+ "id": 1,
+ "package_handover_document": 1,
+ "media": 2,
+ "status": "requesting_approval",
+ "last_confirmed_update": null,
+ "uid": "sdf342342dsfs",
+ "information": null,
+ "expanded_last_status_change_update": {
+  "id": 9,
+  "package_handover_document_media": 1,
+  "user": 1,
+  "comment": "Comment",
+  "old_data": {
+   "status": "requesting_approval"
+  },
+  "new_data": {
+   "status": "accepted"
+  },
+  "created_at": "2020-07-28T12:21:16.129000Z",
+  "updated_at": "2020-07-30T12:21:16.129000Z",
+  "company": 1
+ }
+}

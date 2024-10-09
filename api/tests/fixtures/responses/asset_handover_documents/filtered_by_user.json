@@ -1,0 +1,14 @@
+{
+ "previous_page": null,
+ "items": [
+  {
+   "id": 2,
+   "document_type": 2,
+   "number_required_files": 1,
+   "asset_handover": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  }
+ ],
+ "next_page": null
+}

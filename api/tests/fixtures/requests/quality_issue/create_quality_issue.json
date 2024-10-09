@@ -1,0 +1,26 @@
+{
+  "description": "Baby shark dodo-dodo-dodo!",
+  "location_matrix": 1,
+  "due_date": "2020-04-05 02:03:04",
+  "response_category": 1,
+  "attachments": [
+    1,
+    2
+  ],
+  "old_quality_issue": 1,
+  "recipients": [
+    {
+      "email": "stan.smith@long.com"
+    },
+    {
+      "email": "mimo.stule@bokom.com"
+    }
+  ],
+  "floor_plan_area_pin": {
+    "floor_plan_area": 2,
+    "pin": {
+      "x": 5,
+      "y": 6
+    }
+  }
+}

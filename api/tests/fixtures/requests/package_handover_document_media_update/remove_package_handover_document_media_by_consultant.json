@@ -1,0 +1,9 @@
+{
+  "comment": "remove",
+  "old_data": {
+    "status": "contested"
+  },
+  "new_data": {
+    "status": "removed"
+  }
+}

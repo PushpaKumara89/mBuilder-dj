@@ -1,0 +1,9 @@
+{
+  "comment": "Never mind!",
+  "old_data": {
+    "status": "requesting_approval"
+  },
+  "new_data": {
+    "status": "under_inspection"
+  }
+}

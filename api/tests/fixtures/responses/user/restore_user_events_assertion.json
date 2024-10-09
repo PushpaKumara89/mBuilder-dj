@@ -1,0 +1,42 @@
+[
+ {
+  "data": {
+   "company": 1,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "email": "cool.brad@gmail.com",
+   "first_name": "Bradwood",
+   "group": 1,
+   "id": 1,
+   "last_name": "Feat",
+   "phone": "+41524204242",
+   "position": "Cool Brad",
+   "status": "accepted",
+   "updated_at": "2020-07-30T12:21:16.129000Z"
+  },
+  "type": "entity_updated",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ },
+ {
+  "data": {
+   "company": 3,
+   "created_at": "2020-07-22T12:21:16.129000Z",
+   "email": "strong.bat@gmail.com",
+   "first_name": "Beep",
+   "group": 4,
+   "id": 9,
+   "last_name": "Boop",
+   "phone": "+41524204242",
+   "position": "Good boy",
+   "status": "pending",
+   "updated_at": "2020-02-02T00:00:00Z"
+  },
+  "type": "entity_restored",
+  "entity": "user",
+  "local_id": null,
+  "project_id": null,
+  "user": null
+ }
+]

@@ -1,0 +1,11 @@
+{
+  "media": [1],
+  "document_type": 1,
+  "bulk_items": [
+    {
+      "package_activity": 9,
+      "package": 2,
+      "location_matrix": 1
+    }
+  ]
+}
