@@ -135,3 +135,27 @@ class UserFilter(rest_framework.FilterSet):
     class Meta:
         model = User
         fields = ('company', 'last_name', 'project')
+
+# pushpakumara
+
+def filter_by_is_staff(queryset, is_staff_values):
+    """
+    Filters the queryset based on the is_staff query parameters.
+
+    :param queryset: The original queryset to filter
+    :param is_staff_values: List of 'isStaff[]' query parameter values
+    :return: Filtered queryset
+    """
+    # Check if 'isStaff[]' query parameter is provided
+    if is_staff_values:
+        if '1' in is_staff_values and '0' in is_staff_values:
+            # If both '1' and '0' are present, don't filter (return all results)
+            return queryset
+        elif '1' in is_staff_values:
+            # If only '1' is present, filter for users with is_staff=True
+            queryset = queryset.filter(is_staff=True)
+        elif '0' in is_staff_values:
+            # If only '0' is present, filter for users with is_staff=False
+            queryset = queryset.filter(is_staff=False)
+
+    return queryset

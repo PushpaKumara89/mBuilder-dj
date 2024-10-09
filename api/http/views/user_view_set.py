@@ -6,7 +6,7 @@ from rest_framework.response import Response
 from rest_framework.viewsets import ModelViewSet
 from rest_framework_api_key.permissions import HasAPIKey
 
-from api.http.filters.user_filter import UserFilter
+from api.http.filters.user_filter import UserFilter, filter_by_is_staff
 from api.http.mixins import ListModelMixin
 from api.http.serializers import UserSerializer
 from api.http.serializers.user.user_restore_serializer import UserRestoreSerializer
@@ -93,6 +93,11 @@ class UserViewSet(BaseViewSet, ListModelMixin, ModelViewSet):
                 )
                 self.queryset = self.queryset.add_notifications_enabled(project)
 
+        # Get the list of 'isStaff[]' query param values
+        is_staff_values = self.request.query_params.getlist('isStaff[]')
+
+        self.queryset = filter_by_is_staff(self.queryset, is_staff_values)
+        # Call the super method to return the response
         return super().list(request, *args, **kwargs)
 
     @action(methods=['POST'], detail=True)

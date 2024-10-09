@@ -4,7 +4,7 @@ from mbuild.settings.common import env
 
 
 CORS_ORIGIN_WHITELIST = env.tuple('CORS_ORIGIN_WHITELIST', default=())
-CORS_ORIGIN_ALLOW_ALL = env.bool('CORS_ORIGIN_ALLOW_ALL', default=True)
+CORS_ORIGIN_ALLOW_ALL = env.bool('CORS_ORIGIN_ALLOW_ALL', default=False)
 CORS_ALLOW_METHODS = env.tuple('CORS_ALLOW_METHODS', default=default_methods)
 CORS_ALLOW_HEADERS = default_headers + env.tuple('CORS_ALLOW_HEADERS', default=()) + (
     'access-control-expose-headers',
