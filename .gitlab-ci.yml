@@ -28,7 +28,7 @@ tests:
   stage: tests
   image: docker
   before_script:
-    - cp mbuild/.env.testing mbuild/.env
+    - cp mbuild/.env mbuild/.env
     - export DOCKER_BUILDKIT=1
     - export COMPOSE_DOCKER_CLI_BUILD=1
   script:

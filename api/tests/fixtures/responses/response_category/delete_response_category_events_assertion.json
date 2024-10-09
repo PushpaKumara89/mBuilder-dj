@@ -23,6 +23,22 @@
   "data": {
    "created_at": "2020-07-30T12:21:16.129000Z",
    "description": "The Two description",
+   "expanded_project": {
+    "id": 1,
+    "name": "Project 1",
+    "number": "dfg134",
+    "image": null,
+    "status": "tendering",
+    "start_date": "2020-07-30",
+    "created_at": "2020-07-30T12:21:16.129000Z",
+    "updated_at": "2020-07-30T12:21:16.129000Z",
+    "value": "2343456.23",
+    "completion_date": "2020-08-30",
+    "show_estimated_man_hours": true,
+    "is_task_visible_for_clients": true,
+    "value_currency": "USD",
+    "is_subtask_visible_for_clients": false
+   },
    "id": 2,
    "name": "The Two",
    "project": 1,

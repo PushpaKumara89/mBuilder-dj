@@ -241,7 +241,7 @@
    "comment": "new subtask test",
    "created_at": "2020-02-02T00:00:00Z",
    "files": [],
-   "id": 4,
+   "id": 5,
    "is_conflict": false,
    "local_id": "simpsons444",
    "new_data": {
@@ -362,7 +362,7 @@
    "comment": null,
    "created_at": "2020-02-02T00:00:00Z",
    "files": [],
-   "id": 1,
+   "id": 2,
    "is_comment": false,
    "is_conflict": false,
    "local_id": "southpark555",
@@ -394,7 +394,7 @@
  },
  {
   "data": {
-   "quality_issue_update": 1,
+   "quality_issue_update": 2,
    "media": {
     "created_at": "2020-07-30T12:21:16.129000Z",
     "expanded_project_snapshot_thumbnails": [],
@@ -418,7 +418,7 @@
  },
  {
   "data": {
-   "quality_issue_update": 1,
+   "quality_issue_update": 2,
    "media": {
     "created_at": "2020-07-30T12:21:16.129000Z",
     "expanded_project_snapshot_thumbnails": [],
@@ -691,7 +691,7 @@
    "comment": "new test comment",
    "created_at": "2020-02-02T00:00:00Z",
    "files": [],
-   "id": 2,
+   "id": 3,
    "is_comment": false,
    "is_conflict": true,
    "local_id": "messi998",
@@ -714,7 +714,7 @@
  },
  {
   "data": {
-   "quality_issue_update": 2,
+   "quality_issue_update": 3,
    "media": {
     "created_at": "2020-07-30T12:21:16.129000Z",
     "expanded_project_snapshot_thumbnails": [],
@@ -738,7 +738,7 @@
  },
  {
   "data": {
-   "quality_issue_update": 2,
+   "quality_issue_update": 3,
    "media": {
     "created_at": "2020-07-30T12:21:16.129000Z",
     "expanded_project_snapshot_thumbnails": [],
@@ -904,7 +904,7 @@
    "comment": "test",
    "created_at": "2020-02-02T00:00:00Z",
    "files": [],
-   "id": 5,
+   "id": 6,
    "is_conflict": false,
    "local_id": null,
    "new_data": {
@@ -1151,7 +1151,7 @@
  },
  {
   "data": {
-   "quality_issue_update": 2,
+   "quality_issue_update": 3,
    "recipient": {
     "created_at": "2020-02-02T00:00:00Z",
     "email": "tom_dvaer@gmail.com",
@@ -1171,7 +1171,7 @@
  },
  {
   "data": {
-   "quality_issue_update": 2,
+   "quality_issue_update": 3,
    "recipient": {
     "created_at": "2020-02-02T00:00:00Z",
     "email": "tim_robinson@gmail.com",
@@ -1194,7 +1194,7 @@
    "comment": "new test comment",
    "created_at": "2020-02-02T00:00:00Z",
    "files": [],
-   "id": 3,
+   "id": 4,
    "is_comment": true,
    "is_conflict": false,
    "local_id": "prettyenvy",
@@ -1213,7 +1213,7 @@
  },
  {
   "data": {
-   "quality_issue_update": 3,
+   "quality_issue_update": 4,
    "media": {
     "created_at": "2020-07-30T12:21:16.129000Z",
     "expanded_project_snapshot_thumbnails": [],
@@ -1237,7 +1237,7 @@
  },
  {
   "data": {
-   "quality_issue_update": 3,
+   "quality_issue_update": 4,
    "media": {
     "created_at": "2020-07-30T12:21:16.129000Z",
     "expanded_project_snapshot_thumbnails": [],
@@ -1285,7 +1285,7 @@
  },
  {
   "data": {
-   "quality_issue_update": 3,
+   "quality_issue_update": 4,
    "recipient": {
     "created_at": "2020-02-02T00:00:00Z",
     "email": "tom_dvaer@gmail.com",
@@ -1305,7 +1305,7 @@
  },
  {
   "data": {
-   "quality_issue_update": 3,
+   "quality_issue_update": 4,
    "recipient": {
     "created_at": "2020-02-02T00:00:00Z",
     "email": "tim_robinson@gmail.com",
@@ -1572,7 +1572,7 @@
    "comment": "new subtask update from event",
    "created_at": "2020-02-02T00:00:00Z",
    "files": [],
-   "id": 4,
+   "id": 5,
    "is_comment": false,
    "is_conflict": false,
    "local_id": null,
@@ -1600,7 +1600,7 @@
    "description": "Somebody, stop me!",
    "due_date": null,
    "id": 2,
-   "last_confirmed_update": 4,
+   "last_confirmed_update": 5,
    "local_id": null,
    "location_matrix": 1,
    "old_quality_issue": null,
@@ -1703,34 +1703,12 @@
  },
  {
   "data": {
-   "attachments": [],
-   "created_at": "2020-09-23T12:21:16.129000Z",
-   "description": "Somebody, stop me!",
-   "due_date": null,
-   "id": 2,
-   "last_confirmed_update": 4,
-   "local_id": null,
-   "location_matrix": 1,
-   "old_quality_issue": null,
-   "response_category": null,
-   "status": "under_inspection",
-   "updated_at": "2020-02-02T00:00:00Z",
-   "user": 2
-  },
-  "type": "entity_updated",
-  "entity": "quality_issue",
-  "local_id": null,
-  "project_id": 5,
-  "user": null
- },
- {
-  "data": {
    "comment": null,
    "created_at": "2020-02-02T00:00:00Z",
    "files": [],
-   "id": 5,
+   "id": 6,
    "is_comment": false,
-   "is_conflict": false,
+   "is_conflict": true,
    "local_id": null,
    "new_data": {
     "status": "under_inspection"
@@ -1842,7 +1820,7 @@
    "comment": "new conflicted subtask update from event",
    "created_at": "2020-02-02T00:00:00Z",
    "files": [],
-   "id": 6,
+   "id": 7,
    "is_comment": true,
    "is_conflict": false,
    "local_id": "pinkyandbrain",
@@ -1879,6 +1857,124 @@
   },
   "type": "entity_updated",
   "entity": "quality_issue",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "comment": null,
+   "created_at": "2020-02-02T00:00:00Z",
+   "files": [],
+   "id": 17,
+   "is_comment": false,
+   "is_conflict": true,
+   "local_id": "123457qwerty",
+   "new_data": {
+    "status": "in_progress"
+   },
+   "old_data": {
+    "status": "contested"
+   },
+   "recipients": [],
+   "subtask": 7,
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 1
+  },
+  "type": "entity_created",
+  "entity": "subtask_update",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "closed_files_count": 0,
+   "company": 3,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "date_of_completion": null,
+   "description": "test",
+   "due_date": "2020-07-30T12:21:16.129000Z",
+   "estimation": null,
+   "files": [
+    1,
+    2
+   ],
+   "files_count": 0,
+   "id": 7,
+   "is_closed": false,
+   "is_defect": false,
+   "last_confirmed_update": null,
+   "local_id": null,
+   "location_description": null,
+   "quality_issue": 9,
+   "response_due_date": null,
+   "status": "in_progress",
+   "task": 2,
+   "updated_at": "2020-08-30T12:21:16.129000Z",
+   "user": 2
+  },
+  "type": "entity_updated",
+  "entity": "subtask",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "comment": null,
+   "created_at": "2020-02-02T00:00:00Z",
+   "files": [],
+   "id": 8,
+   "is_comment": false,
+   "is_conflict": true,
+   "local_id": "pinkyandbrain",
+   "new_data": {
+    "status": "in_progress"
+   },
+   "old_data": {
+    "status": "under_review"
+   },
+   "quality_issue": 9,
+   "recipients": [],
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 1
+  },
+  "type": "entity_created",
+  "entity": "quality_issue_update",
+  "local_id": null,
+  "project_id": 5,
+  "user": null
+ },
+ {
+  "data": {
+   "closed_files_count": 0,
+   "company": 3,
+   "created_at": "2020-07-30T12:21:16.129000Z",
+   "date_of_completion": null,
+   "description": "test",
+   "due_date": "2020-07-30T12:21:16.129000Z",
+   "estimation": null,
+   "files": [
+    1,
+    2
+   ],
+   "files_count": 0,
+   "id": 7,
+   "is_closed": false,
+   "is_defect": false,
+   "last_confirmed_update": 17,
+   "local_id": null,
+   "location_description": null,
+   "quality_issue": 9,
+   "response_due_date": null,
+   "status": "in_progress",
+   "task": 2,
+   "updated_at": "2020-02-02T00:00:00Z",
+   "user": 2
+  },
+  "type": "entity_updated",
+  "entity": "subtask",
   "local_id": null,
   "project_id": 5,
   "user": null
