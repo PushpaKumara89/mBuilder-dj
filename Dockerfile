@@ -70,7 +70,7 @@ RUN pip install --upgrade pip && pip install -r requirements.txt
 
 COPY . /app
 
-EXPOSE 80
+EXPOSE 8080
 
 RUN useradd -m gunicorn && chown -R gunicorn:gunicorn /app
 USER gunicorn

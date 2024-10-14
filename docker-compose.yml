@@ -6,10 +6,10 @@ services:
       - 5432:5432
     image: postgres:14.4
     environment:
-        POSTGRES_PASSWORD: ""
-        POSTGRES_USER: pguser
-        POSTGRES_DB: pgdb
-        POSTGRES_HOST_AUTH_METHOD: trust
+      POSTGRES_PASSWORD: ""
+      POSTGRES_USER: pguser
+      POSTGRES_DB: pgdb
+      POSTGRES_HOST_AUTH_METHOD: trust
     volumes:
       - .:/app
 
@@ -22,7 +22,7 @@ services:
 
   mongo:
     ports:
-      - "27018:27017"
+      - 27018:27017
     image: zcube/bitnami-compat-mongodb:6.0.5
     volumes:
       - .:/app
@@ -34,7 +34,7 @@ services:
 
   mongo_test:
     ports:
-      - "27019:27017"
+      - 27019:27017
     image: zcube/bitnami-compat-mongodb:6.0.5
     volumes:
       - .:/app
@@ -58,10 +58,9 @@ services:
       - mongo
       - mongo_test
     environment:
-        DJANGO_SETTINGS_MODULE: "mbuild.settings"
+      DJANGO_SETTINGS_MODULE: "mbuild.settings"
 
-
-  pgadmin:
+  pgadmin:  # Corrected indentation
     image: dpage/pgadmin4
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com

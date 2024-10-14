@@ -12,10 +12,6 @@ from rest_framework_simplejwt.token_blacklist.models import BlacklistedToken, Ou
 
 from api.authentication import AnonymousBasicAuthentication
 
-from drf_spectacular.views import (SpectacularAPIView,
-                                   SpectacularRedocView,
-                                   SpectacularSwaggerView)
-
 
 schema_view = get_schema_view(
     openapi.Info(
@@ -32,21 +28,6 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
-path(
-        'api/schema/',
-        SpectacularAPIView.as_view(),
-        name='schema'
-    ),
-    path(
-        'api/doc/',
-        SpectacularSwaggerView.as_view(url_name='schema'),
-        name='swagger-ui'
-    ),
-    path(
-        'api/redoc/',
-        SpectacularRedocView.as_view(url_name='schema'),
-        name='redoc'
-    ),
     path('api/', include('api.urls')),
     path('admin/', admin.site.urls),
     re_path(r'^swagger(?P<format>\.json|\.yaml)$', schema_view.without_ui(cache_timeout=0), name='schema-json'),

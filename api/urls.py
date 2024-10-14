@@ -318,7 +318,6 @@ router.register(r'users', UserViewSet, basename='users')
 router.register(r'', ProfileViewSet, basename='profile')
 
 urlpatterns = [
-
     path('projects/<int:project_pk>/floor-plans/<int:pk>/temporary-pin-thumbnails/', floor_plan_area_pin_thumbnail_list, name='floor_plan_area_pin_thumbnail-list'),
 
     path('projects/<int:project_pk>/subtasks/floor-plan-area-pins/', floor_plan_area_subtask_pin_list, name='floor_plan_area_subtask-list'),

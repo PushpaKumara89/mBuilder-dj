@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     'wkhtmltopdf',
     'rest_framework_mongoengine',
     'rest_framework_api_key',
-    'reversion','drf_spectacular',
+    'reversion',
 ]
 
 MIDDLEWARE = [
@@ -188,16 +188,3 @@ DATA_UPLOAD_MAX_NUMBER_FIELDS = 2000
 HANDOVER_DOCUMENT_ARCHIVE_EXPIRATION_IN_DAYS = env.str('HANDOVER_DOCUMENT_ARCHIVE_EXPIRATION_IN_DAYS', 30)
 HANDOVER_DOCUMENT_ARCHIVE_PART_SIZE_IN_GB = env.str('HANDOVER_DOCUMENT_ARCHIVE_PART_SIZE_IN_GB', 10)
 HANDOVER_DOCUMENT_ARCHIVE_TEMP_FILE_FOLDER = env.str('HANDOVER_DOCUMENT_ARCHIVE_TEMP_FILE_FOLDER', '')
-
-REST_FRAMEWORK = {
-    # YOUR SETTINGS
-    'DEFAULT_SCHEMA_CLASS': 'drf_spectacular.openapi.AutoSchema',
-}
-
-SPECTACULAR_SETTINGS = {
-    'TITLE': 'recipe-app-api',
-    'DESCRIPTION': 'Your project description',
-    'VERSION': '1.0.0',
-    'SERVE_INCLUDE_SCHEMA': False,
-    # OTHER SETTINGS
-}
